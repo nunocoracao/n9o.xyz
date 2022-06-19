@@ -1,0 +1,18 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+theme = "congo"
+baseURL = "https://nunocoracao.com/"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+paginate = 10
+summaryLength = 30
+
+buildDrafts = false
+
+googleAnalytics = "G-R94R4YKFEC"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
