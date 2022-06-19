@@ -11,7 +11,7 @@ autoSwitchAppearance = true
 showAppearanceSwitcher = true
 
 enableSearch = true
-enableCodeCopy = false
+enableCodeCopy = true
 
 mainSections = ["posts"]
 # robots = ""
