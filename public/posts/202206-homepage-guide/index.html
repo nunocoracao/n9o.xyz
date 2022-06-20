@@ -104,7 +104,7 @@
     "keywords": ["Development","Environment","Tutorial","Hugo","Congo","Docker","VSCode","Go"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2416"
+    "wordCount": "2474"
   }]
   </script>
 
@@ -309,7 +309,7 @@ if (!doNotTrack) {
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2022-06-19 00:00:00 &#43;0000 UTC">19 June 2022</time><span class="px-2 text-primary-500">&middot;</span><span>2416 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">12 mins</span>
+      <time datetime="2022-06-19 00:00:00 &#43;0000 UTC">19 June 2022</time><span class="px-2 text-primary-500">&middot;</span><span>2474 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">12 mins</span>
     
 
     
@@ -410,7 +410,7 @@ if (!doNotTrack) {
 
 </p>
 <h2 id="tldr" class="relative group">TL;DR <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tldr" aria-label="Anchor">#</a></span></h2>
-<p>Currentenly there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results.</p>
+<p>Currently there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results.</p>
 <h2 id="why-would-a-pm-build-their-own-homepage-from-scratch" class="relative group">Why would a PM build their own homepage from scratch… <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#why-would-a-pm-build-their-own-homepage-from-scratch" aria-label="Anchor">#</a></span></h2>
 <p>A couple of months ago I decided that I wanted to start writing more in order to a) exercise my writing skills and b) get feedback on some of my ideas. With this goal in mind, I started researching tools/platforms that would help me publish without creating too much friction for me, nor for the people wanting to read what I have to say e.g. having to pay. Ultimately I decided upon creating my own website.</p>
 <p>I had a couple of reasons for wanting to try this:</p>
@@ -727,7 +727,8 @@ echo &#39;theme = &#34;congo&#34;&#39; | cat - config/_default/config.toml &gt; 
 
 </p>
 <h4 id="paramstoml" class="relative group">params.toml <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#paramstoml" aria-label="Anchor">#</a></span></h4>
-<p>This file defines much of the overall behaviour across the entire framework. For this tutorial I changed some of the overall values and one for the homepage, if you want to learn more about the other available configurations please consult <a target="_blank" href="https://jpanther.github.io/congo/docs/">Congo’s theme documentation</a>. I&rsquo;ve changed <code>colorScheme</code> to &ldquo;ocean&rdquo; which changes the global UI theme. Activated <code>showAppearanceSwitcher</code> to enable the light/dark mode toggle. Activated <code>enableSearch</code> which indexes all future posts each time you build the site and provides a simple search feature. And finally,changed the value of <code>layout</code>, inside <code>[homepage]</code>, to &ldquo;profile&rdquo;. Another interesting value here is <code>showRecent</code>, which when turned on shows the recent posts on the homepage.</p>
+<p>This file defines much of the overall behaviour across the entire framework. For this tutorial I changed some of the overall values and one for the homepage, if you want to learn more about the other available configurations please consult <a target="_blank" href="https://jpanther.github.io/congo/docs/">Congo’s theme documentation</a>. I&rsquo;ve changed <code>colorScheme</code> to &ldquo;ocean&rdquo; which changes the global UI theme. Congo defines a three-colour palette that is used throughout the theme. Each main colour contains ten shades which are based upon the colours that are included in Tailwind. Valid values are congo (default), avocado, ocean, fire and slate. Although these are the default schemes, you can also create your own. Refer to Congo&rsquo;s main documentation to learn how.</p>
+<p>Activated <code>showAppearanceSwitcher</code> to enable the light/dark mode toggle. Activated <code>enableSearch</code> which indexes all future posts each time you build the site and provides a simple search feature. And finally,changed the value of <code>layout</code>, inside <code>[homepage]</code>, to &ldquo;profile&rdquo;. Another interesting value here is <code>showRecent</code>, which when turned on shows the recent posts on the homepage.</p>
 <p>
 
 
