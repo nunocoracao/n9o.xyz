@@ -2,16 +2,14 @@
 title: "How I started my own Homepage for free using Docker, Hugo, and Firebase"
 date: 2022-06-19
 draft: true
- 
 categories: ["Development", "Tutorial"]
 tags: ["Development", "Environment", "Tutorial", "Hugo", "Congo", "Docker", "VSCode", "Go"]
 summary: "Currently there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results."
- 
+#externalUrl: ""
 showSummary: true
- 
 ---
  
-![Example](banner.png "")
+![image](banner.png "")
  
  
 ## TL;DR
@@ -30,15 +28,12 @@ I had a couple of reasons for wanting to try this:
  
 - have my content hosted in a place that will not require people to pay for reading it
 
-- play around with Docker developer environments and devcontainers to get myself familiar with both solution
+- play around with Docker developer environments and devcontainers to get myself familiar with both solutions
 
 {{< alert >}}
-Note: If you just want to clone a repo with the final skeleton already build feel free to clone the following repo and skip to the deploy section
- 
-```
-git clone https://github.com/nunocoracao/homepage-hugo-congo
-``` 
-You can also follow the guides below to start this repo as Docker Dev Environment or as a devcontainer just need to replace the repo URL. If you follow that route please remember that you might need to run the following commands after starting the environment to setup hugo:
+Note: If you just want to clone a repo with the final skeleton feel free to clone **https://github.com/nunocoracao/homepage-hugo-congo** skip to the deploy section
+
+You can also follow the guides below to start this repo as Docker Dev Environment or as a devcontainer just need to replace the repo URL. If you follow that route please remember that you might need to run the following commands after starting the environment to reconfigure git submodules:
 
 ```
 git submodule init
@@ -90,12 +85,12 @@ https://github.com/nunocoracao/homepage-kickstart
 **Note:** If you clone the repo locally you can also start from the local folder
 {{< /alert >}}
 
-Once the container is running you should see something like the images below.
+Once the container is running you should see something similar to the images below.
 
-<img style="float: left" width="45%" src="devenvs/step4.png"/>
-<img style="float: left" width="45%" src="devenvs/step5.png"/>
+<img style="float: left" width="50%" src="devenvs/step4.png"/>
+<img style="float: left" width="50%" src="devenvs/step5.png"/>
 
-In both situations you will be able to see and press a button "Open in VSCode" which will open your IDE and will allow you to start working. From there open a terminal and proceed to [creating the site skeleton](#create-site-skeleton)
+In both situations you will be able to see and click a button "Open in VSCode" which will open your IDE and will allow you to start working. From there open a terminal and proceed to [creating the site skeleton](#create-site-skeleton)
 
 ### Using devcontainers in VSCode
 

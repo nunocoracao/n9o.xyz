@@ -1,20 +1,12 @@
 ---
 title: "The Future of the Nintendo Switch"
-og-image: banner.jpeg
 date: 2021-09-09
 draft: false
-
 categories: ["Strategy", "Product"]
 tags: ["Strategy", "Product", "Nintendo", "Switch", "Disruption"]
 summary: "Nintendo achieved something truly amazing with the launch of the Switch. It was able to disrupt itself and the entire gaming industry while saving itself from doom. How exactly was Nintendo able to do it and what comes next in that story?"
 #externalUrl: ""
-
-#showHeadingAnchors: true
-#showPagination: true
-#showTableOfContents: true
-#showWordCount: true
 showSummary: true
-#sharingLinks : [ "linkedin", "twitter", "pinterest", "reddit", "facebook", "email"]
 ---
 
 ![Abstract purple artwork](feature.jpeg "")

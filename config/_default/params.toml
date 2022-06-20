@@ -38,7 +38,7 @@ showScrollToTop = true
   showTaxonomies = false 
   showWordCount = true
   showSummary = true
-  sharingLinks = [ "linkedin", "twitter", "pinterest", "reddit", "facebook", "email"]
+  sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
 
 [list]
   showBreadcrumbs = false
