@@ -345,6 +345,8 @@ Hope this guide helps you, feel free to share with your network and provide feed
 
 - [GitHub Repo for development environment](https://github.com/nunocoracao/homepage-kickstart)
 - [GitHub Repo for base Hugo and Congo configuration](https://github.com/nunocoracao/homepage-hugo-congo)
+- [GitHub Repo for base image](https://github.com/nunocoracao/homepage-dockerimage)
+- [Docker Hub image url](https://hub.docker.com/r/nunocoracao/homepage-dockerimage)
 - [Hugo\'s Documentation](https://gohugo.io/documentation/)
 - [Congo\'s Documentation](https://github.com/jpanther/congo)
 - [Firebase Documentation](https://firebase.google.com/docs)
