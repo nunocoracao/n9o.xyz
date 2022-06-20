@@ -5,7 +5,7 @@ draft: true
  
 categories: ["Development", "Tutorial"]
 tags: ["Development", "Environment", "Tutorial", "Hugo", "Congo", "Docker", "VSCode", "Go"]
-summary: "Currentenly there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results."
+summary: "Currently there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results."
  
 showSummary: true
  
