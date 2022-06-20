@@ -16,3 +16,10 @@ googleAnalytics = "G-R94R4YKFEC"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[imaging]
+  anchor = 'Smart'
+  bgColor = '#ffffff'
+  hint = 'photo'
+  quality = 100
+  resampleFilter = 'Box'

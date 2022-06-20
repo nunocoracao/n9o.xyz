@@ -30,15 +30,21 @@ I had a couple of reasons for wanting to try this:
  
 - have my content hosted in a place that will not require people to pay for reading it
 
-- play around with Docker developer environments
+- play around with Docker developer environments and devcontainers to get myself familiar with both solution
 
 {{< alert >}}
 Note: If you just want to clone a repo with the final skeleton already build feel free to clone the following repo and skip to the deploy section
  
 ```
 git clone https://github.com/nunocoracao/homepage-hugo-congo
+``` 
+You can also follow the guides below to start this repo as Docker Dev Environment or as a devcontainer just need to replace the repo URL. If you follow that route please remember that you might need to run the following commands after starting the environment to setup hugo:
+
 ```
- 
+git submodule init
+git submodule update
+```
+
 {{</ alert >}}
  
 ## Let’s get started…
@@ -56,26 +62,52 @@ For this guide I will use the following software, which should be installed in y
 
 - **Docker** - I will use Docker to configure a development environment for this project so that we can skip the need to install all the software required to run Hugo and Firebase CLI i.e. CuRL, Go, Hugo,Node, NPM, etc. This will allow you to start from a git repository, start the environment and go straight into writing code instead of spending hours figuring out how to install a specific compiler for your CPU architecture. <a target=”_blank” href="https://www.docker.com/get-started/">Install Docker</a>
  
-- **Visual Studio Code** - I'm using Visual Studio Code as my integrated development environment (IDE) at the moment, and all the material in the guide assumes that this is what you're using. If you have a different preference for your IDE you’ll need to adapt some parts of this guide to achieve the same results. <a target=”_blank” href="https://code.visualstudio.com/">Install Visual Studio Code</a>
- 
-- **Remote - Containers** - This is a VSCode extension that will allow you to spin the GitHub repo inside a container with a couple of clicks. Highly recommend this one to save you time.
- 
+- **Visual Studio Code** - I'm using Visual Studio Code as my integrated development environment (IDE) at the moment, and all the material in the guide assumes that this is what you're using. If you have a different preference for your IDE you’ll need to adapt some parts of this guide to achieve the same results. <a target=”_blank” href="https://code.visualstudio.com/">Install Visual Studio Code</a> 
 
 ## Setup local environment
 
 Let's start by configuring your development environment using <a target=”_blank” href="https://www.docker.com">Docker</a>. This will allow you to create a container with all the tools you need inside of it without having to mess with your system configurations. Moreover, it will also make it easier to just delete the container and rebuild it whenever you need it instead of keeping old versions of software you don't require daily in your personal machine.
- 
+
+I'll provide two ways of setting up your development environemnt feel free to choose the one you prefer, or try both to explore the diferences between them.
+
+{{< alert >}}
+**Note:** If you want to install everything locally feel free to go straight into Hugo's website and follow their guide. You can pick up here once you have Hugo installed and they ask you to create your first website.
+{{< /alert >}}
+
+### Using Docker Dev Environments
+
+To spin up a Dev Environment just open Docker Dashboard and select the "Dev Environments" tab on the left. If you don't have any dev environments setup select "Create New Environment" otherwise use the button on the upper right side "Create". Proceed to setup step.
+
+![Example](devenvs/step2.png "")
+
+Here choose the "Existing Git repo" option and use the following GitHub url:
+
+```
+https://github.com/nunocoracao/homepage-kickstart
+```
+
+{{< alert >}}
+**Note:** If you clone the repo locally you can also start from the local folder
+{{< /alert >}}
+
+Once the container is running you should see something like the images below.
+
+<img style="float: left" width="45%" src="devenvs/step4.png"/>
+<img style="float: left" width="45%" src="devenvs/step5.png"/>
+
+In both situations you will be able to see and press a button "Open in VSCode" which will open your IDE and will allow you to start working. From there open a terminal and proceed to [creating the site skeleton](#create-site-skeleton)
+
+### Using devcontainers in VSCode
+
 Start by cloning the GitHub repository with the development environment condigurations.
  
 ```
 git clone https://github.com/nunocoracao/homepage-kickstart
 ```
- 
-{{< alert >}}
-**Note:** If you want to install everything locally feel free to go straight into Hugo's website and follow their guide. You can pick up here once you have Hugo installed and they ask you to create your first website.
-{{< /alert >}}
 
 After successfully cloning the repo, open that folder in VSCode and open the “Remote - Containers” extension panel on the left. Select "Open folder in container" to spin up a container with the development environment.
+
+This method requires the installation of an extra VSCode extension in order to spin up the conainers. Please search for **Remote - Containers** and install it to continuer this guide.
 
 ![Example](setup/extension.png "")
 
@@ -86,8 +118,6 @@ Wait a couple of minutes while the image is built. Docker is creating an image w
 Once the build is done, VSCode will spin the container and will place you working environment inside of it (information available in the bottom left corner of the window). Once that is done open, you now have a development environment with Go, Hugo, FirebaseCLI, and all the tools you will need for this guide. Just open a new terminal and you’re ready to begin creating your site.
 
 ![Example](setup/newterminal.png "")
-
-
 
 ## Create Site Skeleton
 
