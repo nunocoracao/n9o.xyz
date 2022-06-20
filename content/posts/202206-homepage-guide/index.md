@@ -16,7 +16,7 @@ showSummary: true
  
 ## TL;DR
 
-Currentenly there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results.
+Currently there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results.
  
 ## Why would a PM build their own homepage from scratch…
  
@@ -175,7 +175,9 @@ Under the tage <code>[author]</code> you can update the details that you wish to
  
 #### params.toml
  
-This file defines much of the overall behaviour across the entire framework. For this tutorial I changed some of the overall values and one for the homepage, if you want to learn more about the other available configurations please consult <a target="_blank" href="https://jpanther.github.io/congo/docs/">Congo’s theme documentation</a>. I've changed <code>colorScheme</code> to "ocean" which changes the global UI theme. Activated <code>showAppearanceSwitcher</code> to enable the light/dark mode toggle. Activated <code>enableSearch</code> which indexes all future posts each time you build the site and provides a simple search feature. And finally,changed the value of <code>layout</code>, inside <code>[homepage]</code>, to "profile". Another interesting value here is <code>showRecent</code>, which when turned on shows the recent posts on the homepage.
+This file defines much of the overall behaviour across the entire framework. For this tutorial I changed some of the overall values and one for the homepage, if you want to learn more about the other available configurations please consult <a target="_blank" href="https://jpanther.github.io/congo/docs/">Congo’s theme documentation</a>. I've changed <code>colorScheme</code> to "ocean" which changes the global UI theme. Congo defines a three-colour palette that is used throughout the theme. Each main colour contains ten shades which are based upon the colours that are included in Tailwind. Valid values are congo (default), avocado, ocean, fire and slate. Although these are the default schemes, you can also create your own. Refer to Congo's main documentation to learn how.
+
+Activated <code>showAppearanceSwitcher</code> to enable the light/dark mode toggle. Activated <code>enableSearch</code> which indexes all future posts each time you build the site and provides a simple search feature. And finally,changed the value of <code>layout</code>, inside <code>[homepage]</code>, to "profile". Another interesting value here is <code>showRecent</code>, which when turned on shows the recent posts on the homepage.
  
 ![Example](configure/params.png "")
 
@@ -305,7 +307,7 @@ The process should take a couple of seconds and there you go your site is deploy
 
 By now you should have a simple version of your website and can now configure it to your needs. The main advantage of this solution is that it is flexible and extensible to your needs (might require some coding for complex features) and above all it’s cheap if you're looking to begin and can't (or don't want to) spend any money on it.
  
-Hope this guide helps you, feel free to share with your network and provide feedback so that I can make it better over time.
+Hope this guide helps you, feel free to share with your network and provide feedback so that I can make it better over time. 
 
 ## Resources
 
