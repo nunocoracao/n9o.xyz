@@ -25,7 +25,7 @@ Shortcodes
 https://jpanther.github.io/congo/docs/shortcodes/
 
 prev channels
-firebase hosting:channel:deploy new-blog-post --expires 1d 
+firebase hosting:channel:deploy new-blog-post --expires 10d 
 
 build 
 Hugo -D
