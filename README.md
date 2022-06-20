@@ -27,6 +27,10 @@ https://jpanther.github.io/congo/docs/shortcodes/
 prev channels
 firebase hosting:channel:deploy new-blog-post --expires 10d 
 
+git submodule init
+git submodule update
+
+
 build 
 Hugo -D
 
