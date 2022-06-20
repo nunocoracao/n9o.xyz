@@ -24,11 +24,13 @@ A couple of months ago I decided that I wanted to start writing more in order to
  
 I had a couple of reasons for wanting to try this:
  
-- to challenge myself to see if I, a previous software engineering student, could still bodge something together that would work and feel good about not having forgotten everything I ever learned about programming,
+- challenge myself to see if I, a previous software engineering student, could still bodge something together that would work and feel good about not having forgotten everything I ever learned about programming,
  
-- find a flexible free solution that would allow me to kickstart my website without starting investing money right away into it, aka avoiding operational costs with platforms and services that would lock me in the future,
+- find a flexible free solution that would allow me to kickstart my website without start investing money right away into it, aka avoiding operational costs with platforms and services that would lock me in the future,
  
 - have my content hosted in a place that will not require people to pay for reading it
+
+- play around with Docker developer environments
 
 {{< alert >}}
 Note: If you just want to clone a repo with the final skeleton already build feel free to clone the following repo and skip to the deploy section
