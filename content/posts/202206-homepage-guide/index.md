@@ -32,11 +32,14 @@ I had a couple of reasons for wanting to try this:
 - play around with Docker's developer environments and Microsoft's developer containers to get myself familiar with both solutions
 
 {{< alert >}}
-Note: If you just want to clone a repo with the final skeleton feel free to clone **https://github.com/nunocoracao/homepage-hugo-congo** skip to the deploy section
+Note: If you just want to clone a repo with the final skeleton feel free to clone <a target="_blank" href="https://github.com/nunocoracao/homepage-hugo-congo">this repo</a> and skip to the deploy section
 
 If you start your developer environment with the above repo please reconfigure git submodules using the command:
 
->git submodule init && git submodule update
+```
+git submodule init
+git submodule update
+```
 
 
 {{</ alert >}}
