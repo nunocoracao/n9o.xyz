@@ -6,7 +6,7 @@ categories: ["Development", "Tutorial"]
 tags: ["Development", "Environment", "Tutorial", "Hugo", "Congo", "Docker", "VSCode", "Go"]
 #externalUrl: ""
 showSummary: true
-date: 2022-06-19
+date: 2022-06-27
 draft: true
 ---
 
@@ -48,7 +48,7 @@ git submodule update
 
 After some research, I decided to choose a website generator framework and a free hosting service. For the website framework, I choose <a target="_blank" href="https://gohugo.io">Hugo</a> with <a target="_blank" href="https://github.com/jpanther/congoand">Congo</a> as the theme, and for the hosting service <a target="_blank" href="https://firebase.google.com">Firebase</a>. And for obvious reasons, I decided to set up my development environment using <a target="_blank" href="https://www.docker.com">Docker</a> in order to put myself in the user's shoes for this experiment. 
 
-I didn't go into a deep analysis of which framework was the best for my problem as I wanted to get an MVP out fast so I went through a couple of options and picked the first one that I liked. There are several other options with a very different range of features and event approaches to what you might want to achieve. If you want to explore other options these are some you can explore: <a target="_blank" href="https://docusaurus.io/">Docussaurus</a>, <a target="_blank" href="https://www.gatsbyjs.com/">Gatsby</a>, <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>, <a target="_blank" href="https://ghost.org/">Ghost</a>, and even <a target="_blank" href="https://wordpress.com/">Wordpress</a>.
+I didn't go into a deep analysis of which framework was the best for my problem as I wanted to get an MVP out fast so I went through a couple of options and picked the first one that I liked. There are several other options with a very different range of features and event approaches to what you might want to achieve. If you want to explore other options these are some you can explore: <a target="_blank" href="https://docusaurus.io/">Docussaurus</a>, <a target="_blank" href="https://www.gatsbyjs.com/">Gatsby</a>, <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>, <a target="_blank" href="https://ghost.org/">Ghost</a>, and even <a target="_blank" href="https://wordpress.com/">WordPress</a>.
 
 
 {{< alert >}}
@@ -69,10 +69,6 @@ For this guide, I will use the following tools, which should be installed on you
 Let's start by configuring your development environment using <a target=”_blank” href="https://www.docker.com">Docker</a>. This will allow you to create a container with all the tools you need inside of it without having to mess with your system configurations. Moreover, it will also make it easier to just delete the container and rebuild it whenever you need it instead of keeping old versions of software you don't require daily in your personal machine.
 
 I'll provide two ways of setting up your development environment feel free to choose the one you prefer or try both to explore the differences between them.
-
-{{< alert >}}
-**Note:** If you want to install everything locally feel free to go straight into Hugo's website and follow their guide. You can pick it up here once you have Hugo installed and they ask you to create your first website.
-{{< /alert >}}
 
 ### Using Docker
 
