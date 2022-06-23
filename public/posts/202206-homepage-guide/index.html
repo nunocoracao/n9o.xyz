@@ -13,8 +13,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>How I started my own Homepage for free using Docker, Hugo, and Firebase &middot; Nuno Coração</title>
-    <meta name="title" content="How I started my own Homepage for free using Docker, Hugo, and Firebase &middot; Nuno Coração" />
+  <title>How I created my own Homepage for free using Docker, Hugo, and Firebase &middot; Nuno Coração</title>
+    <meta name="title" content="How I created my own Homepage for free using Docker, Hugo, and Firebase &middot; Nuno Coração" />
   
   <meta name="description" content="Product | Nuno Coração" />
   
@@ -67,7 +67,7 @@
   
   
   
-  <meta property="og:title" content="How I started my own Homepage for free using Docker, Hugo, and Firebase" />
+  <meta property="og:title" content="How I created my own Homepage for free using Docker, Hugo, and Firebase" />
 <meta property="og:description" content="Currently, there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nunocoracao.com/posts/202206-homepage-guide/" /><meta property="og:image" content="https://nunocoracao.com/posts/202206-homepage-guide/feature.png"/><meta property="article:section" content="posts" />
@@ -77,7 +77,7 @@
 
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://nunocoracao.com/posts/202206-homepage-guide/feature.png"/>
-<meta name="twitter:title" content="How I started my own Homepage for free using Docker, Hugo, and Firebase"/>
+<meta name="twitter:title" content="How I created my own Homepage for free using Docker, Hugo, and Firebase"/>
 <meta name="twitter:description" content="Currently, there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results."/>
 
   
@@ -86,8 +86,8 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "How I started my own Homepage for free using Docker, Hugo, and Firebase",
-    "headline": "How I started my own Homepage for free using Docker, Hugo, and Firebase",
+    "name": "How I created my own Homepage for free using Docker, Hugo, and Firebase",
+    "headline": "How I created my own Homepage for free using Docker, Hugo, and Firebase",
     "description": "Currently, there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results.",
     "abstract": "Currently, there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results.",
     "inLanguage": "en",
@@ -105,7 +105,7 @@
     "keywords": ["Development","Environment","Tutorial","Hugo","Congo","Docker","VSCode","Go"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2719"
+    "wordCount": "2801"
   }]
   </script>
 
@@ -151,6 +151,8 @@ if (!doNotTrack) {
 
 
   
+  
+    <script src="/js/zoom.min.js"></script>
   
 </head>
 <body
@@ -264,7 +266,7 @@ if (!doNotTrack) {
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/posts/202206-homepage-guide/"
-      >How I started my own Homepage for free using Docker, Hugo, and Firebase</a
+      >How I created my own Homepage for free using Docker, Hugo, and Firebase</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -273,7 +275,7 @@ if (!doNotTrack) {
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        How I started my own Homepage for free using Docker, Hugo, and Firebase
+        How I created my own Homepage for free using Docker, Hugo, and Firebase
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -310,7 +312,7 @@ if (!doNotTrack) {
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2022-06-19 00:00:00 &#43;0000 UTC">19 June 2022</time><span class="px-2 text-primary-500">&middot;</span><span>2719 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">13 mins</span>
+      <time datetime="2022-06-19 00:00:00 &#43;0000 UTC">19 June 2022</time><span class="px-2 text-primary-500">&middot;</span><span>2801 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">14 mins</span>
     
 
     
@@ -350,7 +352,7 @@ if (!doNotTrack) {
     <li><a href="#tldr">TL;DR</a></li>
     <li><a href="#why-would-a-pm-build-their-own-homepage-from-scratch">Why would a PM build their own homepage from scratch…</a></li>
     <li><a href="#lets-get-started">Let’s get started…</a></li>
-    <li><a href="#requirements">Requirements</a></li>
+    <li><a href="#tools">Tools</a></li>
     <li><a href="#setup-the-development-environment">Setup the Development Environment</a>
       <ul>
         <li><a href="#using-docker">Using Docker</a></li>
@@ -391,31 +393,7 @@ if (!doNotTrack) {
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose">
-        <p>
-
-
-
-  
-  
-    
-  
-  
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        srcset="
-          /posts/202206-homepage-guide/feature_hu8fe8b2e0576266fbabea6cd4bc303d96_203066_330x0_resize_box_3.png 330w,
-          /posts/202206-homepage-guide/feature_hu8fe8b2e0576266fbabea6cd4bc303d96_203066_660x0_resize_box_3.png 660w,
-          /posts/202206-homepage-guide/feature_hu8fe8b2e0576266fbabea6cd4bc303d96_203066_1024x0_resize_box_3.png 1024w,
-          /posts/202206-homepage-guide/feature_hu8fe8b2e0576266fbabea6cd4bc303d96_203066_1320x0_resize_box_3.png 2x"
-        src="/posts/202206-homepage-guide/feature_hu8fe8b2e0576266fbabea6cd4bc303d96_203066_660x0_resize_box_3.png"
-        alt="image"
-      />
-      
-    </figure>
-  
-
-</p>
+        <img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="feature.png"/>
 <h2 id="tldr" class="relative group">TL;DR <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tldr" aria-label="Anchor">#</a></span></h2>
 <p>Currently, there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results.</p>
 <h2 id="why-would-a-pm-build-their-own-homepage-from-scratch" class="relative group">Why would a PM build their own homepage from scratch… <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#why-would-a-pm-build-their-own-homepage-from-scratch" aria-label="Anchor">#</a></span></h2>
@@ -454,7 +432,8 @@ git submodule update
 </div>
 
 <h2 id="lets-get-started" class="relative group">Let’s get started… <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#lets-get-started" aria-label="Anchor">#</a></span></h2>
-<p>After some research, I decided to choose a website generator framework and a free hosting service. For the website framework, I choose <a target="_blank" href="https://gohugo.io">Hugo</a> and the hosting service <a target="_blank" href="https://firebase.google.com">Firebase</a>. And for obvious reasons, I decided to my development environment using <a target="_blank" href="https://www.docker.com">Docker</a> in order to put myself in the user&rsquo;s shoes for this experiment.</p>
+<p>After some research, I decided to choose a website generator framework and a free hosting service. For the website framework, I choose <a target="_blank" href="https://gohugo.io">Hugo</a> with <a target="_blank" href="https://github.com/jpanther/congoand">Congo</a> as the theme, and for the hosting service <a target="_blank" href="https://firebase.google.com">Firebase</a>. And for obvious reasons, I decided to set up my development environment using <a target="_blank" href="https://www.docker.com">Docker</a> in order to put myself in the user&rsquo;s shoes for this experiment.</p>
+<p>I didn&rsquo;t go into a deep analysis of which framework was the best for my problem as I wanted to get an MVP out fast so I went through a couple of options and picked the first one that I liked. There are several other options with a very different range of features and event approaches to what you might want to achieve. If you want to explore other options these are some you can explore: <a target="_blank" href="https://docusaurus.io/">Docussaurus</a>, <a target="_blank" href="https://www.gatsbyjs.com/">Gatsby</a>, <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>, <a target="_blank" href="https://ghost.org/">Ghost</a>, and even <a target="_blank" href="https://wordpress.com/">Wordpress</a>.</p>
 <div class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900">
   <span class="ltr:pr-3 rtl:pl-3 text-primary-400">
     
@@ -466,11 +445,11 @@ git submodule update
 
 
   </span>
-  <span class="dark:text-neutral-300"><strong>Disclaimer:</strong> I am perfectly aware that this might not be the best solution out there for what I am trying to achieve. If you think there’s either a) a better way to do it or b) a smarter solution from scratch feel free to reach out.</span>
+  <span class="dark:text-neutral-300"><strong>Disclaimer:</strong> I am perfectly aware that this might not be the best solution out there. If you think there’s either a better or a smarter solution feel free to reach out, always happy to chat and learn.</span>
 </div>
 
-<h2 id="requirements" class="relative group">Requirements <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#requirements" aria-label="Anchor">#</a></span></h2>
-<p>For this guide, I will use the following software, which should be installed on your machine. Here is a small explanation of what each component is going to be used for and a link to the installation instructions.</p>
+<h2 id="tools" class="relative group">Tools <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tools" aria-label="Anchor">#</a></span></h2>
+<p>For this guide, I will use the following tools, which should be installed on your machine. Here is a small explanation of what each component is going to be used for and a link to the installation instructions.</p>
 <ul>
 <li>
 <p><strong>Docker</strong> - I will use Docker to configure a development environment for this project so that we can skip the need to install all the software required to run Hugo and Firebase CLI i.e. CuRL, Go, Hugo, Node, NPM, etc. This will allow you to start from a git repository, start the environment and go straight into writing code instead of spending hours figuring out how to install a specific compiler for your CPU architecture. <a target=”_blank” href="https://www.docker.com/get-started/">Install Docker</a></p>
@@ -498,31 +477,7 @@ git submodule update
 
 <h3 id="using-docker" class="relative group">Using Docker <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#using-docker" aria-label="Anchor">#</a></span></h3>
 <p>To spin up a Dev Environment just open Docker Dashboard and select the &ldquo;Dev Environments&rdquo; tab on the left. If you don&rsquo;t have any dev environments setup select &ldquo;Create New Environment&rdquo; otherwise use the button on the upper right side &ldquo;Create&rdquo;. Proceed to the setup step.</p>
-<p>
-
-
-
-  
-  
-    
-  
-  
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        srcset="
-          /posts/202206-homepage-guide/devenvs/step2_hu0e202ddfe894bb3d97c1196b708b16a7_234973_330x0_resize_box_3.png 330w,
-          /posts/202206-homepage-guide/devenvs/step2_hu0e202ddfe894bb3d97c1196b708b16a7_234973_660x0_resize_box_3.png 660w,
-          /posts/202206-homepage-guide/devenvs/step2_hu0e202ddfe894bb3d97c1196b708b16a7_234973_1024x0_resize_box_3.png 1024w,
-          /posts/202206-homepage-guide/devenvs/step2_hu0e202ddfe894bb3d97c1196b708b16a7_234973_1320x0_resize_box_3.png 2x"
-        src="/posts/202206-homepage-guide/devenvs/step2_hu0e202ddfe894bb3d97c1196b708b16a7_234973_660x0_resize_box_3.png"
-        alt="Example"
-      />
-      
-    </figure>
-  
-
-</p>
+<img src="devenvs/step2.png"/>
 <p>Here choose the &ldquo;Existing Git repo&rdquo; option and use the following GitHub URL:</p>
 <pre tabindex="0"><code>https://github.com/nunocoracao/homepage-kickstart
 </code></pre><div class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900">
@@ -548,83 +503,11 @@ git submodule update
 <pre tabindex="0"><code>git clone https://github.com/nunocoracao/homepage-kickstart
 </code></pre><p>This method requires the installation of an extra VSCode extension in order to spin up the containers. Please search for <strong>Remote - Containers</strong> and install the extension to continue this guide.</p>
 <p>After successfully installing the extension, open your source folder in VSCode and open the “Remote - Containers” extension panel on the left. Select &ldquo;Open Folder in Container&rdquo; to spin up a container with the development environment.</p>
-<p>
-
-
-
-  
-  
-    
-  
-  
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        srcset="
-          /posts/202206-homepage-guide/setup/extension_hu8509cbc0ded470e93b5887ade9147311_486523_330x0_resize_box_3.png 330w,
-          /posts/202206-homepage-guide/setup/extension_hu8509cbc0ded470e93b5887ade9147311_486523_660x0_resize_box_3.png 660w,
-          /posts/202206-homepage-guide/setup/extension_hu8509cbc0ded470e93b5887ade9147311_486523_1024x0_resize_box_3.png 1024w,
-          /posts/202206-homepage-guide/setup/extension_hu8509cbc0ded470e93b5887ade9147311_486523_1320x0_resize_box_3.png 2x"
-        src="/posts/202206-homepage-guide/setup/extension_hu8509cbc0ded470e93b5887ade9147311_486523_660x0_resize_box_3.png"
-        alt="Example"
-      />
-      
-    </figure>
-  
-
-</p>
+<img src="setup/extension.png"/>
 <p>Wait a couple of minutes while the image is built. Docker is creating an image with all the required software for the development of the website. This will only happen the first time you spin the environment.</p>
-<p>
-
-
-
-  
-  
-    
-  
-  
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        srcset="
-          /posts/202206-homepage-guide/setup/imagebuild_huff563ed9bfcb139f51b21f2b417bb672_727615_330x0_resize_box_3.png 330w,
-          /posts/202206-homepage-guide/setup/imagebuild_huff563ed9bfcb139f51b21f2b417bb672_727615_660x0_resize_box_3.png 660w,
-          /posts/202206-homepage-guide/setup/imagebuild_huff563ed9bfcb139f51b21f2b417bb672_727615_1024x0_resize_box_3.png 1024w,
-          /posts/202206-homepage-guide/setup/imagebuild_huff563ed9bfcb139f51b21f2b417bb672_727615_1320x0_resize_box_3.png 2x"
-        src="/posts/202206-homepage-guide/setup/imagebuild_huff563ed9bfcb139f51b21f2b417bb672_727615_660x0_resize_box_3.png"
-        alt="Example"
-      />
-      
-    </figure>
-  
-
-</p>
+<img src="setup/imagebuild.png"/>
 <p>Once the image is built, VSCode will spin the container and will place your working environment inside of it (information available in the bottom left corner of the window). You now have a development environment with Go, Hugo, Firebase CLI, and all the tools you will need for this guide. Just open a new terminal and you’re ready to begin creating your site.</p>
-<p>
-
-
-
-  
-  
-    
-  
-  
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        srcset="
-          /posts/202206-homepage-guide/setup/newterminal_huff563ed9bfcb139f51b21f2b417bb672_370789_330x0_resize_box_3.png 330w,
-          /posts/202206-homepage-guide/setup/newterminal_huff563ed9bfcb139f51b21f2b417bb672_370789_660x0_resize_box_3.png 660w,
-          /posts/202206-homepage-guide/setup/newterminal_huff563ed9bfcb139f51b21f2b417bb672_370789_1024x0_resize_box_3.png 1024w,
-          /posts/202206-homepage-guide/setup/newterminal_huff563ed9bfcb139f51b21f2b417bb672_370789_1320x0_resize_box_3.png 2x"
-        src="/posts/202206-homepage-guide/setup/newterminal_huff563ed9bfcb139f51b21f2b417bb672_370789_660x0_resize_box_3.png"
-        alt="Example"
-      />
-      
-    </figure>
-  
-
-</p>
+<img src="setup/newterminal.png"/>
 <h3 id="but-i-really-want-to-run-everything-locally" class="relative group">&hellip;but I really want to run everything locally <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#but-i-really-want-to-run-everything-locally" aria-label="Anchor">#</a></span></h3>
 <p>If you either prefer or need to run your environment locally follow the guides below to install everything you need for your setup:</p>
 <ul>
@@ -649,31 +532,7 @@ echo &#39;theme = &#34;congo&#34;&#39; | cat - config/_default/config.toml &gt; 
 </code></pre><p>Congratulations, you should have your site up and running now. Let&rsquo;s try it out by running Hugo&rsquo;s debug server:</p>
 <pre tabindex="0"><code>hugo server -D
 </code></pre><p>Please open your favorite browser and navigate to <a target="_blank" href="http://localhost:1313">localhost:1313</a> to see your page.</p>
-<p>
-
-
-
-  
-  
-    
-  
-  
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        srcset="
-          /posts/202206-homepage-guide/theme/vanilla_hu5ebfe343932145fcd6bbf32964aa3a81_254342_330x0_resize_box_3.png 330w,
-          /posts/202206-homepage-guide/theme/vanilla_hu5ebfe343932145fcd6bbf32964aa3a81_254342_660x0_resize_box_3.png 660w,
-          /posts/202206-homepage-guide/theme/vanilla_hu5ebfe343932145fcd6bbf32964aa3a81_254342_1024x0_resize_box_3.png 1024w,
-          /posts/202206-homepage-guide/theme/vanilla_hu5ebfe343932145fcd6bbf32964aa3a81_254342_1320x0_resize_box_3.png 2x"
-        src="/posts/202206-homepage-guide/theme/vanilla_hu5ebfe343932145fcd6bbf32964aa3a81_254342_660x0_resize_box_3.png"
-        alt="Example"
-      />
-      
-    </figure>
-  
-
-</p>
+<img src="theme/vanilla.png"/>
 <p>You should see something similar to the image above. Doesn’t look that exciting, does it? Let’s configure the theme in the next sections and learn how to create your first article.</p>
 <h2 id="configure-theme" class="relative group">Configure Theme <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#configure-theme" aria-label="Anchor">#</a></span></h2>
 <p>Now I’ll be covering how to change the look and feel of your website, add some personal information, and activate the dark mode toggle (aka the most important feature in any website these days). A note, I am covering a very simple configuration for this theme please check <a target="_blank" href="https://jpanther.github.io/congo/docs/">Congo’s theme documentation</a> for a full deep dive on everything you can do with this theme.</p>
@@ -693,60 +552,12 @@ echo &#39;theme = &#34;congo&#34;&#39; | cat - config/_default/config.toml &gt; 
   <span class="dark:text-neutral-300">Note: If you still need to take a proper awesome picture feel free to download the one below to proceed with the tutorial.</span>
 </div>
 
-<p>
-
-
-
-  
-  
-    
-  
-  
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        srcset="
-          /posts/202206-homepage-guide/configure/profile_hu13a3a01410434cb11ee53865579a0fdf_699835_330x0_resize_q100_box.jpg 330w,
-          /posts/202206-homepage-guide/configure/profile_hu13a3a01410434cb11ee53865579a0fdf_699835_660x0_resize_q100_box.jpg 660w,
-          /posts/202206-homepage-guide/configure/profile_hu13a3a01410434cb11ee53865579a0fdf_699835_1024x0_resize_q100_box.jpg 1024w,
-          /posts/202206-homepage-guide/configure/profile_hu13a3a01410434cb11ee53865579a0fdf_699835_1320x0_resize_q100_box.jpg 2x"
-        src="/posts/202206-homepage-guide/configure/profile_hu13a3a01410434cb11ee53865579a0fdf_699835_660x0_resize_q100_box.jpg"
-        alt="Example"
-      />
-      
-    </figure>
-  
-
-</p>
+<img src="configure/profile.jpg"/>
 <h3 id="configuration-files" class="relative group">Configuration Files <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#configuration-files" aria-label="Anchor">#</a></span></h3>
 <p>Let’s open a couple of configuration files and start updating them. All the files we are going to change are inside <code>config/_default/</code> folder.</p>
 <h4 id="configtoml" class="relative group">config.toml <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#configtoml" aria-label="Anchor">#</a></span></h4>
 <p>Uncomment the <code>baseURL</code> parameter and replace it with the final domain of your website. This value will be used to create the robots.txt file for any search engines to successfully crawl and index your website.</p>
-<p>
-
-
-
-  
-  
-    
-  
-  
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        srcset="
-          /posts/202206-homepage-guide/configure/config_hu9771f2fbe5c3077ed034b030b6602158_288095_330x0_resize_box_3.png 330w,
-          /posts/202206-homepage-guide/configure/config_hu9771f2fbe5c3077ed034b030b6602158_288095_660x0_resize_box_3.png 660w,
-          /posts/202206-homepage-guide/configure/config_hu9771f2fbe5c3077ed034b030b6602158_288095_1024x0_resize_box_3.png 1024w,
-          /posts/202206-homepage-guide/configure/config_hu9771f2fbe5c3077ed034b030b6602158_288095_1320x0_resize_box_3.png 2x"
-        src="/posts/202206-homepage-guide/configure/config_hu9771f2fbe5c3077ed034b030b6602158_288095_660x0_resize_box_3.png"
-        alt="Example"
-      />
-      
-    </figure>
-  
-
-</p>
+<img src="configure/config.png"/>
 <div class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900">
   <span class="ltr:pr-3 rtl:pl-3 text-primary-400">
     
@@ -766,89 +577,17 @@ echo &#39;theme = &#34;congo&#34;&#39; | cat - config/_default/config.toml &gt; 
 <h4 id="languagesentoml" class="relative group">languages.en.toml <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#languagesentoml" aria-label="Anchor">#</a></span></h4>
 <p>This file will drive the main information for the website and the author of the page (you). Replace the <code>title</code> and <code>description</code> for the ones you want for your page, these values will drive the HTML title and description tags.</p>
 <p>Within the <code>[author]</code> block you can update the details that you wish to highlight in your profile. The bare minimum would be <code>name</code>, <code>image</code>, <code>headline</code>, and <code>links</code>. For the <code>links</code> parameter don&rsquo;t forget to uncomment the last line of the file as this is a json array. Update each entry with your personal links.</p>
-<p>
-
-
-
-  
-  
-    
-  
-  
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        srcset="
-          /posts/202206-homepage-guide/configure/languages_hu21fa396bccbd30dfe0fe89141f51f9bf_356171_330x0_resize_box_3.png 330w,
-          /posts/202206-homepage-guide/configure/languages_hu21fa396bccbd30dfe0fe89141f51f9bf_356171_660x0_resize_box_3.png 660w,
-          /posts/202206-homepage-guide/configure/languages_hu21fa396bccbd30dfe0fe89141f51f9bf_356171_1024x0_resize_box_3.png 1024w,
-          /posts/202206-homepage-guide/configure/languages_hu21fa396bccbd30dfe0fe89141f51f9bf_356171_1320x0_resize_box_3.png 2x"
-        src="/posts/202206-homepage-guide/configure/languages_hu21fa396bccbd30dfe0fe89141f51f9bf_356171_660x0_resize_box_3.png"
-        alt="Example"
-      />
-      
-    </figure>
-  
-
-</p>
+<img src="configure/languages.png"/>
 <h4 id="paramstoml" class="relative group">params.toml <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#paramstoml" aria-label="Anchor">#</a></span></h4>
 <p>This file defines much of the overall behavior across the entire framework. For this tutorial I changed some of the overall values and one for the homepage, if you want to learn more about the other available configurations please consult <a target="_blank" href="https://jpanther.github.io/congo/docs/">Congo’s theme documentation</a>.</p>
 <p>I&rsquo;ve changed <code>colorScheme</code> to &ldquo;ocean&rdquo; which changes the global UI theme. Congo defines a three-color palette that is used throughout the theme. Valid values are congo (default), avocado, ocean, fire, and slate. Although these are the default schemes, you can also create your own. Refer to the theme&rsquo;s main documentation to learn how.</p>
 <p>Activated <code>showAppearanceSwitcher</code> to enable the light/dark mode toggle. Activated <code>enableSearch</code> which indexes all future posts each time you build the site and provides a simple search feature. I&rsquo;ve also changed the value of <code>layout</code>, inside <code>[homepage]</code>, to &ldquo;profile&rdquo; which changes the way the landing page is rendered. Finally, the last interesting value here is <code>showRecent</code>, which when turned on shows the recent posts on the homepage.</p>
-<p>
-
-
-
-  
-  
-    
-  
-  
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        srcset="
-          /posts/202206-homepage-guide/configure/params_huff3ff0af22840c90313481063b1d8287_344231_330x0_resize_box_3.png 330w,
-          /posts/202206-homepage-guide/configure/params_huff3ff0af22840c90313481063b1d8287_344231_660x0_resize_box_3.png 660w,
-          /posts/202206-homepage-guide/configure/params_huff3ff0af22840c90313481063b1d8287_344231_1024x0_resize_box_3.png 1024w,
-          /posts/202206-homepage-guide/configure/params_huff3ff0af22840c90313481063b1d8287_344231_1320x0_resize_box_3.png 2x"
-        src="/posts/202206-homepage-guide/configure/params_huff3ff0af22840c90313481063b1d8287_344231_660x0_resize_box_3.png"
-        alt="Example"
-      />
-      
-    </figure>
-  
-
-</p>
+<img src="configure/params.png"/>
 <h3 id="final" class="relative group">Final <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#final" aria-label="Anchor">#</a></span></h3>
 <p>Let’s see how it looks, run the Hugo again:</p>
 <pre tabindex="0"><code>hugo server -D
 </code></pre><p>And navigate to <a target="_blank" href="http://localhost:1313">localhost:1313</a> you should see something similar to the page below.</p>
-<p>
-
-
-
-  
-  
-    
-  
-  
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        srcset="
-          /posts/202206-homepage-guide/configure/final_hu8fe8b2e0576266fbabea6cd4bc303d96_203066_330x0_resize_box_3.png 330w,
-          /posts/202206-homepage-guide/configure/final_hu8fe8b2e0576266fbabea6cd4bc303d96_203066_660x0_resize_box_3.png 660w,
-          /posts/202206-homepage-guide/configure/final_hu8fe8b2e0576266fbabea6cd4bc303d96_203066_1024x0_resize_box_3.png 1024w,
-          /posts/202206-homepage-guide/configure/final_hu8fe8b2e0576266fbabea6cd4bc303d96_203066_1320x0_resize_box_3.png 2x"
-        src="/posts/202206-homepage-guide/configure/final_hu8fe8b2e0576266fbabea6cd4bc303d96_203066_660x0_resize_box_3.png"
-        alt="Example"
-      />
-      
-    </figure>
-  
-
-</p>
+<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="configure/final.png"/>
 <p>Congrats it’s looking great, let’s learn how to generate your first articles.</p>
 <h2 id="how-to-generate-articles" class="relative group">How to generate articles <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how-to-generate-articles" aria-label="Anchor">#</a></span></h2>
 <p>Hugo provides some tools to generate your articles (markdown files) with a base set of tags already in them. Run the following command to create your first post</p>
@@ -931,7 +670,7 @@ This is my first blog post
           width="96"
           height="96"
           alt="Author"
-          src="/avatar_hud8fca8be7b711011f1c95214fd9a48d4_44268_192x192_fill_q100_box_smart1.jpg"
+          src="/avatar_hud8fca8be7b711011f1c95214fd9a48d4_44268_192x192_fill_q75_box_smart1.jpg"
         />
       
     
@@ -1052,7 +791,7 @@ This is my first blog post
       
         <a
           class="bg-neutral-300 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800 m-1 hover:bg-primary-500 hover:text-neutral rounded min-w-[2.4rem] inline-block text-center p-1"
-          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://nunocoracao.com/posts/202206-homepage-guide/&amp;title=How%20I%20started%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://nunocoracao.com/posts/202206-homepage-guide/&amp;title=How%20I%20created%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
           title="Share on LinkedIn"
           aria-label="Share on LinkedIn"
           >
@@ -1069,7 +808,7 @@ This is my first blog post
       
         <a
           class="bg-neutral-300 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800 m-1 hover:bg-primary-500 hover:text-neutral rounded min-w-[2.4rem] inline-block text-center p-1"
-          href="https://twitter.com/intent/tweet/?url=https://nunocoracao.com/posts/202206-homepage-guide/&amp;text=How%20I%20started%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
+          href="https://twitter.com/intent/tweet/?url=https://nunocoracao.com/posts/202206-homepage-guide/&amp;text=How%20I%20created%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
           title="Tweet on Twitter"
           aria-label="Tweet on Twitter"
           >
@@ -1088,7 +827,7 @@ This is my first blog post
       
         <a
           class="bg-neutral-300 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800 m-1 hover:bg-primary-500 hover:text-neutral rounded min-w-[2.4rem] inline-block text-center p-1"
-          href="https://pinterest.com/pin/create/bookmarklet/?url=https://nunocoracao.com/posts/202206-homepage-guide/&amp;description=How%20I%20started%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
+          href="https://pinterest.com/pin/create/bookmarklet/?url=https://nunocoracao.com/posts/202206-homepage-guide/&amp;description=How%20I%20created%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
           title="Pin on Pinterest"
           aria-label="Pin on Pinterest"
           >
@@ -1105,7 +844,7 @@ This is my first blog post
       
         <a
           class="bg-neutral-300 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800 m-1 hover:bg-primary-500 hover:text-neutral rounded min-w-[2.4rem] inline-block text-center p-1"
-          href="https://reddit.com/submit/?url=https://nunocoracao.com/posts/202206-homepage-guide/&amp;resubmit=true&amp;title=How%20I%20started%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
+          href="https://reddit.com/submit/?url=https://nunocoracao.com/posts/202206-homepage-guide/&amp;resubmit=true&amp;title=How%20I%20created%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
           title="Submit to Reddit"
           aria-label="Submit to Reddit"
           >
@@ -1122,7 +861,7 @@ This is my first blog post
       
         <a
           class="bg-neutral-300 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800 m-1 hover:bg-primary-500 hover:text-neutral rounded min-w-[2.4rem] inline-block text-center p-1"
-          href="https://www.facebook.com/sharer/sharer.php?u=https://nunocoracao.com/posts/202206-homepage-guide/&amp;quote=How%20I%20started%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://nunocoracao.com/posts/202206-homepage-guide/&amp;quote=How%20I%20created%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
           title="Share on Facebook"
           aria-label="Share on Facebook"
           >
@@ -1139,7 +878,7 @@ This is my first blog post
       
         <a
           class="bg-neutral-300 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800 m-1 hover:bg-primary-500 hover:text-neutral rounded min-w-[2.4rem] inline-block text-center p-1"
-          href="mailto:?body=https://nunocoracao.com/posts/202206-homepage-guide/&amp;subject=How%20I%20started%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
+          href="mailto:?body=https://nunocoracao.com/posts/202206-homepage-guide/&amp;subject=How%20I%20created%20my%20own%20Homepage%20for%20free%20using%20Docker,%20Hugo,%20and%20Firebase"
           title="Send via email"
           aria-label="Send via email"
           >
@@ -1268,6 +1007,14 @@ This is my first blog post
     
   </div>
   
+  
+    <script>
+    mediumZoom(document.querySelectorAll("img"), {
+        margin: 24,
+        background: 'rgba(0,0,0,0.5)',
+        scrollOffset: 0,
+    })
+</script>
   
 </footer>
 <div

@@ -161,6 +161,8 @@ if (!doNotTrack) {
 
   
   
+    <script src="/js/zoom.min.js"></script>
+  
 </head>
 <body
     class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"
@@ -410,7 +412,7 @@ if (!doNotTrack) {
           width="96"
           height="96"
           alt="Author"
-          src="/avatar_hud8fca8be7b711011f1c95214fd9a48d4_44268_192x192_fill_q100_box_smart1.jpg"
+          src="/avatar_hud8fca8be7b711011f1c95214fd9a48d4_44268_192x192_fill_q75_box_smart1.jpg"
         />
       
     
@@ -586,6 +588,14 @@ if (!doNotTrack) {
     
   </div>
   
+  
+    <script>
+    mediumZoom(document.querySelectorAll("img"), {
+        margin: 24,
+        background: 'rgba(0,0,0,0.5)',
+        scrollOffset: 0,
+    })
+</script>
   
 </footer>
 <div

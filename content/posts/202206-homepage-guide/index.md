@@ -1,5 +1,5 @@
 ---
-title: "How I started my own Homepage for free using Docker, Hugo, and Firebase"
+title: "How I created my own Homepage for free using Docker, Hugo, and Firebase"
 description: "Currently, there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results."
 summary: "Currently, there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results."
 categories: ["Development", "Tutorial"]
@@ -10,7 +10,7 @@ date: 2022-06-19
 draft: true
 ---
 
-![image](feature.png "")
+<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="feature.png"/>
 
 
 ## TL;DR
@@ -46,16 +46,19 @@ git submodule update
 
 ## Let’s get started…
 
-After some research, I decided to choose a website generator framework and a free hosting service. For the website framework, I choose <a target="_blank" href="https://gohugo.io">Hugo</a> and the hosting service <a target="_blank" href="https://firebase.google.com">Firebase</a>. And for obvious reasons, I decided to my development environment using <a target="_blank" href="https://www.docker.com">Docker</a> in order to put myself in the user's shoes for this experiment. 
+After some research, I decided to choose a website generator framework and a free hosting service. For the website framework, I choose <a target="_blank" href="https://gohugo.io">Hugo</a> with <a target="_blank" href="https://github.com/jpanther/congoand">Congo</a> as the theme, and for the hosting service <a target="_blank" href="https://firebase.google.com">Firebase</a>. And for obvious reasons, I decided to set up my development environment using <a target="_blank" href="https://www.docker.com">Docker</a> in order to put myself in the user's shoes for this experiment. 
+
+I didn't go into a deep analysis of which framework was the best for my problem as I wanted to get an MVP out fast so I went through a couple of options and picked the first one that I liked. There are several other options with a very different range of features and event approaches to what you might want to achieve. If you want to explore other options these are some you can explore: <a target="_blank" href="https://docusaurus.io/">Docussaurus</a>, <a target="_blank" href="https://www.gatsbyjs.com/">Gatsby</a>, <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>, <a target="_blank" href="https://ghost.org/">Ghost</a>, and even <a target="_blank" href="https://wordpress.com/">Wordpress</a>.
+
 
 {{< alert >}}
-**Disclaimer:** I am perfectly aware that this might not be the best solution out there for what I am trying to achieve. If you think there’s either a) a better way to do it or b) a smarter solution from scratch feel free to reach out.
+**Disclaimer:** I am perfectly aware that this might not be the best solution out there. If you think there’s either a better or a smarter solution feel free to reach out, always happy to chat and learn.
 {{< /alert >}}
 
 
-## Requirements
+## Tools
 
-For this guide, I will use the following software, which should be installed on your machine. Here is a small explanation of what each component is going to be used for and a link to the installation instructions.
+For this guide, I will use the following tools, which should be installed on your machine. Here is a small explanation of what each component is going to be used for and a link to the installation instructions.
 
 - **Docker** - I will use Docker to configure a development environment for this project so that we can skip the need to install all the software required to run Hugo and Firebase CLI i.e. CuRL, Go, Hugo, Node, NPM, etc. This will allow you to start from a git repository, start the environment and go straight into writing code instead of spending hours figuring out how to install a specific compiler for your CPU architecture. <a target=”_blank” href="https://www.docker.com/get-started/">Install Docker</a>
 
@@ -75,7 +78,8 @@ I'll provide two ways of setting up your development environment feel free to ch
 
 To spin up a Dev Environment just open Docker Dashboard and select the "Dev Environments" tab on the left. If you don't have any dev environments setup select "Create New Environment" otherwise use the button on the upper right side "Create". Proceed to the setup step.
 
-![Example](devenvs/step2.png "")
+<img src="devenvs/step2.png"/>
+
 
 Here choose the "Existing Git repo" option and use the following GitHub URL:
 
@@ -106,15 +110,16 @@ This method requires the installation of an extra VSCode extension in order to s
 
 After successfully installing the extension, open your source folder in VSCode and open the “Remote - Containers” extension panel on the left. Select "Open Folder in Container" to spin up a container with the development environment.
 
-![Example](setup/extension.png "")
+<img src="setup/extension.png"/>
 
 Wait a couple of minutes while the image is built. Docker is creating an image with all the required software for the development of the website. This will only happen the first time you spin the environment.
 
-![Example](setup/imagebuild.png "")
+<img src="setup/imagebuild.png"/>
+
 
 Once the image is built, VSCode will spin the container and will place your working environment inside of it (information available in the bottom left corner of the window). You now have a development environment with Go, Hugo, Firebase CLI, and all the tools you will need for this guide. Just open a new terminal and you’re ready to begin creating your site.
 
-![Example](setup/newterminal.png "")
+<img src="setup/newterminal.png"/>
 
 ### ...but I really want to run everything locally
 
@@ -160,10 +165,9 @@ hugo server -D
 
 Please open your favorite browser and navigate to <a target="_blank" href="http://localhost:1313">localhost:1313</a> to see your page.
 
-![Example](theme/vanilla.png "")
+<img src="theme/vanilla.png"/>
 
 You should see something similar to the image above. Doesn’t look that exciting, does it? Let’s configure the theme in the next sections and learn how to create your first article.
-
 
 
 ## Configure Theme
@@ -178,7 +182,7 @@ Let’s start by adding a profile picture to your site. Create a folder called �
 Note: If you still need to take a proper awesome picture feel free to download the one below to proceed with the tutorial.
 {{</ alert >}}
 
-![Example](configure/profile.jpg "")
+<img src="configure/profile.jpg"/>
 
 ### Configuration Files
 
@@ -188,7 +192,7 @@ Let’s open a couple of configuration files and start updating them. All the fi
 
 Uncomment the <code>baseURL</code> parameter and replace it with the final domain of your website. This value will be used to create the robots.txt file for any search engines to successfully crawl and index your website.
 
-![Example](configure/config.png "")
+<img src="configure/config.png"/>
 
 {{< alert >}}
 Note: if you want to configure Google Analytics please add the following line with your id to this file
@@ -203,7 +207,7 @@ This file will drive the main information for the website and the author of the 
 
 Within the <code>[author]</code> block you can update the details that you wish to highlight in your profile. The bare minimum would be <code>name</code>, <code>image</code>, <code>headline</code>, and <code>links</code>. For the <code>links</code> parameter don't forget to uncomment the last line of the file as this is a json array. Update each entry with your personal links.
 
-![Example](configure/languages.png "")
+<img src="configure/languages.png"/>
 
 #### params.toml
 
@@ -213,8 +217,7 @@ I've changed <code>colorScheme</code> to "ocean" which changes the global UI the
 
 Activated <code>showAppearanceSwitcher</code> to enable the light/dark mode toggle. Activated <code>enableSearch</code> which indexes all future posts each time you build the site and provides a simple search feature. I've also changed the value of <code>layout</code>, inside <code>[homepage]</code>, to "profile" which changes the way the landing page is rendered. Finally, the last interesting value here is <code>showRecent</code>, which when turned on shows the recent posts on the homepage.
 
-![Example](configure/params.png "")
-
+<img src="configure/params.png"/>
 
 ### Final
 
@@ -226,7 +229,7 @@ hugo server -D
 
 And navigate to <a target="_blank" href="http://localhost:1313">localhost:1313</a> you should see something similar to the page below.
 
-![Example](configure/final.png "")
+<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="configure/final.png"/>
 
 Congrats it’s looking great, let’s learn how to generate your first articles.
 
