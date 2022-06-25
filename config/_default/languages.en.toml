@@ -22,6 +22,7 @@ dateFormat = "2 January 2006"
     { twitter = "https://twitter.com/nunocoracao" },
     { goodreads = "http://goodreads.com/nunocoracao" },
     { medium = "https://medium.com/@nunocoracao" },
+    #{ hackernews = "https://news.ycombinator.com/user?id=nunocoracao"},
     { github = "https://github.com/nunocoracao" },
     #{ telegram = "https://t.me/nunocoracao" },
     #{ keybase = "https://keybase.io/nunocoracao" },
