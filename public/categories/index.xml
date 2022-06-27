@@ -6,11 +6,47 @@
     <description>Recent content in Categories on Nuno Coração</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nunocoracao.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nunocoracao.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>https://nunocoracao.com/categories/development/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunocoracao.com/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://nunocoracao.com/categories/tutorial/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunocoracao.com/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interview</title>
+      <link>https://nunocoracao.com/categories/interview/</link>
+      <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunocoracao.com/categories/interview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mentorship</title>
+      <link>https://nunocoracao.com/categories/mentorship/</link>
+      <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunocoracao.com/categories/mentorship/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Product</title>
       <link>https://nunocoracao.com/categories/product/</link>
-      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://nunocoracao.com/categories/product/</guid>
       <description></description>
