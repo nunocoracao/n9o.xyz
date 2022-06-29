@@ -1,1 +1,20 @@
 <script src="/js/zoom.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAN9vJzbGcqXi3fCiakI8rCVV7-S6T8n4s",
+      authDomain: "homepage-a0c38.firebaseapp.com",
+      projectId: "homepage-a0c38",
+      storageBucket: "homepage-a0c38.appspot.com",
+      messagingSenderId: "722874298820",
+      appId: "1:722874298820:web:b5c0e707586eba68c43491",
+      measurementId: "G-H8CSEYZFG4"
+    };
+  
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
