@@ -154,6 +154,25 @@ if (!doNotTrack) {
   
   
     <script src="/js/zoom.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAN9vJzbGcqXi3fCiakI8rCVV7-S6T8n4s",
+      authDomain: "homepage-a0c38.firebaseapp.com",
+      projectId: "homepage-a0c38",
+      storageBucket: "homepage-a0c38.appspot.com",
+      messagingSenderId: "722874298820",
+      appId: "1:722874298820:web:b5c0e707586eba68c43491",
+      measurementId: "G-H8CSEYZFG4"
+    };
+  
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
   
 </head>
 <body
@@ -298,6 +317,8 @@ if (!doNotTrack) {
     
 
     
+
+    
     
   </div>
 
@@ -317,6 +338,37 @@ if (!doNotTrack) {
 <p>Feel free to reach out.</p>
 
       </div>
+      <script>
+
+        var oid = "views_about.md"
+        var id = oid ? oid.replaceAll("/","-") : oid
+
+        var viewed = localStorage.getItem(id);
+        
+        if(!viewed){
+            auth.signInAnonymously()
+            .then(() => {
+                var docRef = db.collection('views').doc(id)
+                localStorage.setItem(id, true);
+                docRef.get().then((doc) => {
+                    if (doc.exists) {
+                        db.collection('views').doc(id).update({
+                            views: firebase.firestore.FieldValue.increment(1)
+                        });
+                    } else {
+                        db.collection('views').doc(id).set({views:1})
+                    }
+                }).catch((error) => {
+                    console.log("Error getting document:", error);
+                });
+            })
+            .catch((error) => {
+                var errorCode = error.code;
+                var errorMessage = error.message;
+                console.error(errorCode, errorMessage)
+            });
+        }
+      </script>
     </section>
     <footer class="pt-8 max-w-prose print:hidden">
       
@@ -531,7 +583,43 @@ if (!doNotTrack) {
         background: 'rgba(0,0,0,0.5)',
         scrollOffset: 0,
     })
-</script>
+
+    var viewsCollection = db.collection('views');
+
+    function numberWithCommas(x) {
+        
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    }
+
+    var update_views = function(oid, id){
+        viewsCollection.doc(id).onSnapshot(doc => {  
+            var data = doc.data();
+            if(data)
+                var label = "view"
+                if(data.views && data.views > 1)
+                    label += "s"
+                document.querySelectorAll("span[id='"+oid+"']")[0].innerText = numberWithCommas(data.views) + " " + label
+        })
+    }
+
+    auth.signInAnonymously()
+    .then(() => {
+        var views_nodes = document.querySelectorAll("span[id^='views_']")
+
+        for(var i in views_nodes){
+            var oid = views_nodes[i].id
+            var id = oid ? oid.replaceAll("/","-") : oid
+            if(id){
+                update_views(oid, id)
+            }
+        }
+    })
+    .catch((error) => {
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        console.error(errorCode, errorMessage)
+    });
+  </script>
   
 </footer>
 <div
