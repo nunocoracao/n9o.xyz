@@ -10,29 +10,13 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
       - name: Checkout
         uses: actions/checkout@v2
-
-      # Step 2 - Sets up the latest version of Hugo
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-
-      # Step 3 - Clean and don't fail
-      - name: Clean public directory
-        run: rm -rf public
-
-      # Step 4 - Builds the site using the latest version of Hugo
-      - name: Build
-        run: hugo
-
-      # Step 5 - Deploy to firebase
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOMEPAGE_A0C38 }}'
           projectId: homepage-a0c38
-          channelID: main
+          expires: 3d
+          channelID: 'pr-${{ github.event.number }}-${{ github.event.pull_request.head.ref }}'
