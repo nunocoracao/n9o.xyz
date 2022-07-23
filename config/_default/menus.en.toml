@@ -32,7 +32,7 @@
 
 [[main]]
   name = "Tags"
-  pageRef = "tagsasd"
+  pageRef = "tags"
   weight = 90
 
 
