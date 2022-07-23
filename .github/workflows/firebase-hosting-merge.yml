@@ -20,10 +20,10 @@ jobs:
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.64.0"
+          hugo-version: "0.100.2"
 
       - name: Build
-        run: hugo --minify
+        run: hugo
 
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
