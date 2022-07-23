@@ -10,18 +10,6 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-
-      - name: Git checkout
-        uses: actions/checkout@v2
-
-      - name: Setup hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "0.100.2"
-
-      - name: Build
-        run: hugo --gc && hugo
-
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
