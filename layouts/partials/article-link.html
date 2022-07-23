@@ -1,45 +1,66 @@
-<div style="display: flex">
-<!--img style="width: 10%; object-fit: cover" src="https://www.creativefabrica.com/wp-content/uploads/2021/06/12/mountain-landscape-illustration-design-b-Graphics-13326021-1.jpg" alt="An awesome picture"-->  
-<article>
-    <h3 class="flex items-center mt-6 text-xl font-semibold">
-      {{ with .Params.externalUrl }}
-        <a
-          class="decoration-primary-500 hover:underline hover:underline-offset-2 text-neutral-800 dark:text-neutral"
-          href="{{ . }}"
-          target="_blank"
-          rel="external"
-          >{{ $.Title | emojify }}</a
-        >
-        <span
-          class="-mt-2 text-xs cursor-default text-neutral-400 dark:text-neutral-500"
-          title="{{ i18n "list.externalurl_title" }}"
-        >
-          &#8599;
-        </span>
-      {{ else }}
-        <a
-          class="decoration-primary-500 hover:underline hover:underline-offset-2 text-neutral-800 dark:text-neutral"
-          href="{{ .RelPermalink }}"
-          >{{ .Title | emojify }}</a
-        >
-      {{ end }}
-      {{ if and .Draft .Site.Params.article.showDraftLabel }}
-        <div class="ltr:ml-2 rtl:mr-2">
-          {{ partial "badge.html" (i18n "article.draft" | emojify) }}
+<div style="display: flex; flex-wrap: wrap; margin-top: 30px; margin-bottom: 70px;">
+
+  {{- with $.Params.images -}}
+  {{- range first 6 . }}<meta property="og:image" content="{{ . | absURL }}" />{{ end -}}
+  {{- else -}}
+  {{- $images := $.Resources.ByType "image" -}}
+  {{- $featured := $images.GetMatch "*feature*" -}}
+  {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+  {{- with $featured -}}
+
+  <img style="width: 300px; 
+  height: 200px; 
+  object-fit: cover; 
+  box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);
+  margin-right: 30px;" 
+  src="{{ $featured.Permalink }}">
+  
+  {{- else -}}
+  {{- with $.Site.Params.images }}<meta property="og:image" content="{{ index . 0 | absURL }}"/>{{ end -}}
+  {{- end -}}
+  {{- end -}}
+
+    
+  <article>
+      <h3 class="flex items-center mt-6 text-xl font-semibold">
+        {{ with .Params.externalUrl }}
+          <a
+            class="decoration-primary-500 hover:underline hover:underline-offset-2 text-neutral-800 dark:text-neutral"
+            href="{{ . }}"
+            target="_blank"
+            rel="external"
+            >{{ $.Title | emojify }}</a
+          >
+          <span
+            class="-mt-2 text-xs cursor-default text-neutral-400 dark:text-neutral-500"
+            title="{{ i18n "list.externalurl_title" }}"
+          >
+            &#8599;
+          </span>
+        {{ else }}
+          <a
+            class="decoration-primary-500 hover:underline hover:underline-offset-2 text-neutral-800 dark:text-neutral"
+            href="{{ .RelPermalink }}"
+            >{{ .Title | emojify }}</a
+          >
+        {{ end }}
+        {{ if and .Draft .Site.Params.article.showDraftLabel }}
+          <div class="ltr:ml-2 rtl:mr-2">
+            {{ partial "badge.html" (i18n "article.draft" | emojify) }}
+          </div>
+        {{ end }}
+        {{ if templates.Exists "partials/extend-article-link.html" }}
+          {{ partial "extend-article-link.html" . }}
+        {{ end }}
+      </h3>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        {{ partial "article-meta.html" . }}
+      </div>
+      {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
+        <div class="py-1 prose dark:prose-invert">
+          {{ .Summary | emojify }}
         </div>
       {{ end }}
-      {{ if templates.Exists "partials/extend-article-link.html" }}
-        {{ partial "extend-article-link.html" . }}
-      {{ end }}
-    </h3>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      {{ partial "article-meta.html" . }}
-    </div>
-    {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
-      <div class="py-1 prose dark:prose-invert">
-        {{ .Summary | emojify }}
-      </div>
-    {{ end }}
-</article>
+  </article>
 </div>
   
