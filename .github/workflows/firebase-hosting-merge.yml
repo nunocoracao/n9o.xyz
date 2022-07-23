@@ -13,9 +13,6 @@ jobs:
       # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       # Step 2 - Sets up the latest version of Hugo
       - name: Setup Hugo
@@ -28,7 +25,6 @@ jobs:
         run: rm -rf public
 
       # Step 4 - Builds the site using the latest version of Hugo
-      # Also specifies the theme we want to use
       - name: Build
         run: hugo
 
