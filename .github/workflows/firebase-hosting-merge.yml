@@ -21,7 +21,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-            hugo-version: 'latest'
+          hugo-version: 'latest'
 
       # Step 3 - Clean and don't fail
       - name: Clean public directory
@@ -39,3 +39,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOMEPAGE_A0C38 }}'
           projectId: homepage-a0c38
+          channelID: main
