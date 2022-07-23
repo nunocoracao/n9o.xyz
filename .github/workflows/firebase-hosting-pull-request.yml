@@ -9,11 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: hugo
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOMEPAGE_A0C38 }}'
-          projectId: homepage-a0c38
           expires: 3d
-          channelID: `pr-${{ github.event.number }}-${{ github.event.pull_request.head.ref }}`
+          channelID: preview
+          projectId: homepage-a0c38
