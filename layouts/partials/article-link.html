@@ -1,3 +1,9 @@
+{{ with .Params.externalUrl }}
+<a href="{{ . }}" target="_blank" rel="external">
+{{ else }}
+<a href="{{ .RelPermalink }}">
+{{ end }}
+
 <div style="display: flex; flex-wrap: wrap; margin-top: 30px; margin-bottom: 70px;">
 
   {{- with $.Params.images -}}
@@ -8,8 +14,8 @@
   {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
   {{- with $featured -}}
 
-  <img style="width: 300px; 
-  height: 200px; 
+  <img class="nozoom" style="width: 300px; 
+  height: 180px; 
   object-fit: cover; 
   box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);
   margin-right: 30px;" 
@@ -23,27 +29,7 @@
     
   <article>
       <h3 class="flex items-center mt-6 text-xl font-semibold">
-        {{ with .Params.externalUrl }}
-          <a
-            class="decoration-primary-500 hover:underline hover:underline-offset-2 text-neutral-800 dark:text-neutral"
-            href="{{ . }}"
-            target="_blank"
-            rel="external"
-            >{{ $.Title | emojify }}</a
-          >
-          <span
-            class="-mt-2 text-xs cursor-default text-neutral-400 dark:text-neutral-500"
-            title="{{ i18n "list.externalurl_title" }}"
-          >
-            &#8599;
-          </span>
-        {{ else }}
-          <a
-            class="decoration-primary-500 hover:underline hover:underline-offset-2 text-neutral-800 dark:text-neutral"
-            href="{{ .RelPermalink }}"
-            >{{ .Title | emojify }}</a
-          >
-        {{ end }}
+        {{ $.Title | emojify }}
         {{ if and .Draft .Site.Params.article.showDraftLabel }}
           <div class="ltr:ml-2 rtl:mr-2">
             {{ partial "badge.html" (i18n "article.draft" | emojify) }}
@@ -63,4 +49,4 @@
       {{ end }}
   </article>
 </div>
-  
+</a>
