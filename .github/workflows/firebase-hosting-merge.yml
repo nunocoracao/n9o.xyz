@@ -12,22 +12,21 @@ jobs:
     steps:
 
       - name: Git checkout
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: Update theme
-      - run: git submodule update --init --recursive
+        run: git submodule update --init --recursive
 
       - name: Setup hugo
-      - uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.64.0"
 
       - name: Build
-      - run: hugo --minify
+        run: hugo --minify
 
       - name: Deploy
-      - uses: actions/checkout@v2
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOMEPAGE_A0C38 }}'
