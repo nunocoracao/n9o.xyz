@@ -30,7 +30,7 @@ jobs:
       # Step 4 - Builds the site using the latest version of Hugo
       # Also specifies the theme we want to use
       - name: Build
-        run: hugo --theme=fresh
+        run: hugo
 
       # Step 5 - Deploy to firebase
       - name: Deploy
