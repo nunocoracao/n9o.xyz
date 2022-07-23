@@ -15,3 +15,5 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOMEPAGE_A0C38 }}'
           projectId: homepage-a0c38
+          expires: 3d
+          channelID: `pr-${{ github.event.number }}-${{ github.event.pull_request.head.ref }}`
