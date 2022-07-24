@@ -45,7 +45,7 @@
       {{ if .Site.Params.showAppearanceSwitcher | default false }}
         <div
           class="text-sm cursor-pointer text-neutral-700 dark:text-neutral hover:text-primary-600 dark:hover:text-primary-400 {{ if .Site.Params.showScrollToTop | default true -}}
-            ltr:mr-14 rtl:ml-14
+            ltr:mr-14 rtl:ml-14 customswitch
           {{- end }}"
         >
           <button
