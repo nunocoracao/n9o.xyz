@@ -8,7 +8,7 @@
 colorScheme = "Ocean"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
-showAppearanceSwitcher = true
+
 
 enableSearch = true
 enableCodeCopy = true
@@ -16,6 +16,14 @@ enableCodeCopy = true
 mainSections = ["posts", "suggest", "external"]
 # robots = ""
 showScrollToTop = true
+
+[header]
+  layout = "basic" # valid options: basic, hamburger, custom
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
