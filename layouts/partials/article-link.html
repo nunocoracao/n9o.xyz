@@ -14,12 +14,7 @@
   {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
   {{- with $featured -}}
 
-  <img class="nozoom" style="width: 300px; 
-  height: 180px; 
-  object-fit: cover; 
-  box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);
-  margin-right: 30px;" 
-  src="{{ $featured.Permalink }}">
+  <img class="nozoom customthumb" src="{{ $featured.Permalink }}">
   
   {{- else -}}
   {{- with $.Site.Params.images }}<meta property="og:image" content="{{ index . 0 | absURL }}"/>{{ end -}}
