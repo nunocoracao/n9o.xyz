@@ -1,5 +1,19 @@
 # homepage
 
+
+IMPORTANT
+Current version overrides search.js theme file
+
+//var showButton = document.getElementById("search-button");
+var showButtonBasic = document.getElementById("search-button-basic");
+var showButtonHamburger = document.getElementById("search-button-hamburger");
+
+//showButton.addEventListener("click", displaySearch);
+showButtonBasic.addEventListener("click", displaySearch);
+showButtonHamburger.addEventListener("click", displaySearch);
+
+
+
 hugo server -D
 
 hugo server
@@ -37,6 +51,7 @@ Hugo -D
 
 UPDATE
 hugo mod get -u
+hugo mod get -u ./...
 
 Run Server
 Hugo server
