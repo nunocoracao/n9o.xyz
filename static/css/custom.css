@@ -12,7 +12,7 @@
     }
 
     .hidehamburger {
-        display: block;
+        display: flex;
     }
     
 }
@@ -38,4 +38,12 @@
 
 .customswitch {
     margin-right: -15px !important
+}
+
+@media not all and (min-resolution:.001dpcm) { 
+    @supports (-webkit-appearance:none) {
+        .movedown {
+            margin-top: 35px;
+        }
+    }
 }
