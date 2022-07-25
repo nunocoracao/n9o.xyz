@@ -19,10 +19,39 @@ sharingLinks : false
 
 ## Experience
 
+
+| Company | Link | Role | Start | End |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| <img style="width: 200px; display: inline; margin: 0px; margin-right: -80px" src="docker.png"/> | <a href="https://www.docker.com/" target="_blank">Site</a> | Staff Product Manager | 2022 | Present |
+|  | <a href="https://www.docker.com/" target="_blank">Site</a> | Staff Product Manager | 2022 | Present |
+|  | <a href="https://www.docker.com/" target="_blank">Site</a> | Staff Product Manager | 2022 | Present |
+|  | <a href="https://www.docker.com/" target="_blank">Site</a> | Staff Product Manager | 2022 | Present |
+|  | <a href="https://www.docker.com/" target="_blank">Site</a> | Staff Product Manager | 2022 | Present |
+|  | <a href="https://www.docker.com/" target="_blank">Site</a> | Staff Product Manager | 2022 | Present |
+|  | <a href="https://www.docker.com/" target="_blank">Site</a> | Staff Product Manager | 2022 | Present |
+|  | <a href="https://www.docker.com/" target="_blank">Site</a> | Staff Product Manager | 2022 | Present |
+|  | <a href="https://www.docker.com/" target="_blank">Site</a> | Staff Product Manager | 2022 | Present |
+|  | <a href="https://www.docker.com/" target="_blank">Site</a> | Staff Product Manager | 2022 | Present |
+|  | <a href="https://www.docker.com/" target="_blank">Site</a> | Staff Product Manager | 2022 | Present |
+
+<div style="display:flex; flex-wrap: wrap">
+    <img style="width: 200px" src="docker.png"/>
+    <img style="width: 200px" src="docker.png"/>
+    <img style="width: 200px" src="docker.png"/>
+    <img style="width: 200px" src="docker.png"/>
+    <img style="width: 200px" src="docker.png"/>
+    <img style="width: 200px" src="docker.png"/>
+    <img style="width: 200px" src="docker.png"/>
+    <img style="width: 200px" src="docker.png"/>
+    <img style="width: 200px" src="docker.png"/>
+</div>
+
 ### <a href="https://www.docker.com/" target="_blank">Docker</a>
 #### Staff Product Manager 
 - 2022 - Present
-- Working on Customer Success team with the mission to ensure the successful onboarding of Docker users across our products. 
+- something something 
+
+
 
 ### <a href="https://www.truphone.com/" target="_blank">Truphone</a>
 #### Group Product Manager 
