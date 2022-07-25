@@ -1,0 +1,49 @@
+
+@media screen and (min-width: 0px) {
+    .customthumb {
+        width: 100%; 
+        height: 220px; 
+        object-fit: cover; 
+        box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);
+    }
+
+    .hidebasic {
+        display: none;
+    }
+
+    .hidehamburger {
+        display: flex;
+    }
+    
+}
+
+@media screen and (min-width: 1250px) {
+    .customthumb {
+        width: 300px; 
+        height: 180px; 
+        object-fit: cover; 
+        box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);
+        margin-right: 30px;
+    }
+
+    .hidebasic {
+        display: flex;
+    }
+
+    .hidehamburger {
+        display: none;
+    }
+
+}
+
+.customswitch {
+    margin-right: -15px !important
+}
+
+@media not all and (min-resolution:.001dpcm) { 
+    @supports (-webkit-appearance:none) {
+        .movedown {
+            margin-top: 35px;
+        }
+    }
+}
