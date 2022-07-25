@@ -44,6 +44,8 @@ firebase hosting:channel:deploy new-blog-post --expires 10d
 git submodule init
 git submodule update
 
+-------->>>>>> git submodule update --remote --merge
+
 https://fontawesome.com/icons
 
 build 

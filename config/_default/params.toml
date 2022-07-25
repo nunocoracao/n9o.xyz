@@ -15,7 +15,6 @@ enableCodeCopy = true
 
 mainSections = ["posts", "suggest", "external"]
 # robots = ""
-showScrollToTop = true
 
 [header]
   layout = "basic" # valid options: basic, hamburger, custom
@@ -24,6 +23,7 @@ showScrollToTop = true
   showCopyright = true
   showThemeAttribution = false
   showAppearanceSwitcher = true
+  showScrollToTop = true
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
