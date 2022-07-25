@@ -26,6 +26,11 @@
   weight = 30
 
 #[[main]]
+#  name = "Music"
+#  pageRef = "music"
+#  weight = 30
+
+#[[main]]
 #  name = "Categories"
 #  pageRef = "categories"
 #  weight = 30
