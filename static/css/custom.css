@@ -47,3 +47,12 @@
         }
     }
 }
+
+.customEntitityLogo {
+    background-color: aliceblue;
+    width: 200px; 
+    display: inline; 
+    margin: 0px; 
+    padding: 5px;
+    margin-right: -80px
+}
