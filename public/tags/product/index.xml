@@ -6,7 +6,16 @@
     <description>Recent content in Product on Nuno Coração</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nunocoracao.com/tags/product/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nunocoracao.com/tags/product/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bulk User Add for Docker Business and Teams</title>
+      <link>https://nunocoracao.com/posts/202207-docker-bulk-add/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunocoracao.com/posts/202207-docker-bulk-add/</guid>
+      <description>Forget manually inviting team members to Docker Desktop. With Bulk Add for Docker Business, invite your entire team with a CSV file or their Docker IDs!</description>
+    </item>
+    
     <item>
       <title>Nuno Coração – Meet the Mentor</title>
       <link>https://nunocoracao.com/posts/202206-mentorcruise-interview/</link>
