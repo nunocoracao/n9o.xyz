@@ -58,6 +58,16 @@
     border-radius: 4%;
 }
 
+.customMusicLogo {
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px; 
+    padding: 3px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 td {
     vertical-align: middle !important;
     padding: 8px !important;
