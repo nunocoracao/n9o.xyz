@@ -49,6 +49,13 @@ sharingLinks : false
             <td>Full Remote </br> Lisbon, PT</td>
         </tr>
         <tr>
+            <td><img class="customEntitityLogo" src="aws.png"/></td>
+            <td><a href="https://aws-startup-lofts.com/emea" target="_blank">AWS Startup Loft</a></td>
+            <td>Startup Advisor</td>
+            <td>2022 - Present</td>
+            <td>Full Remote </br> Lisbon, PT</td>
+        </tr>
+        <tr>
             <td rowspan=2><img class="customEntitityLogo" src="truphone.png"/></td>
             <td rowspan=2><a href="https://www.truphone.com/" target="_blank">Truphone</a></td>
             <td>Group Product Manager</td>
