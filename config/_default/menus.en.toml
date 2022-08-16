@@ -25,10 +25,10 @@
   pageRef = "resume"
   weight = 30
 
-[[main]]
-  name = "Music"
-  pageRef = "music"
-  weight = 40
+#[[main]]
+#  name = "Music"
+#  pageRef = "music"
+#  weight = 40
 
 #[[main]]
 #  name = "Categories"
