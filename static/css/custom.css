@@ -50,10 +50,12 @@
 
 .customEntitityLogo {
     background-color: aliceblue;
+    min-width: 80px;
     width: 80px;
     height: 80px;
     margin: 10px; 
     padding: 8px;
+    margin-left: -8px;
     object-fit: contain;
     border-radius: 4%;
 }
