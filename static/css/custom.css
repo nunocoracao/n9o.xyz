@@ -14,6 +14,39 @@
         display: flex;
     }
 
+    .customEntitityLogo {
+        background-color: aliceblue;
+        position: relative;
+        min-width: 60px;
+        width: 60px;
+        height: 60px;    
+        margin: 0px;
+        margin-left: -8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+        object-fit: contain;
+        border-radius: 4%;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+    .customEntitityLogo {
+        background-color: aliceblue;
+        position: relative;
+        min-width: 80px;
+        width: 80px;
+        height: 80px;    
+        margin: 0px;
+        margin-left: -8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 8px;
+        object-fit: contain;
+        border-radius: 4%;
+    }
+
 }
 
 @media screen and (min-width: 1250px) {
@@ -33,6 +66,21 @@
         display: none;
     }
 
+    .customEntitityLogo {
+        background-color: aliceblue;
+        position: relative;
+        min-width: 100px;
+        width: 100px;
+        height: 100px;    
+        margin: 0px;
+        margin-left: -8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 8px;
+        object-fit: contain;
+        border-radius: 4%;
+    }
+
 }
 
 .customswitch {
@@ -45,21 +93,6 @@
             margin-top: 35px;
         }
     }
-}
-
-.customEntitityLogo {
-    background-color: aliceblue;
-    position: relative;
-    min-width: 80px;
-    width: 80px;
-    height: 80px;    
-    margin: 0px;
-    margin-left: -8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 8px;
-    object-fit: contain;
-    border-radius: 4%;
 }
 
 td {
