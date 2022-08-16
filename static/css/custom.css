@@ -46,12 +46,10 @@
 
     .customPlay {
         position: relative;
-        min-width: 100px;
-        width: 100px;
-        height: 100px;
-        margin: 5px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        min-width: 40px;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
         padding: 0px;
         object-fit: cover;
         border-radius: 50%;
