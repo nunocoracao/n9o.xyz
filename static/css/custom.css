@@ -46,12 +46,10 @@
 
     .customPlay {
         position: relative;
-        min-width: 100px;
-        width: 100px;
-        height: 100px;
-        margin: 5px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        min-width: 30px;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
         padding: 0px;
         object-fit: cover;
         border-radius: 50%;
@@ -80,7 +78,7 @@
         position: relative;
         min-width: 80px;
         width: 80px;
-        height: 100px;
+        height: 80px;
         margin: 0px;
         margin-left: -8px;
         margin-top: 10px;
@@ -155,5 +153,4 @@
 
 td {
     vertical-align: middle !important;
-    padding: 8px !important;
 }
