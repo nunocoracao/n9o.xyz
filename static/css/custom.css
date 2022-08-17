@@ -46,9 +46,9 @@
 
     .customPlay {
         position: relative;
-        min-width: 30px;
-        width: 30px;
-        height: 30px;
+        min-width: 40px;
+        width: 40px;
+        height: 40px;
         margin-right: 10px;
         padding: 0px;
         object-fit: cover;
