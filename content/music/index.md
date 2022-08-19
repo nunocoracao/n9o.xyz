@@ -32,6 +32,16 @@ I started learning music by myself at the age of 14. I play several instruments 
     <tbody>
          <tr>
             <td><img class="customEntitityAlbum" src=".jpg"/></td>
+            <td>Dublin Delay</td>
+            <td>August 2022</td>
+            <td style="display:flex">
+                <a href="" target="_blank"><img class="customPlay nozoom" src="spotify.svg.png"/></a>
+                <a href="" target="_blank"><img class="customPlay nozoom" style="background-color: rgb(30, 41, 59);" src="apple.png"/></a>
+                <a href="" target="_blank"><img class="customPlay nozoom" src="youtube.png"/></a>
+            </td>
+        </tr>
+         <tr>
+            <td><img class="customEntitityAlbum" src="rememberanewday.jpg"/></td>
             <td>Remember a New Day</td>
             <td>August 2022</td>
             <td style="display:flex">
