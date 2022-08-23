@@ -31,23 +31,13 @@ I started learning music by myself at the age of 14. I play several instruments 
     </thead>
     <tbody>
          <tr>
-            <td><img class="customEntitityAlbum" src=".jpg"/></td>
-            <td>Dublin Delay</td>
-            <td>August 2022</td>
-            <td style="display:flex">
-                <a href="" target="_blank"><img class="customPlay nozoom" src="spotify.svg.png"/></a>
-                <a href="" target="_blank"><img class="customPlay nozoom" style="background-color: rgb(30, 41, 59);" src="apple.png"/></a>
-                <a href="" target="_blank"><img class="customPlay nozoom" src="youtube.png"/></a>
-            </td>
-        </tr>
-         <tr>
             <td><img class="customEntitityAlbum" src="rememberanewday.jpg"/></td>
             <td>Remember a New Day</td>
             <td>August 2022</td>
             <td style="display:flex">
-                <a href="" target="_blank"><img class="customPlay nozoom" src="spotify.svg.png"/></a>
-                <a href="" target="_blank"><img class="customPlay nozoom" style="background-color: rgb(30, 41, 59);" src="apple.png"/></a>
-                <a href="" target="_blank"><img class="customPlay nozoom" src="youtube.png"/></a>
+                <a href="https://open.spotify.com/album/5KZGKWYIBww70J6rz2jm1T" target="_blank"><img class="customPlay nozoom" src="spotify.svg.png"/></a>
+                <a href="https://music.apple.com/us/album/remember-a-new-day-single/1640595126" target="_blank"><img class="customPlay nozoom" style="background-color: rgb(30, 41, 59);" src="apple.png"/></a>
+                <a href="https://www.youtube.com/watch?v=jBgaGEqQfsA&list=PL1-ZPcIDJHfwFvRKJt0JXibfp1XV8LM70" target="_blank"><img class="customPlay nozoom" src="youtube.png"/></a>
             </td>
         </tr>
         <tr>
