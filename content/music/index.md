@@ -13,6 +13,7 @@ showTaxonomies : false
 showWordCount : false
 showSummary : false
 sharingLinks : false
+showEdit: false
 
 #groupByYear : false
 
