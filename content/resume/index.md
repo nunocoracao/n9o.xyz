@@ -13,22 +13,12 @@ showTaxonomies : false
 showWordCount : false
 showSummary : false
 sharingLinks : false
+showEdit: false
+
 
 ---
 
 ## Experience
-
-<!--div style="display: flex; flex-wrap: wrap"> 
-    <img class="customEntitityLogo" src="docker.png"/>
-    <img class="customEntitityLogo" src="truphone.png"/>
-    <img class="customEntitityLogo" src="vodafone.png"/>
-    <img class="customEntitityLogo" src="skimic.png"/>
-    <img class="customEntitityLogo" src="sky.png"/>
-    <img class="customEntitityLogo" src="nos.png"/>
-    <img class="customEntitityLogo" src="inesc.png"/>
-    <img class="customEntitityLogo" src="hbs.svg"/>
-    <img class="customEntitityLogo" src="ist.png"/>
-</div-->
 
 <table>
     <thead>
