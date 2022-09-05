@@ -1,13 +1,60 @@
 ---
-title: "Streaming Wars"
-description: "TBD"
-summary: "tbd"
-categories: []
-tags: []
+title: "Streaming Wars and What Comes After… "
+description: "Last July and for the first time ever, streaming viewership surpassed cable. The streaming wars began around 2010 when Netflix introduced their first streaming-only plan with no DVD rentals, other players laughed at the time… little did they know. A decade after, there’s a multitude of streaming services available for mainstream entertainment and also for specific niches. What will happen next?"
+summary: "Last July and for the first time ever, streaming viewership surpassed cable. The streaming wars began around 2010 when Netflix introduced their first streaming-only plan with no DVD rentals, other players laughed at the time… little did they know. A decade after, there’s a multitude of streaming services available for mainstream entertainment and also for specific niches. What will happen next?"
+categories: ["Product","Strategy",]
+tags: ["Streaming","Wars","Product","Strategy","Netflix","Disney","Amazon","Apple","Prediction"]
 #externalUrl: ""
 showSummary: true
 date: 2022-09-04
 draft: true
 ---
 
-<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="feature.png"/>
+<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="feature.jpg"/>
+
+Last July and for the first time ever, [streaming viewership surpassed cable](https://www.forbes.com/sites/carlieporterfield/2022/08/18/streaming-viewership-surpasses-cable-for-first-time-nielsen-says/?sh=76189d23767e). The streaming wars began around 2010 when Netflix introduced their first streaming-only plan with no DVD rentals, other players (cough, cough… Blockbuster) laughed at the time… little did they know. A decade after, there’s a multitude of streaming services available for mainstream entertainment and also for specific niches (e.g., [Curiosity Stream](https://curiositystream.com)- documentaries, [Crunchyroll – anime](https://www.crunchyroll.com/), etc.). 
+
+## How Did We Get Here?
+This question could turn into its series of posts, aka a very long and boring answer. The short version, Netflix hit gold when they launched their streaming-only subscription service that allowed customers to watch what they wanted when they wanted. This was a massive shift from the linear TV experience where you either had to wait in front of the TV to watch your favorite show, record and watch it later, or wait for a rerun (_fun fact: there was another option to set a reminder to watch your shows :D_). Not only did Netflix launched a way better product to **consume** content, they also changed the way users **discovered** new series and movies by recommending new shows based on previous history. Users flocked to this service, which was significantly better than the alternatives and also cheaper than the average cable subscription at the time (i.e., _cutting the chord_).
+
+<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="players.png"/>
+
+  
+After Netflix showed everyone how people really wanted to consume content, several players were interested in replicating that model themselves. Traditional content producers (e.g., HBO, Disney, etc.) saw a way to control their distribution channel and get a direct relationship with their customers. Other players, like Apple and Amazon, saw a good opportunity to expand their _service subscription_ strategy by offering yet-another-service to their user-base. This year, most of these services [reached hundreds of millions of paying users](https://www.indiewire.com/2022/08/how-many-subscribers-netflix-hbo-max-disney-plus-1234744445/), and the competition on this industry was never this strong.
+
+## Massive Investment in Content
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/2u11zpzwyMTy8" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+One of the strong signals of this competition is the huge amounts of money being spent in content production. HBO just released _[House of the Dragon](https://en.wikipedia.org/wiki/House_of_the_Dragon)_, a prequel to their hit series _[Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones)_. The first season had an estimated production cost of just [under $20 million per episode]([https://variety.com/2022/tv/news/house-of-the-dragon-budget-episode-cost-1235238285/]), making the 10 episode run cost a full $200 million. In comparison, _[Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones)_ cost [around $100 million per season]([https://variety.com/2022/tv/news/house-of-the-dragon-budget-episode-cost-1235238285/]), with the average cost per episode starting around $6 million in season 1 and going up to $15 million in the final season. This means HBO just invested roughly double what it did in the last season of _[Game of Thrones](https://www.imdb.com/title/tt0944947/)_. 
+
+Amazon, coincidentally, also decided to launch its _prequel_ of a super loved property in the fantasy drama space, _[Lord of the Rings](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings)_. Investment in the new series, called_[Lord of the Rings: The Rings of Power](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Rings_of_Power)_, is estimated to be around $1 billion. Amazon bought the franchise rights to _[Lord of the Rings](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings)_ for [$250 million](https://www.bloomberg.com/news/articles/2022-09-03/amazon-s-lord-of-the-rings-series-draws-25-million-on-debut) and invested $465 million to produce the eight-episode first season of the show. In comparison, the entire trilogy of the _[Lord of the Rings](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings)_ was produced for roughly $300 million, $100 million for each movie.
+
+Netflix has been increasing its costs with content production in [the last years](https://www.statista.com/statistics/964789/netflix-content-spend-worldwide/), arriving at [$17 billion this year](https://deadline.com/2022/07/netflix-content-spending-plateau-17-billion-1235072812/). Disney is set to spend even more than that, [$32 billion]([https://www.hollywoodreporter.com/business/digital/disney-content-spend-profit-streaming-1235145367/]) (even after cuts). In a different space, big tech companies are also [getting into the _live sports_ space](https://www.nytimes.com/2022/07/24/technology/sports-streaming-rights.html). All of this spending creates a super competitive environment across all services, which is not necessarily in the best interest of the viewers.
+
+## Quality is Decreasing
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/l0IycBz4icBmwxV6M" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+One could argue that all the investment and all the money being thrown at content production will bring the golden age of entertainment. However, as most big investments, they are made to make someone money. In the entertainment industry, one of the ways to reduce risk is to invest in properties that have already proven their value in opposition to new Intellectual Property (IP).
+  
+The levels of “content pumping” that we are seeing nowadays is leading to a massive decrease in quality, and worse, viewer fatigue. Specially since it is focused on a minimal set of genres (i.e., fantasy, hero movies, etc.) and franchises (i.e., Marvel Cinematic Universe, DC Cinematic Universe, Star Wars, Fast and the Furious, etc.)
+
+
+## More Money In… More Money Out
+When a company increases costs, usually the aim is to increase revenue and profit. Streaming services charge a fixed fee per month. Therefore, it doesn’t really matter how much or how little you loved the next big _fantasy drama_ series from your favorite streaming provider – they will make the same amount of money from you. 
+  
+Unless… streaming companies increase subscription prices and find new ways to monetize content. Aided with the excuse of inflation, most services have [increased their prices]([https://fortune.com/2022/08/11/disney-plus-hulu-price-increase-hbo-max-paramount-peacock/]) in the last year. Specifically, Disney+ subscription in the U.S. will rise from $7.99 to $10.99, while Hulu's ad-free offering will jump from $12.99 per month to $14.99 per month. Netflix cheapest plan [increased](https://www.theverge.com/2022/3/24/22993562/netflix-price-increase-us-plans-2022) to $9.99, with the top one at $20.00. Additionally, executives from most of these big companies are also [planning to roll out ads]([https://www.forbes.com/sites/forbescommunicationscouncil/2022/06/17/why-streaming-platforms-are-accelerating-their-plans-for-an-advertising-model-now/]) in their services. Yes, even [Netflix that resisted for years]([https://www.nytimes.com/2022/04/19/business/media/netflix-amazon-disney-ads.html]) cannot keep ignoring that option when faced with competition.
+
+Ultimately, this is a worse product for the user. Price increases could make the overall cost with streaming services too high for some users, which will force a choice to which services to keep. Furthermore, you will get ads again, or you can pay more if you would rather not see them. 
+
+## What Happens Next?
+The high levels of competition have begun to generate frustration among users. Users are starting to get _fatigued_ with the low-quality and constant recycling of content (I swear, I am uncertain whether I can handle yet another Marvel Movie or Star Wars trilogy). The increase in prices, specially in the current economic situation, will force users to choose which services to pay for, if any. And ultimately, competition for user’s attention has never been so high. Social networks like Twitter, Instagram, and TikTok take hours of engagement daily out of each user. Video games investment has never been so high, with so many options of games and consoles. 
+
+In my opinion, the streaming wars have already peaked, and we’ll see a change in the upcoming years before getting to a new equilibrium. I think that one out of three things will happen: 
+
+- **Horizontal Expansion** - current streaming services would need to expand to provide additional services and bundle them together. This would increase the _value for money_ and could be interesting to some users depending on what is being bundled. Netflix has begun doing this with [games](https://www.wired.com/story/how-to-play-netflix-games/). Companies like Amazon and Apple came into streaming exactly for this reason, expansion into streaming even if it was not their core business. 
+- **Aggregation** - One service to rule them all… If one of the existing services, or a new player, can aggregate content from several players at a lower price point, this could create a captivating value proposition for customers on the lower end. This option seems highly unlikely, this was Netflix play years ago, and it didn’t work, potentially because they were greedy. Nevertheless, in the current scenario, it is highly unlikely that big players would share rights with another VS getting exclusivity on those.
+- **Merges and Aquisitions** - Big fish eats smaller fish. This is bound to happen at some point, it’s just a matter of time and which company will acquire which company for what amount of money. It’s not clear if this will be good or bad for customers, depending on who starts playing together.
+
+My prediction is that ultimately, big tech companies like Amazon or Apple will begin acquiring other smaller players. These companies come into streaming as a horizontal expansion from their core businesses. Both are armed with an order of magnitude more revenues than their _content only_ counterparts. As an example, in 2021 Disney’s revenue was $81.10 billion and Netflix was $24.9 billion. In comparison, Apple’s revenue in the same year was $378.32 billion and Amazon’s was $468.82 billion. With this kind of “war chest” plus their own core business (Apple devices, and Amazon e-commerce business) it will be way easier for these companies to step in when they want to.
