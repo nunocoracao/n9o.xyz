@@ -20,14 +20,15 @@ dateFormat = "2 January 2006"
   links = [
     { linkedin = "https://linkedin.com/in/nunocoracao" },
     { twitter = "https://twitter.com/nunocoracao" },
-    { goodreads = "http://goodreads.com/nunocoracao" },
     { medium = "https://medium.com/@nunocoracao" },
-    #{ hackernews = "https://news.ycombinator.com/user?id=nunocoracao"},
     { github = "https://github.com/nunocoracao" },
+    { goodreads = "http://goodreads.com/nunocoracao" },
+    #{ reddit = "https://reddit.com/user/nunoheart" },
+    #{ hackernews = "https://news.ycombinator.com/user?id=nunocoracao"},
     #{ telegram = "https://t.me/nunocoracao" },
     #{ keybase = "https://keybase.io/nunocoracao" },
     #{ instagram = "https://instagram.com/nunocoracao" },
-    { music = "https://hyperfollow.com/bydopplereffect" },
+    #{ music = "/music" },
 
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
