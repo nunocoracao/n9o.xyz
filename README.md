@@ -1,4 +1,4 @@
-# [nunocoracao.com](nunocoracao.com)
+# [nunocoracao.com](https://nunocoracao.com)
 
 Repo for my personal homepage with everything I've been up to, and where I write about stuff I am interested in. Decided to make this repo public so that people can suggest edits to articles using github.
 
