@@ -1,8 +1,7 @@
 # -- Site Configuration --
 # Refer to the theme docs for more details about each of these parameters.
-# https://jpanther.github.io/congo/docs/getting-started/
 
-theme = "congo"
+theme = "blowfish"
 baseURL = "https://nunocoracao.com/"
 defaultContentLanguage = "en"
 
@@ -12,7 +11,6 @@ summaryLength = 30
 
 buildDrafts = false
 buildFuture = false
-
 
 googleAnalytics = "G-R94R4YKFEC"
 
