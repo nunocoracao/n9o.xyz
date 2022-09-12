@@ -6,6 +6,7 @@ categories: ["Product", "Mentorship", "Interview"]
 tags: ["Product", "Mentorship", "Interview", "Mentorcruise"]
 externalUrl: "https://mentorcruise.com/blog/nuno-coracao-meet-the-mentor-01006/"
 showSummary: true
+showViews: false
 date: 2022-06-26
 draft: false
 showReadingTime: false
