@@ -20,7 +20,7 @@ showViews: false
 
 ---
 
-I always try to find time to work and learn outside of work. Usually most of them don't see the list of day. Here is a list of projects I am involved with.
+I always try to find time to work and learn something new. Usually, most of these _pet-projects_ don't see the light of day. They are, however, great opportunities to try something in the real world and learn from it.
 
 <table>
     <thead>
