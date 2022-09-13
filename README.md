@@ -4,7 +4,7 @@ Repo for my personal homepage with everything I've been up to, and where I write
 
 Powered by:
 
-![blowfish logo](https://github.com/nunocoracao/homepage/blob/main/blowfish_banner.png?raw=true)
+![blowfish logo](https://github.com/nunocoracao/homepage/blob/main/blowfish_banner_full.png?raw=true)
 
 ## Frameworks and Misc.
 These are the tools that I've used to build this...
