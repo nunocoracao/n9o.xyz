@@ -26,9 +26,14 @@
   weight = 30
 
 [[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 40
+
+[[main]]
   name = "Music"
   pageRef = "music"
-  weight = 40
+  weight = 50
 
 #[[main]]
 #  name = "Categories"
