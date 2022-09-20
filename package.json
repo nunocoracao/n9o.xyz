@@ -1,0 +1,23 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Nuno Coracao personal homepage and blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server --minify -D -E -F"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunocoracao/homepage.git"
+  },
+  "keywords": [
+    "homepage",
+    "blog"
+  ],
+  "author": "Nuno Coracao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nunocoracao/homepage/issues"
+  },
+  "homepage": "https://github.com/nunocoracao/homepage#readme"
+}
