@@ -6,13 +6,14 @@ categories: ["Product","Strategy",]
 tags: []
 #externalUrl: ""
 showSummary: true
-date: 2022-09-20
+date: 2021-09-20
 draft: true
 ---
 
-<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="feature.jpg"/>
+<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="featured.jpg"/>
 
 Last July and for the first time ever, <a target="_blank" href="https://www.forbes.com/sites/carlieporterfield/2022/08/18/streaming-viewership-surpasses-cable-for-first-time-nielsen-says/?sh=76189d23767e">streaming viewership surpassed cable</a>. The streaming wars began around 2010 when Netflix introduced their first streaming-only plan with no DVD rentals, other players (cough, cough… Blockbuster) laughed at the time… little did they know. A decade after, there’s a multitude of streaming services available for mainstream entertainment and also for specific niches (e.g., <a target="_blank" href="https://curiositystream.com">Curiosity Stream</a> - documentaries, <a target="_blank" href="https://www.crunchyroll.com/">Crunchyroll</a> - anime, etc.). 
+
 
 
 ## How Did We Get Here?
