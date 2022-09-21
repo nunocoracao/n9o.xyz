@@ -65,12 +65,12 @@ The last element of the puzzle is the Business Model. Sustaining innovations are
 
 If you are shipping something slightly better for your high-end customers, it makes sense that you are also going to increase your profit margins. By doing this, companies can show an expectable growth rate every cycle, which is a great message for investors and stockholders. Usually, the better margin is achieved by exploiting the existing processes and cost structures and by making better use of current competitive advantages.
 
-If we compare the prices between <a target="_blank" href="https://techcrunch.com/2022/09/07/heres-everything-apple-announced-today-at-its-far-out-iphone-event/">this year’s event</a> and <a target="_blank" href="https://www.engadget.com/apple-iphone-13-event-supercut-201538409.html">last year’s one</a>, there is a clear increase in some products. Given the similarity of the hardware between last year and this year’s models, I would guess the cost remained relatively similar, which would lead to an increase in the profit margin.  
+If we compare the prices between <a target="_blank" href="https://techcrunch.com/2022/09/07/heres-everything-apple-announced-today-at-its-far-out-iphone-event/">this year’s event</a> and <a target="_blank" href="https://www.engadget.com/apple-iphone-13-event-supercut-201538409.html">last year’s one</a>, there is an increase in some products. Given the similarity of the hardware between last year and this year’s models, I would guess the cost remained relatively similar, which would lead to an increase in the profit margin.  
 
 | Products and Starting Prices | 2021                             | 2022                             | Delta                            |
 | ---------------------------- | -------------------------------- | -------------------------------- | -------------------------------- |
 | iPhone line                  | (13) $799 <br />(13 mini) $699         | (14 Plus) $899 <br />(14) $799         | $100 per unit                    |
-| iPhone Pro line              | (13 Pro Max) $1099 <br />(13 Pro) $699 | (14 Pro Max) $1099 <br />(14 Pro) $999 | $300 per unit on the entry model |
+| iPhone Pro line              | (13 Pro Max) $1099 <br />(13 Pro) $999 | (14 Pro Max) $1099 <br />(14 Pro) $999 | n/a |
 | Apple Watch                  | (Watch 7) $399                   | $399                             | n/a                              |
 | Apple Watch Ultra            | n/a                              | $799                             | New revenue                      |
 
