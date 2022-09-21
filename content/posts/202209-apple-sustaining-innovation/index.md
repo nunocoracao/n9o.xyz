@@ -43,14 +43,14 @@ People still remember the legendary announcements of the iPod, the iPhone, or th
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/wGoM_wVrwng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Sustaining Innovation
-There are three types of innovations: **Sustaining Innovations**, **Low-End disruptions**, and **New-Market disruptions**. Sustaining innovation, usually happens when a company becomes a market leader and is leading technology innovation in its space. Organizations that reach this stage see their incentives change dramatically. 
+On the theory of **<a target="_blank" href="https://en.wikipedia.org/wiki/Disruptive_innovation">Disruptive Innovation</a>** there are three types of innovations: **Sustaining Innovations**, **Low-End disruptions**, and **New-Market disruptions**. Sustaining innovation, usually happens when a company becomes a market leader and is leading technology innovation in its space. Organizations that reach this stage see their incentives change dramatically. 
 
-Instead of focusing on something dramatically different and disruptive, companies end up slowing down their innovation speed and settle for providing ever-better products that can sell for ever-better profits to their very best customers. I.e., the game becomes about staying on the top, not getting there. 
+Instead of focusing on something different and disruptive, companies end up slowing down their innovation speed and settle for providing ever-better products that can sell for ever-better profits to their very best customers. I.e., the game becomes about staying on the top, not getting there. 
 
 Ultimately, a sustaining innovation makes good products into better products, which is not a bad strategy at all. Sustaining innovation can be characterized in three different aspects: **performance**, **customers**, and **business model**.
 
 ### Performance
-This first aspect means that these types of innovations aim to increase performance in attributes most valued by the company’s most demanding customers (typically the high-end customers are the ones willing to pay more for premium features on products). 
+This first aspect means that these types of innovations aim to increase performance in attributes most valued by the company’s most demanding customers (typically, the high-end customers are the ones willing to pay more for premium features on products). 
 
 These improvements may be either a) incremental or b) breakthroughs to the product. Apple’s event had a couple of examples of both. The iPhones got slightly better with features that probably the average consumer will not need/use (e.g., do you really need a better camera to share on WhatsApp or post images on Instagram?). The Apple Watch Ultra was a good example of a breakthrough, in which it’s a high-end offering for premium customers of smartwatches with tons of new features.
 
@@ -58,19 +58,19 @@ These improvements may be either a) incremental or b) breakthroughs to the produ
 ### Customers
 The second characteristic is that usually the target is the high-end of the market. Why? Because these are the customers who are probably willing to pay more for an even better product. These are also the users who value those premium features that most people don’t care and are not willing to pay for. 
 
-If you take a look at the pricing strategy for the new Apple products (specially the premium ones) it’s clear that the target is the high-end as there was where the price spikes happened. The cheapest iPhone Pro is $300 more expensive than last year, and the Apple Watch Ultra starts at $799 which is twice the price of the new series 8.
+If you take a look at the pricing strategy for the new Apple products (specially the premium ones) it’s clear that the target is the high-end as that was where the price spikes happened. The cheapest iPhone Pro is $300 more expensive than last year, and the Apple Watch Ultra starts at $799 which is twice the price of the new series 8.
 
 ### Business Model
-The last element of the puzzle is the Business Model. Sustaining innovations are frequently charactering by increasing (or at least retains) the profit margins. The incentive comes from the previous points in the sense of shifting from big leaps and bets to a more conservative approach. 
+The last element of the puzzle is the Business Model. Sustaining innovations are frequently characterized by an increase (or at least retention) of the profit margins. The incentive comes from the previous points in the sense of shifting from big leaps and bets to a more conservative approach. 
 
 If you are shipping something slightly better for your high-end customers, it makes sense that you are also going to increase your profit margins. By doing this, companies can show an expectable growth rate every cycle, which is a great message for investors and stockholders. Usually, the better margin is achieved by exploiting the existing processes and cost structures and by making better use of current competitive advantages.
 
-If we compare the prices between <a target="_blank" href="https://techcrunch.com/2022/09/07/heres-everything-apple-announced-today-at-its-far-out-iphone-event/">this year’s event</a> and <a target="_blank" href="https://www.engadget.com/apple-iphone-13-event-supercut-201538409.html">last year’s one</a>, there is a clear increase in some products. Given the similarity of the hardware between last year and this year’s models, I would guess the cost remain relative similar, which would lead to an increase in the profit margin.  
+If we compare the prices between <a target="_blank" href="https://techcrunch.com/2022/09/07/heres-everything-apple-announced-today-at-its-far-out-iphone-event/">this year’s event</a> and <a target="_blank" href="https://www.engadget.com/apple-iphone-13-event-supercut-201538409.html">last year’s one</a>, there is a clear increase in some products. Given the similarity of the hardware between last year and this year’s models, I would guess the cost remained relatively similar, which would lead to an increase in the profit margin.  
 
 | Products and Starting Prices | 2021                             | 2022                             | Delta                            |
 | ---------------------------- | -------------------------------- | -------------------------------- | -------------------------------- |
-| iPhone line                  | (13) $799 (13 mini) $699         | (14 Plus) $899 (14) $799         | $100 per unit                    |
-| iPhone Pro line              | (13 Pro Max) $1099 (13 Pro) $699 | (14 Pro Max) $1099 (14 Pro) $999 | $300 per unit on the entry model |
+| iPhone line                  | (13) $799 <br />(13 mini) $699         | (14 Plus) $899 <br />(14) $799         | $100 per unit                    |
+| iPhone Pro line              | (13 Pro Max) $1099 <br />(13 Pro) $699 | (14 Pro Max) $1099 <br />(14 Pro) $999 | $300 per unit on the entry model |
 | Apple Watch                  | (Watch 7) $399                   | $399                             | n/a                              |
 | Apple Watch Ultra            | n/a                              | $799                             | New revenue                      |
 
