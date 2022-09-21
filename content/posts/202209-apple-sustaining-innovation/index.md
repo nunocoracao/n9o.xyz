@@ -46,7 +46,7 @@ In the theory of **<a target="_blank" href="https://en.wikipedia.org/wiki/Disrup
 
 Instead of focusing on something different and disruptive, companies end up slowing down their innovation speed and settle for providing ever-better products that can sell for ever-better profits to their very best customers. I.e., the game becomes about staying on the top, not getting there. 
 
-Ultimately, a sustaining innovation makes good products into better products, which is not a bad strategy at all. Sustaining innovation can be characterized in three different aspects: **performance**, **customers**, and **business model**.
+Ultimately, sustaining innovation makes good products into better products, which is not a bad strategy at all. Sustaining innovation can be characterized in three different aspects: **performance**, **customers**, and **business model**.
 
 ### Performance
 This first aspect means that these types of innovations aim to increase performance in attributes most valued by the company’s most demanding customers (typically, the high-end customers are the ones willing to pay more for premium features on products). 
