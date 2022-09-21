@@ -1,7 +1,7 @@
 ---
 title: "Apple: iPhone 14, Watch 8, and Sustaining Innovation"
-description: "Last week, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why is probably the best strategy for Apple at this stage."
-summary: "Last week, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why is probably the best strategy for Apple at this stage."
+description: "On the 7th of September, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why probably this is the best strategy for Apple."
+summary: "On the 7th of September, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why probably this is the best strategy for Apple."
 categories: ["Product","Strategy",]
 tags: ["Product","Strategy","Apple","Disruptive Innovation","Sustaining Innovation","iPhone","Apple Watch"]
 #externalUrl: ""
@@ -12,7 +12,7 @@ draft: true
 
 <img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="featured.jpg"/>
 
-Last week, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why is probably the best strategy for Apple at this stage.
+On the 7th of September, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why probably this is the best strategy for Apple.
 
 ## Apple’s Announcements
 Let’s start at the beginning, what happened on the event? Apple launched the new iPhone 14 line, 2 new Apple Watches, and new AirPods Pro. These are all new iterations over existing products, and the company didn’t release any new product line. I will focus just on the iPhones and watches.
