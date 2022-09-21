@@ -1,12 +1,12 @@
 ---
 title: "Sustaining Innovation"
-description: "tbd"
-summary: "tbd"
+description: "Last week, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why is probably the best strategy for Apple at this stage."
+summary: "Last week, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why is probably the best strategy for Apple at this stage."
 categories: ["Product","Strategy",]
-tags: []
+tags: ["Product","Strategy","Apple","Disruptive Innovation","Sustaining Innovation","iPhone","Apple Watch"]
 #externalUrl: ""
 showSummary: true
-date: 2022-09-20
+date: 2022-09-21
 draft: true
 ---
 
