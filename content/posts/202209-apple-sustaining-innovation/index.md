@@ -42,7 +42,7 @@ People still remember the legendary announcements of the iPod, the iPhone, or th
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/wGoM_wVrwng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Sustaining Innovation
-On the theory of **<a target="_blank" href="https://en.wikipedia.org/wiki/Disruptive_innovation">Disruptive Innovation</a>** there are three types of innovations: **Sustaining Innovations**, **Low-End disruptions**, and **New-Market disruptions**. Sustaining innovation, usually happens when a company becomes a market leader and is leading technology innovation in its space. Organizations that reach this stage see their incentives change dramatically. 
+In the theory of **<a target="_blank" href="https://en.wikipedia.org/wiki/Disruptive_innovation">Disruptive Innovation</a>** there are three types of innovations: **Sustaining Innovations**, **Low-End disruptions**, and **New-Market disruptions**. Sustaining innovation, usually happens when a company becomes a market leader and is leading technology innovation in its space. Organizations that reach this stage see their incentives change dramatically. 
 
 Instead of focusing on something different and disruptive, companies end up slowing down their innovation speed and settle for providing ever-better products that can sell for ever-better profits to their very best customers. I.e., the game becomes about staying on the top, not getting there. 
 
