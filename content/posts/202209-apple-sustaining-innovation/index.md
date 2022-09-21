@@ -42,7 +42,7 @@ Apple also launched a new premium watch, the Apple Watch Ultra, designed for ath
 People still remember the legendary announcements of the iPod, the iPhone, or the original MacBook Air. However, present day Apple is not the same company that generated those massive innovations. At the time, Apple was on a position of whether to disrupt the market or die. Now, Apple is one of the biggest companies of all time, valued at $2.4T (yes, T as in trillion). As an incumbent, its incentives changed dramatically and for a while now, Apple is in a cycle of **<a target="_blank" href="https://online.hbs.edu/blog/post/sustaining-vs-disruptive-innovation">Sustaining Innovation</a>
 **.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wGoM_wVrwng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/wGoM_wVrwng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Sustaining Innovation
 There are three types of innovations: **Sustaining Innovations**, **Low-End disruptions**, and **New-Market disruptions**. Sustaining innovation, usually happens when a company becomes a market leader and is leading technology innovation in its space. Organizations that reach this stage see their incentives change dramatically. 
