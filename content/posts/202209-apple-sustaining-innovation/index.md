@@ -3,11 +3,11 @@ title: "Apple: iPhone 14, Watch 8, and Sustaining Innovation"
 description: "On the 7th of September, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why probably this is the best strategy for Apple."
 summary: "On the 7th of September, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why probably this is the best strategy for Apple."
 categories: ["Product","Strategy",]
-tags: ["Product","Strategy","Apple","Disruptive Innovation","Sustaining Innovation","iPhone","Apple Watch"]
+tags: ["Product","Strategy","Apple","Disruptive Innovation","Sustaining Innovation","Innovation","iPhone","Apple Watch"]
 #externalUrl: ""
 showSummary: true
 date: 2022-09-21
-draft: true
+draft: false
 ---
 
 <img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="featured.jpg"/>

@@ -6,7 +6,7 @@ categories: ["Product","Strategy",]
 tags: []
 #externalUrl: ""
 showSummary: true
-date: 2021-09-20
+date: 2022-10-01
 draft: true
 ---
 
