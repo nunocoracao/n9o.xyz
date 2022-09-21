@@ -55,7 +55,7 @@ These improvements may be either a) incremental or b) breakthroughs to the produ
 
 
 ### Customers
-The second characteristic is that usually the target is the high-end of the market. Why? Because these are the customers who are probably willing to pay more for an even better product. These are also the users who value those premium features that most people don’t care and are not willing to pay for. 
+The second characteristic is that usually, the target is the high-end of the market. Why? Because these are the customers who are probably willing to pay more for an even better product. These are also the users who value those premium features that most people don’t care about or are not willing to pay for. 
 
 If you take a look at the pricing strategy for the new Apple products (specially the premium ones) it’s clear that the target is the high-end as that was where the price spikes happened. The cheapest iPhone Pro is $300 more expensive than last year, and the Apple Watch Ultra starts at $799 which is twice the price of the new series 8.
 
