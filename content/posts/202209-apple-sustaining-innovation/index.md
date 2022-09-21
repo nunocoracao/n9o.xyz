@@ -37,8 +37,7 @@ Apple Watch Series 8 looks exactly like the Series 7 with a couple of new tricks
 Apple also launched a new premium watch, the Apple Watch Ultra, designed for athletes. This one brings in plenty of features that an average person will probably never need: the ability to dive to 39 m, a 86db siren if you need to ask for help, improved GPS sensors to help track direction and distance and so on. The really amazing feature, the battery lasts 36 hours.
 
 ## Why It’s Not the Same
-People still remember the legendary announcements of the iPod, the iPhone, or the original MacBook Air. However, present day Apple is not the same company that generated those massive innovations. At the time, Apple was on a position of whether to disrupt the market or die. Now, Apple is one of the biggest companies of all time, valued at $2.4T (yes, T as in trillion). As an incumbent, its incentives changed dramatically and for a while now, Apple is in a cycle of **<a target="_blank" href="https://online.hbs.edu/blog/post/sustaining-vs-disruptive-innovation">Sustaining Innovation</a>
-**.
+People still remember the legendary announcements of the iPod, the iPhone, or the original MacBook Air. However, present day Apple is not the same company that generated those massive innovations. At the time, Apple was on a position of whether to disrupt the market or die. Now, Apple is one of the biggest companies of all time, valued at $2.4T (yes, T as in trillion). As an incumbent, its incentives changed dramatically and for a while now, Apple is in a cycle of **<a target="_blank" href="https://online.hbs.edu/blog/post/sustaining-vs-disruptive-innovation">Sustaining Innovation</a>**.
 
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/wGoM_wVrwng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
