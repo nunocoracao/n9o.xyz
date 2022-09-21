@@ -50,7 +50,7 @@ Instead of focusing on something dramatically different and disruptive, companie
 Ultimately, a sustaining innovation makes good products into better products, which is not a bad strategy at all. Sustaining innovation can be characterized in three different aspects: **performance**, **customers**, and **business model**.
 
 ### Performance
-This first aspect means that these types of innovations aim to increase performance in attributes most valued by the company’s most demanding customers (typically the high-end are the ones willing to pay more for whatever premium features come to your products). 
+This first aspect means that these types of innovations aim to increase performance in attributes most valued by the company’s most demanding customers (typically the high-end customers are the ones willing to pay more for premium features on products). 
 
 These improvements may be either a) incremental or b) breakthroughs to the product. Apple’s event had a couple of examples of both. The iPhones got slightly better with features that probably the average consumer will not need/use (e.g., do you really need a better camera to share on WhatsApp or post images on Instagram?). The Apple Watch Ultra was a good example of a breakthrough, in which it’s a high-end offering for premium customers of smartwatches with tons of new features.
 
