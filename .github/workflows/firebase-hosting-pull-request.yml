@@ -28,6 +28,6 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOMEPAGE_A0C38 }}'
-          expires: 3d
+          expires: 180d
           channelID: preview
           projectId: homepage-a0c38
