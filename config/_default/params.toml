@@ -24,6 +24,8 @@ mainSections = ["posts", "suggest", "external"]
   layout = "profile" # valid options: page, profile, custom
   showRecent = true
   showRecentItems = 10
+  showMoreLink = true
+  showMoreLinkDest = '/posts'
 
 [article]
   showDate = true
