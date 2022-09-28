@@ -15,6 +15,7 @@ showSummary : false
 sharingLinks : false
 showEdit: false
 showViews: false
+showLikes: false
 
 #groupByYear : false
 
