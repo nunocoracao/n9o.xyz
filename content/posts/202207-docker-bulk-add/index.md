@@ -2,8 +2,8 @@
 title: "Bulk User Add for Docker Business and Teams"
 description: "Forget manually inviting team members to Docker Desktop. With Bulk Add for Docker Business, invite your entire team with a CSV file or their Docker IDs!"
 summary: "Forget manually inviting team members to Docker Desktop. With Bulk Add for Docker Business, invite your entire team with a CSV file or their Docker IDs!"
-categories: ["Product", "Docker"]
-tags: ["Product", "Docker", "Feature", "Docker Hub"]
+categories: ["Product"]
+tags: ["Docker"]
 externalUrl: "https://www.docker.com/blog/bulk-user-add-for-docker-business-and-teams/"
 showSummary: true
 showViews: false

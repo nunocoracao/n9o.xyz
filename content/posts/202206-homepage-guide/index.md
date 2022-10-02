@@ -3,7 +3,7 @@ title: "How I Created My Homepage (for free) Using Docker, Hugo, and Firebase"
 description: "Currently, there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results."
 summary: "Currently, there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results."
 categories: ["Development", "Tutorial"]
-tags: ["Development", "Environment", "Tutorial", "Hugo", "Congo", "Docker", "VSCode", "Go"]
+tags: ["Hugo", "Congo", "Docker", "VSCode"]
 #externalUrl: ""
 showSummary: true
 date: 2022-06-27

@@ -2,8 +2,8 @@
 title: "Announcing Docker Hub Export Members"
 description: "Find out how Docker Business admins can export members to track their utilization of Docker and audit Docker usage."
 summary: "Find out how Docker Business admins can export members to track their utilization of Docker and audit Docker usage."
-categories: ["Product", "Docker"]
-tags: ["Product", "Docker", "Feature", "Docker Hub"]
+categories: ["Product"]
+tags: ["Docker"]
 externalUrl: "https://www.docker.com/blog/announcing-docker-hub-export-members/"
 showSummary: true
 showViews: false
