@@ -1,13 +1,13 @@
 ---
-title: "How to Run Stable Diffusion Locally"
+title: "How to Run Stable Diffusion On Your Laptop"
 description: "In the last year, several machine learning models have become available to the public to generate images from textual descriptions. This has been an interesting development in the AI space. However, just recently did this technology was open sourced so that people can try it out locally."
 summary: "In the last year, several machine learning models have become available to the public to generate images from textual descriptions. This has been an interesting development in the AI space. However, just recently did this technology was open sourced so that people can try it out locally."
-categories: ["Product","Strategy",]
-tags: []
+categories: ["Technology","Tutorial",]
+tags: ["AI","Stable Diffusion","Neural Network"]
 #externalUrl: ""
 showSummary: true
 date: 2022-10-06
-draft: true
+draft: false
 ---
 
 In the last year, several machine learning models have become available to the public to generate images from textual descriptions. This has been an interesting development in the AI space. However, most of these models have remained closed source for valid ethic reasons. Because of this, even though you can interact with them via some interface, you are limited in the number of things you can test. Until now…
@@ -225,12 +225,20 @@ Ultimately, there are a ton of options for running the Stable Diffusion model, s
 
 Tag me on your creations on social if you get this to work:
 
-{{< button href="https://twitter.com/nunocoracao" target="_blank" >}}
-{{< icon "twitter" >}}&nbsp;
-Follow me on Twitter
-{{< /button >}}
+<div style="display: flex; flex-wrap: wrap;">
 
-{{< button href="https://www.instagram.com/nunocoracao/" target="_blank" >}}
-{{< icon "instagram" >}}&nbsp;
-Follow me on Instagram
-{{< /button >}}
+  <div style="flex: 1; margin:10px; min-width:256px">
+    {{< button href="https://twitter.com/nunocoracao" target="_blank" >}}
+    {{< icon "twitter" >}}&nbsp;
+    Follow me on Twitter
+    {{< /button >}}
+  </div>
+
+  <div style="flex: 1; margin:10px; min-width:256px">
+    {{< button href="https://www.instagram.com/nunocoracao/" target="_blank" >}}
+    {{< icon "instagram" >}}&nbsp;
+    Follow me on Instagram
+    {{< /button >}}
+  </div>
+
+</div>
