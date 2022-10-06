@@ -16,6 +16,7 @@ draft: true
 
 <a href="/posts/202210-stable-diffusion-tutorial/" target="_blank">check tutorial here</a> 
 
+{{< article link="/posts/202210-stable-diffusion-tutorial/" >}}
 
 concept art for set
 
