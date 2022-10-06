@@ -12,7 +12,7 @@ draft: true
 
 <img class="thumbnailshadow" src="featured.png"/>
 
-web ui
+web ui s
 
 <img class="thumbnailshadow" src="webui.png"/>
 
