@@ -23,7 +23,7 @@ mainSections = ["posts", "suggest", "external"]
 [homepage]
   layout = "profile" # valid options: page, profile, custom
   showRecent = true
-  showRecentItems = 10
+  showRecentItems = 7
   showMoreLink = true
   showMoreLinkDest = '/posts'
 
