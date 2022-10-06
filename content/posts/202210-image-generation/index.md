@@ -12,6 +12,11 @@ draft: true
 
 <img class="thumbnailshadow" src="featured.png"/>
 
+[]()
+
+<a href="/posts/202210-stable-diffusion-tutorial/" target="_blank">check tutorial here</a> 
+
+
 concept art for set
 
 <div style="display: flex; flex-wrap: wrap;">
