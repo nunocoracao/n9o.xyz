@@ -68,7 +68,7 @@ xcode-select --install
 
 ### Install Conda
 
-Most of the solutions I’ve seen use <a href="https://docs.conda.io/projects/conda/en/latest/#" target="_blank">Conda</a> to manage the required packages and environments needed to run the solution. Conta’s guide to install on any platform is super clear, so I advise you to just follow the instructions here. They have two _flavours_ of their software: Anaconda and Miniconda. I tried Miniconda with no success. I ended up using Anaconda which solved some of the problems I was experiencing. Furthermore, I followed <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html" target="_blank">this guide</a>, when you are set you can use this command to verify your installation (_Note: don’t forget to restart your terminal application_):
+Most of the solutions I’ve seen use <a href="https://docs.conda.io/projects/conda/en/latest/#" target="_blank">Conda</a> to manage the required packages and environments needed to run the solution. Conda’s guide to install on any platform is super clear, so I advise you to just follow the instructions here. They have two _flavours_ of their software: Anaconda and Miniconda. I tried Miniconda with no success. I ended up using Anaconda which solved some of the problems I was experiencing. Furthermore, I followed <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html" target="_blank">this guide</a>, when you are set you can use this command to verify your installation (_Note: don’t forget to restart your terminal application_):
 
 ```bash
 conda
