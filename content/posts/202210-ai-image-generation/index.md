@@ -2,11 +2,11 @@
 title: "Image generation"
 description: "tbd"
 summary: "tbd"
-categories: ["Product","Strategy",]
-tags: []
+categories: ["Product","Strategy","Technology"]
+tags: ["Stable Diffusion","Midjourney","Dall-e","AI"]
 #externalUrl: ""
 showSummary: true
-date: 2022-10-15
+date: 2022-10-13
 draft: true
 ---
 
