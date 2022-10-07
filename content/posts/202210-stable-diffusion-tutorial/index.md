@@ -1,7 +1,7 @@
 ---
 title: "How to Run Stable Diffusion On Your Laptop"
-description: "In the last year, several machine learning models have become available to the public to generate images from textual descriptions. This has been an interesting development in the AI space. However, just recently did this technology was open sourced so that people can try it out locally."
-summary: "In the last year, several machine learning models have become available to the public to generate images from textual descriptions. This has been an interesting development in the AI space. However, just recently did this technology was open sourced so that people can try it out locally."
+description: "In the last year, several machine learning models have become available to the public to generate images from textual descriptions. This has been an interesting development in the AI space. However, just recently this technology became available for everyone to try."
+summary: "In the last year, several machine learning models have become available to the public to generate images from textual descriptions. This has been an interesting development in the AI space. However, just recently this technology became available for everyone to try."
 categories: ["Technology","Tutorial",]
 tags: ["AI","Stable Diffusion","Neural Network"]
 #externalUrl: ""
