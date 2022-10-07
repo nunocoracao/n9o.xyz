@@ -10,7 +10,7 @@ date: 2022-09-21
 draft: false
 ---
 
-<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="featured.jpg"/>
+<img class="thumbnailshadow" src="featured.jpg"/>
 
 On the 7th of September, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why probably this is the best strategy for Apple.
 
@@ -22,17 +22,17 @@ During the event, Apple launched four new iPhones: iPhone 14, iPhone 14 Plus, iP
 
 Both Pro models will run on the new A16 Bionic chip. Apple changed the front-facing camera notch into a “dynamic island”, which is an interesting software solution to the front-camera holes. The Pro models will have always-on displays.
 
-<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="iphone.jpg.webp"/>
+<img class="thumbnailshadow" src="iphone.jpg.webp"/>
 
 All models will drop the physical SIM tray in the US and will be eSIM only, and they will have emergency satellite connectivity. If you are in a spot with no Wi-Fi/cell connectivity and require assistance, these new iPhones will be able to connect to satellites to send compressed emergency alerts and messages. Apple says the satellite service will be included for free for two years, but hasn’t yet mentioned the cost after that. I’m really looking forward to the YouTube videos of people testing this last one.
 
-<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="pill.jpg.webp"/>
+<img class="thumbnailshadow" src="pill.jpg.webp"/>
 
 
 ### Watch
 Apple Watch Series 8 looks exactly like the Series 7 with a couple of new tricks under the hood. New temperature sensors that can be used to help wearers more accurately track ovulation cycles. A new sensor suite that can detect if you’re in a car crash and begin the process of contacting emergency services. Basically, last year’s model with a couple of new feature you probably don’t need. I was honestly confused when someone announced “low-power mode” as a new feature of the Apple Watch 8. If I remember correctly, I have that since my Apple Watch Series 2.
 
-<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="watch.jpg"/>
+<img class="thumbnailshadow" src="watch.jpg"/>
 
 Apple also launched a new premium watch, the Apple Watch Ultra, designed for athletes. This one brings in plenty of features that an average person will probably never need: the ability to dive to 39 m, a 86db siren if you need to ask for help, improved GPS sensors to help track direction and distance and so on. The really amazing feature, the battery lasts 36 hours.
 

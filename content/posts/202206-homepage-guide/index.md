@@ -10,7 +10,7 @@ date: 2022-06-27
 draft: false
 ---
 
-<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="feature.png"/>
+<img class="thumbnailshadow" src="feature.png"/>
 
 
 ## TL;DR
@@ -215,7 +215,7 @@ hugo server -D
 
 And navigate to <a target="_blank" href="http://localhost:1313">localhost:1313</a> you should see something similar to the page below.
 
-<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="configure/final.png"/>
+<img class="thumbnailshadow" src="configure/final.png"/>
 
 Congrats it’s looking great, let’s learn how to generate your first articles.
 
