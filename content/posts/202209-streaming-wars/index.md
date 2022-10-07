@@ -10,7 +10,7 @@ date: 2022-09-04
 draft: false
 ---
 
-<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="feature.jpg"/>
+<img class="thumbnailshadow" src="feature.jpg"/>
 
 Last July and for the first time ever, <a target="_blank" href="https://www.forbes.com/sites/carlieporterfield/2022/08/18/streaming-viewership-surpasses-cable-for-first-time-nielsen-says/?sh=76189d23767e">streaming viewership surpassed cable</a>. The streaming wars began around 2010 when Netflix introduced their first streaming-only plan with no DVD rentals, other players (cough, cough… Blockbuster) laughed at the time… little did they know. A decade after, there’s a multitude of streaming services available for mainstream entertainment and also for specific niches (e.g., <a target="_blank" href="https://curiositystream.com">Curiosity Stream</a> - documentaries, <a target="_blank" href="https://www.crunchyroll.com/">Crunchyroll</a> - anime, etc.). 
 
@@ -18,7 +18,7 @@ Last July and for the first time ever, <a target="_blank" href="https://www.forb
 ## How Did We Get Here?
 This question could turn into its series of posts, aka a very long and boring answer. The short version, Netflix hit gold when they launched their streaming-only subscription service that allowed customers to watch what they wanted when they wanted. This was a massive shift from the linear TV experience where you either had to wait in front of the TV to watch your favorite show, record and watch it later, or wait for a rerun (_fun fact: there was another option to set a reminder to watch your shows :D_). Not only did Netflix launch a way better product to **consume** content, but it also changed the way users **discovered** new series and movies by recommending new shows based on previous history. Users flocked to this service, which was significantly better than the alternatives and also cheaper than the average cable subscription at the time (i.e., _cutting the chord_).
 
-<img style="box-shadow: 10px 10px 30px 2px rgba(0,0,0,0.6);" src="players.png"/>
+<img class="thumbnailshadow" src="players.png"/>
 
   
 After Netflix showed everyone how people really wanted to consume content, several players were interested in replicating that model themselves. Traditional content producers (e.g., HBO, Disney, etc.) saw a way to control their distribution channel and get a direct relationship with their customers. Other players, like Apple and Amazon, saw a good opportunity to expand their _service subscription_ strategy by offering yet-another-service to their user-base. This year, most of these services <a target="_blank" href="https://www.indiewire.com/2022/08/how-many-subscribers-netflix-hbo-max-disney-plus-1234744445/">reached hundreds of millions of paying users</a>, and the competition in this industry was never been this strong.
