@@ -21,7 +21,6 @@ showLikes: false
 
 test 1
 
-Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas test
-
+Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas Lorem ipsum alkdas 
 
 <a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img src="https://cdn.mentorcruise.com/img/banner/navy-mentoring-badge.svg" width="60%" alt="MentorCruise"> </a>
