@@ -38,5 +38,5 @@ jobs:
          with:
            token: ${{ secrets.REPO_ACCESS_TOKEN }}
            repository: nunocoracao/nunocoracao.github.com
-           event-type: main-deploy-event
+           event-type: main-deploy-event 
            client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
