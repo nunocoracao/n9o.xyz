@@ -43,7 +43,7 @@ git clone https://github.com/nunocoracao/InvokeAI
 
 Now, you need to get the actual model that contains the weights for the network. This is the result of massive cycles of training with humongous data sets that a normal user with average hardware can’t even try to compete with. The model is not distributed with the code because of it’s size (around 7.5 GB) and to ensure that users need to comply with a license for it, that’s where Hugging Face comes in. 
 
-Just go to the <a href="https://huggingface.co/" target="_blank">Hugging Face’s site</a> and login, or create an account if you don’t have one. Once you are set up, click <a href="https://huggingface.co/CompVis/stable-diffusion-v-1-4-original" target="_blank">here</a>, accept the terms on the model card, and download the file called `sd-v1-4-full-ema.ckpt`. After you download the model, go into the code folder and place it within `model/ldm/stable-diffusion-v1/` with the name `model.ckpt`. 
+Just go to the <a href="https://huggingface.co/" target="_blank">Hugging Face’s site</a> and login, or create an account if you don’t have one. Once you are set up, click <a href="https://huggingface.co/CompVis/stable-diffusion-v-1-4-original" target="_blank">here</a>, accept the terms on the model card, and download the file called `sd-v1-4-full-ema.ckpt`. After you download the model, go into the code folder and place it within `models/ldm/stable-diffusion-v1/` with the name `model.ckpt`. The folder `stable-diffusion-v1` does not exist and needs to be created.
 
 
 {{< alert >}}
