@@ -32,3 +32,11 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOMEPAGE_A0C38 }}'
           channelId: live
           projectId: homepage-a0c38
+
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: nunocoracao/nunocoracao.github.com
+          event-type: main-deploy-event
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
