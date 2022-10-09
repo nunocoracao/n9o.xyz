@@ -49,11 +49,11 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo --minify -s exampleSite --themesDir ../.. -d ../docs --baseURL https://nunocoracao.github.io/
+          hugo --minify -d ./homepage --baseURL https://nunocoracao.github.io/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./docs
+          path: ./homepage
 
   # Deployment job
   deploy:
