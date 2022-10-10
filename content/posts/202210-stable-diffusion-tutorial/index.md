@@ -109,12 +109,12 @@ If you run into any problems in this step, and you need to rebuild the environme
 PIP_EXISTS_ACTION=w CONDA_SUBDIR=osx-arm64 conda env update -f environment-mac.yml
 ```
 
-If you are on a intel Mac the command should be:
+*If you are on a intel Mac the command should be:*
 ```bash
 PIP_EXISTS_ACTION=w CONDA_SUBDIR=osx-64 conda env create -f environment-mac.yml
 ```
 
-Or 2) go into Anaconda’s folder, deleting the environment and creating the environment with the original command in this section. After trying several repos, I had to rely on 2) to clean the clutter.
+Or 2) go into Anaconda’s folder, delete the environment and create the environment with the original command in this section. After trying several repos, I had to rely on 2) to clean the clutter.
 
 Now it’s time to activate the environment using:
 
