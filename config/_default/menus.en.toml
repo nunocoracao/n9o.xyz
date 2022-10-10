@@ -31,6 +31,8 @@
   weight = 40
 
 [[main]]
+#  identifier="music"
+#  pre = "music"
   name = "Music"
   pageRef = "music"
   weight = 50
