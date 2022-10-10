@@ -78,6 +78,10 @@ If the installation process was successful, you should see something like the im
 
 <img class="thumbnailshadow" src="conda_result.png"/>
 
+{{< alert >}}
+*Note: `conda` will require that both `python` and `pip` commands are available in the terminal when creating the environment in the next steps. Please make sure to have them properly configured as in Mac the defaults are python3 and pip3, so most likely you would need to create an alias.*
+{{</ alert >}}
+
 
 ### Install Rust
 
@@ -87,23 +91,27 @@ When following some other guides, I would always get problems on the next part o
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-
 {{< alert >}}
 *Note: I didn’t go back to all the guides in the repo I am using to check whether this is required or not in their method. Please don't hesitate to try the next step without installing Rust and come back if you run into issues.*
 {{< /alert >}}
 
-### Build and Turn On Environment
+### Build and Turn On the Environment
 
 We’re almost there. Now we will create the `ldm` environment and activate it before start generating images. To accomplish this, `cd` into the root of the repo you cloned at the beginning of this guide and create the environment using the following command:
 
 ```bash
-CONDA_SUBDIR=osx-arm64 conda env create -f environment-mac.yaml
+PIP_EXISTS_ACTION=w CONDA_SUBDIR=osx-arm64 conda env create -f environment-mac.yml
 ```
 
 If you run into any problems in this step, and you need to rebuild the environment, you have two options: 1) using the command below:
 
 ```bash
-CONDA_SUBDIR=osx-arm64 conda env update -f environment-mac.yaml
+PIP_EXISTS_ACTION=w CONDA_SUBDIR=osx-arm64 conda env update -f environment-mac.yml
+```
+
+If you are on a intel Mac the command should be:
+```bash
+PIP_EXISTS_ACTION=w CONDA_SUBDIR=osx-64 conda env create -f environment-mac.yml
 ```
 
 Or 2) go into Anaconda’s folder, deleting the environment and creating the environment with the original command in this section. After trying several repos, I had to rely on 2) to clean the clutter.
@@ -111,7 +119,7 @@ Or 2) go into Anaconda’s folder, deleting the environment and creating the env
 Now it’s time to activate the environment using:
 
 ```bash
-conda activate ldm
+conda activate invokeai
 ```
 
 The last step is to preload the models using with the command:
@@ -126,18 +134,19 @@ python scripts/preload_models.py
 Now it’s time to start to play around with Stable Diffusion. Run:
 
 ```bash
-python scripts/dream.py --full_precision --web
+python scripts/invoke.py --full_precision --web
 ```
 
 And open your browser on `localhost:9090`
 
-You should see a Web interface like the one below, minus all the images.
+You should see a Web interface like the one below.
 
-<img class="thumbnailshadow" src="webui.png"/>
+<img class="thumbnailshadow" src="webui_new.png"/>
 
 
 Chose your first prompt and try out the model, all the images will be saved in `output/img-samples`. Explore the various models and configurations possible. I’ve been running mine with `512x512` images, around `100` cycles for the final images (`5` for the initial variants), and config scale at. `7.5`. As a sampler I prefer the results using `DDIM`, you can find some details on the differences between samplers and some examples in <a href="https://www.reddit.com/r/StableDiffusion/comments/x4zs1r/comparison\_between\_different\_samplers\_in\_stable/" target="_blank">this Reddit thread</a>.
 
+Since I originally wrote this article there is a new version of InvokeAI's stable diffusion implementation, besides what I've described above there are lots of new features that you can explore, more details [here](https://github.com/invoke-ai/InvokeAI/releases/tag/v2.0.0).
 
 ## Some Examples
 
