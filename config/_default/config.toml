@@ -15,7 +15,7 @@ buildFuture = false
 googleAnalytics = "G-R94R4YKFEC"
 
 [sitemap]
-  changefreq = 'daily'
+  changefreq = 'always'
   filename = 'sitemap.xml'
   priority = 0.5
 
