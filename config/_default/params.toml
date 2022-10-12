@@ -56,7 +56,7 @@ mainSections = ["posts", "suggest", "external"]
   groupByYear = true
 
 [sitemap]
-  excludedKinds = []
+  excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
   showTermCount = true
