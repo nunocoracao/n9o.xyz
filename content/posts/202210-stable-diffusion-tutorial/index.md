@@ -122,7 +122,7 @@ Now it’s time to activate the environment using:
 conda activate invokeai
 ```
 
-The last step is to preload the models using with the command:
+The last step is to preload the models using the command:
 
 ```bash
 python scripts/preload_models.py
