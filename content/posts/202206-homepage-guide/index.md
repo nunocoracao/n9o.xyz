@@ -10,9 +10,6 @@ date: 2022-06-27
 draft: false
 ---
 
-<img class="thumbnailshadow" src="feature.png"/>
-
-
 ## TL;DR
 
 Currently, there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results.
