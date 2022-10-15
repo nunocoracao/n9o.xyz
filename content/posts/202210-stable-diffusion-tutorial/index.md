@@ -12,8 +12,6 @@ draft: false
 
 In the last year, several machine learning models have become available to the public to generate images from textual descriptions. This has been an interesting development in the AI space. However, most of these models have remained closed source for valid ethic reasons. Because of this, even though you can interact with them via some interface, you are limited in the number of things you can test. Until now…
 
-<img class="thumbnailshadow" src="featured.png"/>
-
 The latest of these models is Stable Diffusion, which is an open machine learning model developed by <a href="https://stability.ai/" target="_blank">Stability AI</a> to generate digital images from natural language descriptions. This model has become quite popular, mainly because it was the first one to be open-sourced. 
 
 I’ve already played around with <a href="https://openai.com/dall-e-2/" target="_blank">Dall-E</a> and <a href="https://www.midjourney.com/home/" target="_blank">Midjourney</a>, but wanted to try to run a model locally and get more freedom to play around with things. I was able to successfully install and run the model on my M1 Pro and on my Windows desktop. This guide details the steps I’ve followed to get everything working on my Mac.
