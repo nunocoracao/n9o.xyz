@@ -6,20 +6,29 @@
     <description>Recent content in Categories on Nuno Coração</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nunocoracao.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nunocoracao.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docker</title>
-      <link>https://nunocoracao.com/categories/docker/</link>
-      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+      <title>Technology</title>
+      <link>https://nunocoracao.com/categories/technology/</link>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://nunocoracao.com/categories/docker/</guid>
+      <guid>https://nunocoracao.com/categories/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://nunocoracao.com/categories/tutorial/</link>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunocoracao.com/categories/tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Product</title>
       <link>https://nunocoracao.com/categories/product/</link>
-      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://nunocoracao.com/categories/product/</guid>
       <description></description>
@@ -28,7 +37,7 @@
     <item>
       <title>Strategy</title>
       <link>https://nunocoracao.com/categories/strategy/</link>
-      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://nunocoracao.com/categories/strategy/</guid>
       <description></description>
@@ -40,24 +49,6 @@
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://nunocoracao.com/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorial</title>
-      <link>https://nunocoracao.com/categories/tutorial/</link>
-      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://nunocoracao.com/categories/tutorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Interview</title>
-      <link>https://nunocoracao.com/categories/interview/</link>
-      <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://nunocoracao.com/categories/interview/</guid>
       <description></description>
     </item>
     

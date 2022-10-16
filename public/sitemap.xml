@@ -3,6 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+  
+    
+  
+    
+      <url>
+            <loc>https://nunocoracao.com/posts/202210-stable-diffusion-tutorial/</loc>
+            <lastmod>2022-10-06T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://nunocoracao.com/</loc>
+            <lastmod>2022-10-06T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://nunocoracao.com/posts/202209-apple-sustaining-innovation/</loc>
+            <lastmod>2022-09-21T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
       <url>
             <loc>https://nunocoracao.com/posts/202209-export-members/</loc>
             <lastmod>2022-09-19T00:00:00+00:00</lastmod>
@@ -12,170 +63,16 @@
     
   
     
-      <url>
-            <loc>https://nunocoracao.com/categories/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
+  
     
   
     
-      <url>
-            <loc>https://nunocoracao.com/tags/docker/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
   
-    
-      <url>
-            <loc>https://nunocoracao.com/categories/docker/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/docker-hub/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/feature/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/product/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/categories/product/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/amazon/</loc>
-            <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/apple/</loc>
-            <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/disney/</loc>
-            <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/netflix/</loc>
-            <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/prediction/</loc>
-            <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/strategy/</loc>
-            <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/categories/strategy/</loc>
-            <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/streaming/</loc>
-            <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
     
   
     
       <url>
             <loc>https://nunocoracao.com/posts/202209-streaming-wars/</loc>
-            <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/wars/</loc>
             <lastmod>2022-09-04T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -192,48 +89,7 @@
     
   
     
-      <url>
-            <loc>https://nunocoracao.com/tags/congo/</loc>
-            <lastmod>2022-06-27T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
   
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/development/</loc>
-            <lastmod>2022-06-27T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/categories/development/</loc>
-            <lastmod>2022-06-27T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/environment/</loc>
-            <lastmod>2022-06-27T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/go/</loc>
-            <lastmod>2022-06-27T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
     
   
     
@@ -246,84 +102,13 @@
     
   
     
-      <url>
-            <loc>https://nunocoracao.com/tags/hugo/</loc>
-            <lastmod>2022-06-27T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
+  
     
   
     
-      <url>
-            <loc>https://nunocoracao.com/tags/tutorial/</loc>
-            <lastmod>2022-06-27T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
   
     
-      <url>
-            <loc>https://nunocoracao.com/categories/tutorial/</loc>
-            <lastmod>2022-06-27T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
   
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/vscode/</loc>
-            <lastmod>2022-06-27T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/interview/</loc>
-            <lastmod>2022-06-26T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/categories/interview/</loc>
-            <lastmod>2022-06-26T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/mentorcruise/</loc>
-            <lastmod>2022-06-26T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/mentorship/</loc>
-            <lastmod>2022-06-26T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/categories/mentorship/</loc>
-            <lastmod>2022-06-26T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
     
   
     
@@ -381,30 +166,7 @@
     
   
     
-      <url>
-            <loc>https://nunocoracao.com/tags/disruption/</loc>
-            <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
   
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/nintendo/</loc>
-            <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nunocoracao.com/tags/switch/</loc>
-            <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
     
   
     
