@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://nunocoracao.com/sitemap.xml
