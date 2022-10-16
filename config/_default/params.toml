@@ -21,7 +21,7 @@ mainSections = ["posts", "suggest", "external"]
   showScrollToTop = true
 
 [homepage]
-  layout = "background" # valid options: page, profile, custom
+  layout = "profile" # valid options: page, profile, custom
   homepageImage = "background.png"
   showRecent = true
   showRecentItems = 10
