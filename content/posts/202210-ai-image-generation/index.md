@@ -8,9 +8,11 @@ tags: ["Stable Diffusion","Midjourney","Dall-e","AI"]
 showSummary: true
 date: 2022-10-13
 draft: true
+series: ["From Text to Image"]
+series_order: 2
 ---
 
-# Machine Learning Image Generation - What’s Next?
+## Machine Learning Image Generation - What’s Next?
 
 intro and sumary
 

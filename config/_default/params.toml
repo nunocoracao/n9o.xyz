@@ -40,6 +40,7 @@ mainSections = ["posts", "suggest", "external"]
   showEdit = true
   editURL = "https://github.com/nunocoracao/homepage/tree/main/content"
   editAppendPath = true
+  seriesOpened = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
