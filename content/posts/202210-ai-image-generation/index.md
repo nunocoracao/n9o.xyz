@@ -1,35 +1,48 @@
 ---
-title: "Image generation"
+title: "AI Image Generation - What’s Next?"
 description: "tbd"
 summary: "tbd"
 categories: ["Product","Strategy","Technology"]
-tags: ["Stable Diffusion","Midjourney","Dall-e","AI"]
+tags: ["Stable Diffusion","Midjourney","Dall-e","AI", "Machine Learning"]
 # externalUrl: ""
 showSummary: true
 date: 2022-10-13
 draft: true
-series: ["From Text to Image"]
-series_order: 2
 ---
-
-## Machine Learning Image Generation - What’s Next?
 
 intro and sumary
 
-[https://stratechery.com/2022/the-ai-unbundling/][1]  
-  
-[https://techcrunch.com/2022/10/07/5-key-ip-considerations-for-ai-startups/][2]
+sd
+asd
+ad
 
-## Where are we?
+
+
+
+If you want to learn more about how it works
+[https://youtu.be/1CIpzeNxIhU][1]
+
+
+
+
+
+
+
+
+
+  
+  
+
+## Where are we? d
 - dalle
 	- Midjourney
 	- Imagen
 	- Stable diffusion
-	- Imagen video
-	- Meta make a video
+	- Imagen vasdasdadasdaideo
+	- Meta make ssss a video
 
 Talk about image tools (google dream AI)
-
+s
 Talk about text to image 
 How does this work? - explain diffusion
 
@@ -42,41 +55,69 @@ Explain Features
 
 talk about text to video
 
-[https://podcast.ai/][3]
+[https://podcast.ai/][2]
+[https://www.mmamania.com/2022/10/13/23402571/ufc-joe-rogan-ai-podcast-interview-steve-jobs-deep-fake-audio][3]
 
-
-## Do it yourself (maybe does not require specific section)
+## AI Democratization - DIY
 - tutorial
 
-## Use cases
-- settings
-	- Characters
-	- wallpapers
-	- Poster and Covers
-	- Thumbnails
-
-## Downsides
-- copyrights
-	- Quality
-	- Safety and Social issues?
-	- Commoditization
-	- increase productivity
-
-## What’s Next?
-(Prediction)
-- future experiments
-	- instagram a
-	- [https://www.instagram.com/artbyaghost/][4]
-
-
-
-<img class="thumbnailshadow" src="featured.png"/>
-
-[]()
-
-<a href="/posts/202210-stable-diffusion-tutorial/" target="_blank">check tutorial here</a> 
-
 {{< article link="/posts/202210-stable-diffusion-tutorial/" >}}
+
+## Ok, but what is the value?
+
+This technology commodotizes the ability to generate visual content to everyone. You don’t need to know how to draw or model and render 3D content 
+
+
+
+hero
+<img class="thumbnailshadow" style="width:200px" src="hero/000047.1230497053.png"/>
+
+settings
+<div style="display: flex; flex-wrap: wrap;">
+
+  <div style="flex: 1; margin:10px; min-width:128px">
+    <img class="thumbnailshadow" src="settings/000024.2854274560.png"/>
+  </div>
+
+  <div style="flex: 1; margin:10px; min-width:128px">
+    <img class="thumbnailshadow" src="settings/000064.2352706489.png"/>
+  </div>
+
+  <div style="flex: 1; margin:10px; min-width:128px">
+    <img class="thumbnailshadow" src="settings/000068.1565055732.png"/>
+  </div>
+
+  <div style="flex: 1; margin:10px; min-width:128px">
+    <img class="thumbnailshadow" src="settings/000068.3447857722.png"/>
+  </div>
+
+  <div style="flex: 1; margin:10px; min-width:128px">
+    <img class="thumbnailshadow" src="settings/000146.2504815347.png"/>
+  </div>
+
+</div>
+
+
+villains
+<div style="display: flex; flex-wrap: wrap;">
+
+  <div style="flex: 1; margin:10px; min-width:128px">
+    <img class="thumbnailshadow" src="villains/000025.2216209323.png"/>
+  </div>
+
+  <div style="flex: 1; margin:10px; min-width:128px">
+    <img class="thumbnailshadow" src="villains/000026.1423747925.png"/>
+  </div>
+
+  <div style="flex: 1; margin:10px; min-width:128px">
+    <img class="thumbnailshadow" src="villains/000039.622734031.png"/>
+  </div>
+
+  <div style="flex: 1; margin:10px; min-width:128px">
+    <img class="thumbnailshadow" src="villains/000044.2404512080.png"/>
+  </div>
+
+</div>
 
 concept art for set
 
@@ -99,69 +140,6 @@ concept art for set
   </div>
 </div>
 
-concept art for set
-<div style="display: flex; flex-wrap: wrap;">
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="villains/000025.2216209323.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="villains/000026.1423747925.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="villains/000039.622734031.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="villains/000044.2404512080.png"/>
-  </div>
-
-</div>
-
-hero
-<img class="thumbnailshadow" src="hero/000047.1230497053.png"/>
-
-villains
-
-
-settings
-<div style="display: flex; flex-wrap: wrap;">
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="settings/000024.2854274560.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="settings/000059.1698188271.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="settings/000059.273984983.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="settings/000063.2383238266.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="settings/000064.2352706489.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="settings/000068.1565055732.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="settings/000068.3447857722.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="settings/000146.2504815347.png"/>
-  </div>
-
-</div>
 
 wallpapers
 
@@ -205,19 +183,54 @@ Thumbnails
     <img class="thumbnailshadow" src="thumbnails/000126.2675941357.png"/>
   </div>
 
-  <div style="flex: 1; margin:10px; min-width:128px">
+  <div style="flex: 1; margin:10px; min-width:200px">
     <img class="thumbnailshadow" src="thumbnails/000085.2682514393.png"/>
   </div>
 
-  <div style="flex: 1; margin:10px; min-width:128px">
+  <div style="flex: 1; margin:10px; min-width:200px">
     <img class="thumbnailshadow" src="thumbnails/000145.2404672998.png"/>
   </div>
 
 </div>
 
 
+Sites to generate promps
+[https://lexica.art/][4]
+https://prompthero.com/
 
-[1]:	https://stratechery.com/2022/the-ai-unbundling/
-[2]:	https://techcrunch.com/2022/10/07/5-key-ip-considerations-for-ai-startups/
-[3]:	https://podcast.ai/
-[4]:	https://www.instagram.com/artbyaghost/
+## Impacts
+
+the creation and substantiation of an idea [https://stratechery.com/2022/the-ai-unbundling/][5]
+
+- copyrights
+	- Quality
+	- Safety and Social issues?
+		- [https://www.newscientist.com/article/2341920-the-success-of-text-to-image-ais-raises-major-ethical-issues/?utm\_campaign=RSS%7CNSNS&utm\_source=NSNS&utm\_medium=RSS&utm\_content=technology][6]
+		- [https://githubcopilotinvestigation.com/][7]
+	- Commoditization
+	- increase productivity
+
+[https://boingboing.net/2022/10/14/dune-subreddit-bans-ai-art.html][8]
+
+IP
+[https://techcrunch.com/2022/10/07/5-key-ip-considerations-for-ai-startups/][9]
+
+
+## What’s Next?
+(Prediction)
+- future experiments
+	- instagram a
+	- [https://www.instagram.com/artbyaghost/][10]
+
+
+
+[1]:	https://youtu.be/1CIpzeNxIhU
+[2]:	https://podcast.ai/
+[3]:	https://www.mmamania.com/2022/10/13/23402571/ufc-joe-rogan-ai-podcast-interview-steve-jobs-deep-fake-audio
+[4]:	https://lexica.art/
+[5]:	https://stratechery.com/2022/the-ai-unbundling/
+[6]:	https://www.newscientist.com/article/2341920-the-success-of-text-to-image-ais-raises-major-ethical-issues/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=technology
+[7]:	https://githubcopilotinvestigation.com/
+[8]:	https://boingboing.net/2022/10/14/dune-subreddit-bans-ai-art.html
+[9]:	https://techcrunch.com/2022/10/07/5-key-ip-considerations-for-ai-startups/
+[10]:	https://www.instagram.com/artbyaghost/
