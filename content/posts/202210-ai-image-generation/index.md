@@ -1,5 +1,5 @@
 ---
-title: "AI Image Generation - What’s Next?"
+title: "AI Content Generation - What’s Next?"
 description: "tbd"
 summary: "tbd"
 categories: ["Product","Strategy","Technology"]
@@ -16,7 +16,8 @@ sd
 asd
 ad
 
-
+AI \~\~Image\~\~ Generation - What’s Next?
+AI Image Generation - What’s Next?
 
 
 If you want to learn more about how it works
@@ -53,19 +54,19 @@ Explain Features
 - IMage completion
 - outpaint
 
-talk about text to video
-
-[https://podcast.ai/][2]
-[https://www.mmamania.com/2022/10/13/23402571/ufc-joe-rogan-ai-podcast-interview-steve-jobs-deep-fake-audio][3]
 
 ## AI Democratization - DIY
 - tutorial
 
 {{< article link="/posts/202210-stable-diffusion-tutorial/" >}}
 
-## Ok, but what is the value?
+Dall-e also released its model to the public
 
-This technology commodotizes the ability to generate visual content to everyone. You don’t need to know how to draw or model and render 3D content 
+## What does this all mean?
+
+These models and technologies are commoditizing the ability to generate content, which was the last step in the _Idea Propagation Value Chain_  that had yet to be fundamentally disrupted by technology. The internet already completely changed how we distribute content (the last part of the chain). Almost every file is digital, can be copied at zero cost, and sent almost instantaneously to anyone on earth.  These new technologies will re
+
+You don’t need to know how to draw, paint, or model and render 3D content anymore, anyone will be able to tell to an AI what they want to see 
 
 
 
@@ -195,8 +196,15 @@ Thumbnails
 
 
 Sites to generate promps
-[https://lexica.art/][4]
+[https://lexica.art/][2]
 https://prompthero.com/
+
+## Beyond Images
+
+talk about text to video
+
+[https://podcast.ai/][3]
+[https://www.mmamania.com/2022/10/13/23402571/ufc-joe-rogan-ai-podcast-interview-steve-jobs-deep-fake-audio][4]
 
 ## Impacts
 
@@ -225,9 +233,9 @@ IP
 
 
 [1]:	https://youtu.be/1CIpzeNxIhU
-[2]:	https://podcast.ai/
-[3]:	https://www.mmamania.com/2022/10/13/23402571/ufc-joe-rogan-ai-podcast-interview-steve-jobs-deep-fake-audio
-[4]:	https://lexica.art/
+[2]:	https://lexica.art/
+[3]:	https://podcast.ai/
+[4]:	https://www.mmamania.com/2022/10/13/23402571/ufc-joe-rogan-ai-podcast-interview-steve-jobs-deep-fake-audio
 [5]:	https://stratechery.com/2022/the-ai-unbundling/
 [6]:	https://www.newscientist.com/article/2341920-the-success-of-text-to-image-ais-raises-major-ethical-issues/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=technology
 [7]:	https://githubcopilotinvestigation.com/
