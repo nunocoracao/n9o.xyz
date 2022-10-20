@@ -1,5 +1,5 @@
 ---
-title: "The New AI Hype"
+title: "The New Artificial Intelligence Hype"
 description: "tbd"
 summary: "tbd"
 categories: ["Product","Strategy","Technology"]
@@ -47,12 +47,18 @@ Explain Features
 
 ## Is this Magic?
 
+Adversarial Networks
+
+Diffusion Models
+
+What is revolutionary 
+
 If you want to learn more about how it works
 [https://youtu.be/1CIpzeNxIhU][1]
 
+{{< youtube 1CIpzeNxIhU >}}
+
 ## AI Democratization
-
-
 
 Stable diffusion
 
