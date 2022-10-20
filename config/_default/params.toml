@@ -47,7 +47,7 @@ mainSections = ["posts", "suggest", "external"]
   showReadingTime = true
   showTableOfContents = true
   showTaxonomies = true 
-  showWordCount = false
+  showWordCount = true
   showSummary = true
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
 

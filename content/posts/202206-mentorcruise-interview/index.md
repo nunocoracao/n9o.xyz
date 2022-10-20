@@ -10,6 +10,8 @@ showViews: false
 showLikes: false
 date: 2022-06-26
 draft: false
+authors:
+  - nunocoracao
 ---
 
 {{< alert >}}

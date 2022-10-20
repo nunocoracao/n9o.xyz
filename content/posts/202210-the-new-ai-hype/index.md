@@ -8,6 +8,8 @@ tags: ["Stable Diffusion","Midjourney","Dall-e","AI", "Machine Learning"]
 showSummary: true
 date: 2022-10-26
 draft: true
+authors:
+  - nunocoracao
 ---
 
 GPT3 - text to text
