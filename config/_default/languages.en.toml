@@ -14,7 +14,7 @@ dateFormat = "2006/01"
 
 [author]
   name = "Nuno Coração"
-  image = "avatar.jpg"
+  image = "img/avatar.jpg"
   headline = "Product @ Docker"
   # bio = "A little bit about you and me"
   links = [
