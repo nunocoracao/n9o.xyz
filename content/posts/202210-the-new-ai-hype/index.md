@@ -20,7 +20,6 @@ However, this time it feels different. Firstly, use-cases for using AI are way l
 {{< alert >}}
 It is estimated that OpenAI spent around $10M to $20M to train its GPT-3 text-to-text model. Cost should be higher with models dealing with images.
 {{</ alert >}}
-
 ## Where Are We and How We Got Here?
 
 So, where are we right now? In the last 5 to 7 years, several specific innovations and practical applications of AI have brought forward the technology (and its respective implications) to the public discussion. Before going into what is already possible, let’s go through the more relevant announcements in the last years.
@@ -203,9 +202,13 @@ However, the one that was most surprising (and also a bit off-putting due to pot
 
 While thinking about the impacts of using these technologies to _emulate_ people who are no longer among us, I came across [this article][29]. So, not only there are some examples of people doing this with celebrities, there are companies like DeepBrain AI which actually already monetize such a service and can create a digital avatar of your lost loved ones.
 
-## Potential Pitfalls – Legal & Ethical
+## Potential Pitfalls
 
-As with all innovations that happen throughout our history as a species, there will always be problems and issues that need to be sorted out after a new invention comes along. In my opinion, the most relevant one in this case are the legal and ethical Implications of these new capabilities. For example, when generating an image using one of the text-to-images models in this article, who owns the final product? The person coming up with the prompt? The team that build the model? The team that build the training set? The artists which images were on that set? All of them? None of them? None of that is sorted out at this stage, and it is already a big concern. 
+Throughout our history as a species, there were always problems and issues that had to be sorted out after a new invention came along.
+
+### Legal & Ethical
+
+One group of such issues are the legal and ethical Implications of these new AI systems. For example, when generating an image using one of the text-to-images models in this article, who owns the final product? The person coming up with the prompt? The team that build the model? The team that build the training set? The artists which images were on that set? All of them? None of them? None of that is sorted out at this stage, and it is already a big concern. 
 
 The major thing happening right now regarding this topic is around GitHub’s Copilot product. Copilot, is an AI that was trained using all code repositories available on GitHub to empower a developer to code faster by turning comments into code, for example. How would you feel, having your code being used to generate potentially millions for a private company without getting a dime for it? There’s more information [here][30] if you are interested.
 
@@ -215,22 +218,32 @@ Finally, there is an even bigger problem when considering that this technology c
 
 All of these are very valid legal concerns within the industry that should be addressed ASAP, or there is a risk that all of it can turn into a legal storm that will take us back years. More than just the legal aspects, this technology has a very real potential to destroy someone’s life; therefore it should be thought through with time and low-tolerance for mistakes.
 
+### Perceived Value & Backlash
+
+Initially, I thought that this tech would make everyone a good artist, but after playing around with it, I am not convinced that is the case anymore. What makes a good artist is more than just their raw execution ability. Factors like creativity, what actually do you want to create, and artistic knowledge are of super importance for having a good final product. At this stage, I think that these technologies will enable normal people to be able to _create_ something, but will give current professional artists **super-powers** that will enable them to take their work to another level. 
+
+Having said this, the fact that the these models enable us as a society to produce more, faster, at a lower cost, will have an impact on the perceived value of this _craft_. As an example, imagine a design department at a given news media publication with around 20 people. If the current technology becomes mainstream, probably that same department will not need 20 people. 
+
+There was a story not so long, on a journalist from The Atlantic that used Midjourney to generate the thumbnail of an article and received massive backlash on Twitter. You can read his thoughts on what happened [here][33]. Given the already difficult and competitive environment these artists work in, the backlash that currently exists against these tools, it is understandable. There is a potential real impact in the job market. Even though it will be bad for some people in the short term, the real question is whether it will be good or bad in the long-run. This phenomenon is quite common in big technological innovations and has happened several times throughout history.
+
+Interestingly enough, **legal concerns** and **human backlash** have always been the major pitfalls for the adoption of any AI system in the past, more so than with technology in general.  
+
 
 ## What’s Next?
 
-I think the current applications of the already existing technology will be massive, and therefore whatever prediction one can make will have a high degree of uncertainty. These technologies affect the current _Idea Propagation Value Chain_, specifically in the parts of that chain that were not ever touched until now, _**creation**_ and _**substantiation**_. This fact alone has the potential to affect us more than the internet, which changed the _**duplication**_ and _**distribution**_ parts of the chain, ever did. Only those impacts could be a discussion for pages and pages of an entire book series. If you are interested in this part of the topic, I highly recommend Ben Thompson’s [article][33] on it. 
+I think the current applications of the already existing technology will be massive, and therefore whatever prediction one can make will have a high degree of uncertainty. These technologies affect the current _Idea Propagation Value Chain_, specifically in the parts of that chain that were not ever touched until now, _**creation**_ and _**substantiation**_. This fact alone has the potential to affect us more than the internet, which changed the _**duplication**_ and _**distribution**_ parts of the chain, ever did. Only those impacts could be a discussion for pages and pages of an entire book series. If you are interested in this part of the topic, I highly recommend Ben Thompson’s [article][34] on it. 
 
 With the disclaimer above, here’s what I think it will happen in this space in the next 2 to 5 years. 
 
 - **Legal issues around ownership will increase until a good solution comes up** - We already discussed some potential legal issues in this article, if those are not solved, there is a risk of de-railing everything going on in the space. For the copyright ones, I think the grounds for legal action are muddy to say the least, which might drag these discussions for years before there is actually any real impact on innovation.
 - **Dramatical increase in funding for companies working in these problems** – Hype usually means FOMO, which means more money for whoever wants to solve problems in the space (yes, even in the current macroeconomic situation). We are already seeing the early signals around this, with some companies raising some of the biggest seed rounds in history:
-	- [StabilityAI, the creators of Stable Diffusion, raised a seed of $101M on a post-money valuation of $1B][34].
-	- [Jasper, the creators of a content platform for marketeers, raised $125M on a $1.5B valuation][35]
--  **The tech will start being productized as features in existing products** - Some of this tech has the potential to go into image and video editing software today. Companies like [Runway][36] are already doing it, but I imagine that companies like Adobe will consider how to include these tools in their software, e.g., image Dall-E out-painting feature straight into Photoshop. 
+	- [StabilityAI, the creators of Stable Diffusion, raised a seed of $101M on a post-money valuation of $1B][35].
+	- [Jasper, the creators of a content platform for marketeers, raised $125M on a $1.5B valuation][36]
+-  **The tech will start being productized as features in existing products** - Some of this tech has the potential to go into image and video editing software today. Companies like [Runway][37] are already doing it, but I imagine that companies like Adobe will consider how to include these tools in their software, e.g., image Dall-E out-painting feature straight into Photoshop. 
 - **All of these areas will start to merge with cohesive results** - I expect to see something happening around this in the next 12 to 18 months. At least some kind of PoC that will merge a minimum of 2 of these areas into something new, i.e. video + audio, or 3D + animation, etc.
 - **Games, VR, and the Metaverse** -  I feel like the biggest potential for this technology is how much it can accelerate content creation (once quality is constant, which is still not the case). Games and 3D content is where I see the biggest problem that these models could solve. Think about the amount of time, resources, and money are spent to create characters for a game, including conceptualizing, modeling, rigging, animating, etc. AI tools could make the creation of this huge game worlds more effective and efficient.
 
-While we wait to know what will happen across this exciting space, I will keep researching and playing around with these technologies as much as I can. What do you think will happen? Reach out to me and let me know. 
+While we wait to know what will happen across this exciting space, I will keep researching and playing around with these technologies as much as I can. What will you create with these systems? What do you think the impacts of deploying them at scale are? Reach out to me and let me know. 
 
 _Note: Meanwhile, created an Instagram account to share my Stable Diffusion creations with the web 😬 _
 
@@ -268,7 +281,8 @@ _Note: Meanwhile, created an Instagram account to share my Stable Diffusion crea
 [30]:	https://githubcopilotinvestigation.com/
 [31]:	https://edition.cnn.com/2022/10/21/tech/artists-ai-images
 [32]:	https://techcrunch.com/2022/10/07/5-key-ip-considerations-for-ai-startups/
-[33]:	https://stratechery.com/2022/the-ai-unbundling/
-[34]:	%20https://techcrunch.com/2022/10/17/stability-ai-the-startup-behind-stable-diffusion-raises-101m/%0A
-[35]:	https://techcrunch.com/2022/10/18/ai-content-platform-jasper-raises-125m-at-a-1-7b-valuation/
-[36]:	https://runwayml.com
+[33]:	https://newsletters.theatlantic.com/galaxy-brain/62fc502abcbd490021afea1e/twitter-viral-outrage-ai-art/
+[34]:	https://stratechery.com/2022/the-ai-unbundling/
+[35]:	%20https://techcrunch.com/2022/10/17/stability-ai-the-startup-behind-stable-diffusion-raises-101m/%0A
+[36]:	https://techcrunch.com/2022/10/18/ai-content-platform-jasper-raises-125m-at-a-1-7b-valuation/
+[37]:	https://runwayml.com
