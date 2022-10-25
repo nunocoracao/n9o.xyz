@@ -82,7 +82,7 @@ Before transformers, networks relied on [convolutional neural networks (CNNs)][2
 
 One of the main differences between this _AI hype wave_ to past ones is that the number of people that can try it and interact with it is way bigger than it ever was. The internet made it possible to create services to explore what is possible and let people play around with it. In some cases, even create new business models for the companies behind these innovations. I am personally still wondering how many people pay OpenAI to play around with Dall-E. 
 
-From a different angle, there were never so many of these advances made available as open-source technologies that people can download, play around with, and even build upon of.  OpenAI has recently released [whisper][27] and its [Dall-E 2 model to the public][28]. The Stable Diffusion model is also available to the community and there are already several remarkable projects behind it. If you are interested in running Stable Diffusion locally I wrote a tutorial on it, give it a try if you are interested.  
+From a different angle, there were never so many of these advances made available as open-source technologies that people can download, play around with, and even build upon of.  OpenAI has recently released [whisper][27] and its [Dall-E 2 model][28] to the public. The Stable Diffusion model is also available to the community and there are already several remarkable projects behind it. If you are interested in running Stable Diffusion locally I wrote a tutorial on it, give it a try if you are interested.  
 
 {{< article link="/posts/202210-stable-diffusion-tutorial/" >}}
 
@@ -161,7 +161,7 @@ Throughout our history as a species, there were always problems and issues that 
 
 ### Legal & Ethical
 
-One of the potential pitfalls is the legal and ethical Implications of these new AI systems and their impacts on society. For example, when generating an image using one of the text-to-image models in this article, who owns the final product? The person coming up with the prompt? The team that builds the model? The team that builds the training set? The artists which images were on that set? All of them? None of them? None of that is sorted out at this stage, and it is already a big concern. 
+One of the potential pitfalls is the legal and ethical Implications of these new AI systems and their impacts on society. For example, when generating an image using one of the text-to-image models in this article, who owns the final product? The person coming up with the prompt? The team that builds the model? The team that builds the training set? The artists whose images were on that set? All of them? None of them? None of that is sorted out at this stage, and it is already a big concern. 
 
 One of the relevant discussions happening right now regarding this topic is regarding GitHub’s Copilot product copyright issues. Copilot is an AI that was trained using all code repositories available on GitHub to empower a developer to code faster by turning comments into code, for example. How would you feel, having your code being used to generate potentially millions for a private company without getting a dime for it? There’s more information [here][38] if you are interested.
 
