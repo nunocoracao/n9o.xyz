@@ -5,7 +5,7 @@ categories: ["Product","Strategy","Technology"]
 tags: ["Stable Diffusion","Midjourney","Dall-e","AI", "Machine Learning"]
 # externalUrl: ""
 showSummary: true
-date: 2022-10-26
+date: 2022-10-25
 draft: false
 authors:
   - nunocoracao
