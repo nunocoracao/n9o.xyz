@@ -8,6 +8,8 @@ tags: ["Nintendo", "Switch", "Disruptive Innovation"]
 showSummary: true
 date: 2021-09-09
 draft: false
+authors:
+  - nunocoracao
 ---
 
 Nintendo achieved something truly amazing with the launch of the Switch. It was able to disrupt itself and the entire gaming industry while saving itself from doom. How exactly was Nintendo able to do it and what comes next in that story?

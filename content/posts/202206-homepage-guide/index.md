@@ -8,6 +8,8 @@ tags: ["Hugo", "Congo", "Docker", "VSCode"]
 showSummary: true
 date: 2022-06-27
 draft: false
+authors:
+  - nunocoracao
 ---
 
 ## TL;DR

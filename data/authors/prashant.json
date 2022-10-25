@@ -1,0 +1,13 @@
+{
+    "name": "Prashant Khanchandani ",
+    "image" : "img/prashant_avatar.jpeg",
+    "bio": "tbd",
+    "social": {
+        "github": "https://github.com/madoke",
+        "linkedin": "https://www.linkedin.com/in/davidsimao/",
+        "keybase": "https://keybase.io/madoke",
+        "goodreads": "https://www.goodreads.com/user/show/151059176-david-simao",
+        "pgpkey": "https://madoke.org/pgp.txt",
+        "link": "https://madoke.org/"
+    }
+}

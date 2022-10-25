@@ -8,8 +8,10 @@ tags: ["AI","Stable Diffusion","Neural Network"]
 showSummary: true
 date: 2022-10-06
 draft: false
-#series: ["From Text to Image"]
-#series_order: 1
+authors:
+  - nunocoracao
+series: ["The New AI Hype"]
+series_order: 2
 ---
 
 In the last year, several machine learning models have become available to the public to generate images from textual descriptions. This has been an interesting development in the AI space. However, most of these models have remained closed source for valid ethic reasons. Because of this, even though you can interact with them via some interface, you are limited in the number of things you can test. Until now…

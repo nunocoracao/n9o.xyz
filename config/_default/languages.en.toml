@@ -10,13 +10,13 @@ title = "Nuno Coração"
 description = "Product | Nuno Coração"
 # copyright = "Copy, _right?_ :thinking_face:"
 
-dateFormat = "2006/01"
+dateFormat = "2006-01-01"
 
 [author]
   name = "Nuno Coração"
-  image = "avatar.jpg"
+  image = "img/avatar.jpg"
   headline = "Product @ Docker"
-  # bio = "A little bit about you and me"
+  bio = "Staff Product Manager @ Docker"
   links = [
     { linkedin = "https://linkedin.com/in/nunocoracao" },
     { twitter = "https://twitter.com/nunocoracao" },
