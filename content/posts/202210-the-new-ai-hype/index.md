@@ -22,6 +22,7 @@ However, this time it feels different. Firstly, use cases are way less ambitious
 {{< alert >}}
 It is estimated that OpenAI spent around $10M to $20M to train its GPT-3 text-to-text model. Cost should be higher with models dealing with images.
 {{</ alert >}}
+
 ## Where Are We and How We Got Here?
 
 So, where are we right now? In the last 5 to 7 years, several specific innovations and practical applications of AI have brought forward the technology (and its respective implications) to the public discussion. Before going into what is already possible, let’s go through the more relevant announcements in the last years.
@@ -102,64 +103,7 @@ These models and technologies are commoditizing the ability to generate content,
 
 Just considering the technologies I had a chance to play around with (Dall-e, Midjourney, and Stable Diffusion), the pre-requirements of learning to draw, paint, or model and render 3D content completely go away. Anyone will be able to tell to an artificial agent what they want to see, and it will create it for them.
 
-As an example, let’s say you have an idea for a story that you wish to tell, and you would like to start visualizing it so that you can pitch and explain your ideas to someone. Independently, if the goal is to shoot a movie, create a book, video-game, etc. the classic step would be to hire an artist to explain your thoughts so that he could spend days bringing your ideas to life. Not anymore.
-
-Back to that story we had in mind, an epic fantasy tale of good versus evil and that sort of thing. You think of the main hero protagonist, a female warrior who has pink hair (because why not?) that was raised among elves.
-
-<img class="thumbnailshadow mx-auto" style="width:300px" src="hero/000047.1230497053.png"/>
-
-Ok, now that we have a main character, let's create a couple of settings where the action will unfold. Some fantasy sets coming up courtesy of your imagination.
-
-<div style="display: flex; flex-wrap: wrap;">
-
- 
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="settings/000064.2352706489.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="concept_art/000029.1079280259.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="concept_art/000030.3825566481.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="settings/000068.3447857722.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="settings/000146.2504815347.png"/>
-  </div>
-
-</div>
-
-Now, every good story needs a good villain, but let’s say you have some different ideas and are not sure which one you like better. Why not get a glimpse of all of them in a couple of minutes? 
-
-<div style="display: flex; flex-wrap: wrap;">
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="villains/000025.2216209323.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="villains/000026.1423747925.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="villains/000039.622734031.png"/>
-  </div>
-
-  <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="villains/000044.2404512080.png"/>
-  </div>
-
-</div>
-
-And do forth… Even though the example is a little farfetched, it only took me less than 30 min to generate all the art above using a local installation of stable diffusion. Even if you don’t like none of the above, you can simply generate more images in quantity until you get something you do like. 
-
-Another illustration of this would be generating a thumbnail for this article. I knew more or less what I wanted, so it just became a matter of going through a couple of dozens of ideas until I found something that I liked, some examples below.
+As an example, I've used Stable Diffusion a thumbnail for this article. I knew more or less what I wanted, so it just became a matter of going through a couple of dozens of ideas until I found something that I liked, some examples below.
 
 <div style="display: flex; flex-wrap: wrap;">
 
