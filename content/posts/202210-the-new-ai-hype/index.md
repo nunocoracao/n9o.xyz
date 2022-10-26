@@ -29,7 +29,7 @@ So, where are we right now? In the last 5 to 7 years, several specific innovatio
 
 **2015 - Google creates DeepDream - [Read More][10]**
 
-Google releases a new method using [Convulsion Networks][11] that can _dream_ new images based on its training set. The network could generate **new** images from cats, for example, after learning from tons of real cat images. 
+Google releases a new method using [Convolutional Networks][11] that can _dream_ new images based on its training set. The network could generate **new** images from cats, for example, after learning from tons of real cat images. 
 
 **2016 - Google builds AlphaGo that beats Go world champion - [Read More][12]**
 
