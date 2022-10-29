@@ -1,20 +1,17 @@
 ---
-title: "Engineering friendly PM"
-description: "The rules of engagement in solid partnership with engineering. The do's and don'ts as seen from a software developer's perspective"
-summary: "The rules of engagement in solid partnership with engineering. The do's and don'ts as seen from a software developer's perspective"
-categories: []
-tags: []
+title: "Engineering Friendly Product Manager"
+summary: "The rules of engagement in solid partnership with engineering. The do's and don'ts as seen from a software developer's perspective."
+categories: ["Guests"]
+tags: ["product", "engineering"]
 showSummary: true
-date: 2023-04-26
-draft: true
+date: 2022-11-02
+draft: false
 showauthor: false
 authors:
   - davidsimao
-series: ["The Complete PM"]
-series_order: 5
+#series: ["The Complete PM"]
+#series_order: 5
 ---
-
-# Engineering friendly product manager
 
 The product manager role has been gaining popularity in the tech industry over the recent years. As more companies add PMs to their organisation charts, there is still a lot of experimentation with team setups to find the best alignment possible between product and engineering. These two functions work now as close as they ever did, and while it is said to be the recipe for high achieving teams, lots of companies are still struggling to achieve good levels of collaboration.
 
