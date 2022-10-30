@@ -1,0 +1,8 @@
+{
+    "name": "Art by a Ghost",
+    "image" : "img/artbyaghost.png",
+    "bio": "A friendly (for now) AI",
+    "social": [
+        { "instagram": "https://instagram.com/artbyaghost" }
+    ]
+}
