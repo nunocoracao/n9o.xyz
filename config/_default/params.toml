@@ -31,13 +31,13 @@ mainSections = ["posts", "suggest", "external"]
 [article]
   showDate = true
   showViews = true
-  showLikes = true
+  showLikes = false
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   heroStyle = "background"
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = true
+  showEdit = false
   editURL = "https://github.com/nunocoracao/homepage/tree/main/content"
   editAppendPath = true
   seriesOpened = true
@@ -47,7 +47,8 @@ mainSections = ["posts", "suggest", "external"]
   showReadingTime = true
   showTableOfContents = true
   showTaxonomies = true 
-  showWordCount = true
+  showAuthorsBadges = true
+  showWordCount = false
   showSummary = true
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
 

@@ -25,7 +25,7 @@ dateFormat = "2006-01-01"
     { github = "https://github.com/nunocoracao" },
     { goodreads = "http://goodreads.com/nunocoracao" },
     #{ keybase = "https://keybase.io/nunocoracao" },
-    #{ reddit = "https://reddit.com/user/nunoheart" },
+    { reddit = "https://reddit.com/user/nunoheart" },
     #{ hackernews = "https://news.ycombinator.com/user?id=nunocoracao"},
     #{ telegram = "https://t.me/nunocoracao" },
     #{ instagram = "https://instagram.com/nunocoracao" },
