@@ -31,11 +31,19 @@
   weight = 40
 
 [[main]]
-#  identifier="music"
-#  pre = "music"
-  name = "Music"
+  identifier="music"
+  pre = "music"
+  #name = "Music"
   pageRef = "music"
   weight = 50
+
+#[[main]]
+#  identifier="music"
+#  pre = "music"
+#  #name = "Music"
+#  pageRef = "music"
+#  url = "https://github.com/nunocoracao/blowfish"
+#  weight = 50
 
 #[[main]]
 #  name = "Categories"
@@ -62,7 +70,7 @@
    pageRef = "categories"
    weight = 20
 
- #[[footer]]
- #  name = "Authors"
- #  pageRef = "authors"
- #  weight = 30
+ [[footer]]
+   name = "Authors"
+   pageRef = "authors"
+   weight = 30
