@@ -10,7 +10,7 @@ draft: false
 authors:
   - nunocoracao
 series: ["The New AI Hype"]
-series\_order: 1
+series_order: 1
 ---
 
 In the last few years, the hype around artificial intelligence has been increasing (again). Most of it is due to companies like [OpenAI][1], [Google][2], [DeepMind][3] (Google subsidiary), [Meta][4], and others producing truly groundbreaking research and innovative showcases in the field. From machines winning complex games like [Go][5] and [Dota 2][6]to a variety of content generation techniques that produce text, images, audio, and now video, these technologies will have an impact on our future.
