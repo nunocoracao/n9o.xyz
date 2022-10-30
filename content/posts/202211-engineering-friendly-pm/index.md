@@ -5,10 +5,10 @@ categories: ["Guests"]
 tags: ["product", "engineering"]
 showSummary: true
 date: 2022-11-02
-draft: false
+draft: true
 showauthor: false
 authors:
-  - davidsimao
+  - nunocoracao
 #series: ["The Complete PM"]
 #series_order: 5
 ---
