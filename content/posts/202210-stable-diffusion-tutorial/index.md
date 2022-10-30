@@ -11,7 +11,7 @@ draft: false
 authors:
   - nunocoracao
 series: ["The New AI Hype"]
-series_order: 2
+series_order: 3
 ---
 
 In the last year, several machine learning models have become available to the public to generate images from textual descriptions. This has been an interesting development in the AI space. However, most of these models have remained closed source for valid ethic reasons. Because of this, even though you can interact with them via some interface, you are limited in the number of things you can test. Until now…
