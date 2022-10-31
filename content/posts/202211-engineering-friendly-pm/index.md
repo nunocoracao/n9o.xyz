@@ -33,7 +33,7 @@ An ace with macros and a master at reporting progress in the weekly steering. Th
 
 Top specialist in 360 market research. She knows all about Steve Jobs and the story of the iPod, and care about the product lifecycle, but can’t afford to loose time building strategies because “Details matter, it’s worth waiting to get it right”. As long as build a responsive design, with social share buttons, cash will start flowing. Be sure to check out “[Avoiding Featurism](https://tdarb.org/blog/avoid-featurism.html?utm_source=pocket_mylist)”, which I stole the word _featurist_ from.
 
-[![Excel Manager](./img/dilbert-excel.gif)](https://dilbert.com/strip/2016-01-07)
+[![Featurist](./img/dilbert-featurist.gif)](https://dilbert.com/strip/2001-04-14)
 
 ### Retired Programmer
 
