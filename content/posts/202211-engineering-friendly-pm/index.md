@@ -1,7 +1,7 @@
 ---
 title: "Engineering Friendly Product Manager"
 summary: "The rules of engagement in solid partnership with engineering. The do's and don'ts as seen from a software developer's perspective."
-categories: ["Guest", Product]
+categories: ["Guest", "Product"]
 tags: ["Product", "Engineering"]
 showSummary: true
 date: 2022-11-02
