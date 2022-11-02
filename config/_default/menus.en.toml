@@ -32,8 +32,8 @@
 
 [[main]]
   identifier="music"
-  pre = "music"
-  #name = "Music"
+  #pre = "music"
+  name = "Music"
   pageRef = "music"
   weight = 50
 
