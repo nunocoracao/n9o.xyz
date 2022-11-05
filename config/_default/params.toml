@@ -60,6 +60,8 @@ mainSections = ["posts", "suggest", "external"]
   showTableOfContents = false
   showCards = true
   groupByYear = true
+  cardView = false
+  cardViewScreenWidth = false
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
