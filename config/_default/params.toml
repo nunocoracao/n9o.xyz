@@ -24,10 +24,10 @@ mainSections = ["posts", "suggest", "external"]
   layout = "background" # valid options: page, profile, custom
   homepageImage = "img/background.png"
   showRecent = true
-  showRecentItems = 20
+  showRecentItems = 10
   showMoreLink = true
   showMoreLinkDest = '/posts'
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
 
 [article]
