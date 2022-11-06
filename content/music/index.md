@@ -17,8 +17,6 @@ showEdit: false
 showViews: true
 showLikes: false
 
-#groupByYear : false
-
 ---
 
 I started learning music by myself at the age of 14. I play several instruments and I love to record, compose and produce my own music. I've been releasing my songs under the name "Doppler Effect" in the usual streaming services. Here are the links if you want to listen.
@@ -33,6 +31,26 @@ I started learning music by myself at the age of 14. I play several instruments 
         </tr>
     </thead>
     <tbody>
+         <tr>
+            <td><img class="customEntitityAlbum" src="higherground.jpg"/></td>
+            <td>Higher Ground</td>
+            <td>November 2022</td>
+            <td style="display:flex">
+                <a href="https://open.spotify.com/album/4jeHDLxmi9RDp6YzvW0EPF" target="_blank"><img class="customPlay nozoom" src="spotify.svg.png"/></a>
+                <a href="https://music.apple.com/pt/album/higher-ground/1653067291?i=1653067293" target="_blank"><img class="customPlay nozoom" style="background-color: rgb(30, 41, 59);" src="apple.png"/></a>
+                <a href="https://www.youtube.com/watch?v=UHJMXrUwKDw&list=PL1-ZPcIDJHfwFvRKJt0JXibfp1XV8LM70" target="_blank"><img class="customPlay nozoom" src="youtube.png"/></a>
+            </td>
+        </tr>
+         <tr>
+            <td><img class="customEntitityAlbum" src="dublindelay.jpg"/></td>
+            <td>Dublin Delay</td>
+            <td>November 2022</td>
+            <td style="display:flex">
+                <a href="https://open.spotify.com/album/2WZ8K9vOYphJkYc8B0y3lq" target="_blank"><img class="customPlay nozoom" src="spotify.svg.png"/></a>
+                <a href="https://music.apple.com/pt/album/dublin-delay-single/1653059373" target="_blank"><img class="customPlay nozoom" style="background-color: rgb(30, 41, 59);" src="apple.png"/></a>
+                <a href="https://www.youtube.com/watch?v=ktJzfdU7syI&list=PL1-ZPcIDJHfwFvRKJt0JXibfp1XV8LM70" target="_blank"><img class="customPlay nozoom" src="youtube.png"/></a>
+            </td>
+        </tr>
          <tr>
             <td><img class="customEntitityAlbum" src="rememberanewday.jpg"/></td>
             <td>Remember a New Day</td>
