@@ -14,6 +14,9 @@ enableCodeCopy = true
 mainSections = ["posts", "suggest", "external"]
 # robots = ""
 
+[header]
+  layout = "fixed"
+
 [footer]
   showCopyright = true
   showThemeAttribution = true
@@ -29,6 +32,7 @@ mainSections = ["posts", "suggest", "external"]
   showMoreLinkDest = '/posts'
   cardView = false
   cardViewScreenWidth = false
+  layoutBackgroundBlur = true
 
 [article]
   showDate = true
@@ -55,6 +59,8 @@ mainSections = ["posts", "suggest", "external"]
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
 
 [list]
+  showHero = true
+  heroStyle = "background"
   showBreadcrumbs = false
   showSummary = false
   showTableOfContents = false
