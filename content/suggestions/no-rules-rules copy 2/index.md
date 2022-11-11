@@ -1,22 +1,21 @@
 ---
-title: "Recommendations"
-date: 2022-06-19T13:03:09+01:00
+title: "No Rules Rules"
+summary: "tbd"
+categories: []
+tags: []
+# externalUrl: ""
+showSummary: true
+date: 2023-11-16
 draft: true
-
 showDate : false
 showDateUpdated : false
-showHeadingAnchors : true
-showPagination : false
 showReadingTime : false
 showTableOfContents : true
-showTaxonomies : false 
+showTaxonomies : true 
 showWordCount : false
-showSummary : false
-sharingLinks : false
 showEdit: false
 showViews: true
 showLikes: false
-
 ---
 
 ## Books

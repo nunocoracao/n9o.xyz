@@ -11,7 +11,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["posts", "suggest", "external"]
+mainSections = ["posts"]#, "suggestions"]
 # robots = ""
 
 [header]
