@@ -86,6 +86,14 @@ mainSections = ["posts"]#, "suggestions"]
   appId = "1:722874298820:web:b5c0e707586eba68c43491"
   measurementId = "G-H8CSEYZFG4"
 
+[buymeacoffee]
+  identifier = "nunocoracao"
+  globalWidget = true
+  globalWidgetMessage = "Thank you for visiting."
+  globalWidgetColor = "#FFDD00"
+  globalWidgetPosition = "Right"
+
+
 [fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
