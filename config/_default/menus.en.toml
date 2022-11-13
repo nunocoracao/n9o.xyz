@@ -38,6 +38,11 @@
   weight = 50
 
 #[[main]]
+#  name = "Recs"
+#  pageRef = "recs"
+#  weight = 60
+
+#[[main]]
 #  identifier="music"
 #  pre = "music"
 #  #name = "Music"
@@ -74,3 +79,8 @@
    name = "Authors"
    pageRef = "authors"
    weight = 30
+
+ #[[footer]]
+ #  name = "Suggestions"
+ #  pageRef = "suggestions"
+ #  weight = 30
