@@ -93,7 +93,6 @@ mainSections = ["posts"]#, "suggestions"]
   globalWidgetColor = "#FFDD00"
   globalWidgetPosition = "Right"
 
-
 [fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
