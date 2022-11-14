@@ -16,7 +16,6 @@ authors:
 This article was originally published externally, read the original <a target="_blank" href="https://mentorcruise.com/blog/nuno-coracao-meet-the-mentor-01006/">here</a>.
 {{</ alert >}}
 
-
 I’ve been building and shipping products across multiple roles and industries, from video streaming applications to API platforms.
 
 ## Why did you decide to become a mentor?
@@ -41,3 +40,5 @@ In one of my previous role I was managing two young professionals that joined th
 
 ## What are you getting out of being a mentor?
 From my experience, having access to mentors, allowed me to grow and improve at a professional and personal level faster than by myself. At this stage in my life, I feel like I’ve experienced enough to have something valuable to share with others and maybe help them achieve their goals. Ultimately, that is what I am aiming to get out of this experience, to be able to have the same impact as a mentor as my mentors had on me.
+
+<a href="https://mentorcruise.com/mentor/nunocorao/"> <img src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a>

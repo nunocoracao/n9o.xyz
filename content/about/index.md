@@ -16,6 +16,7 @@ sharingLinks : false
 showEdit: false
 showViews: true
 showLikes: false
+showAuthor: true
 
 ---
 
@@ -24,6 +25,8 @@ I’ve been building and shipping products across multiple roles and industries,
 I’ve worked for several years in big companies and recently decided to trade that for the opportunity of working in smaller teams. Definitely prefer the latter where one can succeed/fail faster, learn faster, and overall have a way bigger impact.
 
 Currently, I am focused on improving the lives of developers worldwide. I’m trying to write more about my previous experiences / random thoughts and would love to gather your feedback on it. I also love to dedicate my time to helping and mentoring other PMs or people that want to get into product.
+
+<a href="https://mentorcruise.com/mentor/nunocorao/"> <img src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a>
 
 Recently I’ve also joined AWS Loft to help Startups and their founders with their product strategy.
 
