@@ -11,11 +11,11 @@ Powered by: [Blowfish](https://nunocoracao.github.io/blowfish/)
 ## Frameworks and Misc.
 These are the tools that I've used to build this...
 
-### Framework
+### Hugo - Framework
 https://gohugo.io
 
-### Theme
+### Blowfish - Theme
 https://github.com/nunocoracao/blowfish
 
-### Icons
-https://fontawesome.com/icons
+### Firebase - Hosting
+https://firebase.google.com/
