@@ -89,7 +89,7 @@ mainSections = ["posts"]#, "suggestions"]
 [buymeacoffee]
   identifier = "nunocoracao"
   globalWidget = true
-  globalWidgetMessage = "Thank you for visiting."
+  globalWidgetMessage = ""
   globalWidgetColor = "#FFDD00"
   globalWidgetPosition = "Right"
 
