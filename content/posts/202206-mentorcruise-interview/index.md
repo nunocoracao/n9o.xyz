@@ -2,8 +2,8 @@
 title: "Nuno Coração – Meet the Mentor"
 description: "Nuno Coração is one of our professional mentors on MentorCruise and works as Staff Product Manager at Docker."
 summary: "Nuno Coração is one of our professional mentors on MentorCruise and works as Staff Product Manager at Docker."
-categories: ["Product", "Mentorship"]
-tags: ["Interview", "Mentorcruise"]
+categories: ["Product", "Mentorship", "Interview"]
+tags: ["Mentorcruise"]
 #externalUrl: "https://mentorcruise.com/blog/nuno-coracao-meet-the-mentor-01006/"
 showSummary: true
 date: 2022-06-26
