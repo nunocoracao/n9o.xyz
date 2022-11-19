@@ -15,7 +15,18 @@ showHero: false
 showReadingTime: false
 ---
 
+{{< youtube 4s0lm1_qTz4 >}}
 
 Today I got the chance to sit down with David Large from CloudCannon to talk about open-source, Hugo, and my theme, Blowfish. I've started this open-source project a couple of months ago and the response from the community has been amazing. Check out the link below if you want to learn more about it and how you can contribute.
 
-{{< youtube 4s0lm1_qTz4 >}}
+
+<table>
+    <tbody>
+         <tr>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish_logo.png"/></td>
+            <td>Blowfish</td>
+            <td>A powerful, lightweight theme for Hugo built with Tailwind CSS.</td>
+            <td><a target="_blank" href="https://nunocoracao.github.io/blowfish/">site</a></td>
+        </tr>
+    </tbody>
+</table>
