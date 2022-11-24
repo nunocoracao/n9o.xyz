@@ -61,6 +61,7 @@ mainSections = ["posts"]#, "suggestions"]
 [list]
   showHero = true
   heroStyle = "background"
+  layoutBackgroundHeaderSpace = false
   showBreadcrumbs = false
   showViews = true
   showLikes = false

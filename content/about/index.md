@@ -17,6 +17,8 @@ showEdit: false
 showViews: true
 showLikes: false
 showAuthor: true
+layoutBackgroundHeaderSpace: false
+
 
 ---
 
