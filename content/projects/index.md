@@ -16,6 +16,7 @@ sharingLinks : false
 showEdit: false
 showViews: true
 showLikes: false
+layoutBackgroundHeaderSpace: false
 
 #groupByYear : false
 
