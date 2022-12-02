@@ -14,6 +14,8 @@ enableCodeCopy = true
 mainSections = ["posts"]#, "suggestions"]
 # robots = ""
 
+defaultBackgroundImage = "img/background.png"
+
 [header]
   layout = "fixed"
 
@@ -41,6 +43,7 @@ mainSections = ["posts"]#, "suggestions"]
   showDateUpdated = false
   showAuthor = false
   heroStyle = "background"
+  layoutBackgroundBlur = true
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
@@ -61,6 +64,7 @@ mainSections = ["posts"]#, "suggestions"]
 [list]
   showHero = true
   heroStyle = "background"
+  layoutBackgroundBlur = true
   layoutBackgroundHeaderSpace = false
   showBreadcrumbs = false
   showViews = true
