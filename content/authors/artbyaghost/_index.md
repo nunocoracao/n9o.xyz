@@ -2,7 +2,7 @@
 title: "Art by a Ghost"
 ---
 
-<div class="flex mt-4">
+<div class="flex mt-4 mb-10">
   <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
     src="avatar.png" />
   <div class="place-self-center">

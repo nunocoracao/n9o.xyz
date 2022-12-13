@@ -81,6 +81,23 @@ defaultBackgroundImage = "img/background.png"
 
 [taxonomy]
   showTermCount = true
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
+  showViews = true
+  showLikes = true
+  showTableOfContents = true
+
+[term]
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
+  showViews = true
+  showLikes = true
+  showTableOfContents = true
+  groupByYear = false
+  cardViewScreenWidth = false
+  cardView = false
 
 [firebase]
   apiKey = "AIzaSyAN9vJzbGcqXi3fCiakI8rCVV7-S6T8n4s"
