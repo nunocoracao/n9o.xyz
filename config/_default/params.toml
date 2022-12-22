@@ -59,7 +59,7 @@ defaultBackgroundImage = "img/background.png"
   showTableOfContents = true
   showTaxonomies = true 
   showAuthorsBadges = true
-  showWordCount = false
+  showWordCount = true
   showSummary = true
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
 
