@@ -5,7 +5,7 @@ categories: ["Product", "Opinion"]
 tags: ["nft", "crypto", "music"]
 showSummary: true
 date: 2022-12-22
-draft: true
+draft: false
 showauthor: false
 authors:
   - nunocoracao
@@ -61,6 +61,7 @@ The element of scarcity is known to generate lucrative profits on pretty much ev
 ## The Bad
 
 ![ Bad Cat ](img/bad.jpg)
+
 
 NFTs and blockchain promise a more fair and equal future in many industries, but at the moment the underlying technology is still pretty immature, and we don’t know in which terms it will stick around. If something changes and all of a sudden Ethereum stops being the dominant NFT platform, users might move away to a different technology and it remains unclear what happens to all of those who already invested in NFTs. 
 
