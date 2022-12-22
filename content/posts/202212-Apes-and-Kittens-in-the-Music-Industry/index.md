@@ -5,7 +5,7 @@ categories: ["Product", "Opinion"]
 tags: ["nft", "crypto", "music"]
 showSummary: true
 date: 2022-12-22
-draft: true
+draft: false
 showauthor: false
 authors:
   - nunocoracao
