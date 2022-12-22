@@ -62,6 +62,7 @@ The element of scarcity is known to generate lucrative profits on pretty much ev
 
 ![ Bad Cat ](img/bad.jpg)
 
+
 NFTs and blockchain promise a more fair and equal future in many industries, but at the moment the underlying technology is still pretty immature, and we don’t know in which terms it will stick around. If something changes and all of a sudden Ethereum stops being the dominant NFT platform, users might move away to a different technology and it remains unclear what happens to all of those who already invested in NFTs. 
 
 There’s a lack of standardization and interoperability which is bringing in new NFT specifications and blockchains. As the ecosystem continues to evolve, we’re likely to see different, incompatible platforms coming to life, potentially leading to an excessive amount of distribution channels for artists to worry about.
