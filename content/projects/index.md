@@ -38,7 +38,7 @@ I always try to find time to work and learn something new. Usually, most of thes
             <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish_logo.png"/></td>
             <td>Blowfish</td>
             <td>A powerful, lightweight theme for Hugo built with Tailwind CSS.</td>
-            <td><a target="_blank" href="https://nunocoracao.github.io/blowfish/">site</a></td>
+            <td><a target="_blank" href="https://blowfish.page">site</a></br><a target="_blank" href="https://github.com/nunocoracao/blowfish">github</a></td>
         </tr>
     </tbody>
 </table>
