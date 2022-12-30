@@ -4,7 +4,8 @@
   "description": "Nuno Coracao personal homepage and blog",
   "main": "index.js",
   "scripts": {
-    "dev": "hugo server --minify -D -E -F"
+    "dev": "hugo server --minify -D -E -F",
+    "stage": "hugo server --minify"
   },
   "repository": {
     "type": "git",
