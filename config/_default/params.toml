@@ -34,7 +34,7 @@ defaultBackgroundImage = "img/background.jpg"
   showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = '/posts'
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = true
 
