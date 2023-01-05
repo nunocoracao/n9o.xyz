@@ -14,9 +14,9 @@ authors:
 # series\_order: 1
 ---
 
-> Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.
-
-- <cite>Melvin E. Conway[^1]</cite>
+> Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.</br>
+>
+> - <cite>Melvin E. Conway[^1]</cite>
 
 It doesn't matter if you work in a startup, scale-up, or a larger organization, in any case, the success of a product team usually equals growing such a team. First, you need to hire more people, then split the team, now there’s a group of teams to organize, and after a while, the loop eventually begins again. These changes bring challenges and opportunities to organizations. Here are some strategies for organizing product teams, what they optimize, and in which situation to use them.  
 
@@ -120,9 +120,9 @@ There’s no single solution that will solve all problems across organizations, 
 
 All of these strategies allow you to adapt to your context, and evolve your team's strucuture as that context changes (*because it WILL change*). The most important goal is to make sure that as you grow, your users/customers don't get ignored because of whatever organizational strucutre you picked for your teams.
 
-> Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.
-
-- <cite>Melvin E. Conway[^1]</cite>
+> Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.</br>
+>
+> - <cite>Melvin E. Conway[^1]</cite>
 
 [^1]:	Original wording for the *Coway's Law*, introduced in 1967, from [Wikipedia][1].
 
