@@ -1,8 +1,8 @@
 ---
 title: "How to Structure Product Teams"
 summary: "It doesn't matter if you work in a startup, scale-up, or a larger organization, in any case, the success of a product team usually equals growing such a team. These changes bring challenges and opportunities to organizations. Here are some strategies for organizing product teams, what they optimize, and in which situation to use them."
-categories: []
-tags: []
+categories: ["Product", "Strategy", "Management"]
+tags: ["team","organization"]
 # externalUrl: ""
 showSummary: true
 date: 2023-01-18
@@ -45,6 +45,41 @@ Here are some options on how to organize teams and how each strategy compares to
 ### Functional
 *aka by Products, Features, Tech Components*
 
+<div style="background-color:white; padding: 20px">
+{{< mermaid >}}
+graph LR
+
+O([Product & Engineering Org])
+
+subgraph Frontend
+FPM(Product Manager)
+FEM(Engineering Manager)
+FPD(Product Designer)
+FFD(Frontend Developers)
+end
+
+
+subgraph Backend
+BPM(Product Manager)
+BEM(Engineering Manager)
+BBD(Backend Developers)
+end
+
+subgraph Platform
+PPM(Product Manager)
+PEM(Engineering Manager)
+PBD(Backend Developers)
+end
+
+O --> Frontend
+O --> Backend
+O --> Platform
+
+{{< /mermaid >}}
+</div>
+
+<figcaption align = "center">Examples of organizing your teams functionally with 3 teams: frontend, backend, and platform</figcaption>
+
 | Factor       | Score                                                       |
 | ------------ | ----------------------------------------------------------- |
 | Completeness | ⭐️  <br/>_high for startups, drops dramatically with scale_ |
@@ -61,6 +96,45 @@ This structure splits groups and teams by functional modules like products, feat
 
 
 ### Customer Journey
+
+<div style="background-color:white; padding: 20px">
+{{< mermaid >}}
+graph LR
+
+O([Product & Engineering Org])
+
+subgraph Discovery
+DPM(Product Manager)
+DEM(Engineering Manager)
+DPD(Product Designer)
+DFD(Frontend Developers)
+DBD(Backend Developers)
+end
+
+subgraph Purchase
+PPM(Product Manager)
+PEM(Engineering Manager)
+PPD(Product Designer)
+PFD(Frontend Developers)
+PBD(Backend Developers)
+end
+
+subgraph Authentication
+APM(Product Manager)
+AEM(Engineering Manager)
+APD(Product Designer)
+AFD(Frontend Developers)
+ABD(Backend Developers)
+end
+
+O --> Discovery
+O --> Purchase
+O --> Authentication
+
+{{< /mermaid >}}
+</div>
+
+<figcaption align = "center">Examples of organizing your teams around a customer journey</figcaption>
 
 | Factor       | Score    |
 | ------------ | -------- |
@@ -81,6 +155,56 @@ In this structure, each team/group is responsible for an overall customer journe
 ### Problem Definition
 *Aka Goals, Metrics, Jobs-to-be-Done*
 
+<div style="background-color:white; padding: 20px">
+{{< mermaid >}}
+graph LR
+
+O([Product & Engineering Org])
+
+subgraph Acquisition
+ACPM(Product Manager)
+ACEM(Engineering Manager)
+ACPD(Product Designer)
+ACFD(Frontend Developers)
+ACBD(Backend Developers)
+end
+
+
+subgraph Activation
+ACTPM(Product Manager)
+ACTEM(Engineering Manager)
+ACTPD(Product Designer)
+ACTFD(Frontend Developers)
+ACTBD(Backend Developers)
+end
+
+subgraph Engagement
+EPM(Product Manager)
+EEM(Engineering Manager)
+EPD(Product Designer)
+EFD(Frontend Developers)
+EBD(Backend Developers)
+end
+
+subgraph Conversion
+CPM(Product Manager)
+CEM(Engineering Manager)
+CPD(Product Designer)
+CFD(Frontend Developers)
+CBD(Backend Developers)
+end
+
+O --> Acquisition
+O --> Activation
+O --> Engagement
+O --> Conversion
+
+
+{{< /mermaid >}}
+</div>
+
+<figcaption align = "center">Examples of organizing your teams around a metrics problem definition, in this case a subset of the AARRR metrics</it></figcaption>
+
 | Factor       | Score    |
 | ------------ | -------- |
 | Completeness | ⭐️ ⭐️ ⭐️ |
@@ -97,6 +221,47 @@ In this method each team and group is responsible for a problem definition, whic
 
 ### User Personas
 
+<div style="background-color:white; padding: 20px">
+{{< mermaid >}}
+graph LR
+
+O([Product & Engineering Org])
+
+subgraph Buyer
+BPM(Product Manager)
+BEM(Engineering Manager)
+BPD(Product Designer)
+BFD(Frontend Developers)
+BBD(Backend Developers)
+end
+
+
+subgraph Seller
+SPM(Product Manager)
+SEM(Engineering Manager)
+SPD(Product Designer)
+SFD(Frontend Developers)
+SBD(Backend Developers)
+end
+
+subgraph Advertiser
+APM(Product Manager)
+AEM(Engineering Manager)
+APD(Product Designer)
+AFD(Frontend Developers)
+ABD(Backend Developers)
+end
+
+O --> Buyer
+O --> Seller
+O --> Advertiser
+
+
+{{< /mermaid >}}
+</div>
+
+<figcaption align = "center">Examples of organizing your teams around personas, each team focus on the needs of a specific type of user</it></figcaption>
+
 | Factor       | Score                                                              |
 | ------------ | ------------------------------------------------------------------ |
 | Completeness | ⭐️ ⭐️ ⭐️                                                           |
@@ -112,13 +277,19 @@ Each team and group are assigned a persona and become responsible for that perso
 | - Very customer-centric, encourages teams to think about customer needs/outcomes <br/><br/>- Simplifies user research, each team can target interviews by the type of person they want to talk to and can become experts in that persona over time | - Can pull the product in multiple directions at once <br/><br/>- If personas have strong connections between them (e.g. two personas that are buyers) it will lead to clashes and low independence across teams and groups |
 
 
-## Don’t Forget Your Users  
+## Wrap Up  
   
 ![Lone pawn looking at group of red pawns](img/lonely.jpg)
 
-There’s no single solution that will solve all problems across organizations, industries, etc. However, there are clear winners depending on company size and business model. If you are working on an early stage company, best is to go with a *functional* split. Teams and scopes will be crystal clear on what they need to do and it will get you through the first stages faster. If your product already has a well-defined user flow in which you can optimize teams for each part of that flow, organize teams around those *customer flows*. It will be easier to provide clear KPIs and scopes. If you have more than one distinct *personas* (think buyer-seller type), you can optimize those two experiences clearly. 
+There’s no single solution that will solve all problems across organizations, industries, etc. However, there are clear interesting options depending on company size and business model. 
 
-All of these strategies allow you to adapt to your context, and evolve your team's strucuture as that context changes (*because it WILL change*). The most important goal is to make sure that as you grow, your users/customers don't get ignored because of whatever organizational strucutre you picked for your teams.
+As an example, if you are working on an early stage company, it might sense to go with a *functional* split. Teams and scopes will be crystal clear on what they need to do and it will get you through the first stages faster. In the same way, if your product already has a well-defined user flow (*e.g. e-commerce with Acquisition, Activation, Conversion, etc*), it might be interesting to focus each team around each of the *stages in the customer flow*. This will it make it easier to provide clear KPIs and scopes for each team, and will allow you to scale easily. If you have more than one distinct *personas* (think buyer-seller type), you can optimize those two experiences clearly. 
+
+All of these strategies allow you to adapt to your context, and evolve your team's strucuture as that context changes (*because it WILL change*). There is no clear answers and the above *suggestions* are merely examples of how you can leverages some of the techniques.
+
+**The only thing that you shouldn't do** is try to mix some of these strategies inside the same organization. This will generate confusion, unclear dependencies, and noise across our organization.
+
+No matter which option you choose, as you scale, your goal should always be to make sure that your teams don't lose their **customer-focus** as that will lead to a) unhappy customers and b) failure.
 
 > Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.</br>
 >
