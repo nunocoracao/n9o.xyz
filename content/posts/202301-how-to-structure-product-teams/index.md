@@ -6,7 +6,7 @@ tags: []
 # externalUrl: ""
 showSummary: true
 date: 2023-01-18
-draft: true
+draft: false
 showauthor: false
 authors:
   - nunocoracao
