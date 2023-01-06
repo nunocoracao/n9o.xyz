@@ -293,13 +293,11 @@ At the end, regardless of which option you choose, as you scale, your goal shoul
 
 > Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.</br>
 > 
-> - <cite>Melvin E. Conway[^2]</cite>
+> - <cite>Melvin E. Conway[^1]</cite>
 
 [^1]:	Original wording for the *Coway's Law*, introduced in 1967, from [Wikipedia][1].
 
-[^2]:	Original wording for the *Coway's Law*, introduced in 1967, from [Wikipedia][2].
 
 [1]:	https://en.wikipedia.org/wiki/Conway%27s_law
-[2]:	https://en.wikipedia.org/wiki/Conway%27s_law
 
 [image-1]:	img/lonely.jpg
