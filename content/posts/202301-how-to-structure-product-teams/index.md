@@ -5,7 +5,7 @@ categories: ["Product", "Strategy", "Management"]
 tags: ["team","organization"]
 # externalUrl: ""
 showSummary: true
-date: 2023-01-18
+date: 2023-01-11
 draft: false
 showauthor: false
 authors:
