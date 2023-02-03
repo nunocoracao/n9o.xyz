@@ -1,6 +1,6 @@
 # [nunocoracao.com](https://nunocoracao.com)
 
-<a target="_blank" href="https://www.buymeacoffee.com/nunocoracao"><img class="nozoom" src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=nunocoracao&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+<a href="https://www.buymeacoffee.com/nunocoracao" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 [![Deploy Production](https://github.com/nunocoracao/homepage/actions/workflows/firebase-hosting-merge.yml/badge.svg)](https://github.com/nunocoracao/homepage/actions/workflows/firebase-hosting-merge.yml) [![Deploy Preview](https://github.com/nunocoracao/homepage/actions/workflows/firebase-hosting-pull-request.yml/badge.svg?branch=dev&event=pull_request)](https://github.com/nunocoracao/homepage/actions/workflows/firebase-hosting-pull-request.yml)
 
