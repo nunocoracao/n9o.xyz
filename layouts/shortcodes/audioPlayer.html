@@ -1,0 +1,8 @@
+{{ $source := .Get "source" }}
+{{ if $source }}
+</br>
+<audio class="w-full" controls>
+    <source src="{{ $source }}">
+</audio>
+</br>
+{{ end }}
