@@ -48,6 +48,7 @@ smartTOCHideUnfocusedChildren = false
   showLikes = true
   showDateUpdated = false
   showAuthor = false
+  showHero = true
   heroStyle = "background"
   layoutBackgroundBlur = true
   showBreadcrumbs = true
