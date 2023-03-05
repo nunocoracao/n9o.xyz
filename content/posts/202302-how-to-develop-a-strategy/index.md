@@ -1,8 +1,8 @@
 ---
 title: "How to Develop an Effective Strategy"
 summary: "Most people consider strategy to be an event, some magical moment that changes the course of a company and defines its success for generations. The tale goes, some smart people get together (or occasionally one solo genius), they decide what they are going to do, and then they start implementing that strategy. That's actually not the way the world works."
-categories: []
-tags: []
+categories: ["Product", "Strategy"]
+tags: ["deliberative", "emergent", "good money", "bad money"]
 # externalUrl: ""
 showSummary: true
 date: 2023-02-20
