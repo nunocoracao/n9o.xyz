@@ -1,8 +1,8 @@
 ---
 title: "Product Roles"
-summary: "The tech industry is constantly growing and evolving, with new products being introduced and updated at an ever-increasing pace. To keep up with this pace, companies require skilled people who can effectively manage the product lifecycle, from ideation to launch and beyond. This is where Product Managers come in."
-categories: []
-tags: []
+summary: "Product Management roles can change dramatically from company to company. Not just in terms of the job description but also how these roles fit into a larger product org. In this article, I’ll explore different product roles in the tech industry and the specifics of each of them."
+categories: ["Product"]
+tags: ["roles","career","organization"]
 # externalUrl: ""
 showSummary: true
 date: 2023-03-05
@@ -14,7 +14,11 @@ authors:
 # series\_order: 1
 ---
 
-The tech industry is constantly growing and evolving, with new products being introduced and updated at an ever-increasing pace. To keep up with this pace, companies require skilled people who can effectively manage the product lifecycle, from ideation to launch and beyond. This is where Product Managers come in. However, the day-to-day job of a PM can change dramatically from company to company. Moreover, there are radically different approaches to structuring a product organization and its roles. These differences might make it hard for new PMs to understand their roles, where do they fit, and what to expect. In this article, I’ll explore different product roles in the tech industry and the specifics of each of them.
+Product Management roles can change dramatically from company to company. Not just in terms of the job description, but also how these roles fit into a larger product org. 
+
+The tech industry is constantly growing and evolving, with new products being introduced and updated at an ever-increasing pace. To keep up with this pace, companies require skilled people who can effectively manage the product lifecycle, from ideation to launch and beyond. This is where Product Managers come in. 
+
+However, the day-to-day job of a PM can change dramatically from company to company. Moreover, there are radically different approaches to structuring a product organization and its roles. These differences might make it hard for new PMs to understand their roles, where do they fit, and what to expect. In this article, I’ll explore different product roles in the tech industry and the specifics of each of them.
 
 ## Individual Contributor Roles
 Individual contributors are professionals who contribute to a team or organization, but do not manage others. ICs may be responsible for a certain function within a team or “own” projects. They often collaborate across functions and teams, influencing others without having positional authority. Evolution in this track for a PM is categorized by the ability to manage larger scopes and complexity without losing the ability to execute and bring results to the company.
