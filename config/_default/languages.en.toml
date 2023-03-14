@@ -15,16 +15,16 @@ dateFormat = "2006-01-02"
 [author]
   name = "Nuno Coração"
   image = "img/avatar.jpg"
-  headline = "Product @ Docker"
+  headline = "Staff Product Manager @ Docker"
   bio = "Staff Product Manager @ Docker"
   links = [
     { email = "mailto:shout@nunocoracao.com" },
     { linkedin = "https://linkedin.com/in/nunocoracao" },
     { twitter = "https://twitter.com/nunocoracao" },
     { github = "https://github.com/nunocoracao" },
-    { medium = "https://medium.com/@nunocoracao" },
-    { hackernews = "https://news.ycombinator.com/user?id=nunocoracao"},
-    { mastodon = "https://masto.ai/@nunocoracao" },
+    #{ medium = "https://medium.com/@nunocoracao" },
+    #{ hackernews = "https://news.ycombinator.com/user?id=nunocoracao"},
+    #{ mastodon = "https://masto.ai/@nunocoracao" },
     { instagram = "https://instagram.com/nunocoracao" },
     { goodreads = "http://goodreads.com/nunocoracao" },
     #{ keybase = "https://keybase.io/nunocoracao" },
