@@ -4,7 +4,6 @@ summary: "It doesn't matter if you work in a startup, scale-up, or a larger orga
 categories: ["Product", "Strategy", "Management"]
 tags: ["team","organization"]
 # externalUrl: ""
-showSummary: true
 date: 2023-01-08
 draft: false
 showauthor: false

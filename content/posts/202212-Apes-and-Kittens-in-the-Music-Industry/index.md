@@ -3,7 +3,6 @@ title: "Apes and Kittens in the Music Industry"
 summary: "Technology has disrupted the music industry several times in history, changing the way we consume it, how it’s distributed and even how it’s made. In this article we’ll reflect about the good, the bad, and the ugly facts around NFTs in the music industry."
 categories: ["Product", "Opinion"]
 tags: ["nft", "crypto", "music"]
-showSummary: true
 date: 2022-12-22
 draft: false
 showauthor: false

@@ -35,10 +35,10 @@ smartTOCHideUnfocusedChildren = false
   layout = "background" # valid options: page, profile, custom
   homepageImage = "img/background.jpg"
   showRecent = true
-  showRecentItems = 10
+  showRecentItems = 12
   showMoreLink = true
   showMoreLinkDest = '/posts'
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true
 
@@ -66,7 +66,7 @@ smartTOCHideUnfocusedChildren = false
   showAuthorsBadges = true
   showWordCount = false
   showSummary = true
-  sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
+  sharingLinks = [ "linkedin", "twitter", "whatsapp", "telegram", "pinterest", "reddit", "facebook", "email"]
 
 [list]
   showHero = true
@@ -80,7 +80,7 @@ smartTOCHideUnfocusedChildren = false
   showTableOfContents = false
   showCards = true
   groupByYear = true
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
 
 [sitemap]

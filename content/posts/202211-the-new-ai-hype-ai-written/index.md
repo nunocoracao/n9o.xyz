@@ -4,7 +4,6 @@ summary: "In the last few years, the hype around artificial intelligence has bee
 categories: ["Generated"]
 tags: ["AI", "Machine Learning", "GPT-3", "OpenAI"]
 # externalUrl: ""
-showSummary: true
 date: 2022-10-30
 draft: false
 authors:

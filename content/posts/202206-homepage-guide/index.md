@@ -5,7 +5,6 @@ summary: "Currently, there are several solutions to build and host your personal
 categories: ["Development", "Tutorial"]
 tags: ["Hugo", "Congo", "Docker", "VSCode"]
 #externalUrl: ""
-showSummary: true
 date: 2022-06-27
 draft: false
 authors:

@@ -4,7 +4,6 @@ summary: "In the last few years, the hype around artificial intelligence has bee
 categories: ["Product","Strategy","Technology"]
 tags: ["Stable Diffusion","Midjourney","Dall-e","AI", "Machine Learning"]
 # externalUrl: ""
-showSummary: true
 date: 2022-10-25
 draft: false
 authors:

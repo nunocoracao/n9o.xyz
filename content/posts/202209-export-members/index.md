@@ -5,9 +5,6 @@ summary: "Find out how Docker Business admins can export members to track their 
 categories: ["Product"]
 tags: ["Docker"]
 externalUrl: "https://www.docker.com/blog/announcing-docker-hub-export-members/"
-showSummary: true
-showViews: false
-showLikes: false
 date: 2022-09-19
 draft: false
 authors:

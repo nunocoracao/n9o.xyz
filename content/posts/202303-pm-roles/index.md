@@ -4,7 +4,6 @@ summary: "Product Management roles can change dramatically from company to compa
 categories: ["Product"]
 tags: ["roles","career","organization"]
 # externalUrl: ""
-showSummary: true
 date: 2023-03-05
 draft: false
 showauthor: false

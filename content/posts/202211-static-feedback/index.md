@@ -4,7 +4,6 @@ summary: "Today I got the chance to sit down with David Large from CloudCannon t
 categories: ["Interview"]
 tags: ["Blowfish", "open-source", "hugo", "podcast"]
 #externalUrl: "https://www.youtube.com/watch?v=4s0lm1_qTz4"
-showSummary: true
 date: 2022-11-18
 draft: false
 showauthor: false
