@@ -4,7 +4,6 @@ summary: ""
 categories: [""]
 tags: ["","",""]
 # externalUrl: ""
-showSummary: true
 date: 2023-03-12
 draft: true
 showauthor: false

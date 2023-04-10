@@ -5,9 +5,6 @@ summary: "Forget manually inviting team members to Docker Desktop. With Bulk Add
 categories: ["Product"]
 tags: ["Docker"]
 externalUrl: "https://www.docker.com/blog/bulk-user-add-for-docker-business-and-teams/"
-showSummary: true
-showViews: false
-showLikes: false
 date: 2022-07-27
 draft: false
 authors:

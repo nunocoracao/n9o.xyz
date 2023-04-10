@@ -5,7 +5,6 @@ summary: "tbd"
 categories: []
 tags: []
 # externalUrl: ""
-showSummary: true
 date: 2025-11-26
 draft: true
 showauthor: false

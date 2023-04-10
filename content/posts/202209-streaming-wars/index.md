@@ -5,7 +5,6 @@ summary: "Last July and for the first time ever, streaming viewership surpassed 
 categories: ["Product","Strategy",]
 tags: ["Netflix","Disney","Amazon","Apple"]
 #externalUrl: ""
-showSummary: true
 date: 2022-09-04
 draft: false
 authors:

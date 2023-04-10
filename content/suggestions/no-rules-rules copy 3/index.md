@@ -4,7 +4,6 @@ summary: "tbd"
 categories: []
 tags: []
 # externalUrl: ""
-showSummary: true
 date: 2023-11-16
 draft: true
 showDate : false

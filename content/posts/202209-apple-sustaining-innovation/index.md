@@ -5,7 +5,6 @@ summary: "On the 7th of September, Apple held its “Far Out” iPhone event. Ne
 categories: ["Product","Strategy",]
 tags: ["Apple","Disruptive Innovation","Sustaining Innovation"]
 #externalUrl: ""
-showSummary: true
 date: 2022-09-21
 draft: false
 authors:

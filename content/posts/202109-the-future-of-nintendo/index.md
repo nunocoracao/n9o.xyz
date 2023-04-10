@@ -5,7 +5,6 @@ summary: "Nintendo achieved something truly amazing with the launch of the Switc
 categories: ["Strategy", "Product"]
 tags: ["Nintendo", "Switch", "Disruptive Innovation"]
 #externalUrl: ""
-showSummary: true
 date: 2021-09-09
 draft: false
 authors:

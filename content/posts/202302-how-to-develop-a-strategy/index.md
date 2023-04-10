@@ -4,7 +4,6 @@ summary: "Most people consider strategy to be an event, some magical moment that
 categories: ["Product", "Strategy"]
 tags: ["deliberative", "emergent", "good money", "bad money"]
 # externalUrl: ""
-showSummary: true
 date: 2023-02-20
 draft: false
 showauthor: false

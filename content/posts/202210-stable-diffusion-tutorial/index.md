@@ -5,7 +5,6 @@ summary: "In the last year, several machine learning models have become availabl
 categories: ["Technology","Tutorial",]
 tags: ["AI","Stable Diffusion","Neural Network"]
 #externalUrl: ""
-showSummary: true
 date: 2022-10-06
 draft: false
 authors:

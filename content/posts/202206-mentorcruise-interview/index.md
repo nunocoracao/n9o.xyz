@@ -5,7 +5,6 @@ summary: "Nuno Coração is one of our professional mentors on MentorCruise and 
 categories: ["Product", "Mentorship", "Interview"]
 tags: ["Mentorcruise"]
 #externalUrl: "https://mentorcruise.com/blog/nuno-coracao-meet-the-mentor-01006/"
-showSummary: true
 date: 2022-06-26
 draft: false
 authors:

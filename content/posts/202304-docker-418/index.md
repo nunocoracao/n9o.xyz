@@ -4,7 +4,6 @@ summary: "We’re always looking for ways to enhance your experience with Docker
 categories: ["External"]
 tags: ["docker","blog","release"]
 externalUrl: "https://www.docker.com/blog/docker-desktop-4-18/"
-showSummary: true
 date: 2023-04-05
 draft: false
 showauthor: false
