@@ -133,7 +133,7 @@ layoutBackgroundHeaderSpace: false
         </tr>
         <tr>
             <td>Disruptive Strategy</td>
-            <td>2022</td>
+            <td>2021</td>
         </tr>
         <tr>
             <td rowspan=2><img class="customEntitityLogo" src="ist.png"/></td>
