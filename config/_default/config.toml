@@ -32,8 +32,9 @@ googleAnalytics = "G-R94R4YKFEC"
   home = ["HTML", "RSS", "JSON"]
 
 [related]
-  threshold = 0
-  toLower = false
+  threshold = 1
+  includeNewer = true
+  toLower = true
 
     [[related.indices]]
         name = "tags"
@@ -49,14 +50,14 @@ googleAnalytics = "G-R94R4YKFEC"
 
     [[related.indices]]
         name = "authors"
-        weight = 20
-
-    [[related.indices]]
-        name = "date"
         weight = 10
 
     [[related.indices]]
-      applyFilter = false
+        name = "date"
+        weight = 0
+
+    [[related.indices]]
+      applyFilter = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
