@@ -43,7 +43,7 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundBlur = true
 
 [article]
-  showDate = true
+  showDate = false
   showViews = true
   showLikes = true
   showDateUpdated = false
