@@ -1,16 +1,17 @@
 languageCode = "en"
 languageName = "English"
-displayName = "🇬🇧"
-isoCode = "en"
 weight = 1
-rtl = false
-
 title = "Nuno Coração"
-# logo = "/img/blowfish_logo_transparent.png"
-description = "Product | Nuno Coração"
-# copyright = "Copy, _right?_ :thinking_face:"
 
-dateFormat = "2006-01-02"
+[params]
+  displayName = "🇬🇧"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2006-01-02"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "Product | Nuno Coração"
+  # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
   name = "Nuno Coração"
