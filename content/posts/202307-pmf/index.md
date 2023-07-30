@@ -27,7 +27,7 @@ Moreover, the correlation between product-market fit and a successful future for
 ## Do You Have It?
 Determining whether a company has Product-Market Fit it not a 100% exact science, but it is definitely way more scientific and measurable than some people would tell you. An interesting framework to check if a venture has achieved PMF is the HUNCH framework:
 
-- **H**air of fire value proposition
+- **H**air on fire value proposition
 - **U**sage high
 - **N**PS
 - **C**hurn low
