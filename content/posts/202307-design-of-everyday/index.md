@@ -2,7 +2,7 @@
 title: "Books I've Read - The Design of Everyday Things"
 summary: "Are you a product manager seeking to enhance your understanding of design and user experience? \"The Design of Everyday Things\" by Don Norman, is a captivating and enlightening exploration of the design principles that govern the most seemingly simple objects around us."
 categories: ["Product", "Design"]
-tags: ["“books”"]
+tags: ["books"]
 # externalUrl: "https://www.docker.com/blog/docker-desktop-4-18/"
 date: 2023-07-30
 draft: false
