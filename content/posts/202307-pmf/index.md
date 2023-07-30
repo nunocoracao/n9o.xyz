@@ -28,7 +28,7 @@ Moreover, the correlation between product-market fit and a successful future for
 Determining whether a company has Product-Market Fit it not a 100% exact science, but it is definitely way more scientific and measurable than some people would tell you. An interesting framework to check if a venture has achieved PMF is the HUNCH framework:
 
 - **H**air of fire value proposition
-- **U**sage low
+- **U**sage high
 - **N**PS
 - **C**hurn low
 - **H**igh LTV/CAC
@@ -66,7 +66,7 @@ Investors can use the HUNCH framework as a due diligence tool to evaluate potent
 
 ### …as Product Managers
 
-Product managers play a crucial role in optimizing product-market fit. They can use the HUNCH framework to identify specific areas for improvement and prioritize feature development that aligns with customer needs and desires. It is also a valuable tool when accessing joining a company, specially startups, to get a reading on the stage the teams are at. Correlating that information with the stage of the venture (seed, series A, etc.) will help you understand the company you're joining. E.g., joining a company with a series A (which already should have PMF), more than 150 people, and without strong indicators of PMF might not be a good idea.
+Product managers play a crucial role in optimizing product-market fit. They can use the HUNCH framework to identify specific areas for improvement and prioritize feature development that aligns with customer needs and desires. It is also a valuable tool when accessing joining a company, specially startups, to get a reading on the stage the teams are at. Correlating that information with the stage of the venture (seed, series A, etc.) will help you understand the company you're joining. E.g., joining a company with a series A (which should already have PMF), more than 150 people, and without strong indicators of PMF might not be a good idea.
 
 ## Conclusion
 Product-market fit is a pivotal milestone that sets the stage for a successful business. While it's not a scientifically quantifiable concept, the HUNCH framework provides valuable data points and signals to identify potential product-market fit. Entrepreneurs who focus on understanding their customers, iterating their products, and measuring key metrics have a higher chance of achieving product-market fit and unlocking the doors to sustained growth and success. Remember, product-market fit is not merely a hunch; it's a culmination of insights, metrics, and customer signals that reveal whether a business has found its rightful place in the market.
