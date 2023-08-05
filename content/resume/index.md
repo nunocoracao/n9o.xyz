@@ -48,8 +48,10 @@ layoutBackgroundHeaderSpace: false
             <td>Full Remote </br> Lisbon, PT</td>
         </tr>
         <tr>
-            <td rowspan=2><img class="customEntitityLogo" src="truphone.png"/></td>
-            <td rowspan=2><a href="https://www.truphone.com/" target="_blank">Truphone</a></td>
+            <td rowspan=3><img class="customEntitityLogo" src="truphone.png"/></td>
+            <td rowspan=3><a href="https://www.truphone.com/" target="_blank">Truphone</a></td>
+        </tr>
+        <tr>
             <td>Group Product Manager</td>
             <td>2021 - 2022</td>
             <td rowspan=2>Hybrid </br> Lisbon, PT</td>
@@ -59,8 +61,10 @@ layoutBackgroundHeaderSpace: false
             <td>2020 - 2021</td>
         </tr>
         <tr>
-            <td rowspan=2><img class="customEntitityLogo" src="vodafone.png"/></td>
-            <td rowspan=2><a href="https://www.vodafone.com/" target="_blank">Vodafone Group</a></td>
+            <td rowspan=3><img class="customEntitityLogo" src="vodafone.png"/></td>
+            <td rowspan=3><a href="https://www.vodafone.com/" target="_blank">Vodafone Group</a></td>
+        </tr>
+        <tr>
             <td>Analytics Squad Lead </td>
             <td>2019 - 2020</td>
             <td rowspan=2>Lisbon, PT </br> London, UK</td>
@@ -91,8 +95,10 @@ layoutBackgroundHeaderSpace: false
             <td>Lisbon, PT</br>London, UK</td>
         </tr>
          <tr>
-            <td rowspan=2><img class="customEntitityLogo" src="nos.png"/></td>
-            <td rowspan=2><a href="https://www.nos.pt" target="_blank">NOS</a></td>
+            <td rowspan=3><img class="customEntitityLogo" src="nos.png"/></td>
+            <td rowspan=3><a href="https://www.nos.pt" target="_blank">NOS</a></td>
+        </tr>
+         <tr>
             <td>Product Manager</td>
             <td>2014 - 2015</td>
             <td rowspan=2>Lisbon, PT</td>
@@ -126,8 +132,14 @@ layoutBackgroundHeaderSpace: false
     </thead>
     <tbody>
         <tr>
-            <td rowspan=2><img class="customEntitityLogo" src="hbs.svg"/></td>
-            <td rowspan=2><a href="https://online.hbs.edu/" target="_blank">Harvard Business School Online</a></td>
+            <td rowspan=4><img class="customEntitityLogo" src="hbs.svg"/></td>
+            <td rowspan=4><a href="https://online.hbs.edu/" target="_blank">Harvard Business School Online</a></td>
+        </tr>
+        <tr>
+            <td>Launching Tech Ventures</td>
+            <td>2023</td>
+        </tr>
+         <tr>
             <td>Entrepreneurship Essentials</td>
             <td>2022</td>
         </tr>
@@ -136,8 +148,10 @@ layoutBackgroundHeaderSpace: false
             <td>2021</td>
         </tr>
         <tr>
-            <td rowspan=2><img class="customEntitityLogo" src="ist.png"/></td>
-            <td rowspan=2><a href="https://tecnico.ulisboa.pt/en/" target="_blank">Tecnico Lisboa</a></td>
+            <td rowspan=3><img class="customEntitityLogo" src="ist.png"/></td>
+            <td rowspan=3><a href="https://tecnico.ulisboa.pt/en/" target="_blank">Tecnico Lisboa</a></td>
+        </tr>
+        <tr>
             <td>MSc in Computer Science - Distributed Systems</td>
             <td>2012</td>
         </tr>
