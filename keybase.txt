@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/nunocoracao
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nunocoracao.com
+  * I am nunocoracao (https://keybase.io/nunocoracao) on keybase.
+  * I have a public key ASDSqTZkiPshAjXC3xqwtFRSld5eBCluAxtlveMkIGu-lwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a04a0295cede20e5b2e318c101fe718ca492cd81544089c5700f413b68e958d10a",
+      "host": "keybase.io",
+      "kid": "0120d2a9366488fb210235c2df1ab0b4545295de5e04296e031b65bde324206bbe970a",
+      "uid": "c539f9b53feeb1732c065e001ce74019",
+      "username": "nunocoracao"
+    },
+    "merkle_root": {
+      "ctime": 1694952103,
+      "hash": "2f6bf1e7f016cb0c93a77e107b541d57720242d1773b27c9aa6bd2814c8847d7bd2d9607954b70bea566f978c140b9d65bd79933b2607ba4aa65fb45bc2d5279",
+      "hash_meta": "2140b7454521e83e153c89bc64224a688764bd9d484b7581311ddaabf4f19098",
+      "seqno": 24929715
+    },
+    "service": {
+      "entropy": "qM6SHMrAeralWNPw7LUuoTPL",
+      "hostname": "nunocoracao.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.2"
+  },
+  "ctime": 1694952122,
+  "expire_in": 504576000,
+  "prev": "76a73cb1564bcea20d46d0e57136326c68e78b4825ee6daac12319ffc32337dd",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0qk2ZIj7IQI1wt8asLRUUpXeXgQpbgMbZb3jJCBrvpcKp3BheWxvYWTESpcCE8Qgdqc8sVZLzqINRtDlcTYybGjni0gl7m2qwSMZ/8MjN93EIEr8f/bcIpraRg1uPeKLWg85fjH5sPiBKPpMKUimHlsaAgHCo3NpZ8RAEjMIg19JmtFUr9dCmvC8ZJqaFZWGvss4cb6OsQfui+OOZuo15VOrTyUKh0SqRAa5uozE+KvHb3KomE51ZE0ZC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFAmvv7HzXAluzely40oVSJVKBy63W75QC2LvC8EjD//o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nunocoracao
+
+==================================================================
