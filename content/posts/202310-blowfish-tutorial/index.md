@@ -1,6 +1,7 @@
 ---
-title: "Build your homeage using Blowfish and Hugo"
-summary: "tbd"
+title: "Build your homepage using Blowfish and Hugo"
+summary: "Just one year ago, Blowfish was a personal endeavor, a Hugo theme crafted to build my unique vision for my personal homepage. Fast forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes."
+description: "Just one year ago, Blowfish was a personal endeavor, a Hugo theme crafted to build my unique vision for my personal homepage. Fast forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes."
 categories: ["Open-Source", "Blowfish"]
 tags: ["tutorial", "blowfish", "hugo"]
 date: 2023-10-04
@@ -10,65 +11,59 @@ authors:
   - nunocoracao
 ---
 
+Just one year ago, [Blowfish](https://blowfish.page/) was a personal endeavor, a [Hugo](https://gohugo.io/) theme crafted to build my unique vision for my personal homepage. Fast forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes.
 
-chit chat
-
+{{< github repo="nunocoracao/blowfish" >}}
 
 ## TL;DR
 
-The goal of this guide is to walk a newcomer to Hugo on how to install, manage, and publish your own website. The final version of the code is available in this [repo](https://github.com/nunocoracao/blowfish-tutorial/tree/main). 
+The goal of this guide is to walk a newcomer to Hugo on how to install, manage, and publish your own website. The final version of the code is available in this [repo](https://github.com/nunocoracao/blowfish-tutorial/tree/main) - for those that would like to jump to the end. 
 
 ![Tutorial example](img/01.png)
 
-The visual style is just one of the main possibilities available in Blowfish. Users are encouraged to check the [documentation page](https://blowfish.page/) and learn how to customize the theme to their needs. Additionally, there are already [great examples](https://blowfish.page/users/) of the theme from existing users available for inspiration. Blowfish also offers several extra features in the form of `shortcodes` available out of the box in the theme - check them out [here](https://blowfish.page/docs/shortcodes/).
+The visual style is just one of the many possibilities available in Blowfish. Users are encouraged to check the [documentation page](https://blowfish.page/) and learn how to customize the theme to their needs. Additionally, there are already [great examples](https://blowfish.page/users/) of the theme from other users available for inspiration. Blowfish also offers several extra features in the form of `shortcodes` available out of the box in the theme - check them out [here](https://blowfish.page/docs/shortcodes/) and get inspired. 
 
-## Setup tools
+## Setup your environment
 
-Assumes nothing walk you through all the steps
-- install brew -
+Let’s begin by installing all the tools you need. This guide will cover the steps for Mac so these instructions might not apply to your hardware and OS. If you are on Windows or Linux, please consult the guides on how to [install Hugo](https://gohugo.io/installation/), and [GitHub’s CLI](https://cli.github.com/) for your OS.
+
+Anyway, if you are using MacOS let’s install `brew` - a package manager for mac - as that will help installing and managing the other tools.
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-- install Hugo - 
+Once `brew` is installed let’s install Git, Hugo and GitHub’s CLI.
 ```bash
+brew install git
 brew install hugo
-```
-
-- install GitHub cli tool - 
-```bash
 brew install gh
 ```
 
-- create a folder for your site
+Create a folder for your code and open a terminal session into it (I chose _blowfish-tutorial_ in the commands below, feel free to call the folder whatever you want).
 ```bash
 mkdir blowfish-tutorial
 cd blowfish-tutorial
 ```
 
-- setup git
+Once inside the folder, the next step is to initialize your local `git`  repo.
 ```bash
 git init -b main
 ```
 
-- setup github repo
- 
-
+Now, let’s create and sync the local repo to a GitHub repo so that your code is stored remotely.		 
 ```bash
 gh auth login
 gh repo create
 git push --set-upstream origin main
 ```
 
+Check the image below for the options I chose for this guide, again feel free to change names and description to your use-case.
+
 ![gh repo create example](img/ghcreate.png)
 
 
-- add core files
-README.md  
-.gitignore
-
-https://github.com/nunocoracao/blowfish-tutorial/blob/main/.gitignore
+Finally create a **.gitignore** file which will allow you to exclude certain files from your repo automatically. I would start with something like the example below.
 
 ```bash
 #others
@@ -81,43 +76,43 @@ node_modules
 ._*
 .Spotlight-V100
 .Trashes
+
+# Hugo
+public
 ```
 
-save changes to repo
-
+Last step is to save all the changes to the repo.
 ```bash
 git add .
 git commit -m “initial commit”
 git push
 ```
 
-[https://github.com/nunocoracao/blowfish-tutorial](https://github.com/nunocoracao/blowfish-tutorial)
-[https://brew.sh/](https://brew.sh/)
-[https://gohugo.io/installation/](https://gohugo.io/installation/)
 
+## Create homepage and configure it
 
-## setup site and config
+With all the tools setup this should be fast and easy. Still within the folder you created in the last section, let’s create an empty Hugo website (_with no theme_).
 
-- create hugo vanilla site
 ```bash
 hugo new site --force .
 ```
- - PAGE NOT FOUND - no content but everything is looking good 
+
+Once the scaffolding finishes try the command below to run your page. Open a browser on **https://localhost:1313** to see your site…
+ 
 ```bash
 hugo server
 ```
 
+ Ups… Page not found - right? 
+This is expected, even though you created a website Hugo doesn’t give any default experience - aka no content.  
 
-
-- Install Blowfish
-let’s install blowfish using git submodules - makes it easier to upgrade  
+Next step let’s install Blowfish using `git submodules` which will make it easier to manage and upgrade to new versions in the future.
+  
 ```bash
 git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
 ```
 
-config/\_default/\_
-
-[https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2Fnunocoracao%2Fblowfish%2Ftree%2Fmain%2Fconfig%2F\_default](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2Fnunocoracao%2Fblowfish%2Ftree%2Fmain%2Fconfig%2F_default)
+Next, create the following folder structure at the root of your code directory - `config/_default/`. Now you will need to download [these files](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2Fnunocoracao%2Fblowfish%2Ftree%2Fmain%2Fconfig%2F%5C_default) and place them in _\_default_ folder you just created. The final structure should look something like this.
 
 ```md
 config/_default/
@@ -126,72 +121,88 @@ config/_default/
 ├─ markup.toml
 ├─ menus.en.toml
 └─ params.toml
+`
 ```
 
 
-config.toml - uncomment the line ‘theme = "blowfish”
-
-try hugo server and you should see something
+Open the config.toml and uncomment the line **theme = "blowfish”** and you are ready to go. Try the running the site again and check the result in https://localhost:1313
 
 ```bash
 hugo server
 ```
 
+You should see something like the image below. Not much yet as we didn’t add any content, but the main skeleton for Blowfish is already in place - just requires configuration. 
+
 ![blowfish empty site](img/blowfishempty.png)
 
+Now let’s configure the theme. 
 
-
-https://blowfish.page/docs/configuration/
-
-
-
-Let’s configure the theme a little
-strucure
-Create /content/posts - for your posts
-
+{{< alert  d>}}
+**FYI** This guide will not cover in detail what each parameter available in Blowfish does - for everything available and how to use it check [Blowfish documentation](https://blowfish.page/docs/configuration/#theme-parameters) for every option in every file.
+{{< /alert >}}
 
 ### menus.en.toml
+This file defines your menu structure, for the top banner and the footer. For this guide let’s create two menu sections: one for _Posts_ and one for _Tags_. 
+- **Posts** - will display the full list of entries
+- **Tags** - automatically generated based on tags placed on each article
+
+To achieve this make sure the following entries existing in the **menus.en.toml** file. Once you do this you should see the menus appearing with a new **hugo server** run.
 
 ```toml
-[[main]()]
+[[main]]
   name = "Posts"
   pageRef = "posts"
   weight = 10
 
-[[main]()]
+[[main]]
   name = "Tags"
   pageRef = "tags"
   weight = 30
 ```
 
 
+### languages.en.toml
 
-layout and colors
-background layout - [https://blowfish.page/](https://blowfish.page/)
-neon colors[https://blowfish.page/docs/getting-started/#colour-schemes](https://blowfish.page/docs/getting-started/#colour-schemes)
+This file will configure your main details as the author of the website. Change the section below to reflect your details.
 
-add an image.jpg to assets folder - background for the site
+```bash
+[author]
+   name = "Your name here"
+   image = "profile.jpg"
+   headline = "I'm only human"
+   bio = "A little bit about you" # appears in author card for each article
+```
 
-profile.jpg for your profile picture
+The images for the website should be placed in the _assets_ folder. For this step please add a profile picture to that folder named _profile.jpg_ or change the configuration above to the filename you chose. If you don’t have a profile image available use below for the tutorial.
 
-Here are the examples I am using in this tutorial
-
-![background](img/background.jpg "assets/image.jpg")
 ![profile](img/profile.jpg "assets/profile.jpg")
+
+Last step is configuring your links - social media, GitHub, etc. The file includes all the options but they are commented. Feel free to uncomment everything and delete the ones you don’t want to use. Replace the right links on the ones you chose to keep. You can also change the order.
 
 
 
 ### params.toml
 
+This is the main configuration file for Blowfish. This is where most of the visual options or customization available can be configured. For this guide I chose to use a **background** layout - [check other options on the landing page for Blowfish](https://blowfish.page/) - with the **Neon** color scheme - you can pick another if you wan to from [this list](https://blowfish.page/docs/getting-started/#colour-schemes) or [create your own](https://blowfish.page/docs/advanced-customisation/#colour-schemes).
+
+Add an **image.jpg** to the assets folder which will be the background for the site. You can also download the examples I am using in this tutorial.
+
+![background](img/background.jpg "assets/image.jpg")
+
+Not let’s jump into the _params.toml_ and start configuring the file. Let’s begin by making sure that we have the right color scheme, that image optimization is on, and the we configure the default background image.
+
 ```bash
+colorScheme = "neon"
 disableImageOptimization = false
 defaultBackgroundImage = "image.jpg" # used as default for background images 
 ```
 
+Next let’s configure our homepage. We’re going with the _background_ layout, configuring the homepage image and recent items. Also we are using the **card view** for items in the recent category. Finally, let’s configure the header to be fixed.
+
 ```bash
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "IMAGE.jpg" # used in: hero, and card
+  homepageImage = "image.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 6
   showMoreLink = true
@@ -203,6 +214,8 @@ defaultBackgroundImage = "image.jpg" # used as default for background images
 [header]
   layout = "fixed"
 ```
+
+Final step is to configure how the article and list pages will look. Here’s the configurations that you should make sure have these values. 
 
 ```bash
 [article]
@@ -220,35 +233,16 @@ defaultBackgroundImage = "image.jpg" # used as default for background images
 ```
 
 
-
-
-
-
-
-### languages.en.toml
-
-personal info
-
-```bash
-[author]
-   name = "Your name here"
-   image = "profile.jpg"
-   headline = "I'm only human"
-   bio = "A little bit about you" - appears as author card in articles
-```
-
-uncomment the links
+If you run **hugo server** again you should see something like the image below.
 
 
 ![blowfish no articles](img/blowfishnoarticles.png)
 
 
 
-## content
-got to your posts folder and let’s create our first article
-create a new folder and give it the name myfirstpost
-withn create a index.md file - your article
-and pick a featured.jpg or .png for your image
+## Adding content to your site
+
+Create a folder to place your posts in  `/content/posts`. This was also the directory configure in your menu to list all the articles. Within that folder let’s create another new folder and give it the name **myfirstpost**. Within it create a **index.md** file - your article and place a featured.jpg or .png for in the same directory as an image for the article. Use the example below to get started. The first lines are called Front Matter which will enable you to configure the look and experience for specific articles. Check the [docs](https://blowfish.page/docs/front-matter/) for more info.
 
 ```md
 ---
@@ -264,49 +258,43 @@ tags: ["space"]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh nisl, vulputate eu lacus vitae, maximus molestie libero. Vestibulum laoreet, odio et sollicitudin sollicitudin, quam ligula tempus urna, sed sagittis eros eros ac felis. In tristique tortor vitae lacinia commodo. Mauris venenatis ultrices purus nec fermentum. Nunc sit amet aliquet metus. Morbi nisl felis, gravida ac consequat vitae, blandit eu libero. Curabitur porta est in dui elementum porttitor. Maecenas fermentum, tortor ac feugiat fringilla, orci sem sagittis massa, a congue risus ipsum vel massa. Aliquam sit amet nunc vulputate, facilisis neque in, faucibus nisl.
 ```
 
+You can create a couple more articles to see what will your site look like once there is content in it. Your site should look like the images below. Main page is showing the recent articles, each article is connected through others automatically via related section, you have tag aggregation, and full text search. 
+
+{{< gallery >}}
+  <img src="img/blowfishrecent.png" class="grid-w50" />
+  <img src="img/article.png" class="grid-w50" />
+  <img src="img/search.png" class="grid-w50" />
+  <img src="img/tag.png" class="grid-w50" />
+{{< /gallery >}}
 
 
-![blowfish recent articles](img/blowfishrecent.png)
+## Ship it
 
-![blowfish article example](img/article.png)
+Only thing missing is to ship your site. For this I am using [Firebase](https://firebase.google.com/) for hosting. Got to firebase and create a new project. Once that is done, let’s switch to the CLI since it will make it easier to configure everything.
 
-![blowfish search example](img/search.png)
-
-![blowfish tag example](img/tag.png)
-
-
-
-
-## host
-
-Firebase
-
-got to firebase and create a new project
-
-tou can disable or enable analytics - up to you - I am skipping this step in this tutorial
-
+Let’s install firebase’s CLI - if not on Mac check [install instructions on Firebase](https://firebase.google.com/docs/cli).
 ```bash
 brew install firebase
 ```
 
+Now let’s login and init firebase hosting for the project.
 
 ```bash
 firebase login
 firebase init
 ```
 
+Select hosting and proceed.
 
 ![firebase init](img/firebasecli.png)
 
+Follow the image below for the options I recommend. Make sure to set up the workflow files for GitHub actions. These will guarantee that your code will be deployed once there is a change to the repo.
 
 ![firebase options](img/firebaseoptions.png)
 
+However those files will not work out-of-box as Hugo requires extra steps. Feel free to copy and paste from the code blocks below but keep the original **projectId** in the files generated by firebase.
 
-hugo -E -F --minify -d ../public
-
-
-
-firebase-hosting-merge.yml
+### firebase-hosting-merge.yml
 ```yaml
 # This file was auto-generated by the Firebase CLI
 # https://github.com/firebase/firebase-tools
@@ -336,7 +324,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: hugo -E -F --minify -d ../public
+        run: hugo -E -F --minify -d public
 
       - name: Deploy Production
         uses: FirebaseExtended/action-hosting-deploy@v0
@@ -349,7 +337,7 @@ jobs:
 ```
 
 
-firebase-hosting-pull-request.yml
+### firebase-hosting-pull-request.yml
 ```yaml
 # This file was auto-generated by the Firebase CLI
 # https://github.com/firebase/firebase-tools
@@ -377,7 +365,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run:  hugo -E -F --minify -d ../public
+        run:  hugo -E -F --minify -d public
 
       - name: Deploy preview
         uses: FirebaseExtended/action-hosting-deploy@v0
@@ -390,7 +378,7 @@ jobs:
 ```
 
 
-
+Last step is committing and pushing. Since we configured GitHub actions this will trigger a job that will configure and deploy your site automatically.
 
 ```bash
 git add .
@@ -398,27 +386,23 @@ git commit -m "add github actions workflows"
 git push  
 ```
 
+If the actions tab for your repo your should see something like this.
 
 ![gh actions](img/githubactions.png)
+
+Once that finishes, your Firebase console should show something like this - including the links to see your app - I got a version for this tutorial running on https://blowfish-tutorial.web.app/ .
 
 ![firebase console](img/firebaseconsole.png)
 
 
-## Conclution and Next Steps
+## Conclusion and Next Steps
 
+Now you have your first version of a homepage. What will you do next? I’ll leave you with some useful links to get you inspired. 
 
-https://blowfish.page/docs/
-https://blowfish.page/docs/configuration/
-https://blowfish.page/docs/shortcodes/
-https://blowfish.page/examples/
-https://blowfish.page/users/
-
-
+- https://blowfish.page/docs/
+- https://blowfish.page/docs/configuration/
+- https://blowfish.page/docs/shortcodes/
+- https://blowfish.page/examples/
+- https://blowfish.page/users/
 
 ![blowfish final](img/01.png)
-
-
-  
-[https://blowfish-tutorial.web.app/](https://blowfish-tutorial.web.app/)
-
-https://blowfish-tutorial.web.app/ 
