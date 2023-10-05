@@ -51,19 +51,19 @@ Once inside the folder, the next step is to initialize your local `git`  repo.
 git init -b main
 ```
 
-Now, let’s create and sync the local repo to a GitHub repo so that your code is stored remotely.		 
+Now, let’s create and sync the local repo to a GitHub repo so that your code is stored remotely.
 ```bash
 gh auth login
 gh repo create
 git push --set-upstream origin main
 ```
 
-Check the image below for the options I chose for this guide, again feel free to change names and description to your use-case.
+Check the image below for the options I selected for this guide, again feel free to change names and description to your use-case.
 
 ![gh repo create example](img/ghcreate.png)
 
 
-Finally create a **.gitignore** file which will allow you to exclude certain files from your repo automatically. I would start with something like the example below.
+Finally, create a **.gitignore** file which allows you to exclude certain files from your repo automatically. I would start with something like the example below.
 
 ```bash
 #others
@@ -81,7 +81,7 @@ node_modules
 public
 ```
 
-Last step is to save all the changes to the repo.
+The last step is to save all the changes to the repo.
 ```bash
 git add .
 git commit -m “initial commit”
@@ -89,25 +89,25 @@ git push
 ```
 
 
-## Create homepage and configure it
+## Create site and configure it
 
-With all the tools setup this should be fast and easy. Still within the folder you created in the last section, let’s create an empty Hugo website (_with no theme_).
+With all the tools ready, creating and configuring your site will be easy. Still within the folder you created in the last section, let’s create an empty Hugo website (_with no theme_).
 
 ```bash
 hugo new site --force .
 ```
 
-Once the scaffolding finishes try the command below to run your page. Open a browser on **https://localhost:1313** to see your site…
+Once the scaffolding finishes, try the command below to run your page. Open a browser on _[https://localhost:1313](https://localhost:1313)_ to see your site…
  
 ```bash
 hugo server
 ```
 
- Ups… Page not found - right? 
-This is expected, even though you created a website Hugo doesn’t give any default experience - aka no content.  
+ Ups… Page not found – right? 
+This was expected, even though you created a website, Hugo doesn’t give any default experience – aka your site doesn’t have any page to show.  
 
-Next step let’s install Blowfish using `git submodules` which will make it easier to manage and upgrade to new versions in the future.
-  
+Next step, let's install Blowfish using `git submodules` which will make it easier to manage and upgrade to new versions in the future.
+ 
 ```bash
 git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
 ```
@@ -125,7 +125,7 @@ config/_default/
 ```
 
 
-Open the config.toml and uncomment the line **theme = "blowfish”** and you are ready to go. Try the running the site again and check the result in https://localhost:1313
+Open the **config.toml** and uncomment the line **theme = "blowfish”** and you are ready to go. Try the running the site again and check the result at _[https://localhost:1313](https://localhost:1313)_
 
 ```bash
 hugo server
@@ -138,15 +138,15 @@ You should see something like the image below. Not much yet as we didn’t add a
 Now let’s configure the theme. 
 
 {{< alert  d>}}
-**FYI** This guide will not cover in detail what each parameter available in Blowfish does - for everything available and how to use it check [Blowfish documentation](https://blowfish.page/docs/configuration/#theme-parameters) for every option in every file.
+**FYI** This guide will not cover in detail what each parameter available in Blowfish does – for everything available and how to use it, check [Blowfish documentation](https://blowfish.page/docs/configuration/#theme-parameters) for every option in every file.
 {{< /alert >}}
 
 ### menus.en.toml
-This file defines your menu structure, for the top banner and the footer. For this guide let’s create two menu sections: one for _Posts_ and one for _Tags_. 
+This file defines your menu structure, for the top banner and the footer. For this guide, let’s create two menu sections: one for _Posts_ and one for _Tags_. 
 - **Posts** - will display the full list of entries
 - **Tags** - automatically generated based on tags placed on each article
 
-To achieve this make sure the following entries existing in the **menus.en.toml** file. Once you do this you should see the menus appearing with a new **hugo server** run.
+To achieve this, make sure the following entries exist in the **menus.en.toml** file. Once the changes are done, you should see the menus appearing by re-running **hugo server**.
 
 ```toml
 [[main]]
@@ -173,23 +173,23 @@ This file will configure your main details as the author of the website. Change 
    bio = "A little bit about you" # appears in author card for each article
 ```
 
-The images for the website should be placed in the _assets_ folder. For this step please add a profile picture to that folder named _profile.jpg_ or change the configuration above to the filename you chose. If you don’t have a profile image available use below for the tutorial.
+The images for the website should be placed in the _assets_ folder. For this step, please add a profile picture to that folder named _profile.jpg_ or change the configuration above to the filename you chose. If you don’t have a profile image available, you can use the one below for the tutorial.
 
 ![profile](img/profile.jpg "assets/profile.jpg")
 
-Last step is configuring your links - social media, GitHub, etc. The file includes all the options but they are commented. Feel free to uncomment everything and delete the ones you don’t want to use. Replace the right links on the ones you chose to keep. You can also change the order.
+The last step is configuring your links – social media, GitHub, etc. The file includes all the supported options, but they are commented. You are welcome to uncomment everything and delete the ones you would rather not use. Replace the right links on the ones you decided to keep. You can also change the order.
 
 
 
 ### params.toml
 
-This is the main configuration file for Blowfish. This is where most of the visual options or customization available can be configured. For this guide I chose to use a **background** layout - [check other options on the landing page for Blowfish](https://blowfish.page/) - with the **Neon** color scheme - you can pick another if you wan to from [this list](https://blowfish.page/docs/getting-started/#colour-schemes) or [create your own](https://blowfish.page/docs/advanced-customisation/#colour-schemes).
+This is the main configuration file for Blowfish. Most of the visual options or customization available can be configured using it, and it covers several areas of the theme. For this tutorial, I decided to use a **background** layout - [check other layouts for Blowfish’s landing page](https://blowfish.page/) - with the **Neon** color scheme - you can pick a different color scheme if you want to - check [this list](https://blowfish.page/docs/getting-started/#colour-schemes) or [create your own](https://blowfish.page/docs/advanced-customisation/#colour-schemes).
 
 Add an **image.jpg** to the assets folder which will be the background for the site. You can also download the examples I am using in this tutorial.
 
 ![background](img/background.jpg "assets/image.jpg")
 
-Not let’s jump into the _params.toml_ and start configuring the file. Let’s begin by making sure that we have the right color scheme, that image optimization is on, and the we configure the default background image.
+Now let’s jump into the _params.toml_ and start configuring the file. I will focus only on the values that need to be changed, don’t delete the rest of the file without reading the docs. Let’s begin by making sure that we have the right color scheme, that image optimization is on, and configure the default background image.
 
 ```bash
 colorScheme = "neon"
@@ -197,7 +197,7 @@ disableImageOptimization = false
 defaultBackgroundImage = "image.jpg" # used as default for background images 
 ```
 
-Next let’s configure our homepage. We’re going with the _background_ layout, configuring the homepage image and recent items. Also we are using the **card view** for items in the recent category. Finally, let’s configure the header to be fixed.
+Next, let's configure our homepage. We’re going with the _background_ layout, configuring the homepage image and recent items. Furthermore, we are using the **card view** for items in the recent category. Finally, let’s configure the header to be fixed.
 
 ```bash
 [homepage]
@@ -215,7 +215,7 @@ Next let’s configure our homepage. We’re going with the _background_ layout,
   layout = "fixed"
 ```
 
-Final step is to configure how the article and list pages will look. Here’s the configurations that you should make sure have these values. 
+Now configure how the article and list pages will look. Here are the configurations for those. 
 
 ```bash
 [article]
@@ -233,7 +233,7 @@ Final step is to configure how the article and list pages will look. Here’s th
 ```
 
 
-If you run **hugo server** again you should see something like the image below.
+If you run **hugo server** again, you should see something like the image below.
 
 
 ![blowfish no articles](img/blowfishnoarticles.png)
@@ -242,7 +242,7 @@ If you run **hugo server** again you should see something like the image below.
 
 ## Adding content to your site
 
-Create a folder to place your posts in  `/content/posts`. This was also the directory configure in your menu to list all the articles. Within that folder let’s create another new folder and give it the name **myfirstpost**. Within it create a **index.md** file - your article and place a featured.jpg or .png for in the same directory as an image for the article. Use the example below to get started. The first lines are called Front Matter which will enable you to configure the look and experience for specific articles. Check the [docs](https://blowfish.page/docs/front-matter/) for more info.
+Create a folder to place your posts in  `/content/posts`. This was also the directory configured in your menu to list all the articles. Within that folder, let’s create a new directory and give it the name **myfirstpost**. Within it create an **index.md** file – your article and place a featured.jpg or .png for in the same directory as the thumbnail for the article. Use the example below to get started. The first lines in the file are the Front Matter, which tell Hugo what the look and experience of the article will be – different themes support different params for this. Check the [docs](https://blowfish.page/docs/front-matter/) for more info.
 
 ```md
 ---
@@ -258,7 +258,7 @@ tags: ["space"]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh nisl, vulputate eu lacus vitae, maximus molestie libero. Vestibulum laoreet, odio et sollicitudin sollicitudin, quam ligula tempus urna, sed sagittis eros eros ac felis. In tristique tortor vitae lacinia commodo. Mauris venenatis ultrices purus nec fermentum. Nunc sit amet aliquet metus. Morbi nisl felis, gravida ac consequat vitae, blandit eu libero. Curabitur porta est in dui elementum porttitor. Maecenas fermentum, tortor ac feugiat fringilla, orci sem sagittis massa, a congue risus ipsum vel massa. Aliquam sit amet nunc vulputate, facilisis neque in, faucibus nisl.
 ```
 
-You can create a couple more articles to see what will your site look like once there is content in it. Your site should look like the images below. Main page is showing the recent articles, each article is connected through others automatically via related section, you have tag aggregation, and full text search. 
+You can create additional articles to see what your site will look like once there is content in it. Your site should look like the images below. The main page shows the recent articles, each article is connected through others automatically via related section, you have tag aggregation, and full-text search. 
 
 {{< gallery >}}
   <img src="img/blowfishrecent.png" class="grid-w50" />
@@ -270,14 +270,14 @@ You can create a couple more articles to see what will your site look like once 
 
 ## Ship it
 
-Only thing missing is to ship your site. For this I am using [Firebase](https://firebase.google.com/) for hosting. Got to firebase and create a new project. Once that is done, let’s switch to the CLI since it will make it easier to configure everything.
+The only thing missing is to ship your site. I will be using [Firebase](https://firebase.google.com/) for hosting - it’s a free alternative and provides more advanced features if you are creating something more complex. Go to firebase and create a new project. Once that is done, let’s switch to the CLI as it will make it easier to configure everything.
 
 Let’s install firebase’s CLI - if not on Mac check [install instructions on Firebase](https://firebase.google.com/docs/cli).
 ```bash
 brew install firebase
 ```
 
-Now let’s login and init firebase hosting for the project.
+Now log in and init firebase hosting for the project.
 
 ```bash
 firebase login
@@ -292,7 +292,7 @@ Follow the image below for the options I recommend. Make sure to set up the work
 
 ![firebase options](img/firebaseoptions.png)
 
-However those files will not work out-of-box as Hugo requires extra steps. Feel free to copy and paste from the code blocks below but keep the original **projectId** in the files generated by firebase.
+However, those files will not work out-of-box, as Hugo requires extra steps for the build to work. Please copy and paste the code blocks below to the respective files within the **.github** folder, but keep the original **projectId** in the files generated by firebase.
 
 ### firebase-hosting-merge.yml
 ```yaml
@@ -378,7 +378,7 @@ jobs:
 ```
 
 
-Last step is committing and pushing. Since we configured GitHub actions this will trigger a job that will configure and deploy your site automatically.
+The last step is committing your code to GitHub and let the workflows you created take care of deploying your site. Since we configured GitHub actions, this will trigger a job that will configure and deploy your site automatically.
 
 ```bash
 git add .
@@ -386,23 +386,24 @@ git commit -m "add github actions workflows"
 git push  
 ```
 
-If the actions tab for your repo your should see something like this.
+If the actions tab for your repo, you should see something like this.
 
 ![gh actions](img/githubactions.png)
 
-Once that finishes, your Firebase console should show something like this - including the links to see your app - I got a version for this tutorial running on https://blowfish-tutorial.web.app/ .
+Once all the steps finish, your Firebase console should show something like the image below - including the links to see your app – I got a version of this tutorial running on [https://blowfish-tutorial.web.app/](https://blowfish-tutorial.web.app/).
 
 ![firebase console](img/firebaseconsole.png)
 
 
 ## Conclusion and Next Steps
 
-Now you have your first version of a homepage. What will you do next? I’ll leave you with some useful links to get you inspired. 
+Now you have your first version of your homepage. You can make changes locally and once you commit your code they will automatically be reflected online. What shall you do next? I’ll leave you with some useful links to get you inspired and learn more about Blowfish and Hugo. 
 
 - https://blowfish.page/docs/
 - https://blowfish.page/docs/configuration/
 - https://blowfish.page/docs/shortcodes/
 - https://blowfish.page/examples/
 - https://blowfish.page/users/
+- https://gohugo.io/documentation/
 
 ![blowfish final](img/01.png)
