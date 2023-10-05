@@ -1,7 +1,7 @@
 ---
 title: "Build your homepage using Blowfish and Hugo"
-summary: "Just one year ago, Blowfish was a personal endeavor, a Hugo theme crafted to build my unique vision for my personal homepage. Fast forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes."
-description: "Just one year ago, Blowfish was a personal endeavor, a Hugo theme crafted to build my unique vision for my personal homepage. Fast forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes."
+summary: "Just one year ago, I created Blowfish, a Hugo theme crafted to build my unique vision for my personal homepage. I also decided to make it an open-source project. Fast-forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes."
+description: "Just one year ago, I created Blowfish, a Hugo theme crafted to build my unique vision for my personal homepage. I also decided to make it an open-source project. Fast-forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes."
 categories: ["Open-Source", "Blowfish"]
 tags: ["tutorial", "blowfish", "hugo"]
 date: 2023-10-04
@@ -11,7 +11,7 @@ authors:
   - nunocoracao
 ---
 
-Just one year ago, [Blowfish](https://blowfish.page/) was a personal endeavor, a [Hugo](https://gohugo.io/) theme crafted to build my unique vision for my personal homepage. Fast forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes.
+Just one year ago, I created[Blowfish](https://blowfish.page/), a [Hugo](https://gohugo.io/) theme crafted to build my unique vision for my personal homepage. I also decided to make it an open-source project. Fast-forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes.
 
 {{< github repo="nunocoracao/blowfish" >}}
 
