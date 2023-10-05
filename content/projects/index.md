@@ -42,7 +42,7 @@ I always try to find time to work and learn something new. Usually, most of thes
         </tr>
         <tr>
             <td><img class="customEntitityAlbum" style="background-color:transparent" src="wormhole-logo-square.png"/></td>
-            <td>Workmhole</td>
+            <td>Wormhole</td>
             <td>A wormhole into the universe - Web application privding a feed of space photography</td>
             <td><a target="_blank" href="https://wormhole.photos">site</a></br><a target="_blank" href="https://github.com/wormhole-photos">github</a></td>
         </tr>
