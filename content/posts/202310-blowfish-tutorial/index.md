@@ -5,7 +5,7 @@ description: "Just one year ago, I created Blowfish, a Hugo theme crafted to bui
 categories: ["Open-Source", "Blowfish"]
 tags: ["tutorial", "blowfish", "hugo"]
 date: 2023-10-04
-draft: true
+draft: false
 showauthor: false
 authors:
   - nunocoracao
