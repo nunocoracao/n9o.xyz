@@ -86,7 +86,7 @@ smartTOCHideUnfocusedChildren = false
   cardViewScreenWidth = false
 
 [sitemap]
-  excludedKinds = ["taxonomy", "term"]
+  excludedKinds = []
 
 [taxonomy]
   showTermCount = true
