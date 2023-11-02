@@ -21,7 +21,7 @@ title = "Nuno Coração"
   links = [
     { email = "mailto:shout@nunocoracao.com" },
     { linkedin = "https://linkedin.com/in/nunocoracao" },
-    { twitter = "https://twitter.com/nunocoracao" },
+    { x-twitter = "https://twitter.com/nunocoracao" },
     { github = "https://github.com/nunocoracao" },
     #{ medium = "https://medium.com/@nunocoracao" },
     #{ hackernews = "https://news.ycombinator.com/user?id=nunocoracao"},
