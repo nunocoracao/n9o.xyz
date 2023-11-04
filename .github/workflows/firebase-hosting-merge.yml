@@ -22,8 +22,14 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Build
-        run: ./compile.sh
+      - name: Build with Hugo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo --minify --baseURL https://n9o.xyz
+
 
       - name: Deploy Production
         uses: FirebaseExtended/action-hosting-deploy@v0

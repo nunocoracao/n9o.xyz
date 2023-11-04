@@ -1,16 +1,16 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Nuno Coração"
+title = "N9O"
 
 [params]
   displayName = "🇬🇧"
   isoCode = "en"
   rtl = false
   dateFormat = "2006-01-02"
-  # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
-  description = "Product | Nuno Coração"
+  logo = "img/logo_inverted@0.25x.png"
+  secondaryLogo = "img/logo@0.25x.png"
+  description = "N9O | Nuno Coração"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
