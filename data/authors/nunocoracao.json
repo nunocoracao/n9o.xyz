@@ -3,12 +3,11 @@
     "image" : "img/avatar.jpg",
     "bio": "Staff Product Manager",
     "social": [
+        { "email": "mailto:nuno@n9o.xyz" },
         { "linkedin": "https://linkedin.com/in/nunocoracao" },
         { "x-twitter": "https://twitter.com/nunocoracao" },
-        { "email": "mailto:shout@nunocoracao.com" },
-        { "instagram": "https://instagram.com/nunocoracao" },
         { "github": "https://github.com/nunocoracao" },
-        { "mastodon": "https://masto.ai/@nunocoracao" },
+        { "instagram": "https://instagram.com/nunocoracao" },
         { "goodreads": "http://goodreads.com/nunocoracao" }
     ]
 }
