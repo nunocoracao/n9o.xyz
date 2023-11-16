@@ -310,6 +310,9 @@ jobs:
     steps:
       - name: Hugo setup
         uses: peaceiris/actions-hugo@v2.6.0
+        with: 
+          hugo-version: 0.115.4
+          extended: true
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
@@ -351,6 +354,9 @@ jobs:
     steps:
       - name: Hugo setup
         uses: peaceiris/actions-hugo@v2.6.0
+        with: 
+          hugo-version: 0.115.4
+          extended: true
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
