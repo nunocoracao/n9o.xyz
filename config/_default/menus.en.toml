@@ -20,23 +20,22 @@
   pageRef = "projects"
   weight = 20
 
-[[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 30
+#[[main]]
+#  identifier="music"
+#  #pre = "music"
+#  name = "Music"
+#  pageRef = "music"
+#  weight = 30
 
 [[main]]
   name = "Resume"
   pageRef = "resume"
   weight = 40
 
-
-#[[main]]
-#  identifier="music"
-#  #pre = "music"
-#  name = "Music"
-#  pageRef = "music"
-#  weight = 50
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 50
 
 #[[main]]
 #  name = "Recs"
