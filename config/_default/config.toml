@@ -2,7 +2,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 
 theme = "blowfish"
-baseURL = "https://nunocoracao.com/"
+baseURL = "https://n9o.xyz/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
