@@ -40,6 +40,12 @@ I always try to find time to work and learn something new. Usually, most of thes
             <td>A powerful, lightweight theme for Hugo built with Tailwind CSS.</td>
             <td><a target="_blank" href="https://blowfish.page">site</a></br><a target="_blank" href="https://github.com/nunocoracao/blowfish">github</a></td>
         </tr>
+         <tr>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish_logo.png"/></td>
+            <td>Blowfish-Tools</td>
+            <td>CLI to initialize a Blowfish project</td>
+            <td><a target="_blank" href="https://blowfish.page">site</a></br><a target="_blank" href="https://github.com/nunocoracao/blowfish-tools">github</a></td>
+        </tr>
         <tr>
             <td><img class="customEntitityAlbum" style="background-color:transparent" src="wormhole-logo-square.png"/></td>
             <td>Wormhole</td>
