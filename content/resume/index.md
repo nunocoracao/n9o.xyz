@@ -44,7 +44,7 @@ layoutBackgroundHeaderSpace: false
             <td><img class="customEntitityLogo" src="aws.png"/></td>
             <td><a href="https://aws-startup-lofts.com/emea" target="_blank">AWS Startup Loft</a></td>
             <td>Startup Advisor</td>
-            <td>2022 - Present</td>
+            <td>2022 - 2024</td>
             <td>Full Remote </br> Lisbon, PT</td>
         </tr>
         <tr>
