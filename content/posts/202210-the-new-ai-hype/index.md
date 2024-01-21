@@ -235,7 +235,7 @@ Note: Meanwhile, I've created an Instagram account to share my Stable Diffusion 
 [25]:	https://en.wikipedia.org/wiki/Convolutional_neural_network
 [26]:	https://en.wikipedia.org/wiki/Recurrent_neural_network
 [27]:	https://openai.com/blog/whisper/
-[28]:	[https://www.openculture.com/2022/10/dall-e-the-new-ai-art-generator-is-now-open-for-everyone-to-use.html]
+[28]:	https://www.openculture.com/2022/10/dall-e-the-new-ai-art-generator-is-now-open-for-everyone-to-use.html
 [29]:	https://huggingface.co
 [30]:	https://huggingface.co/bigscience/bloom?text=Poor+English%3A+She+no+went+to+the+market.+Corrected+English%3A
 [31]:	https://lexica.art/
