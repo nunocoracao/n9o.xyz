@@ -1,9 +1,9 @@
 ---
 title: "The Evolution of AI: Now and Beyond"
-summary: ""
-description: ""
-categories: ["", ""]
-tags: ["", "", ""]
+summary: "We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run."
+description: "We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run."
+categories: ["Product", "Strategy", "AI", "Future"]
+tags: ["AI", "future", "technology"]
 date: 2024-01-15
 draft: true
 showauthor: false
@@ -19,14 +19,14 @@ authors:
 > “We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.”  
 > — <cite> Roy Amara [^1]</cite>
 
-It’s unquestionable the impact AI has had in the world in the last year. Back in October 2022, I wrote about the fast-paced evolution of AI and how everything that was possible at the time felt like magic. Given everything that happened since then, I think it deserves a follow-up. 
+It’s unquestionable the impact AI had in the world in the last year. Back in October 2022, I wrote about the fast-paced evolution of AI and how everything that was possible at the time felt like magic. Given everything that happened since then, I think it deserves a follow-up. 
 
 {{< article link="/posts/202210-the-new-ai-hype/" >}}
 
-Last time I focused on the technology itself, what advancements were key to enabling GPTs, and made some predictions about the future. Some spot on, some maybe not. One year ago, the main topic was the sudden rise of AI applications since the creation of [transformers][1]. Since then, the speed of innovation hasn’t decreased one bit, quite the opposite. Investment in the area has grown massively in the last year, and everyone is thinking about how to _leverage_ AI. 
+Last time I focused on the technology itself, what advancements were key to enabling GPTs, and made some predictions about the future. Some spot on, some maybe not. One year ago, the main topic was the sudden rise of AI applications since the creation of [transformers][1]. Since then, the speed of innovation hasn’t decreased one bit, quite the opposite. Investment in the area has grown massively in the last year, and everyone is thinking about how to _leverage_ AI and be the one to win the ongoing race. 
 
 ## Where we are
-The AI landscape has dramatically evolved over the last year, marked by significant investments, technological advancements, and a surge in AI applications across various sectors. At this stage, it feels like the entire tech industry is in a race to figure out these new technologies and how to make a profit out of them. 
+The AI landscape has dramatically evolved over the last year, marked by significant investments, technological advancements, and a surge in AI applications across various sectors. At this stage, the entire tech industry is in a aggressive race to figure out these new technologies and create/integrate them ASAP. 
 
 ### OpenAI and Microsoft
 OpenAI's collaboration with Microsoft, marked by substantial investments, has led to groundbreaking developments like GPT-4, the OpenAI API, and the GPT Store. The financial infusion from Microsoft not only catalyzes technological advancements but also opens new revenue streams through these AI products. Sam Altman's modest lifestyle, despite OpenAI's immense success, symbolizes a culture focused more on technological advancement and ethical considerations than on lavish lifestyles. This partnership is reshaping the industry, setting new standards for AI capabilities and applications in various sectors, from customer service to software development.
