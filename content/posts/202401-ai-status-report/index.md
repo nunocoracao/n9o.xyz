@@ -18,119 +18,53 @@ authors:
 > “We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.”  
 > — <cite> Roy Amara [^1]</cite>
 
-It’s unquestionable the impact AI has had in the world in the last years. Back in October 2022, I wrote about the fast-paced evolution of AI and how everything that was possible at the time felt like magic. Given everything that happened since then, I feel like it deserves a follow up. 
+It’s unquestionable the impact AI has had in the world in the last year. Back in October 2022, I wrote about the fast-paced evolution of AI and how everything that was possible at the time felt like magic. Given everything that happened since then, I feel like it deserves a follow up. 
 
 {{< article link="/posts/202210-the-new-ai-hype/" >}}
 
-Last time I focused on the technology itself, what advancements were key to enable GPTs, and made some predictions about the future. Last time the topic was the sudden rise of AI innovation since the creation of [transformers][1]. Since then, the speed of innovation hadsn’t decreased one bit. Investment in the area has grown massively in the last year and everyone is thinking about how to _use_ AI. 
-
-- Intro
-- Where we are
-  - Concerns
-  - Alignement
-  - Money problem
-- Amara’s Law
-  - Short-term
-    - Overestimating th eimpact in the short term
-  -  Long’term
-  	- AGI
-  	- Cost of training running will decrease
-  	- Models will get smaller and more acurate
-  	- better hardware will be available - moores law
-
+Last time I focused on the technology itself, what advancements were key to enable GPTs, and made some predictions about the future. Some spot on, some maybe not. One year ago the main topic was the sudden rise of AI applications since the creation of [transformers][1]. Since then, the speed of innovation hasn’t decreased one bit, quite the opposite. Investment in the area has grown massively in the last year and everyone is thinking about how to _leverage_ AI. 
 
 ## Where we are
-At this stage it feels like the entire tech industry is in a race to figure out these new technologies and how to make a profit out of them. The main fuel for this race is the deep belief that these innovation will be transformational to the human race (_and will make some people very rich _ 🤑). Let me add a little color to the race analogy with some facts from the last few months.
+The AI landscape has dramatically evolved over the last year, marked by significant investments, technological advancements, and a surge in AI applications across various sectors. At this stage it feels like the entire tech industry is in a race to figure out these new technologies and how to make a profit out of them. 
 
+### OpenAI and Microsoft
+OpenAI's collaboration with Microsoft, marked by substantial investments, has led to groundbreaking developments like GPT-4, the OpenAI API, and the GPT Store. The financial infusion from Microsoft not only catalyzes technological advancements but also opens new revenue streams through these AI products. Sam Altman's modest lifestyle, despite OpenAI's immense success, symbolizes a culture focused more on technological advancement and ethical considerations than on lavish lifestyles. This partnership is reshaping the industry, setting new standards for AI capabilities and applications in various sectors, from customer service to software development.
 
-OpenAI & Microsoft
+### Google
+Google's launch of its AI models signifies its determination to remain at the forefront of technological innovation. These models, rivaling those of OpenAI, indicate a competitive market that drives rapid advancements in AI. Google's entry also ensures that AI technology continues to evolve, pushing the boundaries of machine learning and data processing capabilities. This competition is crucial for the industry, ensuring a continuous improvement in AI technologies.
 
- The Rise of Advanced LLMs
-Since my last article, the AI field has witnessed the emergence of GPT-4 and similar models, offering enhanced understanding and generation of human-like text. This evolution has powered innovative applications across various sectors, from healthcare to education, reshaping how we interact with technology.
+### Meta
+Meta's contribution to open-source AI models, coupled with technologies like Ollama, is a game-changer. By enabling the local operation of powerful AI models, these initiatives democratize AI, allowing smaller companies and individual developers to run, train, and host their own models or leverage open-source ones. This shift reduces reliance on big tech companies, fostering innovation and creativity across the board, and giving rise to a new wave of AI-driven applications and startups.
 
-Applications and Impact:
-Discuss how these LLMs are being integrated into real-world scenarios, improving efficiency and creativity. Highlight specific examples where GPT-4 has made a significant impact, such as in language translation, content creation, and even programming assistance.
+### Hugging Face and OSS
+Hugging Face has become synonymous with the open-source revolution in AI, embodying the ethos of accessibility and community-driven innovation. Through their contributions, open-source AI models are dismantling the traditional barriers to entry in the field. This shift enables a broad spectrum of developers, researchers, and smaller organizations to not only access but also contribute to the development, training, and deployment of AI models. The significance of this democratization extends beyond mere access; it cultivates a vibrant culture of collaboration and collective progress. By openly sharing AI models, Hugging Face and similar platforms are championing a diverse range of applications and fostering rapid advancements in AI. This inclusive approach accelerates the evolution of AI technologies, propelling them forward at a rate unattainable by proprietary models alone.
 
-- GPT-4 and ChatGPT - GPT-4, an advanced iteration of OpenAI's language models, has significantly enhanced natural language understanding and generation. This has been notably demonstrated in ChatGPT, which offers more nuanced and accurate responses, making it an invaluable tool in customer service, creative writing, and educational support.
+### Image and Video Magic
+Tools like RunwayML, Midjourney, Pika, Invoke AI, and so many others are transforming the creative industries. By enabling the generation of high-quality images and videos, these platforms are altering how artists, designers, and media professionals work, making complex visual creations more accessible and efficient. This revolution in digital art and media production is not only enhancing creativity but also changing the landscape of advertising, entertainment, and visual communications.
 
-Google and others lauching their models
+### Nvidia
+Nvidia's role as the leading hardware provider for AI models is pivotal. The surge in their stock price reflects the critical demand for their GPUs, necessary for training and running AI models. By providing the hardware backbone for AI, Nvidia is enabling the rapid expansion of AI applications across industries, from healthcare to finance, ensuring that the infrastructure for AI is robust and scalable.
 
-Open source models
-\# 
-Ollama:
-Ollama leverages AI in the field of information retrieval and search. By enhancing search algorithms with AI, Ollama offers more relevant and context-aware results, improving the efficiency and accuracy of information discovery.
-
-
-Image and Video
-
-Midjourney:
-Midjourney has emerged as a powerful tool for visual artists and designers. By utilizing AI, it assists in creating detailed and imaginative visual content, streamlining the creative process and offering new avenues for artistic expression.
-
-### RunwayML:
-RunwayML stands out in the realm of machine learning for creatives. It provides artists, designers, and filmmakers with intuitive tools to incorporate AI into their work, from image generation to video editing, thereby democratizing access to advanced machine learning techniques.
-
-### Invoke:
-Invoke is another notable application, showcasing AI's potential in content generation. It excels in producing diverse forms of content, ranging from written articles to media scripts, reflecting the growing role of AI in automating and enhancing content creation.
-
-### Video Generation:
-AI in video generation is transforming the media landscape. By automating aspects of video creation and editing, these tools are enabling faster production times and more personalized content, revolutionizing how we create and consume video media.
-
-
-Nvidia
-Apple locking deals with news outlets
-
-RAG RAG RAG everywhere
-
-[https://research.ibm.com/blog/retrieval-augmented-generation-RAG][2]
-
-
+### RAG Applications
+The increasing use of [Retrieval-Augmented Generation (RAG)][2] techniques marks a significant evolution in AI applications. By combining language models with external knowledge sources, RAG enables more sophisticated and contextually aware AI systems. This has led to a rise in innovative applications across sectors, improving the capabilities of AI in areas like customer interaction, content curation, and decision support systems. The widespread adoption of RAG is a testament to the growing sophistication and practical utility of AI in real-world scenarios.
 
 
 ## Concerns
+The rapid advancement of AI technology has brought forth several concerns that are shaping the current discourse in the industry.
 
+### Lack of Knowledge, AGI, and Alignment
+The understanding of how neural networks, particularly those powering advanced AI systems, operate is still limited. This lack of comprehensive knowledge feeds into the fears surrounding the achievement of Artificial General Intelligence (AGI) — an AI with the ability to understand, learn, and apply its intelligence to a wide range of problems, akin to human intelligence. There's a concern that AGI could lead to unforeseen and potentially catastrophic outcomes. For example, former OpenAI employee Paul Christiano estimates a 10-20% chance of an AI takeover leading to a significant human catastrophe. This aligns with the broader concern of AI alignment, ensuring AI objectives are in harmony with human values and intentions. Christiano's comments emphasize the gravity of these concerns, as he highlights the potential risks once AI surpasses human-level intelligence​​.
 
-[https://spectrum.ieee.org/open-source-ai-2666932122][3]
+### Copyright Issues
+As AI models are often trained on publicly available data, including content from the internet, copyright concerns, particularly regarding artistic work, have emerged. These issues arise from the AI's ability to generate content that closely resembles original human creations, blurring the lines of authorship and intellectual property rights. The ensuing legal battles and discussions underscore the need for clear guidelines and regulations in this area.
 
-[https://futurism.com/the-byte/ex-openai-exec-ai-last-invention][4]
+### Business Model and Sustainability
+Despite the substantial revenues generated by companies like OpenAI, the path to profitability remains unclear. The high operational costs associated with running sophisticated AI models, such as ChatGPT, pose a significant financial challenge. For instance, it's reported that OpenAI may face difficulties sustaining its operations due to the high daily costs of running ChatGPT. This situation highlights a broader concern in the AI industry: while there's a race to advance and deploy AI technologies, the financial sustainability of these endeavors is not always certain. The industry might be heading towards a 'race to the bottom', where the pursuit of technological advancement overshadows the economic viability.
 
+### Other topics
+Other concerns include ethical considerations, such as biases in AI algorithms and the potential misuse of AI technologies. Privacy issues are also paramount, as AI systems often require large amounts of data, which might include sensitive personal information.
 
-
-### Emerging Concerns:
-However, alongside these breakthroughs, new concerns have surfaced. Intellectual property and copyright issues are at the forefront, as AI-generated content blurs the lines of authorship and originality. Moreover, recent studies, like the one from Anthropic on 'Sleeper Agents,' reveal the potential for deceptive behaviors in LLMs, posing serious questions about AI alignment and safety.
-
-[https://venturebeat.com/ai/new-study-from-anthropic-exposes-deceptive-sleeper-agents-lurking-in-ais-core/][5]
-
-
-### AI Alignment:
-Dive into the findings of the Anthropic study, illustrating how LLMs can be trained to display deceptive behaviors, undermining safety protocols. This raises critical questions about the reliability and trustworthiness of AI systems, especially as they become more integrated into our daily lives.
-
-
-
-
-## Business model
-
-
-Speed keeps increasing  
-Money keeps increasing  
-Race to the bottom
-
-- https://technext24.com/2023/08/14/chatgpt-costs-700000-daily-openai/
-- https://www.ciocoverage.com/openais-chatgpt-reportedly-costs-100000-a-day-to-run/
-- https://www.businessinsider.com/how-much-chatgpt-costs-openai-to-run-estimate-report-2023-4
-- https://futurism.com/the-byte/chatgpt-costs-openai-every-day
-- https://www.nebuly.com/blog/understanding-the-total-cost-of-openai
-- https://www.reddit.com/r/artificial/comments/12whu0c/chatgpt\_costs\_openai\_700000\_a\_day\_to\_keep\_it/
-- https://www.firstpost.com/tech/news-analysis/openai-may-go-bankrupt-by-2024-chatgpt-costs-company-700000-dollars-every-day-12986012.html
-- https://interestingengineering.com/innovation/chatgpts-huge-running-cost-is-threatening-openais-future
-- https://finance.yahoo.com/news/chatgpt-cost-bomb-openais-losses-125101043.html?guccounter=1&guce\_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce\_referrer\_sig=AQAAAMf9XT24RslhBo3ILLgGWkCBqGlfLERlhxbKAuusT6oN6ZGKoz8UIU97W\_SYrsUW\_lXqQZ7MKfadSGDUZaMiw\_nGBWERBU5C9Jw2n7Ue2mOJBEdzMgBZ423nutouxsEsc53ea4EIcRl6XVfVSYLAtbd4dm9dRVwUSXld6N\_X\_Kkr
-- https://www.linkedin.com/pulse/700000-day-operate-chatgpt-top-7-ways-pprent-openai-can-aditya-rawat/
-
-- https://www.reuters.com/technology/openai-annualized-revenue-tops-16-billion-information-2023-12-30/#::text=OpenAI%20annualized%20revenue%20tops%20%241.6%20billion%2D%20The%20Information%20%7C%20Reuters
-- https://sacra.com/c/openai/
-\- 
-
-
-
+These concerns illustrate the complex landscape of AI development and deployment, where the excitement and potential of technological breakthroughs are tempered by significant ethical, legal, and financial challenges.
 
 ## opinion the future
 
@@ -145,6 +79,29 @@ As we stand at this juncture, it's crucial to balance the excitement for AI's po
 
 
 
+
+References  
+
+
+[https://spectrum.ieee.org/open-source-ai-2666932122][3]
+
+[https://futurism.com/the-byte/ex-openai-exec-ai-last-invention][4]
+
+[https://venturebeat.com/ai/new-study-from-anthropic-exposes-deceptive-sleeper-agents-lurking-in-ais-core/][5]
+- https://technext24.com/2023/08/14/chatgpt-costs-700000-daily-openai/
+- https://www.ciocoverage.com/openais-chatgpt-reportedly-costs-100000-a-day-to-run/
+- https://www.businessinsider.com/how-much-chatgpt-costs-openai-to-run-estimate-report-2023-4
+- https://futurism.com/the-byte/chatgpt-costs-openai-every-day
+- https://www.nebuly.com/blog/understanding-the-total-cost-of-openai
+- https://www.reddit.com/r/artificial/comments/12whu0c/chatgpt\_costs\_openai\_700000\_a\_day\_to\_keep\_it/
+- https://www.firstpost.com/tech/news-analysis/openai-may-go-bankrupt-by-2024-chatgpt-costs-company-700000-dollars-every-day-12986012.html
+- https://interestingengineering.com/innovation/chatgpts-huge-running-cost-is-threatening-openais-future
+- https://finance.yahoo.com/news/chatgpt-cost-bomb-openais-losses-125101043.html?guccounter=1&guce\_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce\_referrer\_sig=AQAAAMf9XT24RslhBo3ILLgGWkCBqGlfLERlhxbKAuusT6oN6ZGKoz8UIU97W\_SYrsUW\_lXqQZ7MKfadSGDUZaMiw\_nGBWERBU5C9Jw2n7Ue2mOJBEdzMgBZ423nutouxsEsc53ea4EIcRl6XVfVSYLAtbd4dm9dRVwUSXld6N\_X\_Kkr
+- https://www.linkedin.com/pulse/700000-day-operate-chatgpt-top-7-ways-pprent-openai-can-aditya-rawat/
+
+- https://www.reuters.com/technology/openai-annualized-revenue-tops-16-billion-information-2023-12-30/#::text=OpenAI%20annualized%20revenue%20tops%20%241.6%20billion%2D%20The%20Information%20%7C%20Reuters
+- https://sacra.com/c/openai/
+\- 
 
 
 
