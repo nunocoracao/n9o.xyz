@@ -18,22 +18,30 @@ authors:
 > “We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.”  
 > — <cite> Roy Amara [^1]</cite>
 
-- Intro
-- Where we are
-- Concerns
-- Money problem
-- Short-term
--  Long’term
-
-
 It’s unquestionable the impact AI has had in the world in the last years. Back in October 2022, I wrote about the fast-paced evolution of AI and how everything that was possible at the time felt like magic. Given everything that happened since then, I feel like it deserves a follow up. 
 
 {{< article link="/posts/202210-the-new-ai-hype/" >}}
 
 Last time I focused on the technology itself, what advancements were key to enable GPTs, and made some predictions about the future. Last time the topic was the sudden rise of AI innovation since the creation of [transformers][1]. Since then, the speed of innovation hadsn’t decreased one bit. Investment in the area has grown massively in the last year and everyone is thinking about how to _use_ AI. 
 
+- Intro
+- Where we are
+  - Concerns
+  - Alignement
+  - Money problem
+- Amara’s Law
+  - Short-term
+    - Overestimating th eimpact in the short term
+  -  Long’term
+  	- AGI
+  	- Cost of training running will decrease
+  	- Models will get smaller and more acurate
+  	- better hardware will be available - moores law
+
+
 ## Where we are
 At this stage it feels like the entire tech industry is in a race to figure out these new technologies and how to make a profit out of them. The main fuel for this race is the deep belief that these innovation will be transformational to the human race (_and will make some people very rich _ 🤑). Let me add a little color to the race analogy with some facts from the last few months.
+
 
 OpenAI & Microsoft
 
