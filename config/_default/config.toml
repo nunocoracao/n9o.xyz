@@ -6,7 +6,7 @@ baseURL = "https://n9o.xyz/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 20
+paginate = 18
 summaryLength = 30
 
 buildDrafts = false
