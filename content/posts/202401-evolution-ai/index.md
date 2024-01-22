@@ -1,5 +1,5 @@
 ---
-title: "The Evolution of AI: Now and Beyond"
+title: "Evolution of AI and Amara's Law"
 summary: "We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run."
 description: "We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run."
 categories: ["Product", "Strategy", "AI", "Future"]
