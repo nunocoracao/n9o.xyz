@@ -46,7 +46,8 @@ smartTOCHideUnfocusedChildren = false
 [article]
   showDate = false
   showViews = true
-  showLikes = true
+  showLikes = false
+  showDateOnlyInArticle = true
   showDateUpdated = false
   showAuthor = false
   showHero = true
