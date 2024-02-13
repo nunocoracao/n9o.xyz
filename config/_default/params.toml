@@ -17,6 +17,7 @@ mainSections = ["posts"]#, "suggestions"]
 disableImageOptimization = true
 disableTextInHeader = true
 
+defaultFeaturedImage = "img/background.jpg"
 defaultBackgroundImage = "img/background.jpg"
 
 highlightCurrentMenuArea = true
