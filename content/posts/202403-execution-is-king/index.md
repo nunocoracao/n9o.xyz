@@ -14,7 +14,7 @@ authors:
   - nunocoracao
 ---
 
-As a Product Manager, more often than not, I notice people mixing up discussions about ideas and executions. Both when choosing new initiatives to bet on but also when evaluating what is happening in their industry. I think that knowing the difference between these two concepts is key for someone working on _building_ ideas, and can, ultimately, make a team succeed or fail.
+As a Product Manager, more often than not, I notice people mixing up ideas and _execution_ in discussions. Both when choosing evaluating new initiatives to bet on and when evaluating what is happening in their industry. Knowing the difference between these two concepts, how to manage them, and what importance they should have in different occasions is key for someone working on _building_ ideas (e.g. Product), and can, ultimately, make a company/team succeed or fail.
 
 
 
@@ -22,6 +22,7 @@ Outline
 - Ideas VS Execution
 	- What is an idea 
 	- What is the execution
+	- Comparison?
 	- Problem - people mix them up
 - Examples
 	- Messaging
@@ -32,10 +33,12 @@ Outline
 	- no alignment
 	- hard to manage expectations
 	- people compare high level abstractions
-- Bad Executions of great ideas
-- Good executions of bad ideas
+		- Same idea might have different execution
+		- one execution might be aiming to achieve different ideas
 - Why does it matter
 	- Better executions
+		- VAlue of ideas - low
+		- Value of execution - high
 	- Help manage the building process with stakeholders
 	- Help understand external forces and players
 - Concluusion
@@ -83,4 +86,4 @@ How to get alignment before building?
 Examples
 - Google Glass VS Apple Vision Pro
 - Social Networks - Orkut, Hi5, etc - Facebook - and then Instagram
-- 
+\- 
