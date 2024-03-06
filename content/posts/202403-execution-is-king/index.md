@@ -14,7 +14,7 @@ authors:
   - nunocoracao
 ---
 
-As a Product Manager, more often than not, I notice people mixing up ideas and _execution_ in discussions. Both when choosing evaluating new initiatives to bet on and when evaluating what is happening in their industry. Knowing the difference between these two concepts, how to manage them, and what importance they should have in different occasions is key for someone working on _building_ ideas (e.g. Product), and can, ultimately, make a company/team succeed or fail. This confusion isn't just a minor inconvenience; it's a significant obstacle to innovation and strategic execution. Let's dive deeper into these concepts, explore their differences, and understand why distinguishing between them is crucial.
+As a Product Manager, more often than not, I notice people mixing up *ideation* and _execution_ phases in discussions. Both when evaluating new initiatives to bet on and when evaluating what is happening in their industry. Knowing the difference between these two concepts, how to manage them, and what importance they should have in different occasions is key for someone working on _building_ ideas (e.g. Product), and can, ultimately, make a company/team succeed or fail. This confusion isn't just a minor inconvenience; it's a significant obstacle to innovation and strategic execution. 
 
 ## Ideas VS Execution
 ### What is an Idea?
