@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/nunocoracao/homepage/issues"
   },
-  "homepage": "https://github.com/nunocoracao/homepage#readme"
+  "homepage": "https://github.com/nunocoracao/homepage#readme",
+  "dependencies": {
+    "@iamtraction/google-translate": "^2.0.1"
+  }
 }
