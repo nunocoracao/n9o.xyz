@@ -1,11 +1,11 @@
-languageCode = "pt"
+languageCode = "en"
 languageName = "English"
 weight = 1
 title = "N9O"
 
 [params]
-  displayName = "Português"
-  isoCode = "pt"
+  displayName = "English"
+  isoCode = "en"
   rtl = false
   dateFormat = "2006-01-02"
   logo = "img/logo_inverted@0.25x.png"

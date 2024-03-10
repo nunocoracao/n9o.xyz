@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Sobre"
 date: 2022-06-13T20:55:37+01:00
 draft: false
 
@@ -21,16 +21,16 @@ showAuthor: true
 layoutBackgroundHeaderSpace: false
 
 
+
 ---
+Tenho desenvolvido e enviado produtos para diversas funções e setores, desde aplicativos de streaming de vídeo até plataformas de API. Como especialista em produtos, meu principal objetivo é entender meus usuários e suas necessidades específicas, a fim de entregar um produto que realmente melhore suas vidas.
 
-I’ve been building and shipping products across multiple roles and industries, from video streaming applications to API platforms. As a product person, my main goal is to understand my users and their specific needs, in order to deliver a product that truly improves their lives.
+Trabalhei durante vários anos em grandes empresas e recentemente decidi trocar isso pela oportunidade de trabalhar em equipas mais pequenas. Definitivamente, prefira o último, onde se pode ter sucesso/fracasso mais rápido, aprender mais rápido e, em geral, ter um impacto muito maior.
 
-I’ve worked for several years in big companies and recently decided to trade that for the opportunity of working in smaller teams. Definitely prefer the latter where one can succeed/fail faster, learn faster, and overall have a way bigger impact.
+Atualmente, estou focado em melhorar a vida dos desenvolvedores em todo o mundo. Estou tentando escrever mais sobre minhas experiências anteriores/pensamentos aleatórios e adoraria receber seus comentários sobre isso. Também adoro dedicar meu tempo ajudando e orientando outros PMs ou pessoas que desejam entrar no mercado de produtos.
 
-Currently, I am focused on improving the lives of developers worldwide. I’m trying to write more about my previous experiences / random thoughts and would love to gather your feedback on it. I also love to dedicate my time to helping and mentoring other PMs or people that want to get into product.
+<a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky- sm.svg" width="240" alt="MentorCruise"> </a>
 
-<a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a>
+Recentemente também entrei no AWS Loft para ajudar Startups e seus fundadores com sua estratégia de produto.
 
-Recently I’ve also joined AWS Loft to help Startups and their founders with their product strategy.
-
-Feel free to reach out.
+Sinta-se à vontade para entrar em contato.

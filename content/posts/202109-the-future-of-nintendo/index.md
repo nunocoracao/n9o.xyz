@@ -11,9 +11,6 @@ authors:
   - nunocoracao
 ---
 
-{{< audioPlayer source="audio/audio.wav" >}}
-
-
 Nintendo achieved something truly amazing with the launch of the Switch. It was able to disrupt itself and the entire gaming industry while saving itself from doom. How exactly was Nintendo able to do it and what comes next in that story?
 
 ## A Little History...

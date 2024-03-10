@@ -11,29 +11,29 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Sobre"
+  name = "About"
   pageRef = "about"
   weight = 10
 
 [[main]]
-  name = "Artigos"
+  name = "Posts"
   pageRef = "posts"
   weight = 20
 
 [[main]]
-  name = "Projectos"
+  name = "Projects"
   pageRef = "projects"
   weight = 30
 
 [[main]]
-  name = "CV"
+  name = "Resume"
   pageRef = "resume"
   weight = 40
 
 [[main]]
   identifier="music"
   #pre = "music"
-  name = "Música"
+  name = "Music"
   pageRef = "music"
   weight = 50
 
