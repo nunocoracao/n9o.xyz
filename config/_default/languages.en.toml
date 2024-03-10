@@ -4,7 +4,7 @@ weight = 1
 title = "N9O"
 
 [params]
-  displayName = "🇬🇧"
+  displayName = "English"
   isoCode = "en"
   rtl = false
   dateFormat = "2006-01-02"
@@ -12,59 +12,3 @@ title = "N9O"
   secondaryLogo = "img/logo@0.25x.png"
   description = "N9O | Nuno Coração"
   # copyright = "Copy, _right?_ :thinking_face:"
-
-[author]
-  name = "Nuno Coração"
-  image = "img/avatar.jpg"
-  headline = "Staff Product Manager @ Docker"
-  bio = "Staff Product Manager @ Docker"
-  links = [
-    { email = "mailto:nuno@n9o.xyz" },
-    { linkedin = "https://linkedin.com/in/nunocoracao" },
-    { x-twitter = "https://twitter.com/nunocoracao" },
-    { github = "https://github.com/nunocoracao" },
-    #{ medium = "https://medium.com/@nunocoracao" },
-    #{ hackernews = "https://news.ycombinator.com/user?id=nunocoracao"},
-    #{ mastodon = "https://masto.ai/@nunocoracao" },
-    { instagram = "https://instagram.com/nunocoracao" },
-    { goodreads = "http://goodreads.com/nunocoracao" },
-    #{ keybase = "https://keybase.io/nunocoracao" },
-    #{ reddit = "https://reddit.com/user/nunoheart" },
-    #{ telegram = "https://t.me/nunocoracao" },
-    #{ music = "/music" },
-
-  #   { email = "mailto:hello@your_domain.com" },
-  #   { link = "https://link-to-some-website.com/" },
-  #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
-  #   { apple = "https://www.apple.com" },
-  #   { blogger = "https://username.blogspot.com/" },
-  #   { codepen = "https://codepen.io/username" },
-  #   { dev = "https://dev.to/username" },
-  #   { discord = "https://discord.gg/invitecode" },
-  #   { dribbble = "https://dribbble.com/username" },
-  #   { facebook = "https://facebook.com/username" },
-  #   { flickr = "https://www.flickr.com/photos/username/" },
-  #   { foursquare = "https://foursquare.com/username" },
-  #   { gitlab = "https://gitlab.com/username" },
-  #   { google = "https://www.google.com/" },
-  #   { hashnode = "https://username.hashnode.dev" },
-  #   { kickstarter = "https://www.kickstarter.com/profile/username" },
-  #   { lastfm = "https://lastfm.com/user/username" },
-  #   { mastodon = "https://mastodon.instance/@username" },
-  #   { microsoft = "https://www.microsoft.com/" },
-  #   { orcid = "https://orcid.org/userid" },
-  #   { patreon = "https://www.patreon.com/username" },
-  #   { pinterest = "https://pinterest.com/username" },
-  #   { reddit = "https://reddit.com/user/username" },
-  #   { researchgate = "https://www.researchgate.net/profile/username" },
-  #   { slack = "https://workspace.url/team/userid" },
-  #   { snapchat = "https://snapchat.com/add/username" },
-  #   { soundcloud = "https://soundcloud.com/username" },
-  #   { stack-overflow = "https://stackoverflow.com/users/userid/username" },
-  #   { steam = "https://steamcommunity.com/profiles/userid" },
-  #   { tiktok = "https://tiktok.com/@username" },
-  #   { tumblr = "https://username.tumblr.com" },
-  #   { twitch = "https://twitch.tv/username" },
-  #   { whatsapp = "https://wa.me/phone-number" },
-  #   { youtube = "https://youtube.com/username" },
-  ]
