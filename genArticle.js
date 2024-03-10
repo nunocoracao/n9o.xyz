@@ -12,8 +12,11 @@ async function convert(text, from, to) {
         from: from,
         to: to
     };
-    var translated_text = await translate(text, options);
-    return translated_text.text;
+    var translated_text = await translate(text, options)
+    .catch(err => {
+        console.error(err);
+    })
+    return translated_text && translated_text.text? translated_text.text : "";
 }
 
 console.log(filePath);
