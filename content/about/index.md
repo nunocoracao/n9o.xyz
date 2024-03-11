@@ -30,7 +30,3 @@ I’ve worked for several years in big companies and recently decided to trade t
 Currently, I am focused on improving the lives of developers worldwide. I’m trying to write more about my previous experiences / random thoughts and would love to gather your feedback on it. I also love to dedicate my time to helping and mentoring other PMs or people that want to get into product.
 
 <a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a>
-
-Recently I’ve also joined AWS Loft to help Startups and their founders with their product strategy.
-
-Feel free to reach out.
