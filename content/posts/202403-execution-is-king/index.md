@@ -14,6 +14,8 @@ authors:
   - nunocoracao
 ---
 
+> "Having a plan, even a bad plan, is better than no plan at all."
+
 As a Product Manager, more often than not, I notice people mixing up _ideas_ and _execution_ in discussions. Both these concepts have entirely unique levels of fidelity to what the finished product will be. It’s important for Product Managers to know the difference between these two concepts, how to manage them, and what importance they should have at different stages of the product development cycle. Not understanding the differences between an _idea_ and an _execution_ isn't just a minor inconvenience; it's a significant obstacle to innovation and strategic execution for products and companies. 
 
 ## Definitions
