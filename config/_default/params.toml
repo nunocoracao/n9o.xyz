@@ -18,7 +18,7 @@ disableImageOptimization = true
 disableTextInHeader = true
 
 defaultFeaturedImage = "/img/background.jpg"
-defaultBackgroundImage = "/img/background.jpg"
+defaultBackgroundImage = "/img/background.svg"
 
 highlightCurrentMenuArea = true
 smartTOC = true
