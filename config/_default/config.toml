@@ -4,6 +4,7 @@
 theme = "blowfish"
 baseURL = "https://n9o.xyz/"
 defaultContentLanguage = "en"
+disableLanguages = ['pt-pt']
 
 enableRobotsTXT = true
 paginate = 18
