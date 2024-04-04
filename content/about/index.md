@@ -23,10 +23,8 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-I’ve been building and shipping products across multiple roles and industries, from video streaming applications to API platforms. As a product person, my main goal is to understand my users and their specific needs, in order to deliver a product that truly improves their lives.
+With over ten years of experience in product management, I have built and launched products across multiple domains and industries, from video streaming and eSIM connectivity to developer tools used by millions of users daily. I have a passion for understanding user needs, delivering value, and solving complex problems with innovative solutions.
 
-I’ve worked for several years in big companies and recently decided to trade that for the opportunity of working in smaller teams. Definitely prefer the latter where one can succeed/fail faster, learn faster, and overall have a way bigger impact.
-
-Currently, I am focused on improving the lives of developers worldwide. I’m trying to write more about my previous experiences / random thoughts and would love to gather your feedback on it. I also love to dedicate my time to helping and mentoring other PMs or people that want to get into product.
+Currently, I am a staff product manager at Docker, where I focus on improving the lives of developers worldwide. I work closely with engineering teams, business stakeholders, and senior management to define and execute the product vision and strategy. I mentor other PMs, or people that want to get into Product and help them with my experience. Additionally, I am a startup advisor, helping early-stage startups with their product and go-to-market strategies. I enjoy writing and sharing my insights and learnings on product management and development, and I welcome any feedback or discussion on these topics.
 
 <a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a>
