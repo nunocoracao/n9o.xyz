@@ -35,10 +35,17 @@ layoutBackgroundHeaderSpace: false
     </thead>
     <tbody>
         <tr>
-            <td><img class="customEntitityLogo" src="docker.png"/></td>
-            <td><a href="https://www.docker.com/" target="_blank">Docker</a></td>
+            <td rowspan=3><img class="customEntitityLogo" src="docker.png"/></td>
+            <td rowspan=3><a href="https://www.docker.com/" target="_blank">Docker</a></td>
+        </tr>
+        <tr>
+            <td>Principal Product Manager</td>
+            <td>2024 - Present</td>
+            <td>Full Remote </br> Lisbon, PT</td>
+        </tr>
+        <tr>
             <td>Staff Product Manager</td>
-            <td>2022 - Present</td>
+            <td>2022 - 2024</td>
             <td>Full Remote </br> Lisbon, PT</td>
         </tr>
         <tr>
