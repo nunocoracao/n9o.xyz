@@ -45,8 +45,8 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundBlur = true
 
 [article]
-  showDate = false
-  showViews = true
+  showDate = true
+  showViews = false
   showLikes = false
   showDateOnlyInArticle = true
   showDateUpdated = false
@@ -79,8 +79,8 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundBlur = true
   layoutBackgroundHeaderSpace = false
   showBreadcrumbs = false
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showSummary = false
   showTableOfContents = false
   showCards = true
