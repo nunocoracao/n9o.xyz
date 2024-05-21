@@ -32,7 +32,9 @@ Follow me
 ## Tracks
 
 {{< gallery >}}
-     <a class="grid-w50 md:grid-w33" href="https://distrokid.com/hyperfollow/n9o/sleeping-in-cuba" target="_blank"><img src="images/sleepingincuba.png" class="nozoom m-0" />
+    <a class="grid-w50 md:grid-w33" href="https://distrokid.com/hyperfollow/n9o/midnight-tension" target="_blank"><img src="images/midnighttension.png" class="nozoom m-0" />
+    <a class="grid-w50 md:grid-w33" href="https://distrokid.com/hyperfollow/n9o/far-side-of-a-star" target="_blank"><img src="images/farsideofastar.png" class="nozoom m-0" /> 
+    <a class="grid-w50 md:grid-w33" href="https://distrokid.com/hyperfollow/n9o/sleeping-in-cuba" target="_blank"><img src="images/sleepingincuba.png" class="nozoom m-0" />
     <a class="grid-w50 md:grid-w33" href="https://distrokid.com/hyperfollow/n9o/not-here" target="_blank"><img src="images/nothere.png" class="nozoom m-0" />
     <a class="grid-w50 md:grid-w33" href="https://distrokid.com/hyperfollow/n9o/last-smile-ever-heard" target="_blank"><img src="images/lastsmile.png" class="nozoom m-0" />
     <a class="grid-w50 md:grid-w33" href="https://distrokid.com/hyperfollow/n9o/going-nowhere" target="_blank"><img src="images/goingnowhere.png" class="nozoom m-0" />
