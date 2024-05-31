@@ -13,6 +13,8 @@ summaryLength = 30
 buildDrafts = false
 buildFuture = false
 
+enableEmoji = true
+
 googleAnalytics = "G-R94R4YKFEC"
 
 [author]
