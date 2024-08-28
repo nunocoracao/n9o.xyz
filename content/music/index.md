@@ -14,7 +14,7 @@ showTaxonomies : false
 showWordCount : false
 showSummary : false
 showEdit: false
-showViews: true
+showViews: false
 showLikes: false
 layoutBackgroundHeaderSpace: false
 groupByYear: false
