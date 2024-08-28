@@ -17,7 +17,7 @@ enableEmoji = true
 
 googleAnalytics = "G-R94R4YKFEC"
 
-[author]
+[params.author]
   name = "Nuno Coração"
   image = "img/avatar.jpg"
   headline = "Principal PM @ Docker"
