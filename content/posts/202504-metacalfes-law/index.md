@@ -127,13 +127,7 @@ If things feel messy as you grow, it’s not your fault—it’s math.
 
 But it’s also solvable—with design, not just effort.
 
-## References & Further Reading
-
-- [The Communication Crisis of Scaling Startups – First Round Review](https://review.firstround.com/the-communication-crisis-of-scaling-startups)
-- [How Shopify Organizes for Autonomy – Casey Winters](https://caseyaccidental.com/how-shopify-organizes-for-autonomy/)
-- [How Slack Uses Slack to Slack – Slack Engineering Blog](https://slack.engineering/how-slack-uses-slack-to-slack/)
-- [Why Quibi Failed – Harvard Business Review](https://hbr.org/2021/04/why-quibi-failed)
-- [The Coordination Headwind – Venkatesh Rao, Ribbonfarm](https://www.ribbonfarm.com/2017/06/15/the-coordination-headwind/)
+## References
 
 [^1]: [Metcalfe’s Law - Wikipedia](https://en.wikipedia.org/wiki/Metcalfe%27s_law)  
 [^2]: [The Communication Crisis of Scaling Startups – First Round Review](https://review.firstround.com/the-communication-crisis-of-scaling-startups)  
