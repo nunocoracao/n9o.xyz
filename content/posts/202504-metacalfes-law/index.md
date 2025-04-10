@@ -128,7 +128,6 @@ If things feel messy as you grow, it’s not your fault—it’s math.
 But it’s also solvable—with design, not just effort.
 
 ## References
-
 [^1]: [Metcalfe’s Law - Wikipedia](https://en.wikipedia.org/wiki/Metcalfe%27s_law)  
 [^2]: [The Communication Crisis of Scaling Startups – First Round Review](https://review.firstround.com/the-communication-crisis-of-scaling-startups)  
 [^3]: [How Shopify Organizes for Autonomy – Casey Winters](https://caseyaccidental.com/how-shopify-organizes-for-autonomy/)  
