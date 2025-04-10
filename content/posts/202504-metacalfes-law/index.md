@@ -105,13 +105,13 @@ You can't eliminate communication complexity—but you can make it navigable.
 
 Let’s look at three companies that show how communication strategy (or the lack of it) plays out in real life.
 
-## Slack  
+### Slack  
 Slack built its internal operations to mirror the product they were building—clear, channel-based communication with strong async defaults. They minimized reliance on meetings by maintaining high-context discussion threads and public visibility. Leadership modeled this behavior, and teams aligned around documented decisions instead of live debates. Slack's ability to scale while staying cohesive was due in large part to how deliberately they communicated internally—essentially “using Slack to build Slack.”[^4]
 
-## Quibi  
+### Quibi  
 Quibi, despite massive funding and industry backing, struggled with internal fragmentation. Marketing, product, and content teams operated in silos with few bridging mechanisms. Major decisions—like not allowing screenshots for social sharing—were made top-down without cross-functional testing or buy-in. Communication complexity overwhelmed their ability to adapt fast, especially after launch feedback poured in. The lack of shared context and delayed coordination contributed to the company’s rapid decline.[^5]
 
-## Shopify  
+### Shopify  
 Shopify scaled by decentralizing authority and using modular team structures. Each team was empowered to build, ship, and own their surface area, while adhering to clearly defined service contracts. Internal APIs, strong documentation, and well-established expectations around inter-team communication reduced the need for constant realignment. This created a balance between autonomy and coherence—allowing Shopify to move fast while staying internally legible.[^3]
 
 
