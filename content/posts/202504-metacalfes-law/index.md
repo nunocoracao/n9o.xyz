@@ -1,7 +1,7 @@
 ---
 title: "Unseen Cost of Growth: Metcalfe’s Law at Work"
-summary: ""
-description: ""
+summary: "Ever tried scheduling a single meeting with six cross-functional leads? Or watched a decision get rehashed in three different Slack threads? That’s not just a growing pain—it’s Metcalfe’s Law in action."
+description: "Ever tried scheduling a single meeting with six cross-functional leads? Or watched a decision get rehashed in three different Slack threads? That’s not just a growing pain—it’s Metcalfe’s Law in action."
 categories: [Product, Strategy, Opinion]
 tags: [Innovation, Entrepreneurship]
 date: 2025-04-10
@@ -18,8 +18,6 @@ authors:
 {{< katex >}}
 
 
-
-## Metcalfe’s Law: The Hidden Force Behind Startup Chaos
 
 Ever tried scheduling a single meeting with six cross-functional leads? Or watched a decision get rehashed in three different Slack threads? That’s not just a growing pain—it’s Metcalfe’s Law in action.
 
