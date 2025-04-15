@@ -6,9 +6,6 @@ categories: [Tech, AI, Product]
 tags: [AI Agents, Developer Tools, Protocols]
 date: 2025-04-14
 draft: false
-showauthor: false
-authors:
-  - nunocoracao
 ---
 
 Model Context Protocol (MCP) is what happens when AI gets a universal connector — think USB-C - but for intelligent systems. It defines a simple client-server protocol that lets AI models tap into tools, data sources, and even complex workflows through lightweight, discoverable, and standardized interfaces.[^ref-1]

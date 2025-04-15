@@ -6,9 +6,6 @@ tags: ["docker","blog","release"]
 externalUrl: "https://www.docker.com/blog/docker-desktop-4-23/"
 date: 2023-09-12
 draft: false
-showauthor: false
-authors:
-  - nunocoracao
 # series: ["The Complete PM"]
 # series\_order: 1
 ---

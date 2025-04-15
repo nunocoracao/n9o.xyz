@@ -17,7 +17,7 @@ enableEmoji = true
 googleAnalytics = "G-R94R4YKFEC"
 
 [pagination]
-  pagerSize = 18
+  pagerSize = 24
 
 [params.author]
   name = "Nuno Coração"
@@ -26,6 +26,7 @@ googleAnalytics = "G-R94R4YKFEC"
   bio = "Principal Product Manager @ Docker"
   links = [
     { email = "mailto:nuno@n9o.xyz" },
+    { rss = "https://n9o.xyz/index.xml" },
     { linkedin = "https://linkedin.com/in/nunocoracao" },
     { x-twitter = "https://twitter.com/nunocoracao" },
     { github = "https://github.com/nunocoracao" },
@@ -34,7 +35,6 @@ googleAnalytics = "G-R94R4YKFEC"
     #{ mastodon = "https://masto.ai/@nunocoracao" },
     { instagram = "https://instagram.com/nunocoracao" },
     { goodreads = "http://goodreads.com/nunocoracao" },
-    #{ keybase = "https://keybase.io/nunocoracao" },
     #{ reddit = "https://reddit.com/user/nunoheart" },
     #{ telegram = "https://t.me/nunocoracao" },
     #{ music = "/music" },

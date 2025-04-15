@@ -7,8 +7,6 @@ tags: ["Mentorcruise"]
 #externalUrl: "https://mentorcruise.com/blog/nuno-coracao-meet-the-mentor-01006/"
 date: 2022-06-26
 draft: false
-authors:
-  - nunocoracao
 ---
 
 {{< alert >}}

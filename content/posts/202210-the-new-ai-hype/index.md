@@ -6,8 +6,6 @@ tags: ["Stable Diffusion","Midjourney","Dall-e","AI", "Machine Learning"]
 # externalUrl: ""
 date: 2022-10-25
 draft: false
-authors:
-  - nunocoracao
 series: ["The New AI Hype"]
 series_order: 1
 ---

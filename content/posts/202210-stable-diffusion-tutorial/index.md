@@ -7,8 +7,6 @@ tags: ["AI","Stable Diffusion","Neural Network"]
 #externalUrl: ""
 date: 2022-10-06
 draft: false
-authors:
-  - nunocoracao
 series: ["The New AI Hype"]
 series_order: 3
 ---

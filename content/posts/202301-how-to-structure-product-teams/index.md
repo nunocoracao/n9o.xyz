@@ -6,9 +6,6 @@ tags: ["team","organization"]
 # externalUrl: ""
 date: 2023-01-08
 draft: false
-showauthor: false
-authors:
-  - nunocoracao
 # series: ["The Complete PM"]
 # series\_order: 1
 ---

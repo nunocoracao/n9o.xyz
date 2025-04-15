@@ -6,10 +6,6 @@ tags: ["Blowfish", "open-source", "hugo", "podcast"]
 #externalUrl: "https://www.youtube.com/watch?v=4s0lm1_qTz4"
 date: 2022-11-18
 draft: false
-showauthor: false
-authors:
-  - nunocoracao
-
 showHero: false
 showReadingTime: false
 ---

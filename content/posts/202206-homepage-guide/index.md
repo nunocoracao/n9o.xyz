@@ -7,8 +7,6 @@ tags: ["Hugo", "Congo", "Docker", "VSCode"]
 #externalUrl: ""
 date: 2022-06-27
 draft: false
-authors:
-  - nunocoracao
 ---
 
 ## TL;DR

@@ -6,12 +6,6 @@ categories: [Product, Strategy, Opinion]
 tags: [Innovation, Entrepreneurship]
 date: 2025-04-10
 draft: false
-showauthor: false
-# series: ["The New AI Hype"]
-# series\_order: 4
-# seriesOpened: false
-authors:
-  - nunocoracao
 ---
 
 

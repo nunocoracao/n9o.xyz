@@ -7,8 +7,6 @@ tags: ["Docker"]
 externalUrl: "https://www.docker.com/blog/bulk-user-add-for-docker-business-and-teams/"
 date: 2022-07-27
 draft: false
-authors:
-  - nunocoracao
 ---
 
 {{< alert >}}

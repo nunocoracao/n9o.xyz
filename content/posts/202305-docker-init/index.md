@@ -6,9 +6,6 @@ tags: ["docker","blog","release"]
 externalUrl: "https://www.docker.com/blog/docker-init-initialize-dockerfiles-and-compose-files-with-a-single-cli-command/"
 date: 2023-05-11
 draft: false
-showauthor: false
-authors:
-  - nunocoracao
 # series: ["The Complete PM"]
 # series\_order: 1
 ---
