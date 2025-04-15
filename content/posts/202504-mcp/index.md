@@ -46,6 +46,8 @@ This structure gives the AI a highly modular, inspectable environment. Tools can
 
 For readers unfamiliar with technical protocols, JSON-RPC is a lightweight messaging format where requests and responses are structured in JSON. It allows the client (AI agent) to send instructions like “call this tool with these parameters” and receive a structured result in return. This simplicity makes it well-suited for standardizing how AI interacts with tools.
 
+![MCP Architecture Diagram](/posts/202504-mcp/mcp-architecture.png)
+
 For example, the current MCP specification uses **JSON-RPC** as the messaging format, typically transmitted over streams (e.g. HTTP streams, Unix pipes, or WebSockets). JSON-RPC is a remote procedure call protocol encoded in JSON that allows the client to call methods (tools) on the server and receive structured results. This makes it lightweight, language-agnostic, and easy to debug. Additionally, authentication and authorization flows are standardized via **OAuth 2.1**, which governs how user credentials are exchanged securely between clients and servers.
 
 <div style="background-color:white; padding: 20px">
@@ -126,6 +128,19 @@ Of course, realizing this future involves navigating some key technical and orga
 This also represents a generational opportunity to reshape entire industries. From developer tooling to customer support, legal automation to IT operations, MCP paves the way for AI-native interfaces to become the norm. As more tools expose MCP endpoints, agents can operate across fragmented systems and domains, coordinating complex workflows that previously required manual stitching.
 
 And looking even further ahead, this might be what replaces the traditional concept of an “app” altogether. Instead of launching discrete applications, users will task intelligent agents that assemble workflows dynamically using MCP-connected tools. In other words, it's what some startups tried to do with single-purpose devices — looking at you: [Humane AI Pin](https://www.theverge.com/24126502/humane-ai-pin-review), [Rabbit R1](https://www.theverge.com/2024/5/2/24147159/rabbit-r1-review-ai-gadget) — but with actual utility, extensibility, and a shot at becoming foundational instead of gimmicky.
+
+As adoption grows, so will demand for governance. Thankfully, MCP makes this tractable: every tool call is logged and auditable, tokens are scoped and revocable, and servers can be isolated or sandboxed. Expect enterprises to wrap MCP servers with policy layers — and for best practices to emerge around access control, observability, and compliance.
+
+### Call to Action
+
+If you're building AI tools in 2025, don’t hardcode — build an MCP server. MCP gives your agent the ability to act, scale, and plug into a broader ecosystem.
+
+📌 Check out these starting points:
+- [Anthropic’s Model Context Protocol spec and SDKs](https://github.com/anthropics/mcp)
+- [Docker MCP Server community repo](https://github.com/docker/mcp-servers)
+- [How to get started building your first MCP server](https://www.anthropic.com/news/model-context-protocol)
+
+Whether you're extending your own agent or want to contribute a new tool to the ecosystem, there's never been a better time to dive in.
 
 ### References
 
