@@ -142,6 +142,16 @@ If you're building AI tools in 2025, don’t hardcode — build an MCP server. M
 
 Whether you're extending your own agent or want to contribute a new tool to the ecosystem, there's never been a better time to dive in.
 
+### Appendix: Getting Started with MCP
+
+Ready to try it yourself? Here are useful links and tools:
+
+- [MCP GitHub SDKs and Spec](https://github.com/anthropics/mcp)
+- [Official Anthropic announcement](https://www.anthropic.com/news/model-context-protocol)
+- [Community-contributed MCP servers on Docker](https://github.com/docker/mcp-servers)
+- [LangChain MCP Tool Integration Docs](https://docs.langchain.com/docs/integrations/tools/mcp)
+- [Fast Start Guide from Ardor Cloud](https://ardor.cloud/blog/early-adopters-mcp-open-source-implementations)
+
 ### References
 
 [^ref-1]: https://www.anthropic.com/index/mcp  
