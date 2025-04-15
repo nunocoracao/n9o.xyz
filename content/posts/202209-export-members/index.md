@@ -7,8 +7,6 @@ tags: ["Docker"]
 externalUrl: "https://www.docker.com/blog/announcing-docker-hub-export-members/"
 date: 2022-09-19
 draft: false
-authors:
-  - nunocoracao
 ---
 
 {{< alert >}}

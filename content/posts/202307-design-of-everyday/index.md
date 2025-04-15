@@ -6,9 +6,6 @@ tags: ["books"]
 # externalUrl: "https://www.docker.com/blog/docker-desktop-4-18/"
 date: 2023-07-30
 draft: false
-showauthor: false
-authors:
-  - nunocoracao
 # series: ["The Complete PM"]
 # series\_order: 1
 ---

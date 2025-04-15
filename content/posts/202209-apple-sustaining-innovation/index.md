@@ -7,8 +7,6 @@ tags: ["Apple","Disruptive Innovation","Sustaining Innovation"]
 #externalUrl: ""
 date: 2022-09-21
 draft: false
-authors:
-  - nunocoracao
 ---
 
 On the 7th of September, Apple held its “Far Out” iPhone event. New iPhones, Apple Watches, and AirPods were announced, each coming with a plethora of features. Yes, all of it was innovation, but none of it brought the kind of excitement Apple used to. Why is that? And why probably this is the best strategy for Apple.

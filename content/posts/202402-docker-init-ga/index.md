@@ -6,9 +6,6 @@ tags: ["docker","blog","release"]
 externalUrl: "https://www.docker.com/blog/streamline-dockerization-with-docker-init-ga/"
 date: 2024-02-06
 draft: false
-showauthor: false
-authors:
-  - nunocoracao
 # series: ["The Complete PM"]
 # series\_order: 1
 ---

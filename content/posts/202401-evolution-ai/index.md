@@ -6,12 +6,9 @@ categories: ["Product", "Strategy", "AI", "Future"]
 tags: ["AI", "future", "technology"]
 date: 2024-01-15
 draft: false
-showauthor: false
 series: ["The New AI Hype"]
 series_order: 4
 seriesOpened: false
-authors:
-  - nunocoracao
 ---
 
 

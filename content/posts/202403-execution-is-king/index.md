@@ -6,12 +6,6 @@ categories: [Product, Strategy, Opinion]
 tags: [Innovation, Entrepreneurship]
 date: 2024-03-19
 draft: false
-showauthor: false
-# series: ["The New AI Hype"]
-# series\_order: 4
-# seriesOpened: false
-authors:
-  - nunocoracao
 ---
 
 > "Having a plan, even a bad plan, is better than no plan at all."
