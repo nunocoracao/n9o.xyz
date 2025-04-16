@@ -21,7 +21,7 @@ The protocol revolves around a client-server model:
 
 When the AI agent needs to do something—say, look up a file, query a database, or invoke an external service—it uses the client to send a structured request to the appropriate server. That server executes the logic (like querying an API or scraping a document), and sends the result back to the client, which injects it into the AI’s context.
 
-This separation has powerful implications.[^ref-1][^ref-4] First, it abstracts away the complexity of external systems from the AI model. Second, it introduces a reusable, discoverable layer between AI logic and business logic. And third, it enables safety features like controlled access, authentication, and sandboxing—critical when models are allowed to act on external systems. But perhaps the most important implication is this: the value of an AI agent is directly tied to the **context** it can access and the **actions** it can take. A model without context is generic. A model without interface is inert. What gives AI real utility is not just intelligence, but relevance — the ability to reason with meaningful inputs and do something meaningful in response. That requires access to external knowledge, user data, tools, systems — and a safe, reliable way to interface with them. This is precisely what MCP unlocks.
+This separation has powerful implications.[^ref-1] [^ref-4] First, it abstracts away the complexity of external systems from the AI model. Second, it introduces a reusable, discoverable layer between AI logic and business logic. And third, it enables safety features like controlled access, authentication, and sandboxing—critical when models are allowed to act on external systems. But perhaps the most important implication is this: the value of an AI agent is directly tied to the **context** it can access and the **actions** it can take. A model without context is generic. A model without interface is inert. What gives AI real utility is not just intelligence, but relevance — the ability to reason with meaningful inputs and do something meaningful in response. That requires access to external knowledge, user data, tools, systems — and a safe, reliable way to interface with them. This is precisely what MCP unlocks.
 
 MCP servers turn isolated AI models into connected, capable systems. By exposing structured context (via resources), actionable capabilities (via tools), and strategic guidance (via prompts), they give AI models the grounding and affordances needed to actually deliver value in real-world applications. It's not enough for an assistant to "know things" — it has to be able to look things up, take action, and adapt based on real data. MCP is the infrastructure that allows that to happen at scale.
 
@@ -128,33 +128,22 @@ And looking even further ahead, this might be what replaces the traditional conc
 
 As adoption grows, so will demand for governance. Thankfully, MCP makes this tractable: every tool call is logged and auditable, tokens are scoped and revocable, and servers can be isolated or sandboxed. Expect enterprises to wrap MCP servers with policy layers — and for best practices to emerge around access control, observability, and compliance.
 
-### Call to Action
+### What will you build?
 
-If you're building AI tools in 2025, don’t hardcode — build an MCP server. MCP gives your agent the ability to act, scale, and plug into a broader ecosystem.
+If you're building AI tools in 2025, don’t hardcode — build an MCP server. MCP gives your agent the ability to act, scale, and plug into a broader ecosystem. Whether you're extending your own agent or want to contribute a new tool to the ecosystem, there's never been a better time to dive in.
+
 
 📌 Check out these starting points:
-- [Anthropic’s Model Context Protocol spec and SDKs](https://github.com/anthropics/mcp)
+- [MCP SDKs and Spec](https://modelcontextprotocol.io)
 - [Docker MCP Server community repo](https://github.com/docker/mcp-servers)
-- [How to get started building your first MCP server](https://www.anthropic.com/news/model-context-protocol)
-
-Whether you're extending your own agent or want to contribute a new tool to the ecosystem, there's never been a better time to dive in.
-
-### Appendix: Getting Started with MCP
-
-Ready to try it yourself? Here are useful links and tools:
-
-- [MCP GitHub SDKs and Spec](https://github.com/anthropics/mcp)
-- [Official Anthropic announcement](https://www.anthropic.com/news/model-context-protocol)
-- [Community-contributed MCP servers on Docker](https://github.com/docker/mcp-servers)
-- [LangChain MCP Tool Integration Docs](https://docs.langchain.com/docs/integrations/tools/mcp)
 - [Fast Start Guide from Ardor Cloud](https://ardor.cloud/blog/early-adopters-mcp-open-source-implementations)
 
 ### References
 
-[^ref-1]: https://www.anthropic.com/index/mcp  
+[^ref-1]: https://modelcontextprotocol.io  
 [^ref-2]: https://openai.com/blog/openai-embraces-mcp  
 [^ref-3]: https://github.com/docker/mcp-servers  
-[^ref-4]: https://github.com/anthropics/mcp  
+[^ref-4]: https://github.com/modelcontextprotocol  
 [^ref-5]: https://developers.cloudflare.com/workers/tutorials/mcp-servers  
 [^ref-6]: https://techcrunch.com/2025/03/26/openai-adopts-rival-anthropics-standard-for-connecting-ai-models-to-data/?utm_source=chatgpt.com  
 [^ref-7]: https://visualstudiomagazine.com/articles/2025/04/14/trending-model-context-protocol-for-ai-agents-gets-csharp-sdk.aspx?utm_source=chatgpt.com  
