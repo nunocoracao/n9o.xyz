@@ -21,7 +21,7 @@ googleAnalytics = "G-R94R4YKFEC"
 
 [params.author]
   name = "Nuno Coração"
-  image = "img/avatar.jpg"
+  image = "img/bw_avatar.jpg"
   headline = "Principal PM @ Docker"
   bio = "Principal Product Manager @ Docker"
   links = [
