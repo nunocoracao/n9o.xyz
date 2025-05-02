@@ -17,7 +17,7 @@ enableEmoji = true
 googleAnalytics = "G-R94R4YKFEC"
 
 [pagination]
-  pagerSize = 24
+  pagerSize = 27
 
 [params.author]
   name = "Nuno Coração"
