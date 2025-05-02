@@ -14,7 +14,7 @@ enableCodeCopy = true
 mainSections = ["posts"]#, "suggestions"]
 # robots = ""
 
-disableImageOptimization = true
+disableImageOptimization = false
 disableTextInHeader = true
 
 defaultFeaturedImage = "/img/background.jpg"
