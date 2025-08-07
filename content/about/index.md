@@ -23,8 +23,8 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-With over ten years of experience in product management, I have built and launched products across multiple domains and industries, from video streaming and eSIM connectivity to developer tools used by millions of users daily. I have a passion for understanding user needs, delivering value, and solving complex problems with innovative solutions.
+With over a decade of experience in product management, I’ve led teams and launched products across developer tooling, AI, telecom, and media — from video platforms and eSIM systems to tools now used daily by millions of developers. I’m currently a Principal Product Manager at Docker, where I focus on AI infrastructure — including the launch of the MCP Catalog, the open-sourcing of the MCP Gateway, and ongoing work on agent frameworks and Gordon, Docker’s AI assistant.
 
-Currently, I am a principal product manager at Docker, where I focus on improving the lives of developers worldwide. I work closely with engineering teams, business stakeholders, and senior management to define and execute the product vision and strategy. I mentor other PMs, or people that want to get into Product and help them with my experience. Additionally, I am a startup advisor, helping early-stage startups with their product and go-to-market strategies. I enjoy writing and sharing my insights and learnings on product management and development, and I welcome any feedback or discussion on these topics.
+In parallel, I maintain Blowfish (a popular open-source Hugo theme), advise early-stage startups on product and go-to-market strategy, and mentor aspiring and working PMs. I enjoy writing, experimenting, and helping others build with more clarity, confidence, and care.
 
 <a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a>
