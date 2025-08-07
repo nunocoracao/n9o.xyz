@@ -23,6 +23,7 @@ googleAnalytics = "G-R94R4YKFEC"
   name = "Nuno Coração"
   image = "img/bw_avatar.jpg"
   headline = "Principal PM @ Docker"
+  subtitle = "🧠 Builder · AI, agents, infra · OSS · Mentor & startup advisor"
   bio = "Principal Product Manager @ Docker"
   links = [
     { email = "mailto:nuno@n9o.xyz" },
