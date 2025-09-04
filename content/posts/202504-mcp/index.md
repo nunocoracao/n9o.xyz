@@ -43,7 +43,7 @@ This structure gives the AI a highly modular, inspectable environment. Tools can
 
 For readers unfamiliar with technical protocols, JSON-RPC is a lightweight messaging format where requests and responses are structured in JSON. It allows the client (AI agent) to send instructions like “call this tool with these parameters” and receive a structured result in return. This simplicity makes it well-suited for standardizing how AI interacts with tools.
 
-![MCP Architecture Diagram](mcparch.png)
+![MCP Architecture Diagram](mcparch.webp)
 
 For example, the current MCP specification uses **JSON-RPC** as the messaging format, typically transmitted over streams (e.g. HTTP streams, Unix pipes, or WebSockets). JSON-RPC is a remote procedure call protocol encoded in JSON that allows the client to call methods (tools) on the server and receive structured results. This makes it lightweight, language-agnostic, and easy to debug. Additionally, authentication and authorization flows are standardized via **OAuth 2.1**, which governs how user credentials are exchanged securely between clients and servers.
 

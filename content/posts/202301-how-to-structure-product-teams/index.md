@@ -296,4 +296,4 @@ At the end, regardless of which option you choose, as you scale, your goal shoul
 
 [1]:	https://en.wikipedia.org/wiki/Conway%27s_law
 
-[image-1]:	img/lonely.jpg
+[image-1]:	img/lonely.webp

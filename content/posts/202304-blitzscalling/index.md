@@ -44,4 +44,4 @@ Ultimately, companies should carefully consider the trade-offs of blitzscaling a
 [5]:	https://en.wikipedia.org/wiki/Google
 [6]:	https://hbr.org/2016/04/blitzscaling
 
-[image-1]:	img/race.jpg
+[image-1]:	img/race.webp

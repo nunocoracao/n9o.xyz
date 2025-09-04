@@ -38,13 +38,13 @@ Top specialist in 360 market research. She knows all about Steve Jobs and the st
 
 Displeased with the idea of being code monkey forever, she abandoned engineering in the search for happiness and success. Looking with regret at the life she left behind, the retired programmer is good ally and is willing to manage the leadership expectations and push back deadlines at the exchange of sharing some ideas for the software architecture and also that story about getting an A+ on a programming project at the university.
 
-![Retired Programmer](./img/retired-programmer.jpg)
+![Retired Programmer](./img/retired-programmer.webp)
 
 ### King’s Hand
 
 Why sharing one’s ideas when we’re all here to serve a greater purpose ? Like an all-pass filter, the king’s hand is taking no chance at fingers pointing on her direction. She’s just the messenger and if you don’t agree, be sure to expect some escalations so that you can all ask guidance from the master.
 
-[![King's Hand](./img/kings-hand.png)](https://workchronicles.com/product-managers-guide-to-prioritization/)
+[![King's Hand](./img/kings-hand.webp)](https://workchronicles.com/product-managers-guide-to-prioritization/)
 
 ## The Single Idea of Product Management
 

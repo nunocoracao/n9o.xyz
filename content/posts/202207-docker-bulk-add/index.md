@@ -21,7 +21,7 @@ You can invite your team to their accounts by uploading a file including their e
 
 We’ve also updated Docker Hub’s web interface to add multiple members at once. We hope this is useful for smaller teams that can just copy and paste a list of emails directly in the web interface and onboard everyone they need. Once your team is invited, you can see both the pending and accepted invites through Docker Hub.
 
-<img src="image2.png.webp"/>
+<img src="image2.webp.webp"/>
 
 Bulk User Add can be used without needing to have SSO setup for your organization. This feature allows you to get the most out of your Docker Team or Business subscription, and it greatly simplifies the onboarding process.
 

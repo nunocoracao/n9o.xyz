@@ -69,5 +69,5 @@ If you already tested what works or doesn’t, or know this based on previous wo
   
 
 
-[image-1]:	img/startup.jpg
-[image-2]:	img/money.jpg
+[image-1]:	img/startup.webp
+[image-2]:	img/money.webp

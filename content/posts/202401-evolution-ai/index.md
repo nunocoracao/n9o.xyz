@@ -148,5 +148,5 @@ Amara's law aptly captures the dichotomy in our perception of technological adva
 [35]:	https://www.techtarget.com/whatis/feature/AI-lawsuits-explained-Whos-getting-sued
 [36]:	https://www.businessinsider.com/how-much-chatgpt-costs-openai-to-run-estimate-report-2023-4
 
-[image-1]:	img/nvidiastock.png "Nvidia stock price in the last 5 years - almost 500% growth"
-[image-2]:	img/amara.png "Amara's Law - orange actual benefit, blue perceived benefit"
+[image-1]:	img/nvidiastock.webp "Nvidia stock price in the last 5 years - almost 500% growth"
+[image-2]:	img/amara.webp "Amara's Law - orange actual benefit, blue perceived benefit"

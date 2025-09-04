@@ -32,27 +32,27 @@ Follow me
 ## Tracks
 
 {{< gallery >}}
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/midnight-tension" target="_blank"><img src="images/midnighttension.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/far-side-of-a-star" target="_blank"><img src="images/farsideofastar.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/sleeping-in-cuba" target="_blank"><img src="images/sleepingincuba.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/not-here" target="_blank"><img src="images/nothere.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/last-smile-ever-heard" target="_blank"><img src="images/lastsmile.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/going-nowhere" target="_blank"><img src="images/goingnowhere.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/death-is-a-lover-to-us-all" target="_blank"><img src="images/deathisalovertousall.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/as-time-goes-by-2" target="_blank"><img src="images/astimegoesby.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/empty-room" target="_blank"><img src="images/emptyroom.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/finding-a-loophole" target="_blank"><img src="images/findingaloophole.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/higher-ground" target="_blank"><img src="images/higherground.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/dublin-delay" target="_blank"><img src="images/dublindelay.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/remember-a-new-day" target="_blank"><img src="images/rememberanewday.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/the-devil-dances-tonight" target="_blank"><img src="images/thedevildancestonight.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/beluccis-catwalk" target="_blank"><img src="images/belucciscatwalk.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/another-beginning" target="_blank"><img src="images/anotherbeginning.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/blue-in-green" target="_blank"><img src="images/blueingreen.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/dreaming-in-color" target="_blank"><img src="images/dreamingincolor.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/sweet-june" target="_blank"><img src="images/sweetjune.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/walking-miles" target="_blank"><img src="images/miles.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/a-different-kind-of-tango" target="_blank"><img src="images/tango.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/burka" target="_blank"><img src="images/burka.png" class="m-0 nozoom not-prose" /></a>
-    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/smoking-with-a-ninja" target="_blank"><img src="images/smokingwithaninja.png" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/midnight-tension" target="_blank"><img src="images/midnighttension.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/far-side-of-a-star" target="_blank"><img src="images/farsideofastar.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/sleeping-in-cuba" target="_blank"><img src="images/sleepingincuba.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/not-here" target="_blank"><img src="images/nothere.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/last-smile-ever-heard" target="_blank"><img src="images/lastsmile.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/going-nowhere" target="_blank"><img src="images/goingnowhere.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/death-is-a-lover-to-us-all" target="_blank"><img src="images/deathisalovertousall.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/as-time-goes-by-2" target="_blank"><img src="images/astimegoesby.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/empty-room" target="_blank"><img src="images/emptyroom.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/finding-a-loophole" target="_blank"><img src="images/findingaloophole.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/higher-ground" target="_blank"><img src="images/higherground.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/dublin-delay" target="_blank"><img src="images/dublindelay.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/remember-a-new-day" target="_blank"><img src="images/rememberanewday.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/the-devil-dances-tonight" target="_blank"><img src="images/thedevildancestonight.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/beluccis-catwalk" target="_blank"><img src="images/belucciscatwalk.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/another-beginning" target="_blank"><img src="images/anotherbeginning.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/blue-in-green" target="_blank"><img src="images/blueingreen.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/dreaming-in-color" target="_blank"><img src="images/dreamingincolor.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/sweet-june" target="_blank"><img src="images/sweetjune.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/walking-miles" target="_blank"><img src="images/miles.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/a-different-kind-of-tango" target="_blank"><img src="images/tango.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/burka" target="_blank"><img src="images/burka.webp" class="m-0 nozoom not-prose" /></a>
+    <a class="grid-w33 md:grid-w50" href="https://distrokid.com/hyperfollow/n9o/smoking-with-a-ninja" target="_blank"><img src="images/smokingwithaninja.webp" class="m-0 nozoom not-prose" /></a>
 {{< /gallery >}}

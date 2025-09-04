@@ -105,27 +105,27 @@ As an example, I've used Stable Diffusion to generate the thumbnail for this art
 <div style="display: flex; flex-wrap: wrap;">
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="thumbnails/000104.1330334134.png"/>
+    <img class="thumbnailshadow" src="thumbnails/000104.1330334134.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="thumbnails/000108.1301020889.png"/>
+    <img class="thumbnailshadow" src="thumbnails/000108.1301020889.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="thumbnails/000121.1119286522.png"/>
+    <img class="thumbnailshadow" src="thumbnails/000121.1119286522.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="thumbnails/000126.2675941357.png"/>
+    <img class="thumbnailshadow" src="thumbnails/000126.2675941357.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:200px">
-    <img class="thumbnailshadow" src="thumbnails/000085.2682514393.png"/>
+    <img class="thumbnailshadow" src="thumbnails/000085.2682514393.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:200px">
-    <img class="thumbnailshadow" src="thumbnails/000145.2404672998.png"/>
+    <img class="thumbnailshadow" src="thumbnails/000145.2404672998.webp"/>
   </div>
 
 </div>

@@ -18,7 +18,7 @@ Today I got the chance to sit down with David Large from CloudCannon to talk abo
 <table>
     <tbody>
          <tr>
-            <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish_logo.png"/></td>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish_logo.webp"/></td>
             <td>Blowfish</td>
             <td>A powerful, lightweight theme for Hugo built with Tailwind CSS.</td>
             <td><a target="_blank" href="https://nunocoracao.github.io/blowfish/">site</a></td>

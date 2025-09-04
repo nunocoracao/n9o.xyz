@@ -36,7 +36,7 @@ I always try to find time to work and learn something new. Usually, most of thes
     </thead>
     <tbody>
          <tr>
-            <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish_logo.png"/></td>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish_logo.webp"/></td>
             <td>
               Blowfish
               {{< badge >}}
@@ -47,7 +47,7 @@ I always try to find time to work and learn something new. Usually, most of thes
             <td><a target="_blank" href="https://blowfish.page">site</a></br><a target="_blank" href="https://github.com/nunocoracao/blowfish">github</a></td>
         </tr>
          <tr>
-            <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish-tools.png"/></td>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish-tools.webp"/></td>
             <td>
               Blowfish-Tools
               {{< badge >}}
@@ -58,7 +58,7 @@ I always try to find time to work and learn something new. Usually, most of thes
             <td><a target="_blank" href="https://blowfish.page">site</a></br><a target="_blank" href="https://github.com/nunocoracao/blowfish-tools">github</a></br><a target="_blank" href="https://www.npmjs.com/package/blowfish-tools">NPM</a></td>
         </tr>
         <tr>
-            <td><img class="customEntitityAlbum" style="background-color:transparent" src="wormhole-logo-square.png"/></td>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="wormhole-logo-square.webp"/></td>
             <td>
               Wormhole
             </td>

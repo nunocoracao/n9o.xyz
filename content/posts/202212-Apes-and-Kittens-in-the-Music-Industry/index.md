@@ -24,7 +24,7 @@ For decades, the music industry was controlled by publishers and studios which w
 That all changed with technology, recording is now so cheap that you can do it on almost any laptop, distributing to the major streaming platforms is cheap and accessible, and marketing can be achieved through social networks ([TikTok](https://www.businessinsider.com/how-tiktok-is-changing-the-music-industry-marketing-discovery-2021-7), for example is one of the most common marketing vehicles). Even with all these shifts, the music industry is still largely controlled by the major publishers because of the huge machine behind, that markets, promotes, and distributes new music, concerts, social accounts, etc.
 
 
-![Global Recorded Music Industry Revenues 1999-2021 (US$ Billions) ](img/chart.png "Source: International federation of the phonographic industry")
+![Global Recorded Music Industry Revenues 1999-2021 (US$ Billions) ](img/chart.webp "Source: International federation of the phonographic industry")
 
 Streaming has been the dominant distribution format for some years now. In 2021, around [65% of global recorded music revenues](https://www.ifpi.org/wp-content/uploads/2022/04/IFPI_Global_Music_Report_2022-State_of_the_Industry.pdf), with Spotify alone accounting for almost [half a billion users](https://variety.com/2022/digital/news/spotify-q3-results-456-million-total-users-1235414241/) and almost 200 million paying subscribers.
 
@@ -34,14 +34,14 @@ But taking a step back, what is actually an NFT? Originally proposed and built a
 
 ## The Good
 
-![ Good Cat ](img/good.jpg)
+![ Good Cat ](img/good.webp)
 
 
 ### Royalties
 
 There’s a great number of hops in the [value chain](https://music.dataobservatory.eu/post/2022-02-15-music-value-chain/) between artists and their fans. The machine that makes it possible for commercial music to play on our earphones is a complex one, with a lot of different entities profiting in between. Streaming services have been heavily criticized for [low payouts](https://www.forbes.com/sites/marisadellatto/2022/03/24/spotify-says-it-paid-7-billion-in-royalties-in-2021-amid-claims-of-low-pay-from-artists/?sh=6c5fc06da0db), and record labels were always known for [monopolizing rights](https://nickledanddimed.com/2022/05/24/record-labels-the-third-party-monopolies-in-the-music-industry/) with unfair contracts that force artists to give up ownership of their songs to the label.
 
-![ Music Revenue Streams ](img/graph.png "Source: Data Observatory")
+![ Music Revenue Streams ](img/graph.webp "Source: Data Observatory")
 
 What NFTs and the crypto asset economy are creating is the possibility to bypass some hops, naturally changing the way business is made. While most of what we see is still experimentation, [maintaining rights ownership](https://rockcelebrities.net/mike-shinoda-explains-the-commercial-rights-rule-for-his-nfts/) is what seems to be the main discussion topic.  
 
@@ -59,7 +59,7 @@ The element of scarcity is known to generate lucrative profits on pretty much ev
 
 ## The Bad
 
-![ Bad Cat ](img/bad.jpg)
+![ Bad Cat ](img/bad.webp)
 
 
 NFTs and blockchain promise a more fair and equal future in many industries, but at the moment the underlying technology is still pretty immature, and we don’t know in which terms it will stick around. If something changes and all of a sudden Ethereum stops being the dominant NFT platform, users might move away to a different technology and it remains unclear what happens to all of those who already invested in NFTs. 
@@ -72,7 +72,7 @@ On top of all of this there is the crypto asset market, which is in its early da
 
 ## The Ugly
 
-![ Ugly Cat ](img/ugly.jpg)
+![ Ugly Cat ](img/ugly.webp)
 
 Even with all the above changes, the music industry at its core still has the biggest piece of the pie. Publishers and distributors are still the gatekeepers of success for most artists. Even the ones that found success through social networks still end up getting signed by a major publisher in order to scale their brand and get their music to as many listeners as possible.
 
@@ -85,7 +85,7 @@ Finally, most attempts and experiments seem like marketing stunts to leverage th
 The whole crypto asset industry is still at its early days and essentially lacks definition and standardization, which can be both good and bad for its role in the music industry. On one hand it created a space for the brave, defiant ones to experiment new approaches to their careers, but on the other the infrastructure is not built yet, which restricts NFTs to the tech savvy users and creates the space for new middlemen.
 We should also be mindful that the current price speculation and fraud with NFTs and crypto assets in general doesn’t allow a clear forecast of what will be the monetary value for music NFTs, and neither if it will be possible to make a living out of them.
 
-![ Dude listening to music ](img/music.jpg)
+![ Dude listening to music ](img/music.webp)
 
 What stays on the record for now is that by democratizing the commercial trades of digital assets, NFTs have definitely captured some attention in the music industry, helping out artists to have a more independent career and sell their music directly to the fans. Major companies in the industry have also noticed this and will eventually start chipping in as the whole ecosystem is yet to be properly regulated. The latter also poses an interesting question that goes straight to the core of what NFTs and blockchain stand for: if there is a centralization of the system, in this case major studios/publishers controlling most of these technologies, does the community really benefit from decentralized technology?
 

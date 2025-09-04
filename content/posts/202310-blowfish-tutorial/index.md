@@ -16,7 +16,7 @@ Just one year ago, I created[Blowfish](https://blowfish.page/), a [Hugo](https:/
 
 The goal of this guide is to walk a newcomer to Hugo on how to install, manage, and publish your own website. The final version of the code is available in this [repo](https://github.com/nunocoracao/blowfish-tutorial/tree/main) - for those that would like to jump to the end. 
 
-![Tutorial example](img/01.png)
+![Tutorial example](img/01.webp)
 
 The visual style is just one of the many possibilities available in Blowfish. Users are encouraged to check the [documentation page](https://blowfish.page/) and learn how to customize the theme to their needs. Additionally, there are already [great examples](https://blowfish.page/users/) of the theme from other users available for inspiration. Blowfish also offers several extra features in the form of `shortcodes` available out of the box in the theme - check them out [here](https://blowfish.page/docs/shortcodes/) and get inspired. 
 
@@ -57,7 +57,7 @@ git push --set-upstream origin main
 
 Check the image below for the options I selected for this guide, again feel free to change names and description to your use-case.
 
-![gh repo create example](img/ghcreate.png)
+![gh repo create example](img/ghcreate.webp)
 
 
 Finally, create a **.gitignore** file which allows you to exclude certain files from your repo automatically. I would start with something like the example below.
@@ -130,7 +130,7 @@ hugo server
 
 You should see something like the image below. Not much yet as we didn’t add any content, but the main skeleton for Blowfish is already in place - just requires configuration. 
 
-![blowfish empty site](img/blowfishempty.png)
+![blowfish empty site](img/blowfishempty.webp)
 
 Now let’s configure the theme. 
 
@@ -233,13 +233,13 @@ Now configure how the article and list pages will look. Here are the configurati
 If you run **hugo server** again, you should see something like the image below.
 
 
-![blowfish no articles](img/blowfishnoarticles.png)
+![blowfish no articles](img/blowfishnoarticles.webp)
 
 
 
 ## Adding content to your site
 
-Create a folder to place your posts in  `/content/posts`. This was also the directory configured in your menu to list all the articles. Within that folder, let’s create a new directory and give it the name **myfirstpost**. Within it create an **index.md** file – your article and place a featured.jpg or .png for in the same directory as the thumbnail for the article. Use the example below to get started. The first lines in the file are the Front Matter, which tell Hugo what the look and experience of the article will be – different themes support different params for this. Check the [docs](https://blowfish.page/docs/front-matter/) for more info.
+Create a folder to place your posts in  `/content/posts`. This was also the directory configured in your menu to list all the articles. Within that folder, let’s create a new directory and give it the name **myfirstpost**. Within it create an **index.md** file – your article and place a featured.jpg or .webp for in the same directory as the thumbnail for the article. Use the example below to get started. The first lines in the file are the Front Matter, which tell Hugo what the look and experience of the article will be – different themes support different params for this. Check the [docs](https://blowfish.page/docs/front-matter/) for more info.
 
 ```md
 ---
@@ -258,10 +258,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh nisl, vulput
 You can create additional articles to see what your site will look like once there is content in it. Your site should look like the images below. The main page shows the recent articles, each article is connected through others automatically via related section, you have tag aggregation, and full-text search. 
 
 {{< gallery >}}
-  <img src="img/blowfishrecent.png" class="grid-w50" />
-  <img src="img/article.png" class="grid-w50" />
-  <img src="img/search.png" class="grid-w50" />
-  <img src="img/tag.png" class="grid-w50" />
+  <img src="img/blowfishrecent.webp" class="grid-w50" />
+  <img src="img/article.webp" class="grid-w50" />
+  <img src="img/search.webp" class="grid-w50" />
+  <img src="img/tag.webp" class="grid-w50" />
 {{< /gallery >}}
 
 
@@ -283,11 +283,11 @@ firebase init
 
 Select hosting and proceed.
 
-![firebase init](img/firebasecli.png)
+![firebase init](img/firebasecli.webp)
 
 Follow the image below for the options I recommend. Make sure to set up the workflow files for GitHub actions. These will guarantee that your code will be deployed once there is a change to the repo.
 
-![firebase options](img/firebaseoptions.png)
+![firebase options](img/firebaseoptions.webp)
 
 However, those files will not work out-of-box, as Hugo requires extra steps for the build to work. Please copy and paste the code blocks below to the respective files within the **.github** folder, but keep the original **projectId** in the files generated by firebase.
 
@@ -391,11 +391,11 @@ git push
 
 If the actions tab for your repo, you should see something like this.
 
-![gh actions](img/githubactions.png)
+![gh actions](img/githubactions.webp)
 
 Once all the steps finish, your Firebase console should show something like the image below - including the links to see your app – I got a version of this tutorial running on [https://blowfish-tutorial.web.app/](https://blowfish-tutorial.web.app/).
 
-![firebase console](img/firebaseconsole.png)
+![firebase console](img/firebaseconsole.webp)
 
 
 ## Conclusion and Next Steps
@@ -409,4 +409,4 @@ Now you have your first version of your homepage. You can make changes locally a
 - https://blowfish.page/users/
 - https://gohugo.io/documentation/
 
-![blowfish final](img/01.png)
+![blowfish final](img/01.webp)
