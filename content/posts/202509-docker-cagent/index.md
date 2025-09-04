@@ -89,12 +89,12 @@ When you run `cagent new`, you'll be prompted to describe what you want your age
 
 Behind the scenes, `cagent` uses a built-in generator agent to bootstrap the YAML for you. You can immediately run the generated file, edit it, or share it. In the example below I'll create an agent inspired by Tyler Durden from *Fight Club*.
 
-{{< figure src="img/cagent new tyler.png" alt="Tyler Durden agent creation prompt" >}}
+{{< figure src="img/cagent new tyler.webp" alt="Tyler Durden agent creation prompt" >}}
 
 After you describe your agent, `cagent` generates a YAML file that specifies the agent's role, provider, model, and tool access. This makes your agent's configuration explicit, reproducible, and easy to modify. 
 
 
-{{< figure src="img/cagent new tyler result.png" alt="Generated agent YAML for Tyler Durden example" >}}
+{{< figure src="img/cagent new tyler result.webp" alt="Generated agent YAML for Tyler Durden example" >}}
 
 Here's an example of the generated YAML for the Tyler Durden agent:
 
@@ -153,7 +153,7 @@ agents:
 
 You can further refine which tools the agent can access, including MCP tools like search, filesystem, or custom APIs. This explicit tools section ensures your agent only has the capabilities you define.
 
-{{< figure src="img/cagent run tyler example.png" alt="Running the Tyler Durden agent" >}}
+{{< figure src="img/cagent run tyler example.webp" alt="Running the Tyler Durden agent" >}}
 
 This makes it incredibly fast to go from an idea to a working agent configuration. Whether you're prototyping a single helper agent or designing a team of specialists, `cagent new` lets you start from natural language and get a runnable config in seconds.
 
@@ -190,24 +190,24 @@ This approach ensures that when the Engineer agent creates files or the team nee
 
 Then I ask this team to "build a chess game".
 
-{{< figure src="img/build a chess game 1.png" alt="Initial request to build a chess game" >}}
+{{< figure src="img/build a chess game 1.webp" alt="Initial request to build a chess game" >}}
 
 The Product Manager agent takes the lead, immediately breaking down the chess game into manageable components. The Product Manager then coordinates with the Designer agent to plan the user interface. The Designer considers the visual layout, user interactions, and overall experience. This collaboration happens automatically—the agents communicate through the cagent runtime without manual coordination. Several files are generated to outline the project structure and initial design (*note:specific feature of dev-team agents*).
 
-{{< figure src="img/build a chess game 2.png" alt="Product Manager and designer defining requirements and coordinating with team" >}}
+{{< figure src="img/build a chess game 2.webp" alt="Product Manager and designer defining requirements and coordinating with team" >}}
 
 The Engineer agent gets involved to plan the technical implementation. It thinks about code structure, HTML/CSS/JavaScript architecture, and how to implement game logic efficiently. The engineer can access filesystem tools to actually create and modify files.
 
 The team works iteratively—the Engineer implements features, the Designer provides feedback on the interface, and the Product Manager keeps track of progress. Each agent maintains its specialized perspective while contributing to the shared goal.
 
-{{< figure src="img/build a chess game 3.png" alt="Designer planning the user interface" >}}
+{{< figure src="img/build a chess game 3.webp" alt="Designer planning the user interface" >}}
 
 The end result is a functional chess game with proper game logic, visual interface, and user interactions. The agents collaborated to deliver something more sophisticated than any single agent would have produced alone.
 
-{{< figure src="img/build a chess game 4.png" alt="Engineer implementing the technical solution" >}}
+{{< figure src="img/build a chess game 4.webp" alt="Engineer implementing the technical solution" >}}
 
 
-{{< figure src="img/build a chess game 5.png" alt="Final implementation with working chess game" >}}
+{{< figure src="img/build a chess game 5.webp" alt="Final implementation with working chess game" >}}
 
 ## What makes this powerful
 
