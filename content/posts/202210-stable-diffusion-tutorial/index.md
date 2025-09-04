@@ -75,7 +75,7 @@ conda
 
 If the installation process was successful, you should see something like the image below. 
 
-<img class="thumbnailshadow" src="conda_result.png"/>
+<img class="thumbnailshadow" src="conda_result.webp"/>
 
 {{< alert >}}
 *Note: `conda` will require that both `python` and `pip` commands are available in the terminal when creating the environment in the next steps. Please make sure to have them properly configured as in Mac the defaults are python3 and pip3, so most likely you would need to create an alias.*
@@ -140,7 +140,7 @@ And open your browser on `localhost:9090`
 
 You should see a Web interface like the one below.
 
-<img class="thumbnailshadow" src="webui_new.png"/>
+<img class="thumbnailshadow" src="webui_new.webp"/>
 
 
 Chose your first prompt and try out the model, all the images will be saved in `output/img-samples`. Explore the various models and configurations possible. I’ve been running mine with `512x512` images, around `100` cycles for the final images (`5` for the initial variants), and config scale at. `7.5`. As a sampler I prefer the results using `DDIM`, you can find some details on the differences between samplers and some examples in <a href="https://www.reddit.com/r/StableDiffusion/comments/x4zs1r/comparison\_between\_different\_samplers\_in\_stable/" target="_blank">this Reddit thread</a>.
@@ -158,67 +158,67 @@ Here are some examples of images from my initial runs of the model. I have to sa
 <div style="display: flex; flex-wrap: wrap;">
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000008.2887160172.png"/>
+    <img class="thumbnailshadow" src="examples/000008.2887160172.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000023.4136023390.png"/>
+    <img class="thumbnailshadow" src="examples/000023.4136023390.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000024.2854274560.png"/>
+    <img class="thumbnailshadow" src="examples/000024.2854274560.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000028.4255152621.png"/>
+    <img class="thumbnailshadow" src="examples/000028.4255152621.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000031.1604394908.png"/>
+    <img class="thumbnailshadow" src="examples/000031.1604394908.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000036.1662843642.png"/>
+    <img class="thumbnailshadow" src="examples/000036.1662843642.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000043.2287582219.png"/>
+    <img class="thumbnailshadow" src="examples/000043.2287582219.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000045.234321637.png"/>
+    <img class="thumbnailshadow" src="examples/000045.234321637.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000057.107659121.png"/>
+    <img class="thumbnailshadow" src="examples/000057.107659121.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000058.157499426.png"/>
+    <img class="thumbnailshadow" src="examples/000058.157499426.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000063.2383238266.png"/>
+    <img class="thumbnailshadow" src="examples/000063.2383238266.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000067.2841883613.png"/>
+    <img class="thumbnailshadow" src="examples/000067.2841883613.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000102.4159217524.png"/>
+    <img class="thumbnailshadow" src="examples/000102.4159217524.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000116.829934269.png"/>
+    <img class="thumbnailshadow" src="examples/000116.829934269.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000145.2404672998.png"/>
+    <img class="thumbnailshadow" src="examples/000145.2404672998.webp"/>
   </div>
 
   <div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/000149.811067720.png"/>
+    <img class="thumbnailshadow" src="examples/000149.811067720.webp"/>
   </div>
   
 </div>

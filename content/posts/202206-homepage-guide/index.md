@@ -58,7 +58,7 @@ I'll provide two ways of setting up your development environment feel free to ch
 
 To spin up a Dev Environment just open Docker Dashboard and select the "Dev Environments" tab on the left. If you don't have any dev environments setup select "Create New Environment" otherwise use the button on the upper right side "Create". Proceed to the setup step.
 
-<img src="devenvs/step2.png"/>
+<img src="devenvs/step2.webp"/>
 
 
 Here choose the "Existing Git repo" option and use the following GitHub URL:
@@ -73,8 +73,8 @@ https://github.com/nunocoracao/homepage-kickstart
 
 Once the container is running you should see something similar to the images below.
 
-<img style="float: left" width="50%" src="devenvs/step4.png"/>
-<img style="float: left" width="50%" src="devenvs/step5.png"/>
+<img style="float: left" width="50%" src="devenvs/step4.webp"/>
+<img style="float: left" width="50%" src="devenvs/step5.webp"/>
 
 In both situations, you will be able to see and click the button "Open in VSCode" which will open the editor and will allow you to start working. From there open a terminal and proceed to [create the site skeleton](#create-site-skeleton)
 
@@ -90,16 +90,16 @@ This method requires the installation of an extra VSCode extension in order to s
 
 After successfully installing the extension, open your source folder in VSCode and open the “Remote - Containers” extension panel on the left. Select "Open Folder in Container" to spin up a container with the development environment.
 
-<img src="setup/extension.png"/>
+<img src="setup/extension.webp"/>
 
 Wait a couple of minutes while the image is built. Docker is creating an image with all the required software for the development of the website. This will only happen the first time you spin the environment.
 
-<img src="setup/imagebuild.png"/>
+<img src="setup/imagebuild.webp"/>
 
 
 Once the image is built, VSCode will spin the container and will place your working environment inside of it (information available in the bottom left corner of the window). You now have a development environment with Go, Hugo, Firebase CLI, and all the tools you will need for this guide. Just open a new terminal and you’re ready to begin creating your site.
 
-<img src="setup/newterminal.png"/>
+<img src="setup/newterminal.webp"/>
 
 ### ...but I really want to run everything locally
 
@@ -144,7 +144,7 @@ hugo server -D
 
 Please open your favorite browser and navigate to <a target="_blank" href="http://localhost:1313">localhost:1313</a> to see your page.
 
-<img src="theme/vanilla.png"/>
+<img src="theme/vanilla.webp"/>
 
 You should see something similar to the image above. Doesn’t look that exciting, does it? Let’s configure the theme in the next sections and learn how to create your first article.
 
@@ -159,10 +159,10 @@ A note, I am covering a very simple configuration for this theme please check <a
 
 ### Profile picture
 
-Let’s start by adding a profile picture to your site. Create a folder called “assets” at the root of your project. Choose a profile picture and place it inside the assets folder. The rest of the guide will assume the final picture is named "profile.jpg", so please rename your picture or take that into account when configuring some of the other files. 
+Let’s start by adding a profile picture to your site. Create a folder called “assets” at the root of your project. Choose a profile picture and place it inside the assets folder. The rest of the guide will assume the final picture is named "profile.webp", so please rename your picture or take that into account when configuring some of the other files. 
 
 <figure>
- 	<img src="configure/profile.jpg"/>
+ 	<img src="configure/profile.webp"/>
   <figcaption>If you still need to take a proper awesome picture for this feel free to download this one to proceed with the tutorial.</figcaption>
 </figure>
 
@@ -176,7 +176,7 @@ Let’s open a couple of configuration files and start updating them. All the fi
 
 Uncomment the <code>baseURL</code> parameter and replace it with the final domain of your website. This value will be used to create the robots.txt file for any search engines to successfully crawl and index your website.
 
-<img src="configure/config.png"/>
+<img src="configure/config.webp"/>
 
 {{< alert >}}
 Note: if you want to configure Google Analytics please add the following line with your id to this file `googleAnalytics = "G-XXXXXX"`
@@ -189,7 +189,7 @@ This file will drive the main information for the website and the author of the 
 
 Within the <code>[author]</code> block you can update the details that you wish to highlight in your profile. The bare minimum would be <code>name</code>, <code>image</code>, <code>headline</code>, and <code>links</code>. For the <code>links</code> parameter don't forget to uncomment the last line of the file as this is a json array. Update each entry with your personal links.
 
-<img src="configure/languages.png"/>
+<img src="configure/languages.webp"/>
 
 #### params.toml
 
@@ -199,7 +199,7 @@ I've changed <code>colorScheme</code> to "ocean" which changes the global UI the
 
 Activated <code>showAppearanceSwitcher</code> to enable the light/dark mode toggle. Activated <code>enableSearch</code> which indexes all future posts each time you build the site and provides a simple search feature. I've also changed the value of <code>layout</code>, inside <code>[homepage]</code>, to "profile" which changes the way the landing page is rendered. Finally, the last interesting value here is <code>showRecent</code>, which when turned on shows the recent posts on the homepage.
 
-<img src="configure/params.png"/>
+<img src="configure/params.webp"/>
 
 ### Final
 
@@ -211,7 +211,7 @@ hugo server -D
 
 And navigate to <a target="_blank" href="http://localhost:1313">localhost:1313</a> you should see something similar to the page below.
 
-<img class="thumbnailshadow" src="configure/final.png"/>
+<img class="thumbnailshadow" src="configure/final.webp"/>
 
 Congrats it’s looking great, let’s learn how to generate your first articles.
 
@@ -303,11 +303,11 @@ firebase init
 
 The tool will offer you a wide variety of different options in order to configure your Firebase project. For now, we just want to configure hosting. If you are using GitHub, you might want to consider configuring GitHub action deploys which can automatically build and deploy your site every time there is a push to a specific branch or a merged pull request.
 
-<img src="deploy/firebasehosting.png"/>
+<img src="deploy/firebasehosting.webp"/>
 
 Choose the Firebase project created before as the hosting destination. And select the configurations you wish for the deployment process. The important one here is the folder where the final files to the server will be placed and this is the <code>public</code> folder. For the other parameters you experiment with what better matches your use-case, the image below shows you what I picked (*Note: for this tutorial I didn't configure GitHub actions but I am using that in my real setup*).
 
-<img src="deploy/firebaseconfig.png"/>
+<img src="deploy/firebaseconfig.webp"/>
 
 ### Deploy
 
@@ -317,11 +317,11 @@ Ok, now for the long and boring process of deployment… joking! Once you are re
 firebase deploy
 ```
 
-<img src="deploy/firebasedeploy.png"/>
+<img src="deploy/firebasedeploy.webp"/>
 
 The process should take a couple of seconds and there you go your site is deployed. The final line of the CLI tool will give you a URL to see for yourself, otherwise, you can explore your Firebase dashboard hosting section which will have more information regarding the deployment.
 
-<img src="deploy/final.png"/>
+<img src="deploy/final.webp"/>
 
 ## Conclusion
 
