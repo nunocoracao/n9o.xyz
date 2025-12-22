@@ -249,7 +249,7 @@ Note: Meanwhile, I've created an Instagram account to share my Stable Diffusion 
 [41]:	https://newsletters.theatlantic.com/galaxy-brain/62fc502abcbd490021afea1e/twitter-viral-outrage-ai-art/
 [42]:	https://en.wikipedia.org/wiki/Prompt_engineering
 [43]:	https://stratechery.com/2022/the-ai-unbundling/
-[44]:	%20https://techcrunch.com/2022/10/17/stability-ai-the-startup-behind-stable-diffusion-raises-101m/%0A
+[44]:	https://techcrunch.com/2022/10/17/stability-ai-the-startup-behind-stable-diffusion-raises-101m/
 [45]:	https://techcrunch.com/2022/10/18/ai-content-platform-jasper-raises-125m-at-a-1-7b-valuation/
 [46]:	https://runwayml.com
 [47]:	https://blog.adobe.com/en/publish/2022/10/18/bringing-next-wave-ai-creative-cloud
