@@ -1,0 +1,45 @@
+# -- Main Menu --
+# Portuguese (Portugal) navigation menu
+
+[[main]]
+  name = "Sobre"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Artigos"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "Projetos"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "Currículo"
+  pageRef = "resume"
+  weight = 40
+
+[[main]]
+  identifier = "music"
+  name = "Música"
+  pageRef = "music"
+  weight = 50
+
+# -- Footer Menu --
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "Categorias"
+  pageRef = "categories"
+  weight = 20
+
+[[footer]]
+  name = "Autores"
+  pageRef = "authors"
+  weight = 30

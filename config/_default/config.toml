@@ -4,7 +4,7 @@
 theme = "blowfish"
 baseURL = "https://n9o.xyz/"
 defaultContentLanguage = "en"
-disableLanguages = ['pt-pt']
+# disableLanguages = ['pt-pt']
 
 enableRobotsTXT = true
 summaryLength = 30
@@ -13,6 +13,7 @@ buildDrafts = false
 buildFuture = false
 
 enableEmoji = true
+hasCJKLanguage = true
 
 googleAnalytics = "G-R94R4YKFEC"
 

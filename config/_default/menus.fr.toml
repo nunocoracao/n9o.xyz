@@ -1,0 +1,45 @@
+# -- Main Menu --
+# French navigation menu
+
+[[main]]
+  name = "À propos"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Articles"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "Projets"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "CV"
+  pageRef = "resume"
+  weight = 40
+
+[[main]]
+  identifier = "music"
+  name = "Musique"
+  pageRef = "music"
+  weight = 50
+
+# -- Footer Menu --
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "Catégories"
+  pageRef = "categories"
+  weight = 20
+
+[[footer]]
+  name = "Auteurs"
+  pageRef = "authors"
+  weight = 30

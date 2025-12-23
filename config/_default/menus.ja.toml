@@ -1,0 +1,45 @@
+# -- Main Menu --
+# Japanese navigation menu
+
+[[main]]
+  name = "について"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "記事"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "プロジェクト"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "履歴書"
+  pageRef = "resume"
+  weight = 40
+
+[[main]]
+  identifier = "music"
+  name = "音楽"
+  pageRef = "music"
+  weight = 50
+
+# -- Footer Menu --
+
+[[footer]]
+  name = "タグ"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "カテゴリー"
+  pageRef = "categories"
+  weight = 20
+
+[[footer]]
+  name = "著者"
+  pageRef = "authors"
+  weight = 30

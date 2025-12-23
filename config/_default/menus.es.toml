@@ -1,0 +1,45 @@
+# -- Main Menu --
+# Spanish navigation menu
+
+[[main]]
+  name = "Acerca de"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Artículos"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "Proyectos"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "Currículum"
+  pageRef = "resume"
+  weight = 40
+
+[[main]]
+  identifier = "music"
+  name = "Música"
+  pageRef = "music"
+  weight = 50
+
+# -- Footer Menu --
+
+[[footer]]
+  name = "Etiquetas"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "Categorías"
+  pageRef = "categories"
+  weight = 20
+
+[[footer]]
+  name = "Autores"
+  pageRef = "authors"
+  weight = 30
