@@ -1,0 +1,13 @@
+languageCode = "ja"
+languageName = "日本語"
+weight = 7
+title = "N9O"
+
+[params]
+  displayName = "日本語"
+  isoCode = "ja"
+  rtl = false
+  dateFormat = "2006年01月02日"
+  logo = "img/logo_inverted@0.25x.png"
+  secondaryLogo = "img/logo@0.25x.png"
+  description = "N9O | ヌノ・コラサン"

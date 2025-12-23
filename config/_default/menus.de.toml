@@ -1,0 +1,45 @@
+# -- Main Menu --
+# German navigation menu
+
+[[main]]
+  name = "Über"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Artikel"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "Projekte"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "Lebenslauf"
+  pageRef = "resume"
+  weight = 40
+
+[[main]]
+  identifier = "music"
+  name = "Musik"
+  pageRef = "music"
+  weight = 50
+
+# -- Footer Menu --
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "Kategorien"
+  pageRef = "categories"
+  weight = 20
+
+[[footer]]
+  name = "Autoren"
+  pageRef = "authors"
+  weight = 30

@@ -1,0 +1,45 @@
+# -- Main Menu --
+# Simplified Chinese navigation menu
+
+[[main]]
+  name = "关于"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "文章"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "项目"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "简历"
+  pageRef = "resume"
+  weight = 40
+
+[[main]]
+  identifier = "music"
+  name = "音乐"
+  pageRef = "music"
+  weight = 50
+
+# -- Footer Menu --
+
+[[footer]]
+  name = "标签"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "分类"
+  pageRef = "categories"
+  weight = 20
+
+[[footer]]
+  name = "作者"
+  pageRef = "authors"
+  weight = 30

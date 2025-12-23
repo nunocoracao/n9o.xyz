@@ -19,11 +19,11 @@ During the event, Apple launched four new iPhones: iPhone 14, iPhone 14 Plus, iP
 
 Both Pro models will run on the new A16 Bionic chip. Apple changed the front-facing camera notch into a “dynamic island”, which is an interesting software solution to the front-camera holes. The Pro models will have always-on displays.
 
-<img class="thumbnailshadow" src="iphone.webp.webp"/>
+<img class="thumbnailshadow" src="iphone.jpg.webp"/>
 
 All models will drop the physical SIM tray in the US and will be eSIM only, and they will have emergency satellite connectivity. If you are in a spot with no Wi-Fi/cell connectivity and require assistance, these new iPhones will be able to connect to satellites to send compressed emergency alerts and messages. Apple says the satellite service will be included for free for two years, but hasn’t yet mentioned the cost after that. I’m really looking forward to the YouTube videos of people testing this last one.
 
-<img class="thumbnailshadow" src="pill.webp.webp"/>
+<img class="thumbnailshadow" src="pill.jpg.webp"/>
 
 
 ### Watch

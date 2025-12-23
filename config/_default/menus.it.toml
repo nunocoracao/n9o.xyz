@@ -1,0 +1,45 @@
+# -- Main Menu --
+# Italian navigation menu
+
+[[main]]
+  name = "Chi sono"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Articoli"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "Progetti"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "Curriculum"
+  pageRef = "resume"
+  weight = 40
+
+[[main]]
+  identifier = "music"
+  name = "Musica"
+  pageRef = "music"
+  weight = 50
+
+# -- Footer Menu --
+
+[[footer]]
+  name = "Tag"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "Categorie"
+  pageRef = "categories"
+  weight = 20
+
+[[footer]]
+  name = "Autori"
+  pageRef = "authors"
+  weight = 30
