@@ -47,6 +47,9 @@ draft: false
 - **Base64画像フォーマットサポート** - 画像の取り扱いにおけるより高い柔軟性
 - **Medium-zoomの改善** - より良い画像ズーム体験
 
+### 開発者エクスペリエンス
+- **[Blowfish CLI](https://github.com/nunocoracao/blowfish-tools)** - 新しいBlowfishプロジェクトの作成、テーマのインストール、すべての設定を1つのコマンドで自動化するCLIツール：`npx blowfish-tools`。現在[npm](https://www.npmjs.com/package/blowfish-tools)で月間600以上のダウンロードを達成。
+
 ### アクセシビリティとユーザーエクスペリエンス
 - **Zenモードトグル** - 気を散らさない読書体験
 - **メールで返信** - 読者との直接的なエンゲージメント

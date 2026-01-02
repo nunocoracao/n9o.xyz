@@ -47,6 +47,9 @@ Lançámos muitas novas funcionalidades este ano. Aqui estão alguns destaques:
 - **Suporte para formato de imagem Base64** - Mais flexibilidade no tratamento de imagens
 - **Melhorias no Medium-zoom** - Melhor experiência de zoom de imagens
 
+### Experiência de Desenvolvimento
+- **[Blowfish CLI](https://github.com/nunocoracao/blowfish-tools)** - Uma ferramenta CLI para criar novos projetos Blowfish, instalar o tema e configurar tudo automaticamente com um único comando: `npx blowfish-tools`. Agora com mais de 600 downloads por mês no [npm](https://www.npmjs.com/package/blowfish-tools).
+
 ### Acessibilidade e Experiência do Utilizador
 - **Toggle de modo Zen** - Experiência de leitura sem distrações
 - **Responder por Email** - Interação direta com leitores
