@@ -47,6 +47,9 @@ draft: false
 - **Base64 图片格式支持** - 处理图片时更加灵活
 - **Medium-zoom 改进** - 更好的图片缩放体验
 
+### 开发者体验
+- **[Blowfish CLI](https://github.com/nunocoracao/blowfish-tools)** - 一个 CLI 工具，用于创建新的 Blowfish 项目、安装主题并通过一条命令自动配置一切：`npx blowfish-tools`。目前在 [npm](https://www.npmjs.com/package/blowfish-tools) 上每月下载量超过 600 次。
+
 ### 无障碍和用户体验
 - **Zen 模式切换** - 无干扰的阅读体验
 - **邮件回复** - 直接与读者互动
