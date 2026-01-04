@@ -90,6 +90,16 @@ The moment that made it all worthwhile: Teresa pressing the button, saying "Olá
 
 That's the magic of building with your kids. The technical achievement matters less than the moment of wonder.
 
+## Beyond Code
+
+Not everything worth mentioning fits neatly into a GitHub repo.
+
+**Reading.** I read 15 books this year—not as many as I'd like, but enough to find some gems. Favorites included *There Is No Antimemetics Division* (a mind-bending SCP Foundation story that stayed with me for weeks), *Project Hail Mary* (Andy Weir at his best), and *Tokyo Express* (Matsumoto's classic that reminded me how much I love Japanese crime fiction).
+
+**Mentoring.** I worked with 4 mentees through [MentorCruise](https://mentorcruise.com/mentor/nunocorao/) this year—all of them navigating career transitions in product management. Watching them prepare, interview, and land the PM roles they wanted was genuinely rewarding. There's something special about helping someone get to the next stage when you remember how hard that climb felt.
+
+**Audience.** The writing and open source work translated into some growth: LinkedIn went from 2,479 to 3,242 followers (+31%), and Twitter/X grew from 308 to 367 (+19%). Not viral numbers, but steady progress. More importantly, the conversations that came from those platforms—questions about Blowfish, feedback on articles, people sharing what they built—made the effort worthwhile.
+
 ## What I Learned
 
 **AI agents are infrastructure now.** Not science projects. Not demos. Real tools that developers use to ship real products. The question isn't whether agents will transform software—it's how fast and in what ways.
