@@ -117,6 +117,8 @@ That's the thing about building something with your kids - the technical achieve
 
 ## What I Learned
 
+**You can out-Siri Siri in a weekend.** Somewhere in Cupertino, there's an engineer who spent years perfecting voice assistant technology. Meanwhile, I built something my daughter actually prefers to talk to in a couple of hours. Sorry, Siri - turns out all you needed was a Portuguese accent and an opinion on unicorns.
+
 **Vibe coding is real and it works.** I didn't sit down with a detailed specification. I had an idea, a fork of someone else's project, and Claude to help me reshape it. The process was conversational - "I want her to speak Portuguese from Portugal, not Brazilian" led to exploring the TTS API options, which led to discovering the instructions parameter, which led to the perfect solution.
 
 **Hardware projects are more accessible than ever.** The PiSugar ecosystem made this possible for someone who can barely hold a soldering iron. Stack some boards, flash an SD card, run some scripts, done.
