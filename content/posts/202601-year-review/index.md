@@ -119,6 +119,8 @@ I don't do predictions, but I have intentions:
 - **Write more.** This blog has been sporadic. I want to be more consistent about thinking in public.
 - **Build more with Teresa.** Eva needs a proper case, wake word detection, and better memory. And Teresa already has ideas for Eva's "sister."
 
+I'm also juggling a few new side projects that I'm genuinely excited about: **Afterlight**, **Pangu**, **Odin**, and something in the music tech space that I'm not ready to talk about yet. A year ago, running four experimental projects in parallel would've been impossible—I'd have abandoned three of them by February. But AI has fundamentally changed how I build. I can context-switch between projects, pick up where I left off, and make meaningful progress on each without losing momentum. It's not about working more hours—it's about making better use of the hours I have.
+
 ## Thank You
 
 To my team at Docker—for letting me work on things I genuinely believe in.
