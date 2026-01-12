@@ -5,7 +5,7 @@ description: "Looking back at a year defined by AI agents, open source growth, a
 categories: ["Opinion"]
 tags: ["year-in-review", "personal", "docker", "blowfish", "open-source", "ai"]
 date: 2026-01-04
-draft: false
+draft: true
 ---
 
 2025 was a year of building. Not just shipping features or closing tickets—but genuinely building things that matter. Products at work, open source projects on nights and weekends, and a little robot companion with my 7-year-old daughter.
