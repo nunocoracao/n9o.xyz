@@ -108,3 +108,10 @@ public/
 .Ulysses*
 
 resources
+
+# Firebase (sensitive - never commit!)
+firebase-service-account.json
+
+# Google Analytics export (temporary)
+ga-pageviews.csv
+*.csv

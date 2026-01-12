@@ -1,0 +1,13 @@
+{
+  "name": "firebase-import-scripts",
+  "version": "1.0.0",
+  "description": "One-time scripts for importing data to Firestore",
+  "type": "module",
+  "scripts": {
+    "import-views": "node import-ga-views.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.0",
+    "firebase-admin": "^12.0.0"
+  }
+}
