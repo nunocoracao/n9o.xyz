@@ -140,7 +140,7 @@ I started playing around with Stable Diffusion a couple of weeks ago, and I have
 
 It began when I came across this re-tweet from MKBHD:
 
-{{< tweet user="mkbhd" id="1582772722240999425" >}}
+{{< x user="mkbhd" id="1582772722240999425" >}}
 
 I was surprised that there were already such good results for text-to-video models and that so many companies were working on it. That week, I discovered a startup called [Runway][33] which is working on a video editor powered by all of these machine-learning innovations. A couple of days after, I’ve seen articles for Google’s new text-video network, [Imagen Video][34], and Meta’s announcement of [Make-a-Video][35].
 

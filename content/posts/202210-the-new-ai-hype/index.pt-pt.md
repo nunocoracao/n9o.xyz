@@ -117,7 +117,7 @@ Além disso, já existem sites inteiros focados em indexar e fornecer os melhore
 
 Comecei a brincar com o Stable Diffusion há algumas semanas, e tenho de admitir que as notícias que saíram desde então surpreenderam-me.
 
-{{< tweet user="mkbhd" id="1582772722240999425" >}}
+{{< x user="mkbhd" id="1582772722240999425" >}}
 
 Fiquei surpreendido por já existirem resultados tão bons para modelos text-to-video. Nessa semana, descobri uma startup chamada [Runway][33] que está a trabalhar num editor de vídeo alimentado por todas estas inovações de machine learning. Também vi artigos sobre a nova rede text-video da Google, [Imagen Video][34], e o anúncio da Meta do [Make-a-Video][35].
 
