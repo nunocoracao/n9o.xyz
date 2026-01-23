@@ -8,6 +8,9 @@ date: 2026-01-22
 draft: false
 ---
 
+> [!quote] Man kann die Punkte nicht verbinden, wenn man nach vorne schaut; man kann sie nur verbinden, wenn man zurückblickt. Also muss man darauf vertrauen, dass sich die Punkte irgendwie in der Zukunft verbinden werden.
+> - Steve Jobs
+
 2025 war ein Jahr des Wiederaufbaus. Nachdem ich 2024 meine Frau und Partnerin von 20 Jahren verloren hatte, wurde ich über Nacht alleinerziehend. Dieses Jahr ging es darum, wieder Fuß zu fassen - Zeit mit Freunden und Familie zu verbringen, mit meiner Tochter neue Orte zu bereisen und die Freude am Leben und Erschaffen wiederzuentdecken.
 
 Ein Teil dieses Erschaffens geschah bei der Arbeit, ein Teil in Open Source, und ein Teil am Küchentisch mit einem Raspberry Pi und einer 7-Jährigen. Aber wenn es einen roten Faden gibt, der alles verbindet, dann diesen: Die besten Momente kamen vom Bauen gemeinsam mit Menschen, die mir wichtig sind.

@@ -8,6 +8,9 @@ date: 2026-01-22
 draft: false
 ---
 
+> [!quote] No puedes conectar los puntos mirando hacia adelante; solo puedes conectarlos mirando hacia atrás. Así que tienes que confiar en que los puntos se conectarán de alguna manera en tu futuro.
+> - Steve Jobs
+
 2025 fue un año de reconstrucción. Después de perder a mi esposa y compañera de 20 años en 2024, me convertí en padre soltero de la noche a la mañana. Este año fue sobre encontrar mi equilibrio de nuevo - pasar tiempo con amigos y familia, viajar a nuevos lugares con mi hija, y redescubrir la alegría de estar vivo y crear cosas.
 
 Parte de esa creación sucedió en el trabajo, parte en open source, y parte en la mesa de la cocina con un Raspberry Pi y una niña de 7 años. Pero si hay un hilo conductor que une todo esto, es este: los mejores momentos vinieron de construir junto a personas que me importan.

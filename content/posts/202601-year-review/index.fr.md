@@ -8,6 +8,9 @@ date: 2026-01-22
 draft: false
 ---
 
+> [!quote] On ne peut pas relier les points en regardant vers l'avenir ; on ne peut les relier qu'en regardant vers le passé. Il faut donc avoir confiance que les points se connecteront d'une manière ou d'une autre dans votre futur.
+> - Steve Jobs
+
 2025 fut une année de reconstruction. Après avoir perdu ma femme et partenaire de 20 ans en 2024, je suis devenu parent solo du jour au lendemain. Cette année consistait à retrouver mon équilibre - passer du temps avec amis et famille, voyager vers de nouveaux endroits avec ma fille, et redécouvrir la joie d'être vivant et de créer des choses.
 
 Une partie de cette création s'est passée au travail, une partie en open source, et une partie à la table de la cuisine avec un Raspberry Pi et une fillette de 7 ans. Mais s'il y a un fil conducteur qui relie tout cela, c'est celui-ci : les meilleurs moments sont venus de construire aux côtés de personnes qui me sont chères.
