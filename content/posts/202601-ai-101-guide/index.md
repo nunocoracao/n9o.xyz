@@ -4,7 +4,7 @@ summary: "Everything you need to know about AI - from neural networks to agents 
 description: "Everything you need to know about AI - from neural networks to agents to MCP - explained for humans. Whether you're a complete beginner or a developer who wants clarity on the buzzwords, this guide builds your understanding from the ground up."
 categories: ["Tech", "AI"]
 tags: ["AI", "machine learning", "LLMs", "tutorial", "agents", "MCP"]
-date: 2026-02-01
+date: 2026-01-23
 draft: false
 showTableOfContents: true
 ---
