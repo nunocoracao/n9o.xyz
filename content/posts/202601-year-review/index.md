@@ -8,6 +8,9 @@ date: 2026-01-22
 draft: false
 ---
 
+> [!quote] You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future.
+> - Steve Jobs
+
 2025 was a year of rebuilding. After losing my wife and partner of 20 years in 2024, I became a single parent overnight. This year was about finding my footing again - spending time with friends and family, travelling to new places with my daughter, and rediscovering the joy of being alive and making things.
 
 Some of that making happened at work, some in open source, and some at the kitchen table with a Raspberry Pi and a 7-year-old. But if there's a thread that ties it all together, it's this: the best moments came from building alongside people I care about.

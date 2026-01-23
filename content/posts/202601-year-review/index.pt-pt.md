@@ -8,6 +8,9 @@ date: 2026-01-22
 draft: false
 ---
 
+> [!quote] Não consegues ligar os pontos olhando para a frente; só consegues ligá-los olhando para trás. Por isso, tens de confiar que os pontos se vão ligar de alguma forma no teu futuro.
+> - Steve Jobs
+
 2025 foi um ano de reconstrução. Depois de perder a minha mulher e companheira de 20 anos em 2024, tornei-me pai solteiro de um dia para o outro. Este ano foi sobre encontrar o meu equilíbrio novamente - passar tempo com amigos e família, viajar para novos lugares com a minha filha, e redescobrir a alegria de estar vivo e criar coisas.
 
 Parte dessa criação aconteceu no trabalho, parte em open source, e parte na mesa da cozinha com um Raspberry Pi e uma miúda de 7 anos. Mas se há um fio condutor que liga tudo isto, é este: os melhores momentos vieram de construir ao lado de pessoas de quem gosto.

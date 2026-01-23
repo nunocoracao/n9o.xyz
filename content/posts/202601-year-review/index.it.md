@@ -8,6 +8,9 @@ date: 2026-01-22
 draft: false
 ---
 
+> [!quote] Non puoi collegare i puntini guardando avanti; puoi solo collegarli guardando indietro. Quindi devi avere fiducia che i puntini si collegheranno in qualche modo nel tuo futuro.
+> - Steve Jobs
+
 Il 2025 è stato un anno di ricostruzione. Dopo aver perso mia moglie e compagna di 20 anni nel 2024, sono diventato genitore single da un giorno all'altro. Quest'anno è stato dedicato a ritrovare il mio equilibrio - passare tempo con amici e famiglia, viaggiare in posti nuovi con mia figlia, e riscoprire la gioia di essere vivo e creare cose.
 
 Parte di quella creazione è avvenuta al lavoro, parte nell'open source, e parte al tavolo della cucina con un Raspberry Pi e una bambina di 7 anni. Ma se c'è un filo conduttore che lega tutto, è questo: i momenti migliori sono venuti dal costruire insieme alle persone a cui tengo.
