@@ -6,8 +6,12 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "wrapup", "reveal", "watchfire"]
 series: ["30 Days of Vibe Coding"]
 series_order: 31
+seriesOpened: false
 date: 2026-03-12
 draft: true
+_build:
+  render: false
+  list: false
 ---
 
 ## 30 Days Later
