@@ -1,46 +1,47 @@
 ---
 title: "30 Days of Vibe Coding - Day 6 - [Project Name]"
-description: "[One sentence description of what it does]"
-summary: "[One sentence description of what it does]"
+description: "[One sentence description]"
+summary: "[One sentence description]"
 categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-06"]
 series: ["30 Days of Vibe Coding"]
 series_order: 6
+seriesOpened: false
 date: 2026-02-15
 draft: true
+_build:
+  render: false
+  list: false
 ---
 
-## The Project
+Day 6. [Opening line about the project]
 
-<!-- TODO: Describe the project -->
+## The Prompt
 
-<!-- TODO: Add GitHub shortcode once repo is created -->
-<!-- { {< github repo="nunocoracao/Vibe30-day05-ProjectName" >}} -->
+> "[The main prompt used]"
+
+## What I Got
+
+<!-- Describe surprising/impressive results -->
+
+## The Bug Reports
+
+<!-- List any bugs found during testing -->
 
 ## Try It
 
-<!-- TODO: Add live demo link once deployed -->
-<!-- **[Live Demo](https://your-project-url.vercel.app)** -->
+<!-- {{< github repo="nunocoracao/Vibe30-day06-ProjectName" >}} -->
 
-## Tech Stack
-
-- **Tech 1** — Description
-- **Tech 2** — Description
-
-## What I Learned
-
-- Learning 1
-- Learning 2
-- Learning 3
+<!-- **[Live Demo](https://project-url.vercel.app)** -->
 
 ## Screenshots
 
-<!-- TODO: Add screenshots -->
+<!-- Add screenshots -->
 
-## The Vibe Coding Experience
+## Day 6 Verdict
 
-<!-- TODO: Describe the AI-assisted development process -->
+<!-- Reflection on the day's work -->
 
 ---
 
-*This is day 5 of the [30 Days of Vibe Coding](/series/30-days-of-vibe-coding/) series.*
+*This is day 6 of [30 Days of Vibe Coding](/series/30-days-of-vibe-coding/). Follow along as I ship 30 projects in 30 days using AI-assisted coding.*
