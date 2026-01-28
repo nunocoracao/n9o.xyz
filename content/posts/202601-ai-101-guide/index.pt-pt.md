@@ -19,7 +19,7 @@ Vamos começar do início e avançar progressivamente.
 
 ## Fundamentos
 
-### Os Círculos Concêntricos: IA vs ML vs Deep Learning
+### IA vs ML vs Deep Learning
 
 Provavelmente já viste o diagrama: três círculos concêntricos com IA no exterior, Machine Learning no meio, e Deep Learning no centro. Tornou-se um clichê, mas é genuinamente útil para compreender como estes termos se relacionam.
 
@@ -33,7 +33,7 @@ Provavelmente já viste o diagrama: três círculos concêntricos com IA no exte
 **Porque é que isto interessa?** Quando alguém diz "estamos a usar IA," isso não te diz quase nada. Quando dizem "fizemos fine-tuning de um modelo de deep learning," isso é muito mais específico. Compreender estas camadas ajuda-te a fazer melhores perguntas e a detetar tretas.
 {{< /alert >}}
 
-### Redes Neuronais: O Que São Realmente
+### Redes Neuronais
 
 Aqui está uma analogia que é imperfeita mas útil: uma rede neuronal é como uma folha de cálculo muito complicada com milhões de números ajustáveis.
 
@@ -47,7 +47,7 @@ O termo "neural" vem de uma analogia solta com os neurónios biológicos no cér
 **O insight chave:** Redes neuronais são aproximadores de funções universais. Com neurónios suficientes e o treino certo, conseguem aprender a aproximar qualquer função matemática. É por isso que são tão poderosas - e porque conseguem fazer coisas como traduzir línguas ou gerar imagens, mesmo que ninguém tenha programado explicitamente essas capacidades.
 {{< /alert >}}
 
-### Treino vs Inferência: As Duas Fases
+### Treino vs Inferência
 
 Todo o sistema de IA tem duas fases distintas, e confundi-las causa mal-entendidos intermináveis.
 
@@ -65,7 +65,7 @@ Pensa nisto como educação vs. trabalhar. O treino são anos de escola e estudo
 
 ## Compreender os LLMs
 
-### LLMs: O Que os Torna Diferentes
+### O Que Torna os LLMs Especiais
 
 Large Language Models são um tipo específico de modelo de deep learning treinado para prever texto. Esse é o insight central: no seu âmago, os LLMs estão apenas a tentar prever a próxima palavra (ou token) numa sequência.
 
@@ -108,7 +108,7 @@ Pensa na janela de contexto como a memória de trabalho do modelo. Tudo o que qu
 **Porque é que isto interessa?** O tamanho da janela de contexto determina o que podes fazer com um modelo. Precisas de analisar um documento de 500 páginas? Precisas de uma janela de contexto grande. A construir um chatbot? Uma janela mais pequena é suficiente mas vais precisar de estratégias para memória de conversa. Os limites de tokens também afetam o custo - pagas por token processado.
 {{< /alert >}}
 
-### Prompts e Engenharia de Prompts
+### Engenharia de Prompts
 
 Um **prompt** é simplesmente o texto que envias a um LLM. A tua pergunta, as tuas instruções, qualquer contexto que forneças - isso tudo faz parte do prompt.
 
@@ -124,7 +124,7 @@ Algumas técnicas que funcionam:
 **A engenharia de prompts é sobrevalorizada?** Um pouco. Os modelos estão a ficar melhores a compreender prompts imprecisos. Mas para aplicações em produção, o design cuidadoso de prompts ainda faz uma diferença significativa. Não é magia - é apenas comunicação clara.
 {{< /alert >}}
 
-### Temperatura e Outros Parâmetros
+### Temperatura & Parâmetros
 
 Quando usas uma API de LLM, podes ajustar vários parâmetros que afetam o output. O mais importante é a **temperatura**.
 
@@ -143,7 +143,7 @@ Outros parâmetros comuns:
 **Conselho prático:** Para tarefas factuais, código, e qualquer coisa onde a precisão importa - temperatura baixa (0-0.3). Para escrita criativa, brainstorming, ou quando queres variedade - temperatura mais alta (0.7-1.0). Não existe uma configuração universalmente "correta".
 {{< /alert >}}
 
-### Alucinações: Porque Acontecem
+### Alucinações
 
 Os LLMs inventam coisas. Afirmam falsidades com confiança total. Citam artigos que não existem. Inventam estatísticas. Isto chama-se **alucinação**, e não é um bug que vai ser corrigido - é uma consequência de como estes modelos funcionam.
 
@@ -169,7 +169,7 @@ Estratégias para reduzir alucinações:
 
 ## O Panorama dos Modelos
 
-### Modelos Open Source vs Closed Source
+### Modelos Open vs Closed
 
 **Closed source:** Podes usar o modelo via API mas não consegues ver os pesos, modificar a arquitetura, ou corrê-lo tu próprio. GPT-4 da OpenAI, Claude da Anthropic, Gemini da Google.
 
@@ -294,29 +294,6 @@ O Ollama lida com a complexidade: descarregar modelos, gerir memória, otimizar 
 
 Para programadores, a API local do Ollama significa que podes desenvolver contra modelos locais e mudar para APIs cloud para produção - ou vice-versa - com alterações mínimas de código.
 
-### Docker Model Runner (DMR)
-
-[Docker Model Runner](https://docs.docker.com/desktop/features/model-runner/) traz inferência de modelos para o ecossistema Docker. Se a tua infraestrutura é baseada em Docker, o DMR encaixa naturalmente no teu fluxo de trabalho.
-
-```bash
-# Puxa e corre um modelo como qualquer imagem Docker
-docker model pull ai/llama3.2
-docker model run ai/llama3.2
-```
-
-O DMR fornece:
-- Gestão de modelos nativa de Docker
-- Integração com Docker Desktop
-- Endpoints de API compatíveis com OpenAI
-- Suporte e otimização de GPU
-- Fluxos de trabalho Docker familiares para deployment de modelos
-
-A vantagem sobre o Ollama não é necessariamente técnica - é operacional. Se a tua equipa já pensa em contentores Docker e o teu pipeline de deployment é baseado em Docker, o DMR significa uma ferramenta a menos para aprender e manter.
-
-{{< alert icon="lightbulb" >}}
-**Ollama vs DMR:** Ambos funcionam bem. O Ollama tem uma comunidade maior e biblioteca de modelos. O DMR integra melhor com infraestrutura baseada em Docker. Muitas equipas usam ambos - Ollama para experimentação local rápida, DMR para deployments baseados em Docker.
-{{< /alert >}}
-
 ### Considerações de Hardware
 
 Correr modelos localmente requer hardware. Aqui está o que importa:
@@ -337,7 +314,7 @@ Correr modelos localmente requer hardware. Aqui está o que importa:
 
 ## Personalização e Conhecimento
 
-### Fine-Tuning vs RAG: Duas Abordagens
+### Fine-Tuning vs RAG
 
 Tens um LLM base. Queres torná-lo melhor para o teu caso de uso específico. Duas abordagens principais:
 
@@ -359,7 +336,7 @@ Mantém o modelo como está. Quando chega uma pergunta, primeiro pesquisa a tua 
 **O que a maioria das empresas realmente faz:** RAG. O fine-tuning soa mais fixe mas o RAG é mais prático para a maioria dos casos de uso. O fine-tuning é melhor quando precisas de mudar *como* o modelo se comporta (estilo, formato, competências específicas). O RAG é melhor quando precisas de mudar *o que* o modelo sabe.
 {{< /alert >}}
 
-### Embeddings e Bases de Dados Vetoriais
+### Embeddings & Vector DBs
 
 Esta é a tecnologia que faz o RAG funcionar - e é genuinamente inteligente.
 
@@ -383,7 +360,7 @@ Bases de dados vetoriais populares incluem Pinecone, Weaviate, Chroma, Qdrant, e
 
 ## Avaliação
 
-### Benchmarks: Medir Capacidades de Modelos
+### Benchmarks
 
 Como sabes se um modelo é "melhor" que outro? Os benchmarks tentam responder a isto testando modelos em tarefas padronizadas.
 
@@ -400,7 +377,7 @@ Como sabes se um modelo é "melhor" que outro? Os benchmarks tentam responder a 
 **Saturação de benchmarks:** Muitos benchmarks mais antigos estão agora "saturados" - os modelos de topo pontuam tão alto que não há espaço para diferenciar. O campo precisa constantemente de novos benchmarks mais difíceis. É por isso que vês novos nomes de benchmarks a cada poucos meses.
 {{< /alert >}}
 
-### Evals: Porque Importam
+### Evals
 
 **Evals** (avaliações) são testes que crias para o teu caso de uso específico. Ao contrário dos benchmarks, os evals medem o que realmente importa para a tua aplicação.
 
@@ -522,7 +499,7 @@ Ferramentas: [email, base_dados, sistema_reembolso, escalamento]
 **A maioria dos sistemas em produção usa ambos.** Um fluxo de trabalho pode incluir um passo agêntico, ou um agente pode desencadear fluxos de trabalho determinísticos. A dicotomia é útil para compreender, mas sistemas reais são híbridos.
 {{< /alert >}}
 
-### Uso de Ferramentas e Chamada de Funções
+### Uso de Ferramentas & Chamada de Funções
 
 Para os agentes tomarem ações, precisam de **ferramentas** - funções que podem chamar. Esta capacidade é normalmente chamada **function calling** ou **tool use**.
 
@@ -553,7 +530,7 @@ Quando perguntas "Como está o tempo em Tóquio?", o modelo não alucina - chama
 
 Todos os principais fornecedores de modelos suportam agora function calling: OpenAI, Anthropic, Google, e outros. A sintaxe varia ligeiramente mas o conceito é o mesmo.
 
-### MCP: O Momento USB-C para a IA
+### Protocolo MCP
 
 **Model Context Protocol (MCP)** é um standard aberto para conectar modelos de IA a ferramentas e fontes de dados. Pensa nisto como USB-C para IA - um conector universal que significa que não precisas de um cabo diferente para cada dispositivo.
 
@@ -571,43 +548,10 @@ As implicações são significativas:
 - O ecossistema multiplica-se - mais servidores significa agentes mais capazes
 
 {{< alert icon="lightbulb" >}}
-**Porque é que isto interessa?** O MCP está a tornar-se infraestrutura crítica. Anthropic, OpenAI, Microsoft, e Google todos anunciaram suporte. O Docker tem um catálogo MCP com mais de um milhão de pulls. Se estás a construir aplicações de IA, compreender MCP será em breve tão importante como compreender APIs REST.
+**Porque é que isto interessa?** O MCP está a tornar-se infraestrutura crítica. Anthropic, OpenAI, Microsoft, e Google todos anunciaram suporte. Se estás a construir aplicações de IA, compreender MCP será em breve tão importante como compreender APIs REST.
 {{< /alert >}}
 
 Para mais sobre MCP, escrevi um aprofundamento: [MCP Servers: The USB-C Moment for AI Agents](/posts/202504-mcp/).
-
-### Docker MCP Toolkit
-
-O Docker apostou no MCP com o [Docker MCP Toolkit](https://docs.docker.com/ai/mcp-catalog-and-toolkit/) - um catálogo de servidores MCP pré-construídos e ferramentas para os correr.
-
-O Catálogo MCP inclui servidores para:
-- GitHub, GitLab (acesso a repositórios)
-- Slack, Discord (mensagens)
-- PostgreSQL, Redis (bases de dados)
-- Sistema de ficheiros, navegação web
-- E muitos mais
-
-Porque isto importa: em vez de construir integrações do zero, podes compor servidores MCP existentes para dar capacidades aos teus agentes. Precisas que o teu agente aceda ao GitHub e Slack? Puxa esses servidores MCP, configura credenciais, feito.
-
-```bash
-# Exemplo: correr um servidor MCP do catálogo Docker
-docker run -d mcp/github --token $GITHUB_TOKEN
-```
-
-O toolkit também fornece utilitários para gerir servidores MCP, lidar com autenticação, e depurar interações agente-ferramenta.
-
-### cagent
-
-[cagent](https://github.com/docker/cagent) é o framework de agentes do Docker - um toolkit open-source para construir agentes de IA que podem usar ferramentas via MCP.
-
-Ao contrário de agentes de código (que se focam em escrever código), o cagent é um framework de uso geral para criar agentes que interagem com sistemas. Lida com a orquestração, descoberta de ferramentas, e ciclos de execução para que te possas focar em definir o que o teu agente deve realizar.
-
-**Funcionalidades chave:**
-- Suporte nativo MCP para integração de ferramentas
-- Gestão de conversa e estado incorporada
-- Funciona com múltiplos fornecedores de LLM
-
-Se estás a construir agentes personalizados que precisam de interagir com sistemas externos (bases de dados, APIs, ficheiros), o cagent dá-te uma base sólida em vez de construires do zero.
 
 ### Padrões Agênticos
 
@@ -624,7 +568,59 @@ Se estás a construir agentes personalizados que precisam de interagir com siste
 **Humano no ciclo:** Para ações de alto risco, os agentes podem pausar e pedir aprovação humana antes de prosseguir. Bons agentes sabem quando estão incertos.
 
 {{< alert icon="circle-info" >}}
-**Os padrões estão a convergir.** A maioria dos agentes bem-sucedidos usa alguma combinação destas técnicas. Frameworks como LangChain, LlamaIndex, e cagent codificam estes padrões para que não tenhas de os implementar do zero.
+**Os padrões estão a convergir.** A maioria dos agentes bem-sucedidos usa alguma combinação destas técnicas. Frameworks como LangChain e LlamaIndex codificam estes padrões para que não tenhas de os implementar do zero.
+{{< /alert >}}
+
+### Skills
+
+**Skills** são prompts especializados e reutilizáveis que estendem o que um agente consegue fazer. Pensa nelas como "modos especializados" que podes ligar a um agente - uma skill para revisão de código, uma skill para escrever documentação, uma skill para analisar vulnerabilidades de segurança.
+
+Ao contrário das ferramentas (que são funções que fazem coisas), as skills são instruções que moldam *como* o agente pensa e responde. Uma ferramenta chama uma API. Uma skill diz ao agente "quando te perguntarem sobre X, aborda desta forma, considera estes fatores, e formata a tua resposta assim."
+
+**Porque é que as skills importam:**
+- **Especialização sem fine-tuning:** Obténs comportamento especializado sem treinar um novo modelo.
+- **Composabilidade:** Mistura e combina skills para diferentes tarefas.
+- **Partilhabilidade:** Uma skill bem elaborada pode ser usada entre equipas, projetos, ou até partilhada publicamente.
+- **Eficiência de contexto:** Em vez de explicar os teus requisitos sempre, codifica-os uma vez numa skill.
+
+**Onde vivem as skills:**
+
+As skills podem ser injetadas em diferentes pontos do contexto do agente:
+
+1. **Prompt de sistema:** A abordagem mais comum. As skills tornam-se parte das instruções base do agente, sempre ativas.
+2. **Prefixo da mensagem do utilizador:** Adicionado dinamicamente aos pedidos do utilizador. Útil para skills específicas de tarefas.
+3. **Descrições de ferramentas:** As skills podem ser embutidas nas definições de ferramentas, guiando como o agente usa ferramentas específicas.
+4. **Prompts MCP:** Os servidores MCP podem expor skills como "prompts" - templates reutilizáveis que os clientes podem descobrir e invocar.
+
+**Como as skills influenciam o contexto:**
+
+Cada skill consome tokens da tua janela de contexto. Isto cria compromissos:
+- Mais skills = agente mais capaz, mas menos espaço para histórico de conversa
+- Skills detalhadas = melhor comportamento, mas custo de tokens mais alto por pedido
+- Skills sempre ativas vs. skills a pedido = fiabilidade vs. eficiência
+
+Frameworks de agentes inteligentes gerem isto carregando skills dinamicamente - ativando skills relevantes com base na tarefa e desativando outras.
+
+**Exemplo de estrutura de skill:**
+
+```markdown
+## Skill de Revisão de Código
+
+Ao rever código, deves:
+1. Verificar vulnerabilidades de segurança (injeção, XSS, problemas de autenticação)
+2. Identificar preocupações de desempenho
+3. Avaliar legibilidade e manutenibilidade
+4. Sugerir melhorias específicas com exemplos de código
+
+Formata a tua revisão como:
+- Resumo (1-2 frases)
+- Problemas críticos (se houver)
+- Sugestões (lista com marcadores)
+- Avaliação geral
+```
+
+{{< alert icon="lightbulb" >}}
+**O ecossistema de skills está a emergir.** À medida que os agentes se tornam mais prevalentes, espera marketplaces de skills e formatos de skills padronizados. A capacidade de prompts do MCP é um passo inicial nesta direção - skills que podem ser descobertas, partilhadas e invocadas em diferentes implementações de agentes.
 {{< /alert >}}
 
 ---
@@ -661,27 +657,26 @@ O impacto é imediato e mensurável: menos tempo em código boilerplate, depura�
 
 ---
 
-## Para Onde Ir a Partir Daqui
+## Próximos Passos
 
 Passaste pelos fundamentos. E agora?
 
-### Se queres construir coisas:
+### Construir Coisas
 - **Começa simples.** Usa uma API (OpenAI, Anthropic, etc.) e constrói um chatbot básico ou sistema RAG. Não penses demasiado na stack inicialmente.
-- **Experimenta modelos locais.** Instala [Ollama](https://ollama.ai) ou [Docker Model Runner](https://docs.docker.com/desktop/features/model-runner/) e corre Llama ou Qwen no teu portátil. É surpreendentemente fácil.
-- **Explora agentes.** Vê frameworks como LangChain, LlamaIndex, CrewAI, ou cagent para construir sistemas de agentes.
-- **Aprende MCP.** A [documentação oficial](https://modelcontextprotocol.io) é sólida. Experimenta correr alguns servidores MCP localmente com o Docker MCP Toolkit.
+- **Experimenta modelos locais.** Instala [Ollama](https://ollama.ai) e corre Llama ou Qwen no teu portátil. É surpreendentemente fácil.
+- **Explora agentes.** Vê frameworks como LangChain, LlamaIndex, ou CrewAI para construir sistemas de agentes.
+- **Aprende MCP.** A [documentação oficial](https://modelcontextprotocol.io) é sólida. Experimenta correr alguns servidores MCP localmente.
 - **Constrói evals cedo.** O que quer que construas, cria evals desde o primeiro dia. Vais agradecer-te mais tarde.
 
-### Se queres compreender o campo:
+### Compreender o Campo
 - **Segue a investigação.** Artigos ArXiv, alertas Google Scholar sobre tópicos que te interessam.
 - **Lê o hype criticamente.** A maioria dos "avanços" são incrementais. Procura resultados reproduzíveis e benchmarks reais.
 - **Experimenta tu próprio.** A intuição sobre o que funciona vem da experiência prática, não da leitura.
 
-### Recursos úteis:
+### Recursos
 - [Hugging Face](https://huggingface.co) - Modelos, datasets, e uma comunidade incrível
 - [Papers With Code](https://paperswithcode.com) - Artigos de investigação com implementações
 - [Ollama](https://ollama.ai) - Execução de modelos locais super simples
-- [Docker AI](https://docs.docker.com/ai/) - DMR, MCP Toolkit, e cagent
 - [LangChain](https://langchain.com) / [LlamaIndex](https://llamaindex.ai) - Frameworks populares para construir com LLMs
 - [Model Context Protocol](https://modelcontextprotocol.io) - A especificação MCP e SDKs
 - [Chatbot Arena](https://chat.lmsys.org) - Compara modelos frente-a-frente com votação humana
