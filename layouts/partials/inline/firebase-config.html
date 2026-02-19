@@ -1,0 +1,16 @@
+<script id="firebase-config"
+        type="application/json"
+        data-views="{{ .views }}"
+        data-likes="{{ .likes }}">
+  {
+    "config": {
+      "apiKey": "{{ site.Params.firebase.apiKey }}",
+      "authDomain": "{{ site.Params.firebase.authDomain }}",
+      "projectId": "{{ site.Params.firebase.projectId }}",
+      "storageBucket": "{{ site.Params.firebase.storageBucket }}",
+      "messagingSenderId": "{{ site.Params.firebase.messagingSenderId }}",
+      "appId": "{{ site.Params.firebase.appId }}",
+      "measurementId": "{{ site.Params.firebase.measurementId }}"
+    }
+  }
+</script>
