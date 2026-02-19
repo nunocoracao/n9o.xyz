@@ -1,11 +1,10 @@
 ---
-title: "From PSPDFKit to OpenAI: How Peter Steinberger Built a Viral AI Agent and Caught Sam Altman's Attention"
+title: "The Lobster That Broke GitHub: From Burnout to 200K Stars to OpenAI"
 summary: "The story of how Austrian developer Peter Steinberger went from a meaning crisis after selling his $100M company, to building the fastest-growing open-source AI agent, to joining OpenAI - all in under a year."
 description: "The story of how Austrian developer Peter Steinberger went from a meaning crisis after selling his $100M company, to building the fastest-growing open-source AI agent, to joining OpenAI - all in under a year."
 categories: ["Tech", "AI"]
 tags: ["AI", "OpenAI", "OpenClaw", "agents", "open source", "steipete"]
 date: 2026-02-18
-draft: true
 showTableOfContents: true
 ---
 
