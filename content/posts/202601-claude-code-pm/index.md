@@ -4,6 +4,8 @@ summary: "How I set up Claude Code as my PM command center - connecting GitHub i
 description: "How I set up Claude Code as my PM command center - connecting GitHub issues, Notion docs, and AI assistance in one workflow."
 categories: ["Tech", "AI", "Product"]
 tags: ["AI", "Claude Code", "product management", "MCP", "workflow"]
+series: ["PMing with Claude Code"]
+series_order: 1
 date: 2026-01-28
 draft: false
 ---
@@ -190,3 +192,9 @@ The bigger picture is AI as PM co-pilot, not replacement. Claude doesn't make pr
 If you're a PM curious about AI tools, give Claude Code a try. Set up a simple workspace, connect GitHub, add your conventions to `CLAUDE.md`, and see how it fits your workflow. It's not about replacing your existing tools. It's about adding a layer of intelligence that connects them together.
 
 And if you build something interesting, share your setup. I'd love to see how other PMs are using this.
+
+---
+
+**Update:** I've since closed the biggest gap mentioned above - data access. In chapter two, I cover how adding the Snowflake CLI gave Claude direct access to our data warehouse, turning ad-hoc retention analysis from a half-day project into a ten-minute conversation.
+
+{{< article link="/posts/202602-claude-code-pm-2/" >}}
