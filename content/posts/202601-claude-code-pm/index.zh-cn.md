@@ -4,6 +4,8 @@ summary: "我如何将 Claude Code 设置为我的产品管理指挥中心——
 description: "我如何将 Claude Code 设置为我的产品管理指挥中心——在一个工作流中连接 GitHub issues、Notion 文档和 AI 助手。"
 categories: ["Tech", "AI", "Product"]
 tags: ["AI", "Claude Code", "product management", "MCP", "workflow"]
+series: ["PMing with Claude Code"]
+series_order: 1
 date: 2026-01-28
 draft: false
 ---

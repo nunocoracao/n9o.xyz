@@ -4,6 +4,8 @@ summary: "Como configurei o Claude Code como o meu centro de comando de PM - lig
 description: "Como configurei o Claude Code como o meu centro de comando de PM - ligando issues do GitHub, documentos do Notion e assistência de IA num único fluxo de trabalho."
 categories: ["Tech", "AI", "Product"]
 tags: ["AI", "Claude Code", "product management", "MCP", "workflow"]
+series: ["PMing with Claude Code"]
+series_order: 1
 date: 2026-01-28
 draft: false
 ---

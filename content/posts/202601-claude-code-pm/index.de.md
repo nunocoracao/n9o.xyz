@@ -4,6 +4,8 @@ summary: "Wie ich Claude Code als meine PM-Kommandozentrale eingerichtet habe - 
 description: "Wie ich Claude Code als meine PM-Kommandozentrale eingerichtet habe - GitHub Issues, Notion-Dokumente und KI-Unterstützung in einem Workflow verbunden."
 categories: ["Tech", "AI", "Product"]
 tags: ["AI", "Claude Code", "product management", "MCP", "workflow"]
+series: ["PMing with Claude Code"]
+series_order: 1
 date: 2026-01-28
 draft: false
 ---
