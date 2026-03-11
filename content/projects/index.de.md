@@ -36,7 +36,7 @@ Ich versuche immer, Zeit zu finden, um an etwas Neuem zu arbeiten und zu lernen.
     </thead>
     <tbody>
          <tr>
-            <td><img class="customEntitityAlbum" style="background-color:transparent" src="watchfire_logo-app.png"/></td>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="/projects/watchfire_logo-app.png"/></td>
             <td>
               Watchfire
               {{< badge >}}
