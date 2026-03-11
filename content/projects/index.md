@@ -36,6 +36,17 @@ I always try to find time to work and learn something new. Usually, most of thes
     </thead>
     <tbody>
          <tr>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="watchfire_logo-app.png"/></td>
+            <td>
+              Watchfire
+              {{< badge >}}
+              Active
+              {{< /badge >}}
+            </td>
+            <td>Coding agent orchestrator based on specs and goals.</td>
+            <td><a target="_blank" href="https://watchfire.io">site</a></br><a target="_blank" href="https://github.com/watchfire-io/watchfire">github</a></td>
+        </tr>
+         <tr>
             <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish_logo.png"/></td>
             <td>
               Blowfish
