@@ -36,6 +36,17 @@ layoutBackgroundHeaderSpace: false
     </thead>
     <tbody>
          <tr>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="watchfire_logo-app.png"/></td>
+            <td>
+              Watchfire
+              {{< badge >}}
+              開発中
+              {{< /badge >}}
+            </td>
+            <td>仕様と目標に基づくコーディングエージェントオーケストレーター。</td>
+            <td><a target="_blank" href="https://watchfire.io">サイト</a></br><a target="_blank" href="https://github.com/watchfire-io/watchfire">github</a></td>
+        </tr>
+         <tr>
             <td><img class="customEntitityAlbum" style="background-color:transparent" src="/projects/blowfish_logo.png"/></td>
             <td>
               Blowfish

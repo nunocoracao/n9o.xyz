@@ -36,6 +36,17 @@ J'essaie toujours de trouver du temps pour travailler et apprendre quelque chose
     </thead>
     <tbody>
          <tr>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="watchfire_logo-app.png"/></td>
+            <td>
+              Watchfire
+              {{< badge >}}
+              Actif
+              {{< /badge >}}
+            </td>
+            <td>Orchestrateur d'agents de code basé sur des spécifications et des objectifs.</td>
+            <td><a target="_blank" href="https://watchfire.io">site</a></br><a target="_blank" href="https://github.com/watchfire-io/watchfire">github</a></td>
+        </tr>
+         <tr>
             <td><img class="customEntitityAlbum" style="background-color:transparent" src="/projects/blowfish_logo.png"/></td>
             <td>
               Blowfish
