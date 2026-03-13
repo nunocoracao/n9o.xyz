@@ -19,25 +19,28 @@ The first question was foundational: what do we build this on?
 
 We could have started from scratch — a custom Python script, a LangChain app, or something entirely bespoke. But we'd been building [docker-agent](https://github.com/docker/docker-agent) (originally called cagent) as an open-source runtime for AI agents, and it made sense to eat our own dog food.
 
-docker-agent gives you a declarative way to define agents in YAML — their model, instructions, tools, and how they collaborate. Instead of writing imperative code to manage conversation loops, tool dispatch, and context windows, you describe what the agent should do and let the runtime handle the rest.
+docker-agent gives you a declarative way to define agents in YAML — their model, instructions, tools, and how they collaborate. Instead of writing imperative code to manage conversation loops, tool dispatch, and context windows, you describe what the agent should do and let the runtime handle the rest. Written almost entirely in Go, it ships as a Docker CLI plugin — `docker agent run`, `docker agent new`, `docker agent push` — so it feels native to the Docker workflow.
 
 For Gordon, this meant we could iterate fast. Change the system prompt? Edit the YAML. Add a new tool? Add it to the toolset. Swap the model? One line. No redeployment of custom code, no rebuilding pipelines. The agent definition is the product.
 
 ```yaml
 agents:
   root:
-    model: openai
+    model: openai/gpt-5-mini
     description: "Docker's AI agent"
     instruction: |
       You are Gordon, Docker's AI assistant...
     toolsets:
+      - type: filesystem
+      - type: shell
+      - type: think
       - type: mcp
-        ref: docker:filesystem
-      - type: mcp
-        ref: docker:shell
+        ref: docker:docker-engine
 ```
 
-Using docker-agent also meant Gordon benefits from everything the runtime provides out of the box — multi-provider support (OpenAI, Anthropic, Gemini), MCP integration for tools, RAG capabilities, and OCI-based distribution. When we improve docker-agent, Gordon gets better too. And when Gordon pushes docker-agent's limits, we make the runtime better for everyone.
+docker-agent comes with built-in toolsets — `filesystem` for reading and writing files, `shell` for command execution, `think` for a reasoning scratchpad, `todo` for task tracking, and `memory` for persistence across sessions. On top of that, any MCP server can be plugged in as a tool. You can also define custom script tools directly in the YAML — wrap a shell script or an API endpoint and expose it to the agent with typed arguments.
+
+Using docker-agent also meant Gordon benefits from everything the runtime provides out of the box — multi-provider support (OpenAI, Anthropic, Gemini, Bedrock, Mistral, and even local models via Docker Model Runner), MCP integration, built-in RAG with multiple retrieval strategies, multi-agent orchestration with sub-agents and handoffs, and OCI-based distribution so you can `docker agent push` and `docker agent pull` agents like container images. When we improve docker-agent, Gordon gets better too. And when Gordon pushes docker-agent's limits, we make the runtime better for everyone.
 
 We use docker-agent to build docker-agent. That's not a tagline — it's how we actually work.
 
@@ -75,12 +78,17 @@ One thing we deliberately avoided: autonomous mode. Gordon doesn't go off and do
 
 An LLM without tools is just a text generator. What makes Gordon an agent is its ability to take action. And getting the tools right was one of the hardest parts of the project.
 
+Gordon's architecture is a client-server split. The backend lives on Docker's servers, while the client is a CLI bundled with Docker Desktop that runs on the user's machine. The client handles local access — reading your files, running commands, interacting with the Docker daemon — while the backend handles the LLM orchestration. When you use Gordon through Docker Desktop, it asks for a working directory to scope its access. When you use `docker ai` from the terminal, it works with whatever directory you're in.
+
 Gordon has access to:
 
 - **Shell execution** — Run commands in your terminal (with approval)
-- **Filesystem access** — Read project structures, configs, logs, Dockerfiles
-- **Docker CLI** — Full access to Docker operations (inspect, logs, stats, exec, build, compose)
+- **Filesystem access** — Read and write project structures, configs, logs, Dockerfiles
+- **Docker Engine** — Direct interaction with the Docker daemon (inspect, logs, stats, exec, build, compose)
+- **Docker Scout** — Security scanning and vulnerability analysis for your images
+- **Kubernetes** — Integration for container orchestration workflows
 - **Docker knowledge base** — Documentation, best practices, and common patterns via kapa.ai's RAG
+- **MCP servers** — Extensible via `gordon-mcp.yml`, a Docker Compose file that configures additional MCP servers as Compose services
 
 The first step in Gordon's pipeline — understanding what the user wants and figuring out which tool to use — is done through tool calling with the LLM. This sounds simple, but it was one of the areas where we spent the most time experimenting.
 
@@ -124,7 +132,24 @@ Memory is the next frontier. We're working on giving Gordon the ability to remem
 
 This is harder than it sounds. Memory in AI agents isn't just "save the chat history." It's about deciding what's worth remembering, how to retrieve it efficiently, and how to keep it from going stale. A memory system that surfaces irrelevant context is worse than no memory at all.
 
-We're exploring several approaches — from simple persistent context (like the sliding window I used in [Eva](/posts/202601-building-eva/)) to more sophisticated retrieval-augmented memory systems. docker-agent already has RAG capabilities built in, which gives us a foundation to build on.
+docker-agent already has the building blocks. There's a `memory` toolset that persists information in a local database across sessions — the agent can store and retrieve facts as it works. And the built-in RAG system supports multiple retrieval strategies: chunked embeddings for semantic search, BM25 for keyword matching, and fusion strategies like Reciprocal Rank Fusion to combine them. You can even add a reranking step with custom criteria.
+
+```yaml
+toolsets:
+  - type: memory
+
+rag:
+  sources:
+    - path: ./project-docs
+      strategies:
+        - type: chunked-embeddings
+          model: openai/text-embedding-3-small
+        - type: bm25
+      fusion:
+        type: rrf
+```
+
+The pieces are there. The challenge is making it feel natural — Gordon should surface relevant memories without being prompted, learn your preferences without being told, and forget things that are no longer relevant. Like the sliding window I used when building [Eva](/posts/202601-building-eva/), but smarter.
 
 The goal is simple: Gordon should feel like a teammate who knows your project, not a stranger you have to re-explain everything to each time.
 
