@@ -5,7 +5,7 @@ description: "A behind-the-scenes look at building Gordon — Docker's AI agent.
 categories: [AI, Developer Tools]
 tags: [Docker, Gordon, Agents, AI, docker-agent]
 date: 2026-03-13
-draft: false
+draft: true
 showTableOfContents: true
 ---
 
