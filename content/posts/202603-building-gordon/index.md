@@ -106,19 +106,27 @@ What we learned:
 
 Here's the thing about AI agents: they break in subtle ways. A chatbot that gives a slightly wrong answer is annoying. An agent that runs the wrong command is dangerous. Evals aren't optional — they're essential.
 
-We built our evaluation framework around the core workflows:
+We built our evaluation approach around three layers:
 
-**Tool selection accuracy** — Given a user question, does Gordon pick the right tool? We built test suites with hundreds of real user questions (drawn from the patterns we'd analyzed) and verified that Gordon consistently selects the correct tool. This catches regressions early — if a prompt change or model update causes Gordon to stop picking the right tool, we know immediately.
+### Deterministic session recording
 
-**End-to-end task completion** — Can Gordon actually solve the problem? We set up Docker environments with known issues (container with OOM errors, misconfigured networking, missing dependencies) and verify that Gordon can diagnose and fix them. These are slower to run but catch real-world failures that unit-level evals miss.
+The hardest thing about testing AI agents is non-determinism. The same prompt can produce different tool calls, different reasoning, different results. docker-agent solves this with a VCR-style session recording system. In recording mode (`--record`), the runtime proxies requests to real AI providers and captures the full request/response cycle into a YAML cassette file. In replay mode (`--fake`), incoming requests are matched against the cassette and served from cache — zero API calls, millisecond execution, fully deterministic.
 
-**Knowledge accuracy** — When Gordon answers a Docker question using the knowledge base, is the answer correct? We validate against known-good answers from the documentation and track accuracy over time.
+If the agent's execution diverges — different prompt, different tool call, different sequence — the run fails. This catches regressions instantly. Record an expensive test once, then replay it across iterations. Share cassette files to reproduce bugs. It works across all providers — OpenAI, Anthropic, Google, Mistral, xAI.
 
-**Regression testing across models** — When a new model version drops, we run the full eval suite before switching. Models aren't interchangeable — a model update can change tool calling behavior, response format, or reasoning patterns. We don't upgrade blindly.
+### Structured evals with promptfoo
 
-**Safety evals** — We test that Gordon respects its permission model. It should never execute without approval. It should never suggest destructive operations without clear warnings. It should never access files outside the configured working directory.
+For evaluating quality at scale, we use [promptfoo](https://www.promptfoo.dev/) for YAML-based evaluations with assertions. You define test cases with expected behaviors and run them against the agent. Assertions range from simple (`contains`, `not-contains`) to sophisticated — `llm-rubric` uses an LLM as a judge, `similar` does embedding-based semantic similarity, and `factuality` checks against ground truth. You can even write custom assertions in JavaScript or Python.
 
-The eval suite runs on every change. Not just model changes — prompt changes, tool changes, even description changes. In an agent system, everything is interconnected. A small tweak to a tool description can cascade into unexpected behavior.
+This is how we validate tool selection accuracy, knowledge correctness, and end-to-end task completion. Given a user question, does Gordon pick the right tool? When it answers a Docker question using the knowledge base, is the answer correct? We run hundreds of real user questions through these evals.
+
+### Regression testing across changes
+
+The eval suite — `docker agent eval` — runs on every change. Not just model changes — prompt changes, tool changes, even description changes. In an agent system, everything is interconnected. A small tweak to a tool description can cascade into unexpected behavior.
+
+When a new model version drops, we run the full suite before switching. Models aren't interchangeable — a model update can change tool calling behavior, response format, or reasoning patterns. We don't upgrade blindly.
+
+We also run safety evals: Gordon should never execute without approval, never suggest destructive operations without clear warnings, and never access files outside the configured working directory.
 
 ## What's Next: Memory
 
