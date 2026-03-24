@@ -1,0 +1,14 @@
+{
+  "name": "buttondown-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for syncing blog posts to Buttondown newsletter",
+  "type": "module",
+  "scripts": {
+    "import-all": "node import-all.js",
+    "create-draft": "node create-draft.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "gray-matter": "^4.0.3"
+  }
+}
