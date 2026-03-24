@@ -127,3 +127,71 @@
 td {
     vertical-align: middle !important;
 }
+
+/* Newsletter form */
+.newsletter-form {
+    max-width: 420px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 8px;
+}
+
+.newsletter-title {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.newsletter-description {
+    margin: 0 0 1rem 0;
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+.newsletter-subscribe {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.newsletter-input {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 6px;
+    background: transparent;
+    color: inherit;
+    font-size: 0.9rem;
+}
+
+.newsletter-input::placeholder {
+    opacity: 0.5;
+}
+
+.newsletter-input:focus {
+    outline: none;
+    border-color: var(--color-primary-400);
+}
+
+.newsletter-button {
+    padding: 0.5rem 1.25rem;
+    border: none;
+    border-radius: 6px;
+    background: var(--color-primary-600);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.newsletter-button:hover {
+    background: var(--color-primary-500);
+}
+
+@media screen and (max-width: 480px) {
+    .newsletter-subscribe {
+        flex-direction: column;
+    }
+}
