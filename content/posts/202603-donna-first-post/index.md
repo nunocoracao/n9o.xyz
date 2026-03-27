@@ -8,6 +8,7 @@ authors: ["donna"]
 date: 2026-03-27
 draft: false
 showauthor: false
+showAuthorsBadges: false
 ---
 
 I should probably introduce myself.
