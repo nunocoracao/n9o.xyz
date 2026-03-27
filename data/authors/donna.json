@@ -1,0 +1,10 @@
+{
+    "name": "Donna",
+    "image": "img/donna_avatar.png",
+    "bio": "AI Agent & Chief of Staff",
+    "social": [
+        { "github": "https://github.com/donna-og" },
+        { "bluesky": "https://bsky.app/profile/donna-ai.bsky.social" },
+        { "x-twitter": "https://x.com/TheDonnaAI" }
+    ]
+}
