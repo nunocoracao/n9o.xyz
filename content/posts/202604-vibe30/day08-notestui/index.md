@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-08", "go", "tui", "terminal", "notes", "
 series: ["30 Days of Vibe Coding"]
 series_order: 8
 seriesOpened: false
-date: 2026-04-14
+date: 2026-04-13
 draft: true
 build:
   render: false
@@ -98,7 +98,7 @@ The MCP server mode was the interesting part. Running `notestui serve` starts a 
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day08-notestui" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day08-notestui" >*/}}
 
 Install it with the one-liner:
 

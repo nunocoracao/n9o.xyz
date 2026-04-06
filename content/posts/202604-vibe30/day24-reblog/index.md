@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-24", "astro", "tailwind", "blog", "redes
 series: ["30 Days of Vibe Coding"]
 series_order: 24
 seriesOpened: false
-date: 2026-04-30
+date: 2026-04-29
 draft: true
 build:
   render: false
@@ -92,7 +92,7 @@ Each iteration came back fast and mostly right. The visual design went through a
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day24-reblog" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day24-reblog" >*/}}
 
 **[Live Demo](https://vibe30-day24-reblog.vercel.app)**
 

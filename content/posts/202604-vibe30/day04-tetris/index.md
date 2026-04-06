@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-04", "typescript", "nextjs", "game"]
 series: ["30 Days of Vibe Coding"]
 series_order: 4
 seriesOpened: false
-date: 2026-04-10
+date: 2026-04-09
 draft: true
 build:
   render: false
@@ -55,7 +55,7 @@ This one genuinely surprised me.
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day04-tetris" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day04-tetris" >*/}}
 
 **[Play Tetris](https://vibe30-day04-tetris.vercel.app)**
 

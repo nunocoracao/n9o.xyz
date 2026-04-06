@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-15", "game", "auto-battler", "nextjs", "
 series: ["30 Days of Vibe Coding"]
 series_order: 15
 seriesOpened: false
-date: 2026-04-21
+date: 2026-04-20
 draft: true
 build:
   render: false
@@ -85,7 +85,7 @@ Combat balance is rough in the way you would expect from an auto-generated RPG. 
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day15-mybrute" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day15-mybrute" >*/}}
 
 **[Enter the Arena](https://vibe30-day15-mybrute.vercel.app)**
 

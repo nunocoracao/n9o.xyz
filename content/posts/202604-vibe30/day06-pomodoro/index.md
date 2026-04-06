@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-06", "go", "tui", "bubbletea"]
 series: ["30 Days of Vibe Coding"]
 series_order: 6
 seriesOpened: false
-date: 2026-04-12
+date: 2026-04-11
 draft: true
 ---
 
@@ -62,7 +62,7 @@ None this time. The timer worked correctly on the first build. Start, pause, res
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day06-pomodoro" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day06-pomodoro" >*/}}
 
 Install it with:
 

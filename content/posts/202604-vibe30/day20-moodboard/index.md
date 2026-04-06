@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-20", "firebase", "collaboration", "real-
 series: ["30 Days of Vibe Coding"]
 series_order: 20
 seriesOpened: false
-date: 2026-04-26
+date: 2026-04-25
 draft: true
 build:
   render: false
@@ -89,7 +89,7 @@ Nothing that broke the experience, but the kind of polish issues you'd want to c
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day20-moodboard" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day20-moodboard" >*/}}
 
 **[Open MoodBoard](https://vibe30-day20-moodboard.vercel.app)**
 

@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-26", "pixel-art", "firebase", "collabora
 series: ["30 Days of Vibe Coding"]
 series_order: 26
 seriesOpened: false
-date: 2026-05-02
+date: 2026-05-01
 draft: true
 build:
   render: false
@@ -86,7 +86,7 @@ The main issues I ran into during testing:
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day26-pixelforge" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day26-pixelforge" >*/}}
 
 **[Try PixelForge](https://vibe30-day26-pixelforge.vercel.app)**
 

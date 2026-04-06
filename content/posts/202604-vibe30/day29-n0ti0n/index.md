@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-29"]
 series: ["30 Days of Vibe Coding"]
 series_order: 29
 seriesOpened: false
-date: 2026-05-05
+date: 2026-05-04
 draft: true
 build:
   render: false
@@ -62,7 +62,7 @@ This is honestly one of the more realistic parts of the whole challenge. Buildin
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day29-n0ti0n" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day29-n0ti0n" >*/}}
 
 **[Live Demo](https://vibe30-day29-n0ti0n.vercel.app)**
 

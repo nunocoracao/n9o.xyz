@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-02", "typescript", "react", "game"]
 series: ["30 Days of Vibe Coding"]
 series_order: 2
 seriesOpened: false
-date: 2026-04-08
+date: 2026-04-07
 draft: true
 ---
 
@@ -65,7 +65,7 @@ This one surprised me with how far it went on the aesthetic.
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day02-Snake" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day02-Snake" >*/}}
 
 **[Play Snake II](https://vibe30-day02-snake.vercel.app)**
 

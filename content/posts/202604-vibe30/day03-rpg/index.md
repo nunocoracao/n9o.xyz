@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-03", "typescript", "pixi.js", "game", "r
 series: ["30 Days of Vibe Coding"]
 series_order: 3
 seriesOpened: false
-date: 2026-04-09
+date: 2026-04-08
 draft: true
 ---
 
@@ -104,7 +104,7 @@ I did not log specific bugs on this one beyond the initial playtesting. The game
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day03-RPG" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day03-RPG" >*/}}
 
 **[Play Realm of Shadows](https://vibe30-day03-rpg.vercel.app)**
 

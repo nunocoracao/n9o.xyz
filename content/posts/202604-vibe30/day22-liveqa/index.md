@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-22", "nextjs", "firebase", "typescript",
 series: ["30 Days of Vibe Coding"]
 series_order: 22
 seriesOpened: false
-date: 2026-04-28
+date: 2026-04-27
 draft: true
 build:
   render: false
@@ -68,7 +68,7 @@ This one was surprisingly clean. The Firestore real-time listeners handled the t
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day22-liveqa" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day22-liveqa" >*/}}
 
 **[Try LiveQ&A](https://vibe30-day22-liveqa.vercel.app)**
 

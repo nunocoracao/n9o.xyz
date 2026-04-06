@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-12", "react", "nextjs", "typescript", "g
 series: ["30 Days of Vibe Coding"]
 series_order: 12
 seriesOpened: false
-date: 2026-04-18
+date: 2026-04-17
 draft: true
 build:
   render: false
@@ -73,7 +73,7 @@ Beyond that, the game played correctly from the start. Valid words were accepted
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day12-wordle" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day12-wordle" >*/}}
 
 **[Play Wordle](https://vibe30-day12-wordle.vercel.app)**
 

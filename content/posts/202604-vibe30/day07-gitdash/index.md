@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-07", "go", "tui", "terminal", "git"]
 series: ["30 Days of Vibe Coding"]
 series_order: 7
 seriesOpened: false
-date: 2026-04-13
+date: 2026-04-12
 draft: true
 ---
 
@@ -64,7 +64,7 @@ Nothing major on this one. The TUI came together cleanly. The only thing I notic
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day07-gitdash" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day07-gitdash" >*/}}
 
 Install it with:
 

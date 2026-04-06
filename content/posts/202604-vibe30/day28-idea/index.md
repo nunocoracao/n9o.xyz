@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-28", "go", "wails", "react", "monaco", "
 series: ["30 Days of Vibe Coding"]
 series_order: 28
 seriesOpened: false
-date: 2026-05-04
+date: 2026-05-03
 draft: true
 build:
   render: false
@@ -97,7 +97,7 @@ wails build
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day28-idea" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day28-idea" >*/}}
 
 ## The Numbers
 

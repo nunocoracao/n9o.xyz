@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-23", "windows95", "retro", "desktop"]
 series: ["30 Days of Vibe Coding"]
 series_order: 23
 seriesOpened: false
-date: 2026-04-29
+date: 2026-04-28
 draft: true
 build:
   render: false
@@ -90,7 +90,7 @@ Minor stuff. The core experience was solid right away.
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day23-retroos" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day23-retroos" >*/}}
 
 **[Launch RetroOS](https://vibe30-day23-retroos.vercel.app)**
 

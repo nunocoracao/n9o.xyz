@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-25", "web-audio", "typescript", "nextjs"
 series: ["30 Days of Vibe Coding"]
 series_order: 25
 seriesOpened: false
-date: 2026-05-01
+date: 2026-04-30
 draft: true
 build:
   render: false
@@ -70,7 +70,7 @@ Nothing major. The Web Audio API is powerful but unforgiving if you don't handle
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day25-soundscape" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day25-soundscape" >*/}}
 
 **[Open SoundScape](https://vibe30-day25-soundscape.vercel.app)**
 

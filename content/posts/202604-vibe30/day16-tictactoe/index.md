@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-16", "typescript", "nextjs", "machine-le
 series: ["30 Days of Vibe Coding"]
 series_order: 16
 seriesOpened: false
-date: 2026-04-22
+date: 2026-04-21
 draft: true
 build:
   render: false
@@ -69,7 +69,7 @@ Tasks 3 and 4 turned it from a learning experiment into something you can actual
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day16-tictactoe-evolved" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day16-tictactoe-evolved" >*/}}
 
 **[Play Tic-Tac-Toe: Evolved](https://vibe30-day16-tictactoe-evolved.vercel.app)**
 

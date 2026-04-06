@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-18", "nextjs", "firebase", "react", "typ
 series: ["30 Days of Vibe Coding"]
 series_order: 18
 seriesOpened: false
-date: 2026-04-24
+date: 2026-04-23
 draft: true
 build:
   render: false
@@ -58,7 +58,7 @@ The deployment round was the main pain point. Firebase config needed adjustments
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day18-pollbox" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day18-pollbox" >*/}}
 
 **[Try PollBox](https://vibe30-day18-pollbox.vercel.app)**
 

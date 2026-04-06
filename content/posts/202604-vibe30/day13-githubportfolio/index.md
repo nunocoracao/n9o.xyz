@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-13", "github", "portfolio", "nextjs", "r
 series: ["30 Days of Vibe Coding"]
 series_order: 13
 seriesOpened: false
-date: 2026-04-19
+date: 2026-04-18
 draft: true
 build:
   render: false
@@ -85,7 +85,7 @@ The README mentions 6 themes and 4 templates, but the actual app ships with 5 te
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day13-githubportfolio" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day13-githubportfolio" >*/}}
 
 **[Generate Your Portfolio](https://vibe30-day13-githubportfolio.vercel.app)**
 

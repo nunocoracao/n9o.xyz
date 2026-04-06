@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-17", "game", "typescript", "nextjs"]
 series: ["30 Days of Vibe Coding"]
 series_order: 17
 seriesOpened: false
-date: 2026-04-23
+date: 2026-04-22
 draft: true
 build:
   render: false
@@ -87,7 +87,7 @@ The threat system needed rebalancing. Early versions made it too easy to get con
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day17-genesis" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day17-genesis" >*/}}
 
 **[Play Project GENESIS](https://vibe30-day17-genesis.vercel.app)**
 

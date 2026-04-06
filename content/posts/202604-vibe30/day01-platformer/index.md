@@ -7,8 +7,8 @@ tags: ["30DaysOfVibeCoding", "AI", "day-01", "javascript", "canvas", "game"]
 series: ["30 Days of Vibe Coding"]
 series_order: 1
 seriesOpened: false
-date: 2026-04-07
-draft: true
+date: 2026-04-06
+draft: false
 ---
 
 Day 1. Let's see what happens when I tell an AI to build me a game.
@@ -93,7 +93,7 @@ Simple descriptions. I didn't debug anything myself, just described what I saw. 
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day01-ThePlatformer" >}} -->
+{{< github repo="nunocoracao/Vibe30-day01-ThePlatformer" showThumbnail=true >}}
 
 **[Play the Platformer](https://vibe30-day01-the-platformer.vercel.app)**
 

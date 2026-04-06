@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-10", "typescript", "canvas", "whiteboard
 series: ["30 Days of Vibe Coding"]
 series_order: 10
 seriesOpened: false
-date: 2026-04-16
+date: 2026-04-15
 draft: true
 build:
   render: false
@@ -92,7 +92,7 @@ Nothing major. The core whiteboard experience was solid from early on.
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day10-miroclone" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day10-miroclone" >*/}}
 
 **[Open the Whiteboard](https://vibe30-day10-miroclone.vercel.app)**
 

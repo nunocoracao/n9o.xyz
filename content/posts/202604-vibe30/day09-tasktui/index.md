@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-09", "go", "tui", "terminal", "kanban", 
 series: ["30 Days of Vibe Coding"]
 series_order: 9
 seriesOpened: false
-date: 2026-04-15
+date: 2026-04-14
 draft: true
 build:
   render: false
@@ -63,7 +63,7 @@ The file watcher occasionally double-fires on saves, which causes a brief visual
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day09-tasktui" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day09-tasktui" >*/}}
 
 Install it with:
 

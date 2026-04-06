@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-27", "rust", "tauri", "terminal"]
 series: ["30 Days of Vibe Coding"]
 series_order: 27
 seriesOpened: false
-date: 2026-05-03
+date: 2026-05-02
 draft: true
 build:
   render: false
@@ -131,7 +131,7 @@ npm run tauri dev
 
 Requires Rust 1.77.2+ and Node.js 20+.
 
-<!-- {{< github repo="nunocoracao/Vibe30-day27-terminal" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day27-terminal" >*/}}
 
 ## The Numbers
 

@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-14", "python", "tui", "weather", "textua
 series: ["30 Days of Vibe Coding"]
 series_order: 14
 seriesOpened: false
-date: 2026-04-20
+date: 2026-04-19
 draft: true
 build:
   render: false
@@ -72,7 +72,7 @@ This one surprised me more than most.
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day14-weathertui" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day14-weathertui" >*/}}
 
 Clone the repo and run `python -m weather_tui`. No API key needed. Arrow keys to navigate, number keys to jump between locations, `t` to change themes, `?` for the full keybinding list.
 

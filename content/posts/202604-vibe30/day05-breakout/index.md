@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-05", "typescript", "canvas", "game"]
 series: ["30 Days of Vibe Coding"]
 series_order: 5
 seriesOpened: false
-date: 2026-04-11
+date: 2026-04-10
 draft: true
 ---
 
@@ -63,7 +63,7 @@ Honestly, this one was pretty clean. The physics felt right from the start, the 
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day05-breakout" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day05-breakout" >*/}}
 
 **[Play Breakout](https://vibe30-day05-breakout.vercel.app)**
 

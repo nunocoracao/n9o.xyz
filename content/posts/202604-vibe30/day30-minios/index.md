@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-30", "nextjs", "react", "typescript", "o
 series: ["30 Days of Vibe Coding"]
 series_order: 30
 seriesOpened: false
-date: 2026-05-06
+date: 2026-05-05
 draft: true
 build:
   render: false
@@ -91,7 +91,7 @@ Window management edge cases were the main theme. Every time I thought snapping 
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day30-minios" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day30-minios" >*/}}
 
 **[Open miniOs](https://vibe30-day30-minios.vercel.app)**
 

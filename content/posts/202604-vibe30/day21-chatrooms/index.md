@@ -7,7 +7,7 @@ tags: ["30DaysOfVibeCoding", "AI", "day-21", "react", "nextjs", "typescript", "f
 series: ["30 Days of Vibe Coding"]
 series_order: 21
 seriesOpened: false
-date: 2026-04-27
+date: 2026-04-26
 draft: true
 build:
   render: false
@@ -65,7 +65,7 @@ Firebase real-time apps tend to have a category of bugs that only show up with m
 
 ## Try It
 
-<!-- {{< github repo="nunocoracao/Vibe30-day21-chatrooms" >}} -->
+{{/*< github repo="nunocoracao/Vibe30-day21-chatrooms" >*/}}
 
 **[Open ChatRooms](https://vibe30-day21-chatrooms.vercel.app)**
 
