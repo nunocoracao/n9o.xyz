@@ -117,7 +117,7 @@ function extractParagraphs(content, summary, maxWords = 400) {
   // Split into paragraphs and filter empties
   const paragraphs = cleaned
     .split(/\n\n+/)
-    .map((p) => p.replace(/\n/g, " ").trim())
+    .map((p) => p.replace(/\n/g, "<br>").trim())
     .filter((p) => p.length > 0);
 
   // Remove paragraphs that overlap significantly with the summary
@@ -156,14 +156,9 @@ export function buildEmailBody(post) {
 
   const summaryBlock = post.summary ? `*${post.summary}*\n\n` : "";
 
-  const bodyParagraphs = paragraphs.map((p) => p + "\n").join("\n");
+  const bodyParagraphs = paragraphs.join("<br><br>");
 
-  return `${imageBlock}${summaryBlock}${bodyParagraphs}
-...
-
----
-
-[Read the full article →](${articleUrl})
+  return `${imageBlock}${summaryBlock}${bodyParagraphs}<br><br>...<br><br>---<br><br>[Read the full article →](${articleUrl})
 `;
 }
 
