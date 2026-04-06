@@ -12,7 +12,11 @@ export function parsePost(filePath) {
   const { data, content } = matter(raw);
 
   const dir = dirname(filePath);
-  const slug = basename(dir);
+
+  // Calculate the slug as the relative path from content/posts/ to the post directory.
+  // This handles nested folders like 202604-vibe30/announcement correctly.
+  const postsDir = filePath.replace(/^(.*)\/content\/posts\/(.*)\/index(?:\.[a-z-]+)?\.md$/, "$1/content/posts");
+  const slug = dir.startsWith(postsDir + "/") ? dir.slice(postsDir.length + 1) : basename(dir);
 
   const summaryText =
     data.summary || data.description || content.slice(0, 200).trim() + "...";
