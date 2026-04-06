@@ -108,40 +108,58 @@ function cleanContent(content) {
 }
 
 /**
- * Extract first ~300 words of cleaned content, truncated at paragraph boundary.
+ * Extract body content as proper paragraphs, deduplicating against the summary.
+ * Returns an array of paragraph strings.
  */
-function extractExcerpt(content, maxWords = 300) {
+function extractParagraphs(content, summary, maxWords = 400) {
   const cleaned = cleanContent(content);
-  const words = cleaned.split(/\s+/);
-  if (words.length <= maxWords) return cleaned;
 
-  const rough = words.slice(0, maxWords).join(" ");
-  const lastParagraph = rough.lastIndexOf("\n\n");
+  // Split into paragraphs and filter empties
+  const paragraphs = cleaned
+    .split(/\n\n+/)
+    .map((p) => p.replace(/\n/g, " ").trim())
+    .filter((p) => p.length > 0);
 
-  if (lastParagraph > rough.length * 0.4) {
-    return rough.slice(0, lastParagraph).trim();
+  // Remove paragraphs that overlap significantly with the summary
+  const summaryLower = (summary || "").toLowerCase();
+  const filtered = paragraphs.filter((p) => {
+    const pLower = p.toLowerCase();
+    // Skip if the paragraph is mostly contained in the summary
+    if (summaryLower.length > 20 && summaryLower.includes(pLower.slice(0, 60))) return false;
+    if (pLower.length > 20 && pLower.includes(summaryLower.slice(0, 60))) return false;
+    return true;
+  });
+
+  // Take paragraphs up to the word limit
+  const result = [];
+  let wordCount = 0;
+  for (const p of filtered) {
+    const pWords = p.split(/\s+/).length;
+    if (wordCount + pWords > maxWords && result.length > 0) break;
+    result.push(p);
+    wordCount += pWords;
   }
 
-  const lastSentence = rough.search(/[.!?]\s+[^.!?]*$/);
-  if (lastSentence > rough.length * 0.4) {
-    return rough.slice(0, lastSentence + 1).trim();
-  }
-
-  return rough.trim() + "...";
+  return result;
 }
 
 /**
- * Build the email body as a clean newsletter email.
+ * Build the email body as a clean newsletter email with proper paragraphs.
  */
 export function buildEmailBody(post) {
   const articleUrl = `https://n9o.xyz/posts/${post.slug}/`;
-  const excerpt = extractExcerpt(post.content);
+  const paragraphs = extractParagraphs(post.content, post.summary);
 
   const imageBlock = post.featureImage
     ? `<a href="${articleUrl}"><img src="${post.featureImage}" alt="${post.title}" style="width:100%;max-width:600px;border-radius:8px;margin-bottom:24px;" /></a>\n\n`
     : "";
 
-  return `${imageBlock}${excerpt}
+  const summaryBlock = post.summary ? `*${post.summary}*\n\n` : "";
+
+  const bodyParagraphs = paragraphs.map((p) => p + "\n").join("\n");
+
+  return `${imageBlock}${summaryBlock}${bodyParagraphs}
+...
 
 ---
 
