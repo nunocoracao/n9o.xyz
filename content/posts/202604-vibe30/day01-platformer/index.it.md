@@ -103,7 +103,7 @@ Tasti freccia o WASD per muoversi, spazio per saltare. Funziona anche su mobile.
 
 Un prompt di una frase. Un gioco completo con 10 livelli, musica, menu e un sistema di salvataggio.
 
-Ecco la cosa: non so come costruire un platformer. Non ho mai scritto un motore di gioco, non ho mai implementato il rilevamento delle collisioni, non ho mai progettato un sistema di progressione dei livelli. Non avrei potuto costruirlo da solo. Non in un giorno, probabilmente nemmeno in una settimana.
+Ecco la cosa: non scrivo un motore di gioco da oltre un decennio — non dall'università. Avevo dimenticato tutto sul rilevamento delle collisioni e i sistemi di progressione dei livelli. Non avrei potuto costruirlo da solo. Non in un giorno, probabilmente nemmeno in una settimana.
 
 È il miglior platformer mai realizzato? Neanche lontanamente. Ma esiste. Funziona. La gente ci può giocare. E mi ha richiesto un paio d'ore invece di settimane. Questo è ciò che è cambiato. Il costo di produrre qualcosa di così complesso è appena calato drasticamente. E se volessi, potrei continuare a rifinirlo, aggiungere livelli, migliorare la fisica. Il punto di partenza non è più un file vuoto.
 

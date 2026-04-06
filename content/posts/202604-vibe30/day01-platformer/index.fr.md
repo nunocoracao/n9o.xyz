@@ -103,7 +103,7 @@ Touches fléchées ou WASD pour se déplacer, espace pour sauter. Fonctionne aus
 
 Un prompt d'une phrase. Un jeu complet avec 10 niveaux, de la musique, des menus et un système de sauvegarde.
 
-Voilà la chose : je ne sais pas comment construire un jeu de plateforme. Je n'ai jamais écrit de moteur de jeu, jamais implémenté de détection de collisions, jamais conçu un système de progression de niveaux. Je n'aurais pas pu le construire moi-même. Pas en un jour, probablement pas en une semaine.
+Voilà la chose : je n'ai pas écrit de moteur de jeu depuis plus d'une décennie — pas depuis l'université. J'avais tout oublié de la détection de collisions et des systèmes de progression de niveaux. Je n'aurais pas pu le construire moi-même. Pas en un jour, probablement pas en une semaine.
 
 Est-ce le meilleur jeu de plateforme jamais fait ? Loin de là. Mais il existe. Il fonctionne. Les gens peuvent y jouer. Et ça m'a pris quelques heures au lieu de semaines. C'est ça qui a changé. Le coût de production de quelque chose d'aussi complexe vient de chuter radicalement. Et si je le voulais, je pourrais continuer à le peaufiner, ajouter des niveaux, améliorer la physique. Le point de départ n'est plus un fichier vide.
 

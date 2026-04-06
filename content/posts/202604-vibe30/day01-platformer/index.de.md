@@ -103,7 +103,7 @@ Pfeiltasten oder WASD zum Bewegen, Leertaste zum Springen. Funktioniert auch auf
 
 Ein Satz als Prompt. Ein vollständiges Spiel mit 10 Levels, Musik, Menüs und einem Speichersystem.
 
-Das ist der Punkt: Ich weiß nicht, wie man einen Platformer baut. Ich habe noch nie eine Game-Engine geschrieben, noch nie Kollisionserkennung implementiert, noch nie ein Level-Progressionssystem entworfen. Ich hätte das nicht selbst bauen können. Nicht an einem Tag, wahrscheinlich auch nicht in einer Woche.
+Das ist der Punkt: Ich habe seit über einem Jahrzehnt keine Game-Engine mehr geschrieben — nicht seit der Uni. Ich hatte alles über Kollisionserkennung und Level-Progressionssysteme vergessen. Ich hätte das nicht selbst bauen können. Nicht an einem Tag, wahrscheinlich auch nicht in einer Woche.
 
 Ist das der beste Platformer aller Zeiten? Nicht mal annähernd. Aber er existiert. Er funktioniert. Menschen können ihn spielen. Und es hat mich ein paar Stunden statt Wochen gekostet. Das hat sich verändert. Die Kosten für die Erstellung von etwas so Komplexem sind gerade dramatisch gesunken. Und wenn ich wollte, könnte ich ihn weiter verfeinern, Levels hinzufügen, die Physik verbessern. Der Ausgangspunkt ist nicht mehr eine leere Datei.
 

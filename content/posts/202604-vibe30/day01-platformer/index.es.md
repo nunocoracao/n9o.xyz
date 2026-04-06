@@ -103,7 +103,7 @@ Teclas de flecha o WASD para moverse, espacio para saltar. También funciona en 
 
 Un prompt de una frase. Un juego completo con 10 niveles, música, menús y un sistema de guardado.
 
-Aquí está la cuestión: yo no sé cómo construir un juego de plataformas. Nunca he escrito un motor de juegos, nunca he implementado detección de colisiones, nunca he diseñado un sistema de progresión de niveles. No podría haberlo construido yo solo. No en un día, probablemente tampoco en una semana.
+Aquí está la cuestión: no he escrito un motor de juegos en más de una década — no desde la universidad. Ya había olvidado todo sobre detección de colisiones y sistemas de progresión de niveles. No podría haberlo construido yo solo. No en un día, probablemente tampoco en una semana.
 
 ¿Es el mejor juego de plataformas jamás creado? Ni de lejos. Pero existe. Funciona. La gente puede jugarlo. Y me llevó un par de horas en lugar de semanas. Eso es lo que cambió. El coste de producir algo tan complejo acaba de bajar drásticamente. Y si quisiera, podría seguir puliéndolo, añadiendo niveles, mejorando la física. El punto de partida ya no es un archivo en blanco.
 

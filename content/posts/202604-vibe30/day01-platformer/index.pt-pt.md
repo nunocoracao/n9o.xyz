@@ -103,7 +103,7 @@ Teclas de seta ou WASD para mover, espaço para saltar. Também funciona em disp
 
 Um prompt de uma frase. Um jogo completo com 10 níveis, música, menus e um sistema de gravação.
 
-Aqui está a questão: não sei como construir um jogo de plataformas. Nunca escrevi um motor de jogo, nunca implementei deteção de colisões, nunca desenhei um sistema de progressão de níveis. Não o conseguiria construir sozinho. Não num dia, provavelmente nem numa semana.
+Aqui está a questão: não escrevo um motor de jogo há mais de uma década — não desde a universidade. Já me tinha esquecido de tudo sobre deteção de colisões e sistemas de progressão de níveis. Não o conseguiria construir sozinho. Não num dia, provavelmente nem numa semana.
 
 Este é o melhor jogo de plataformas alguma vez feito? Nem por isso. Mas existe. Funciona. As pessoas podem jogá-lo. E demorou-me algumas horas em vez de semanas. Foi isso que mudou. O custo de produzir algo tão complexo caiu dramaticamente. E se quisesse, podia continuar a polir, adicionar níveis, melhorar a física. O ponto de partida já não é um ficheiro em branco.
 

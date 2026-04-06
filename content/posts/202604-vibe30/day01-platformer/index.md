@@ -103,7 +103,7 @@ Arrow keys or WASD to move, space to jump. Works on mobile too.
 
 One sentence prompt. A complete game with 10 levels, music, menus, and a save system.
 
-Here's the thing: I don't know how to build a platformer. I've never written a game engine, never implemented collision detection, never designed a level progression system. I couldn't have built this myself. Not in a day, probably not in a week.
+Here's the thing: I haven't written a game engine in over a decade — not since university. I'd forgotten everything about collision detection and level progression systems. I couldn't have built this myself. Not in a day, probably not in a week.
 
 Is this the best platformer ever made? Not even close. But it exists. It works. People can play it. And it took me a couple of hours instead of weeks. That's what changed. The cost of producing something this complex just dropped dramatically. And if I wanted to, I could keep polishing it, adding levels, improving the physics. The starting point is no longer a blank file.
 
