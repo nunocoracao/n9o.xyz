@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 3
 seriesOpened: false
 date: 2026-04-08
-draft: true
+draft: false
 ---
 
 Day 3. I asked for a full RPG. In a browser. In one day.
@@ -26,6 +26,8 @@ That is an absurd amount to ask for in a single prompt. An RPG is not a small ga
 The component list alone tells you how much got built: CharacterCreation, CombatUI, DialogueBox, EquipmentPanel, GameHUD, GameMenu, Inventory, IsometricWorld, ItemTooltip, MainMenu, QuestLog, SaveLoadMenu, SettingsPanel, VictoryScreen. That is 14 React components plus the game logic layer underneath.
 
 I did not sit there guiding each piece. I came back to a working game and started playing it.
+
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
 
 ## What I Got
 
@@ -104,7 +106,7 @@ I did not log specific bugs on this one beyond the initial playtesting. The game
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day03-RPG" >*/}}
+{{< github repo="nunocoracao/Vibe30-day03-rpg" showThumbnail=true >}}
 
 **[Play Realm of Shadows](https://vibe30-day03-rpg.vercel.app)**
 
