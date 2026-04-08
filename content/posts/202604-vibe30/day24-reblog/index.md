@@ -60,6 +60,8 @@ A complete blog platform with six distinct sections.
 
 ![Music page](images/screenshot-08.png)
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## Light Mode
 
 The whole thing also works in light mode with system preference detection. Same layout, different palette.

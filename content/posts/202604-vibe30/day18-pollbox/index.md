@@ -28,6 +28,8 @@ The core came first: Firebase real-time database integration, poll creation flow
 
 The Firebase integration was the backbone of the whole thing. Firestore handles persistence, real-time listeners push vote updates to every connected client, and anonymous auth means nobody has to create an account just to vote on something.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 The creation flow is surprisingly full-featured for a one-day build.

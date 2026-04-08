@@ -43,6 +43,8 @@ draft: false
 
 ファイルの変更をひとつひとつ承認する必要はなかった。Watchfireがタスクをキューに入れ、順番に処理してくれた。戻ってきたら動くゲームができていて、あとはプレイテストするだけだった。
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## 得られたもの
 
 これは予想外だった。

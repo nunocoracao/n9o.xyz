@@ -34,6 +34,8 @@ The tasks covered everything you'd expect from an OS build (if you can call it t
 
 I spent the most hands-on time with this one out of all 30 days. Not writing code, but testing interactions. Window snapping has a lot of edge cases. What happens when you drag to a corner? What about maximizing a snapped window? What if you switch workspaces while a window is being dragged? Those are the kinds of things I had to try and report back on.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![miniOs desktop](images/screenshot-01.png)

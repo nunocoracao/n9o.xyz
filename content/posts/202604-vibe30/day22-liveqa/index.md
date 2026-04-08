@@ -32,6 +32,8 @@ This one went through 7 [Watchfire](https://watchfire.io) tasks, building up fro
 6. **Share modal with QR code.** A share button opens a modal with the session link, a copy button, and a QR code generated with qrcode.react. Point your phone at the screen and you are in.
 7. **UI polish.** Cleaning up the layout, refining the two-column design, making sure the highlighted question panel looks right on both desktop and mobile.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![Landing page](images/screenshot-01.png)

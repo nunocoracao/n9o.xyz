@@ -27,6 +27,8 @@ draft: false
 
 我没有坐在那里指导每一个决策。我描述了我想要的感觉，然后回来时已经有了一个可以玩的游戏。
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## 我得到了什么
 
 这个让我惊讶于它在美学上走了多远。

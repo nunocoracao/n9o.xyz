@@ -43,6 +43,8 @@ draft: false
 
 我并没有坐在那里逐一审批每一处文件改动。Watchfire将任务排入队列并逐一处理，我回来时就看到了一个可以运行的游戏，然后进行试玩测试。
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## 最终成果
 
 我完全没想到会是这样。

@@ -27,6 +27,8 @@ Das war so ziemlich das gesamte Briefing. Ich hatte eine klare visuelle Vorstell
 
 Ich saß nicht dabei und lenkte jede Entscheidung. Ich beschrieb das Feeling, das ich wollte, und kam zu etwas Spielbarem zurück.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## Was ich bekommen habe
 
 Dieses hier hat mich überrascht, wie weit es beim Äußeren gegangen ist.

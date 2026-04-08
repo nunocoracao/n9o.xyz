@@ -32,6 +32,8 @@ Then it just kept going. Undo/redo support. A symmetry mode for creating mirrore
 
 Thirteen tasks. That is a full-featured drawing application.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![PixelForge home page with templates and recent canvases](images/screenshot-01.png)

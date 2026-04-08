@@ -28,6 +28,8 @@ Then the last batch of tasks handled the distribution side. GoReleaser config fo
 
 The MCP server mode was the interesting part. Running `notestui serve` starts a Model Context Protocol server that exposes your notes to AI tools. List notes, search, create, update, delete, all through MCP. That means Claude Code or any MCP-compatible AI assistant can work with your notes directly.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![NotesTUI empty state with welcome screen](images/screenshot-01.png)

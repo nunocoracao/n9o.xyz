@@ -25,6 +25,8 @@ I used [Watchfire](https://watchfire.io) again for this one. You can tell from t
 
 The tech stack is Next.js with TypeScript and Tailwind CSS. The game rendering is all Canvas-based with React handling the overlay UI for menus and pause screens.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 A fully playable Breakout clone with way more polish than I expected.

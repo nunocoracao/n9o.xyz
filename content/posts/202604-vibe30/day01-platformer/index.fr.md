@@ -43,6 +43,8 @@ Puis sont venus les rapports de bugs : correction de compatibilité navigateur, 
 
 Je n'étais pas là à approuver chaque modification de fichier. Watchfire a mis les tâches en file d'attente et les a traitées. Je suis revenu à un jeu fonctionnel, puis je l'ai testé.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## Ce Que J'ai Obtenu
 
 Je ne m'attendais pas à ça.

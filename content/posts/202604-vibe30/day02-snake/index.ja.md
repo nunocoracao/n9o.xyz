@@ -27,6 +27,8 @@ draft: false
 
 すべての決定を細かく指示することはなかった。求めるバイブを説明して、戻ってきたらプレイできるものができていた。
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## 得られたもの
 
 このゲームは、どこまでも美学にこだわっていて驚かされた。

@@ -27,6 +27,8 @@ That was pretty much the entire brief. I had a clear visual in mind but gave zer
 
 I didn't sit there guiding every decision. I described the vibe I wanted and came back to something playable.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 This one surprised me with how far it went on the aesthetic.

@@ -43,6 +43,8 @@ Poi sono arrivate le segnalazioni di bug: correzione della compatibilità con i 
 
 Non stavo lì ad approvare ogni modifica ai file. Watchfire ha messo in coda le attività e le ha portate a termine. Sono tornato con un gioco funzionante e poi l'ho sottoposto a playtest.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## Cosa Ho Ottenuto
 
 Non me lo aspettavo.

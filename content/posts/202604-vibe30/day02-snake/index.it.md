@@ -27,6 +27,8 @@ Era praticamente l'intero brief. Avevo un'immagine visiva chiara in mente ma non
 
 Non ho guidato ogni singola decisione. Ho descritto l'atmosfera che volevo e sono tornato a qualcosa di giocabile.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## Cosa Ho Ottenuto
 
 Questo mi ha sorpreso per quanto sia andato lontano sul fronte estetico.

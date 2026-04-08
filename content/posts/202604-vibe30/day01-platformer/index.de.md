@@ -43,6 +43,8 @@ Dann kamen die Fehlerberichte: Browser-Kompatibilitätsbehebung, Umstrukturierun
 
 Ich saß nicht da und genehmigte jede einzelne Dateiänderung. Watchfire reihte die Aufgaben auf und arbeitete sie durch. Ich kam zu einem funktionierenden Spiel zurück und testete es dann.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## Was ich bekommen habe
 
 Das hatte ich nicht erwartet.

@@ -27,6 +27,8 @@ Eso fue prácticamente todo el encargo. Tenía una imagen visual clara en mente 
 
 No me senté a guiar cada decisión. Describí el ambiente que quería y volví a algo jugable.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## Lo Que Obtuve
 
 Este me sorprendió por lo lejos que llegó en lo estético.

@@ -27,6 +27,8 @@ What I liked about this one is that the architecture actually makes sense. The s
 
 It even came with a Makefile for cross-platform builds (darwin/linux, amd64/arm64) and an install script that auto-detects your OS and architecture.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![GitDash main view showing repos grouped by status](images/screenshot-01.png)

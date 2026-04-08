@@ -26,6 +26,8 @@ Day 17. I wanted to build a hacking game. Not the usual "type random characters 
 
 The build started with the core terminal interface and CRT visual effects, then layered on the game systems one by one: hacking phases and minigames, a sound system using the Web Audio API, the title screen and boot sequence, HUD and statistics tracking, phase transitions between acts, and finally threat rebalancing to make the difficulty curve actually work. Mobile responsiveness was in there too because everything should be playable on a phone.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 The title screen sets the tone immediately. Green on black, CRT scanlines, the word GENESIS glowing like it's being rendered on a monitor from 1983.

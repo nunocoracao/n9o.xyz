@@ -26,6 +26,8 @@ The interesting constraint was that I wanted all audio to be procedurally genera
 
 [Watchfire](https://watchfire.io) broke this down into 10 tasks. The initial plan actually used Howler.js with pre-recorded sound files, but I pivoted early to procedural generation with the Web Audio API. That meant every sound you hear, from rain to a crackling fireplace, is being generated mathematically in real time. No MP3s, no downloads, no loading screens.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![SoundScape main view](images/screenshot-01.png)

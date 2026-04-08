@@ -50,6 +50,8 @@ The task list went something like this:
 
 Then came the CI/CD fixes. Getting Tauri to build and sign across macOS, Linux, and Windows through GitHub Actions is its own adventure. Install scripts for all three platforms too.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 This one floored me.

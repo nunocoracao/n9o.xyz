@@ -35,6 +35,8 @@ The first task gave me a playable tic-tac-toe game. Nothing special. The second 
 
 Tasks 3 and 4 turned it from a learning experiment into something you can actually watch evolve. The brain visualization shows Q-values for each cell, the stats dashboard tracks win/loss/draw rates over time, and the training mode lets you run thousands of self-play games to fast-forward the AI's education.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![Game board](images/screenshot-01.png)

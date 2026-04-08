@@ -36,6 +36,8 @@ Seven tasks, each one layering on a new piece:
 
 The progression made sense. You can't drag pins until they exist, and you can't worry about visual polish until the core interactions work.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 This one clicked right away.

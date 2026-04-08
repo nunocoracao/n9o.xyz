@@ -43,6 +43,8 @@ Then came the bug reports: browser compatibility fix, restructuring for deployme
 
 I didn't sit there approving every file change. Watchfire queued up the tasks and worked through them. I came back to a working game and then playtested it.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 I was not expecting this.

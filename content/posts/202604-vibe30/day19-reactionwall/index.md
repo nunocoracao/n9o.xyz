@@ -26,6 +26,8 @@ Day 19. I wanted something fun and interactive for live events. The kind of thin
 
 The real-time part was the core challenge here. Every reaction needs to show up instantly on every screen viewing that event. Firebase Realtime Database handles that out of the box, but there's a lot of nuance in making it feel good. The reactions use a 30-second sliding window so old ones disappear, and there's rate limiting at 1 reaction per second to keep things from getting out of hand.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 The landing page is clean and dark. One button to create an event wall.

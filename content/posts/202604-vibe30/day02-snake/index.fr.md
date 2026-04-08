@@ -27,6 +27,8 @@ C'était à peu près tout le cahier des charges. J'avais une image claire en t�
 
 Je ne suis pas resté là à guider chaque décision. J'ai décrit l'ambiance que je voulais et je suis revenu sur quelque chose de jouable.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## Ce Que J'ai Obtenu
 
 Celui-ci m'a surpris par la profondeur qu'il a atteinte sur le plan esthétique.

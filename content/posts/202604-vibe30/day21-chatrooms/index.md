@@ -32,6 +32,8 @@ This one went through 7 [Watchfire](https://watchfire.io) tasks, and the order m
 6. **Presence and typing indicators.** See who is online, see who is typing. These are the details that make a chat app feel like a real chat app instead of a message board.
 7. **Mobile polish.** Responsive layout tweaks, touch targets, making sure the whole experience works well on a phone screen.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![Welcome screen](images/screenshot-01.png)

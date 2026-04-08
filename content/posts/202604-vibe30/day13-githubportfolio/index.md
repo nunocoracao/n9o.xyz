@@ -26,6 +26,8 @@ Watchfire broke this down into 19 tasks. The core work started with GitHub API i
 
 The task list covered a lot of ground: five portfolio templates (Minimal, Developer Card, Creative/Bento Grid, Corporate/Showcase, and a Hacker/Terminal theme), seven color themes, custom accent colors, print and PDF mode, auto-detected skills, deployment guides, README export, and a social share card generator. It is a surprisingly deep feature set for something that runs entirely in the browser with no backend.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 The landing page already looks polished. Dark mode by default, clean typography, a three-step explainer, and a preview of all the templates and themes right on the homepage.

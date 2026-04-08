@@ -26,6 +26,8 @@ This one took 13 Watchfire tasks to get from nothing to a fully packaged release
 
 The architecture splits cleanly into packages: `task` for the domain model, `storage` for JSON persistence, `watcher` for filesystem monitoring, `mcp` for the MCP server, and `cli` for all the Cobra commands. The entry point routes between three modes depending on how you invoke it: TUI mode (default), CLI mode (with subcommands like `add` or `list`), and MCP server mode (with `tasktui mcp`).
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![TaskTUI kanban board with three columns](images/screenshot-01.png)

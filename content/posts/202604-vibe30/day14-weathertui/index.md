@@ -28,6 +28,8 @@ The task list covered the expected stuff first: project setup, API integration w
 
 23 tasks. I didn't sit there guiding each one. Watchfire queued them up and worked through them while I did other things.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 This one surprised me more than most.

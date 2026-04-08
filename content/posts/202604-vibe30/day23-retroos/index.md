@@ -28,6 +28,8 @@ This one was pure nostalgia:
 
 The task list covered the desktop shell first (taskbar, start menu, window management), then each application one by one, then the finishing touches like the boot sequence, BSOD, CRT scanline effect, and sound effects.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 This thing boots.

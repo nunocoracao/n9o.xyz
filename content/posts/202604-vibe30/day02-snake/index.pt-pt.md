@@ -27,6 +27,8 @@ O [Watchfire](https://watchfire.io) pegou nesse prompt e dividiu-o em tarefas qu
 
 Não fiquei ali a guiar cada decisão. Descrevi a vibe que queria e voltei para encontrar algo jogável.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## O Que Obtive
 
 Este surpreendeu-me pelo quanto foi longe na estética.

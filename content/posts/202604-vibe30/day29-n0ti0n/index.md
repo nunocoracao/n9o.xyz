@@ -48,6 +48,8 @@ Pages can be shared to the web with a toggle, and there are export options for M
 
 Everything syncs in real-time through Firebase Firestore with anonymous auth, so anyone can open the app and start writing without creating an account.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## The Firestore Saga
 
 Here is the thing about this project that is actually worth talking about in detail. The editor itself came together relatively smoothly. Tiptap is well-documented, the extensions are modular, and Claude handled the integration without much hand-holding. The real challenge was getting Firestore to work properly in production.

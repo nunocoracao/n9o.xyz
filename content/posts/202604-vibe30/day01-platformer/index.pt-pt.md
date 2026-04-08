@@ -43,6 +43,8 @@ Depois vieram os relatórios de erros: correção de compatibilidade com browser
 
 Não fiquei ali a aprovar cada alteração de ficheiro. O Watchfire enfileirou as tarefas e foi trabalhando nelas. Voltei e tinha um jogo a funcionar, depois fiz os testes de jogabilidade.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## O Que Obtive
 
 Não estava à espera disto.

@@ -26,6 +26,8 @@ Watchfire split this into 27 tasks. That is the most tasks of any project so far
 
 The build started with the core combat engine and character creation, then layered on systems one at a time. The character design went through multiple iterations. I tried chibi-style characters, then a Hollow Knight-inspired look, then something with flowing cloaks. Eventually landed on these small hooded figures that read well at the scale they are rendered. Getting the character art right burned more Watchfire tasks than I would like to admit, but the final result has a nice dark medieval feel to it.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 **Character creation is deep.** You pick a name, then customize skin color, hair style and color, body type, eye color, accessories (scars, war paint, eye patches, masks, horns), and outfit color. The preview updates live on the right side. It is a lot of options for a one-day project.

@@ -28,6 +28,8 @@ Watchfire broke this one down into 18 tasks. The core stuff came first: boards, 
 
 That's a lot of features for a single prompt. Most of these I didn't explicitly ask for. The initial prompt was just boards, lists, cards, and drag-and-drop. Everything else was Watchfire deciding "a kanban board should also have these things" and just building them.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![Board view with lists and cards](images/screenshot-01.png)

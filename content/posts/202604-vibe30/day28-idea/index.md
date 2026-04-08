@@ -28,6 +28,8 @@ The stack is Wails v2 for the native wrapper, Go for the backend file system ope
 
 The CI pipeline was where the real pain showed up. WebKit dependencies on Linux, build tags that needed to be just right, Wails bindings generation, cross-platform packaging. I lost count of how many "fix CI" commits there were. The git log is full of them. But that's the reality of shipping native apps. The code can work perfectly on your machine and still fail spectacularly in a GitHub Actions runner.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![Welcome screen](images/screenshot-01.png)

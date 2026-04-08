@@ -44,6 +44,8 @@ This one was big. Watchfire split it into 27 tasks, which is the most I've seen 
 
 27 tasks is a lot. But they were well scoped. Each one added a specific piece of functionality without breaking what came before.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 This thing is surprisingly full-featured.

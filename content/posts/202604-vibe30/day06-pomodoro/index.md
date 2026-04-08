@@ -25,6 +25,8 @@ The project landed as a clean Go module with 11 source files across 6 packages: 
 
 It even came with an install script, a Makefile, and proper CLI flags using a custom config loader that merges a YAML config file with command-line arguments.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![Pomodoro timer ready to start](images/screenshot-01.png)

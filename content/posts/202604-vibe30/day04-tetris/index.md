@@ -9,9 +9,6 @@ series_order: 4
 seriesOpened: false
 date: 2026-04-09
 draft: true
-build:
-  render: false
-  list: false
 ---
 
 Day 4. Everyone knows Tetris. That's what makes it a good test. You know exactly what it should feel like, so you notice immediately when something is off.
@@ -25,6 +22,8 @@ Day 4. Everyone knows Tetris. That's what makes it a good test. You know exactly
 This one went through [Watchfire](https://watchfire.io) like the others. The package name in the repo tells the story: `watchfire-0001-initialize-nextjs-project-with`. It started from a single prompt and Watchfire broke it into tasks covering project setup, game state management, the board renderer, piece definitions with rotation states, the audio system, and the UI components.
 
 The architecture it chose was React with hooks. Three custom hooks handle the core logic: `useGameState` for the game reducer and tick loop, `useGameMusic` for the Korobeiniki theme, and `useSoundEffects` for all the in-game audio. The game state itself is a proper reducer with actions for every move, rotation, hard drop, and pause. Wall kicks, line clearing, level progression, scoring. All the Tetris fundamentals.
+
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
 
 ## What I Got
 

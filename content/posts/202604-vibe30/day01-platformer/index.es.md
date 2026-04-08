@@ -43,6 +43,8 @@ Luego llegaron los reportes de bugs: corrección de compatibilidad con el navega
 
 No me senté ahí aprobando cada cambio de archivo. Watchfire puso las tareas en cola y las fue resolviendo. Volví y tenía un juego funcionando, y luego lo probé.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## Lo Que Obtuve
 
 No me lo esperaba para nada.

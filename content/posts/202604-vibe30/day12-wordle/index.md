@@ -34,6 +34,8 @@ This one went through 7 Watchfire tasks, and watching the progression was intere
 
 The whole thing lives in a single custom React hook (`useWordle.ts`) for the game logic, with the UI as a Next.js page. Clean separation.
 
+{{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
+
 ## What I Got
 
 ![Wordle dark mode gameplay](images/screenshot-01.png)
