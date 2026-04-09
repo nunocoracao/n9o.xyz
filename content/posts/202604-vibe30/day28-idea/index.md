@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-28", "go", "wails", "react", "monaco", "desktop"]
 series: ["30 Days of Vibe Coding"]
 series_order: 28
-seriesOpened: false
+seriesOpened: true
 date: 2026-05-03
 draft: true
 build:

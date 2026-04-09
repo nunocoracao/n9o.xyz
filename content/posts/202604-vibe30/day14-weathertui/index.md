@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-14", "python", "tui", "weather", "textual"]
 series: ["30 Days of Vibe Coding"]
 series_order: 14
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-19
 draft: true
 build:

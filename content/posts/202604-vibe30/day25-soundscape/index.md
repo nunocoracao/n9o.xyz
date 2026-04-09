@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-25", "web-audio", "typescript", "nextjs"]
 series: ["30 Days of Vibe Coding"]
 series_order: 25
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-30
 draft: true
 build:

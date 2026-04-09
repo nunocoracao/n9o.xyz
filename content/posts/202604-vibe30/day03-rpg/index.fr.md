@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-03", "typescript", "pixi.js", "game", "rpg"]
 series: ["30 Days of Vibe Coding"]
 series_order: 3
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-08
 draft: false
 ---

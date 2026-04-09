@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-06", "go", "tui", "bubbletea"]
 series: ["30 Days of Vibe Coding"]
 series_order: 6
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-11
 draft: true
 ---

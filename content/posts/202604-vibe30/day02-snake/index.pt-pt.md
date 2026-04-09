@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-02", "typescript", "react", "game"]
 series: ["30 Days of Vibe Coding"]
 series_order: 2
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-07
 draft: false
 ---

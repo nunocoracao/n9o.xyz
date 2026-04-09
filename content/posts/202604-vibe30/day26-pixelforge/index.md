@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-26", "pixel-art", "firebase", "collaboration"]
 series: ["30 Days of Vibe Coding"]
 series_order: 26
-seriesOpened: false
+seriesOpened: true
 date: 2026-05-01
 draft: true
 build:

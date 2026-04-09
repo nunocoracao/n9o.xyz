@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-18", "nextjs", "firebase", "react", "typescript"]
 series: ["30 Days of Vibe Coding"]
 series_order: 18
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-23
 draft: true
 build:

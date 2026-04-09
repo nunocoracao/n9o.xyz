@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-09", "go", "tui", "terminal", "kanban", "mcp"]
 series: ["30 Days of Vibe Coding"]
 series_order: 9
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-14
 draft: true
 build:

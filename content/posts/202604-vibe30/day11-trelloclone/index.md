@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-11", "typescript", "nextjs", "kanban", "productivity"]
 series: ["30 Days of Vibe Coding"]
 series_order: 11
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-16
 draft: true
 build:

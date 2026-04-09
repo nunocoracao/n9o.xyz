@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-20", "firebase", "collaboration", "real-time"]
 series: ["30 Days of Vibe Coding"]
 series_order: 20
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-25
 draft: true
 build:

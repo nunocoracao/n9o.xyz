@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-24", "astro", "tailwind", "blog", "redesign"]
 series: ["30 Days of Vibe Coding"]
 series_order: 24
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-29
 draft: true
 build:

@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-07", "go", "tui", "terminal", "git"]
 series: ["30 Days of Vibe Coding"]
 series_order: 7
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-12
 draft: true
 ---

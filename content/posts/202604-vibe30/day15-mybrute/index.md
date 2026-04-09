@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-15", "game", "auto-battler", "nextjs", "react"]
 series: ["30 Days of Vibe Coding"]
 series_order: 15
-seriesOpened: false
+seriesOpened: true
 date: 2026-04-20
 draft: true
 build:

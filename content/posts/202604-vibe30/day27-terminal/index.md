@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-27", "rust", "tauri", "terminal"]
 series: ["30 Days of Vibe Coding"]
 series_order: 27
-seriesOpened: false
+seriesOpened: true
 date: 2026-05-02
 draft: true
 build:
