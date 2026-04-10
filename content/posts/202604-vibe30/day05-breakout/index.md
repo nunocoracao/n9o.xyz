@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 5
 seriesOpened: true
 date: 2026-04-10
-draft: true
+draft: false
 ---
 
 Day 5. Another arcade classic. This time I wanted to see what happens when I ask for Breakout.
@@ -65,7 +65,7 @@ Honestly, this one was pretty clean. The physics felt right from the start, the 
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day05-breakout" >*/}}
+{{< github repo="nunocoracao/Vibe30-day05-breakout" showThumbnail=true >}}
 
 **[Play Breakout](https://vibe30-day05-breakout.vercel.app)**
 
