@@ -8,22 +8,28 @@ series: ["30 Days of Vibe Coding"]
 series_order: 6
 seriesOpened: true
 date: 2026-04-11
-draft: true
+draft: false
 ---
 
-Day 6. Time to leave the browser behind and build something for the terminal.
+Day 6. Time to leave the browser behind — and leave my comfort zone entirely.
+
+Every project so far has been TypeScript, React, Canvas. Languages and frameworks I know. Today I wanted to test something different: what happens when I ask the AI to build with tools I've never touched?
 
 ## The Prompt
 
 > "Build a terminal Pomodoro timer in Go using Bubble Tea with large ASCII countdown, session tracking with SQLite, daily and weekly stats, task labels, and customizable durations."
 
+I've never written Go. I've never used Bubble Tea. I've never touched Lip Gloss. I couldn't tell you the difference between a `goroutine` and a `channel` without looking it up. The entire tech stack in this prompt is foreign to me.
+
+That was the point. Five days of building web games in familiar territory had me wondering: is the AI only good at things I already understand? What if I throw it a stack I can't even review properly?
+
 ## How It Was Built
 
-I wanted something I'd actually use. I already run most of my workflow in the terminal, and switching to a browser tab for a Pomodoro timer always felt wrong. So the prompt was specific: Go, Bubble Tea for the TUI framework, Lip Gloss for styling, SQLite for persistence. No web server, no Electron wrapper, no browser. Just a binary you can run from anywhere.
+[Watchfire](https://watchfire.io) took the prompt and broke it down the same way it did with the TypeScript projects. The fact that this was Go instead of TypeScript didn't seem to matter. It chose Bubble Tea for the TUI framework, Lip Gloss for styling, SQLite for persistence. No web server, no Electron wrapper, no browser. Just a binary you can run from anywhere.
 
 The project landed as a clean Go module with 11 source files across 6 packages: `main`, `ascii`, `config`, `db`, `stats`, `timer`, and `ui`. Each package has a clear responsibility. The timer package handles the state machine (idle, running, paused, finished). The UI package renders everything with Bubble Tea. The database package manages SQLite persistence. The stats package aggregates session data for daily and weekly views.
 
-It even came with an install script, a Makefile, and proper CLI flags using a custom config loader that merges a YAML config file with command-line arguments.
+It even came with an install script, a Makefile, and proper CLI flags using a custom config loader that merges a YAML config file with command-line arguments. I wouldn't know how to set any of this up in Go myself.
 
 {{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
 
@@ -64,7 +70,7 @@ None this time. The timer worked correctly on the first build. Start, pause, res
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day06-pomodoro" >*/}}
+{{< github repo="nunocoracao/Vibe30-day06-pomodoro" showThumbnail=true >}}
 
 Install it with:
 
@@ -82,11 +88,13 @@ Then just run `pomo` in your terminal.
 
 ## Day 6 Verdict
 
-This one felt different because it's a tool, not a toy. The previous projects were fun to build and show off, but this is something I'd actually run on my machine every day. A single binary, no dependencies at runtime, works in any terminal.
+This one answered a question I'd been carrying since day 1: does AI-assisted coding only work when you already know the stack?
 
-The Bubble Tea framework was a great choice for this. The result looks polished without being over-engineered. The ASCII digits, the color-coded phases, the progress bar, it all comes together into something that feels intentional rather than thrown together.
+No. It doesn't. I can't write Go. I can't build a TUI with Bubble Tea. I wouldn't know how to structure a Go module with six packages, set up SQLite bindings, or write a Makefile for cross-compilation. But the tool exists, it works, and it's something I actually use every day. A single binary, no dependencies at runtime, works in any terminal.
 
-What surprised me most was the architecture. Six packages with clean boundaries. A proper state machine for the timer. Graceful database handling where if SQLite fails, the timer still works, you just don't get stats. That's the kind of decision a senior developer would make, and it came straight from the prompt.
+What surprised me most was the architecture. Six packages with clean boundaries. A proper state machine for the timer. Graceful database handling where if SQLite fails, the timer still works — you just don't get stats. That's the kind of decision a senior developer would make, and it came from a prompt written by someone who doesn't know the language.
+
+This changes what "non-standard" means. If I can ship a polished Go TUI app without knowing Go, then the barrier to trying unfamiliar tech stacks just disappeared. The cost of experimentation dropped to near zero.
 
 Six days in and this is the first project I've kept running after writing the blog post.
 
