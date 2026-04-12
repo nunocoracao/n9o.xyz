@@ -94,7 +94,7 @@ This is honestly one of the more realistic parts of the whole challenge. Buildin
 
 ## Day 29 Verdict
 
-This might be the most "useful" thing I have built during the entire challenge. A block editor with real persistence, nested pages, and a clean UI is something people actually need. Tiptap 3 did a lot of the heavy lifting on the editor side, and Firebase handled the backend, but wiring it all together and especially getting the deployment to behave took real effort. The Firestore debugging saga is a good reminder that the hard part of shipping software is rarely the feature code. It is the infrastructure, the edge cases, and the things that only break in production. One more day to go.
+A block editor with real persistence, nested pages, and a clean UI is something people actually need. Tiptap 3 did a lot of the heavy lifting on the editor side, and Firebase handled the backend, but wiring it all together and especially getting the deployment to behave took real effort. The Firestore debugging saga is a good reminder that the hard part of shipping software is rarely the feature code. It is the infrastructure, the edge cases, and the things that only break in production. One more day to go.
 
 ---
 

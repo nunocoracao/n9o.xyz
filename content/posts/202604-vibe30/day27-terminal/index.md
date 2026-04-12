@@ -146,7 +146,7 @@ Requires Rust 1.77.2+ and Node.js 20+.
 
 ## Day 27 Verdict
 
-This is probably the most technically ambitious project in the entire challenge. A terminal emulator touches so many layers. PTY management in Rust. IPC between the Rust backend and the JavaScript frontend through Tauri. WebGL rendering for performance. Cross-platform builds and code signing through CI/CD. Install scripts that detect your OS and architecture.
+A terminal emulator touches so many layers. PTY management in Rust. IPC between the Rust backend and the JavaScript frontend through Tauri. WebGL rendering for performance. Cross-platform builds and code signing through CI/CD. Install scripts that detect your OS and architecture.
 
 And then on top of all that, it added smart features. Ghost suggestions, fuzzy search, dangerous command warnings, AI integration. These aren't gimmicks. I actually found the dangerous command warnings useful when I accidentally typed something destructive during testing.
 

@@ -96,13 +96,13 @@ To set up MCP integration with Claude Code, add this to `~/.claude/mcp.json`:
 
 ## Day 9 Verdict
 
-Day 7 gave me GitDash, a TUI tool I actually kept on my machine. Day 9 doubles down on that same Go + Bubble Tea stack but adds something new: AI integration through MCP.
+This doubles down on the Go + Bubble Tea stack but adds something new: AI integration through MCP.
 
 The kanban board itself is solid. It does exactly what a personal task manager should do and nothing more. But the MCP server mode is what makes this one interesting. Having Claude Code manage my task board while I'm working, adding tasks it discovers in code comments, marking things done after it fixes them, that's a workflow I didn't know I wanted.
 
 The file watcher ties it all together. The TUI stays open in one terminal pane, Claude works in another, and the board updates in real time. It feels like pair programming with a shared task board between you and the AI.
 
-Nine days in and the projects are starting to connect. GitDash for repo awareness, TaskTUI for task management, both living in the terminal where I actually work. The challenge is starting to produce tools, not just demos.
+Nine days in and the projects are starting to connect. GitDash for repo awareness, TaskTUI for task management, both living in the terminal where I actually work. The tools are starting to talk to each other.
 
 ---
 

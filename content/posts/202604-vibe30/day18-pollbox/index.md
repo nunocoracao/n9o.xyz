@@ -68,11 +68,11 @@ Create a poll and share the link. No account needed.
 
 ## Day 18 Verdict
 
-This one surprised me with how complete it turned out. A real-time voting app with Firebase, animated results, QR sharing, emoji reactions, comments, CSV export, image export, templates, categories, password protection, and a dashboard. That's a production feature list crammed into a single day.
+The feature list here is dense. A real-time voting app with Firebase, animated results, QR sharing, emoji reactions, comments, CSV export, image export, templates, categories, password protection, and a dashboard. That's a production feature list crammed into a single day.
 
 The real-time piece is what makes it feel alive. You share a link, someone votes, and the bars move on your screen. No refresh needed. Firebase's real-time listeners plus Framer Motion animations make the whole thing feel responsive and polished in a way that static results never could.
 
-31 Watchfire tasks is the most I've had so far in this challenge, and honestly it shows. There's a lot of depth here.
+31 Watchfire tasks, and the depth shows.
 
 ---
 

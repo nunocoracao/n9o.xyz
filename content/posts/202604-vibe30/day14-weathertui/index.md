@@ -80,11 +80,11 @@ Clone the repo and run `python -m weather_tui`. No API key needed. Arrow keys to
 
 ## Day 14 Verdict
 
-This is the most visually impressive terminal app I've ever seen come out of a single prompt session. The ASCII art alone would have taken me days to design by hand. The animated weather effects on top of that? I wouldn't have even attempted it.
+The ASCII art alone would have taken me days to design by hand. The animated weather effects on top of that? I wouldn't have even attempted it.
 
 What gets me is the attention to detail. The 7-day forecast cards each have their own tiny ASCII weather icon. The humidity shows as a progress bar. Wind includes both speed and compass direction. The UV index changes color based on severity. None of that was specified explicitly. It just understood that a weather dashboard needs these things and built them all.
 
-Two weeks in and I'm still getting surprised by the output quality. Terminal apps in particular seem to be a sweet spot for AI-assisted coding. The constraints of a text-based interface actually help focus the output rather than limiting it.
+Terminal apps seem to be a sweet spot for AI-assisted coding. The constraints of a text-based interface help focus the output rather than limiting it.
 
 ---
 

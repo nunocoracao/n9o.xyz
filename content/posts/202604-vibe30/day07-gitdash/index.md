@@ -8,10 +8,12 @@ series: ["30 Days of Vibe Coding"]
 series_order: 7
 seriesOpened: true
 date: 2026-04-12
-draft: true
+draft: false
 ---
 
-Day 7. I have too many git repos and zero idea which ones have uncommitted changes.
+Day 7. Same stack as yesterday. Same framework. Not the most original idea either.
+
+After Day 6 proved I could build with Go and Bubble Tea despite never having touched either, I wanted to test something else: what happens when you point the AI at an existing tool and ask it to build a wrapper? In this case, git. I have too many repos and zero idea which ones have uncommitted changes.
 
 ## The Prompt
 
@@ -19,11 +21,9 @@ Day 7. I have too many git repos and zero idea which ones have uncommitted chang
 
 ## How It Was Built
 
-This was the first non-browser project in the challenge. No HTML, no JavaScript, no Vercel deploy. Just a Go binary that runs in the terminal.
+The interesting part of this build isn't the UI or the framework. It's how the AI interfaced with git. The whole app is essentially a wrapper: it shells out to `git` for every piece of information it displays. Branch names, commit hashes, ahead/behind counts, stash lists, dirty file tracking. It doesn't use a Go git library. It runs the same commands you'd type by hand and parses the output.
 
-The AI broke the work down into packages that map pretty cleanly to concerns: a scanner that walks directory trees looking for `.git` folders, a git package that shells out to git for status info, a config system using YAML, and a full TUI layer built on Charm's Bubble Tea framework.
-
-What I liked about this one is that the architecture actually makes sense. The scanner skips `node_modules`, `vendor`, and hidden directories. The git package wraps every git command I'd normally run by hand: branch, status, log, rev-list for ahead/behind, stash list, describe for tags. The UI layer has clean separation between the list view, detail view, status bar, help overlay, and styles.
+The AI broke the work down into packages that map to concerns: a scanner that walks directory trees looking for `.git` folders, a git package that wraps CLI commands, a config system using YAML, and a TUI layer built on Charm's Bubble Tea. The scanner skips `node_modules`, `vendor`, and hidden directories. The git package handles branch, status, log, rev-list, stash list, and describe. The UI has clean separation between list view, detail view, status bar, help overlay, and styles.
 
 It even came with a Makefile for cross-platform builds (darwin/linux, amd64/arm64) and an install script that auto-detects your OS and architecture.
 
@@ -66,7 +66,7 @@ Nothing major on this one. The TUI came together cleanly. The only thing I notic
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day07-gitdash" >*/}}
+{{< github repo="nunocoracao/Vibe30-day07-gitdash" showThumbnail=true >}}
 
 Install it with:
 
@@ -84,13 +84,13 @@ Then just run `gitdash` in any directory that contains git repos.
 
 ## Day 7 Verdict
 
-This is the first project in the challenge that I might actually keep using. The previous six were games and demos. This one solves a real problem I have: I work across a lot of repos and I constantly forget which ones have uncommitted changes or are behind remote.
+Let me be honest: this is not a creative project. A git status dashboard is not a novel idea. Lazygit and tig already exist and do it better. And it's the same Go + Bubble Tea stack I used yesterday, so there's no "unfamiliar tech" story to tell either.
 
-The Go + Bubble Tea stack was a good fit for a TUI. The Lip Gloss styling gives it that polished terminal aesthetic without being over the top. The whole thing compiles to a single binary with no dependencies, which is exactly what you want for a CLI tool.
+But the build revealed something worth noting. The AI didn't need to understand git's internals. It just wrapped the CLI. Every piece of data in this dashboard comes from running a git command and parsing the text output. `git status --porcelain` for dirty files. `git rev-list --count` for ahead/behind. `git stash list` for stash counts. It treated git as a black box with a text interface, which is exactly how most developers treat it too.
 
-What surprised me most is that the AI produced a proper Go project structure. Not everything dumped into main.go. Clean packages, proper error handling, graceful degradation when git commands fail. It even handles edge cases like repos with no commits or no upstream configured.
+That's the interesting pattern from today. You can point AI at any CLI tool with structured output and get a wrapper UI built around it. Git, Docker, kubectl, whatever. The AI doesn't need to understand the system's internals any more than you do. It just needs to know what commands to run and how to parse what comes back.
 
-Seven days in and this is the first project that crossed from "neat demo" into "tool I'd put on my machine." That feels like progress.
+The project itself is fine. It works, the grouping by status is useful at a glance, the detail view packs a lot of info. But I'm not going to pretend this is something I'll use daily when I can just run `git status` in each repo. The value here was seeing the pattern, not the specific tool.
 
 ---
 

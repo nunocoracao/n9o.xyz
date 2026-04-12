@@ -71,7 +71,7 @@ Create an event, open the link on your phone, and start sending reactions to you
 
 This is one of those projects where the real-time aspect makes it feel alive. Static apps are fine, but there's something about seeing reactions pop up the instant someone taps their phone that makes it feel like a real product. Firebase handled the sync layer, Framer Motion handled the animation layer, and the whole thing came together in a way that actually works for a live event.
 
-Would I use this at a real meetup? Honestly, yes. The QR code sharing, the full-screen display mode, the fact that nobody needs to install anything or create an account. It just works. Not production-grade, but good enough to throw up on a projector and get the crowd going.
+The QR code sharing, the full-screen display mode, the fact that nobody needs to install anything or create an account. For a meetup or conference talk, this does the job. Not production-grade, but good enough to throw up on a projector and get the crowd going.
 
 ---
 

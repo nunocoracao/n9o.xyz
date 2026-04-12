@@ -80,11 +80,11 @@ Best experienced with headphones. Try the "Late Night Coding" preset and turn on
 
 ## Day 25 Verdict
 
-This is probably the project from this challenge that I'll actually keep using. There's something satisfying about mixing your own ambient background instead of hunting for the right YouTube video or Spotify playlist. And the fact that it's all procedurally generated means there are no loops, no repetition. The rain just keeps going, always slightly different.
+There's something satisfying about mixing your own ambient background instead of hunting for the right YouTube video or Spotify playlist. And the fact that it's all procedurally generated means there are no loops, no repetition. The rain just keeps going, always slightly different.
 
 The Web Audio API is underrated. I had no idea you could synthesize this many different sounds purely with oscillators, noise generators, and filters. It's not studio quality, but for background ambience it works surprisingly well. Zero audio files means the whole app loads instantly and works offline.
 
-Five days left. I'm building things I actually want to use now, which feels like the right place to be at this point in the challenge.
+Five days left.
 
 ---
 

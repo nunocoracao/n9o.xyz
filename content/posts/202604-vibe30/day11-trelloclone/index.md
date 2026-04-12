@@ -14,7 +14,7 @@ build:
   list: false
 ---
 
-Day 11. I asked for a Trello clone and got something I'd actually use.
+Day 11. I asked for a Trello clone. Kanban boards, drag and drop, card details, the works.
 
 ## The Prompt
 
@@ -99,7 +99,7 @@ Create a board, add some lists, drag some cards around. It's more fun than it sh
 
 ## Day 11 Verdict
 
-This is the most feature-complete thing I've built in this challenge so far. A kanban board sounds simple on the surface, but there are so many small interactions that need to work: drag targets, modal state, filtering, undo history, cross-view consistency. The fact that all of this came from one prompt and 18 automated tasks is still wild to me.
+A kanban board sounds simple on the surface, but there are so many small interactions that need to work: drag targets, modal state, filtering, undo history, cross-view consistency. The fact that all of this came from one prompt and 18 automated tasks is still wild to me.
 
 I keep coming back to the same thought: I could not have built this in a day by myself. The drag-and-drop alone would have taken me a full day of fighting with libraries and edge cases. Instead I got a working Trello clone with a calendar view, an activity feed, bulk operations, and keyboard shortcuts. And I spent my time testing it and filing a couple of bug reports.
 

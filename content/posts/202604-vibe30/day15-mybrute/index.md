@@ -95,11 +95,11 @@ Create a brute, pick a fight, and see how far you can climb.
 
 ## Day 15 Verdict
 
-This was the most ambitious single-day build so far. 27 tasks is a lot, and the number of interlocking systems (combat, XP, loot, pets, skills, tournaments, dailies, rivals, prestige, replays, achievements) is the kind of thing that would normally take a small team a couple of weeks to wire together. The fact that it all works and is actually fun to play is kind of wild.
+27 tasks is a lot, and the number of interlocking systems (combat, XP, loot, pets, skills, tournaments, dailies, rivals, prestige, replays, achievements) is the kind of thing that would normally take a small team a couple of weeks to wire together. The fact that it all works and is actually fun to play is kind of wild.
 
 The character design journey was the most interesting part. I went through at least four distinct visual styles before landing on one that worked. It is a good reminder that AI-assisted coding handles logic and systems really well, but art direction still requires a human eye and a lot of iteration. You cannot just say "make it look cool" and walk away.
 
-Halfway through the challenge now. Fifteen projects shipped. The games keep getting more complex, but the workflow is getting smoother. I know when to push for more features and when to call it done. That instinct might be the most valuable thing I have picked up so far.
+Halfway through. The games keep getting more complex, but the workflow is getting smoother. I know when to push for more features and when to call it done. That instinct might be the most valuable thing I've picked up from this challenge.
 
 ---
 

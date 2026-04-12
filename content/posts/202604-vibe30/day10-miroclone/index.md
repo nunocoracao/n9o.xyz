@@ -14,7 +14,7 @@ build:
   list: false
 ---
 
-Day 10. I asked for a Miro clone and got something I'd actually use in a meeting.
+Day 10. I asked for a Miro clone. A full infinite canvas with shapes, connectors, layers, and a presentation mode.
 
 ## The Prompt
 
@@ -102,13 +102,13 @@ Works best on desktop. Use the keyboard shortcuts for the full experience.
 
 ## Day 10 Verdict
 
-This is the most complex single-page app in the challenge so far. An infinite canvas with pan and zoom, multiple shape tools, freehand drawing, smart connectors, a layers system, undo/redo, export, dark mode, and a presentation mode. That's a lot of features for one day.
+An infinite canvas with pan and zoom, multiple shape tools, freehand drawing, smart connectors, a layers system, undo/redo, export, dark mode, and a presentation mode. That's a lot of features for one day.
 
 What stands out is the architecture. The codebase is split into clean modules for input handling, rendering, state management, tools, and UI. Each tool is its own module. The state management handles history for undo/redo. It's not a hacky prototype, it's a properly structured app.
 
 Could it replace Miro? No. There's no collaboration, no real-time sync, no cloud storage. But as a local-first sketching and diagramming tool? It's surprisingly usable. I found myself actually laying out ideas on it instead of just testing it.
 
-We're a third of the way through the challenge now. The projects are getting more ambitious and the results keep surprising me.
+A third of the way through the challenge. The scope of what fits in a single day keeps expanding.
 
 ---
 

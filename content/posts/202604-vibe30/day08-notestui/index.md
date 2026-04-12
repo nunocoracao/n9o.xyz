@@ -118,7 +118,7 @@ Then just run `notestui` to start taking notes, or `notestui serve` to start the
 
 ## Day 8 Verdict
 
-Yesterday's GitDash was the first project I said I might actually keep using. Today's NotesTUI goes a step further because of the MCP server. The notes app itself is solid. Clean TUI, fast search, nice markdown rendering. But the ability to run `notestui serve` and let an AI assistant read and write to your notes database? That turns a simple notes app into something genuinely interesting.
+The notes app itself is solid. Clean TUI, fast search, nice markdown rendering. But the MCP server is what makes this one different from anything else in the challenge so far.
 
 The demo where Claude created 16 Marvel character notes by calling MCP tools was not something I planned. I just wanted to test if the integration worked. Watching the notes appear in real time in the TUI while Claude was typing away in another terminal was one of those moments where the whole vibe coding thing clicks. You build a tool, give it an AI interface, and suddenly it can do things you didn't think to ask for.
 

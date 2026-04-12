@@ -89,7 +89,7 @@ What impressed me here was the progression. Task 1 gave me a functional but ugly
 
 The Web Audio API choice for sound effects was a nice surprise. I would have expected it to reach for audio files. Instead it generates the sounds programmatically, which means zero additional assets and instant playback. Smart trade-off.
 
-Twelve days in and the projects are getting more polished, not less. The pattern is holding.
+The pattern is holding. Each day adds polish, and nothing has fallen apart yet.
 
 ---
 

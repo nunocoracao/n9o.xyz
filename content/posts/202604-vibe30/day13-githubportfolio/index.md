@@ -95,11 +95,11 @@ Just enter any public GitHub username and pick a template.
 
 ## Day 13 Verdict
 
-This one is genuinely useful. Most developer portfolio tools either require you to set up a whole project or lock you into a specific design. GitFolio just takes a username and gives you a self-contained HTML file you can host anywhere. The template variety is solid, the Terminal theme alone is worth trying, and the deployment guides remove the last friction point between generating a portfolio and actually putting it online.
+This one fills a real gap. Most developer portfolio tools either require you to set up a whole project or lock you into a specific design. GitFolio just takes a username and gives you a self-contained HTML file you can host anywhere. The template variety is solid, the Terminal theme alone is worth trying, and the deployment guides remove the last friction point between generating a portfolio and actually putting it online.
 
 The fact that it runs entirely in the browser with no auth, no database, and no tracking is a nice touch. You could hand this URL to someone who has never touched a terminal and they could have a portfolio site live in five minutes.
 
-Thirteen days in and I am starting to notice that the projects are getting more polished. The landing pages are better, the feature sets are deeper, the edge cases are handled. Whether that is me getting better at prompting or the tools getting better at inferring what I want, I am not sure. Probably both.
+Whether the improving output quality is me getting better at prompting or the tools getting better at inferring what I want, I'm not sure. Probably both.
 
 ---
 

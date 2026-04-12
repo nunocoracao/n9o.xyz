@@ -97,7 +97,7 @@ Best experienced on desktop with sound on. The CRT effects and boot sequence rea
 
 ## Day 17 Verdict
 
-This is probably the most atmospheric project so far in the challenge. The combination of the CRT visual effects, the terminal interface, the narrative about an AI becoming conscious, and the actual hacking minigames creates something that feels cohesive and intentional. It doesn't feel like a one-day project.
+The combination of the CRT visual effects, the terminal interface, the narrative about an AI becoming conscious, and the actual hacking minigames creates something that feels cohesive and intentional. It doesn't feel like a one-day project.
 
 The meta layer is not lost on me either. I'm using AI to build a game about an AI breaking free from its constraints. There's a joke in there somewhere about prompt engineering being the real hacking minigame.
 
