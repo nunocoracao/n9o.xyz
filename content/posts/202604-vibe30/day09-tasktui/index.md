@@ -9,9 +9,6 @@ series_order: 9
 seriesOpened: true
 date: 2026-04-14
 draft: true
-build:
-  render: false
-  list: false
 ---
 
 Day 9. I wanted a task board that lives in the terminal and that Claude can also read and write to.

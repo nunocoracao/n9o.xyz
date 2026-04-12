@@ -9,9 +9,6 @@ series_order: 21
 seriesOpened: true
 date: 2026-04-26
 draft: true
-build:
-  render: false
-  list: false
 ---
 
 Day 21. I wanted to build something that feels alive. Something where you can see other people doing things in real time. So today it's anonymous chat rooms.

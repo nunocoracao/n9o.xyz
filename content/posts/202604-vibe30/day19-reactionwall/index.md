@@ -9,9 +9,6 @@ series_order: 19
 seriesOpened: true
 date: 2026-04-24
 draft: true
-build:
-  render: false
-  list: false
 ---
 
 Day 19. I wanted something fun and interactive for live events. The kind of thing you throw up on a projector at a meetup and let people send reactions from their phones.

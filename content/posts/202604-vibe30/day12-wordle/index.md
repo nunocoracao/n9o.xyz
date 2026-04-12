@@ -9,9 +9,6 @@ series_order: 12
 seriesOpened: true
 date: 2026-04-17
 draft: true
-build:
-  render: false
-  list: false
 ---
 
 Day 12. Everyone's played Wordle. Let's see how close AI can get to the real thing.

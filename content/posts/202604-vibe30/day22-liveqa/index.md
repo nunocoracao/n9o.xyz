@@ -9,9 +9,6 @@ series_order: 22
 seriesOpened: true
 date: 2026-04-27
 draft: true
-build:
-  render: false
-  list: false
 ---
 
 Day 22. I've been to enough events where the Q&A is a mess. People shouting over each other, the same question getting asked twice, the best questions buried under the loudest voices. Time to build something better.

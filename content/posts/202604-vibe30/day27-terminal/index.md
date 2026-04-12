@@ -9,9 +9,6 @@ series_order: 27
 seriesOpened: true
 date: 2026-05-02
 draft: true
-build:
-  render: false
-  list: false
 ---
 
 Day 27. I asked an AI to build me a terminal emulator. A real one. Not a web toy that pretends to be a terminal, but an actual native desktop app that runs your shell.

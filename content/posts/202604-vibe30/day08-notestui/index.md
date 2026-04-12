@@ -9,9 +9,6 @@ series_order: 8
 seriesOpened: true
 date: 2026-04-13
 draft: true
-build:
-  render: false
-  list: false
 ---
 
 Day 8. Yesterday I built a TUI for git repos. Today I built one for my brain.
