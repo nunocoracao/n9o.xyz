@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-19", "react", "firebase", "framer-motion"]
 series: ["30 Days of Vibe Coding"]
 series_order: 19
-seriesOpened: true
+seriesOpened: false
 date: 2026-04-24
 draft: true
 ---

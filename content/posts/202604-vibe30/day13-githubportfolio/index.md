@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-13", "github", "portfolio", "nextjs", "react"]
 series: ["30 Days of Vibe Coding"]
 series_order: 13
-seriesOpened: true
+seriesOpened: false
 date: 2026-04-18
 draft: true
 ---

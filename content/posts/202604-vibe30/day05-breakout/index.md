@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-05", "typescript", "canvas", "game"]
 series: ["30 Days of Vibe Coding"]
 series_order: 5
-seriesOpened: true
+seriesOpened: false
 date: 2026-04-10
 draft: false
 ---

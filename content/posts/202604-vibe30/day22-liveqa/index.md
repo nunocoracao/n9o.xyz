@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-22", "nextjs", "firebase", "typescript", "real-time"]
 series: ["30 Days of Vibe Coding"]
 series_order: 22
-seriesOpened: true
+seriesOpened: false
 date: 2026-04-27
 draft: true
 ---

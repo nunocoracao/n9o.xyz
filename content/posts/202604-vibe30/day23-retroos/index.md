@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "day-23", "windows95", "retro", "desktop"]
 series: ["30 Days of Vibe Coding"]
 series_order: 23
-seriesOpened: true
+seriesOpened: false
 date: 2026-04-28
 draft: true
 ---

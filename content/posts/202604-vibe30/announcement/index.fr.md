@@ -6,7 +6,7 @@ categories: ["Coding", "AI", "Challenge"]
 tags: ["30DaysOfVibeCoding", "AI", "coding", "challenge", "vibe coding"]
 series: ["30 Days of Vibe Coding"]
 series_order: 0
-seriesOpened: true
+seriesOpened: false
 date: 2026-04-05
 draft: false
 ---
