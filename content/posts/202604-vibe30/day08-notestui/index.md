@@ -15,11 +15,13 @@ Day 8. Yesterday I built a TUI for git repos. Today I built one for my brain.
 
 ## The Prompt
 
-> "Build a Go TUI markdown notes app called NotesTUI. Full in-app editing with markdown preview using Glamour. SQLite with FTS5 for full-text search. Categories, tags, multiple color themes, vim keybindings. Add an MCP server mode so AI assistants can read and write notes. Include GoReleaser, GitHub Actions CI, install and uninstall scripts."
+> "Build a terminal notes app in Go with markdown support and an MCP server."
+
+That was the starting point. Short, vague, barely a spec. I fed it into [Watchfire](https://watchfire.io) and let it expand the idea into a full product definition: in-app editing with Glamour for markdown preview, SQLite with FTS5 for full-text search, categories, tags, multiple color themes, vim keybindings, MCP server mode, GoReleaser, GitHub Actions CI, install scripts. All of that came from Watchfire taking my one-liner and turning it into 36 tasks.
 
 ## How It Was Built
 
-This one took 36 [Watchfire](https://watchfire.io) tasks to get right. The first 30 or so built the core notes app: creating and editing notes in the terminal, markdown rendering with Glamour, full-text search powered by SQLite FTS5, categories, tags, multiple themes, and vim-style keybindings. The whole thing stores data in `~/.notestui/` with a SQLite database and a YAML config file.
+The first 30 or so tasks built the core notes app: creating and editing notes in the terminal, markdown rendering with Glamour, full-text search powered by SQLite FTS5, categories, tags, multiple themes, and vim-style keybindings. The whole thing stores data in `~/.notestui/` with a SQLite database and a YAML config file.
 
 Then the last batch of tasks handled the distribution side. GoReleaser config for cross-platform builds, GitHub Actions for CI, an install script that auto-detects your OS and architecture, and an uninstall script to clean everything up. By the end it had a proper README and was ready to ship as a standalone binary.
 
@@ -115,11 +117,13 @@ Then just run `notestui` to start taking notes, or `notestui serve` to start the
 
 ## Day 8 Verdict
 
-The notes app itself is solid. Clean TUI, fast search, nice markdown rendering. But the MCP server is what makes this one different from anything else in the challenge so far.
+The notes app itself is solid. Clean TUI, fast search, nice markdown rendering. If I hadn't already migrated to Obsidian, this is the kind of tool I'd actually use daily. But the MCP server is what makes this one different from anything else in the challenge so far.
 
-The demo where Claude created 16 Marvel character notes by calling MCP tools was not something I planned. I just wanted to test if the integration worked. Watching the notes appear in real time in the TUI while Claude was typing away in another terminal was one of those moments where the whole vibe coding thing clicks. You build a tool, give it an AI interface, and suddenly it can do things you didn't think to ask for.
+The Marvel character demo was fun, but think about what the MCP server actually enables. This isn't just a notes app that an AI can dump trivia into. It's a persistent knowledge store that any AI agent can read from and write to. You could use it to power an agent's memory. Feed it meeting notes, project context, research findings, and then any MCP-compatible assistant can query that knowledge on demand. The line between "notes app" and "agent knowledge base" turns out to be an MCP server.
 
-36 Watchfire tasks is the most for any project so far in the challenge. The extra complexity came from the MCP server, the distribution scripts, and the CI pipeline. But the result is a proper Go tool that installs from a single curl command and works with AI assistants out of the box.
+Watching the notes appear in real time in the TUI while Claude was typing away in another terminal was one of those moments where the whole vibe coding thing clicks. You build a tool, give it an AI interface, and suddenly it can do things you didn't think to ask for.
+
+36 Watchfire tasks. The extra complexity came from the MCP server, the distribution scripts, and the CI pipeline. But the result is a proper Go tool that installs from a single curl command and works with AI assistants out of the box.
 
 ---
 
