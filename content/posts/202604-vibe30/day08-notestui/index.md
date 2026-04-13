@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 8
 seriesOpened: false
 date: 2026-04-13
-draft: true
+draft: false
 ---
 
 Day 8. Yesterday I built a TUI for git repos. Today I built one for my brain.
@@ -97,7 +97,7 @@ The MCP server mode was the interesting part. Running `notestui serve` starts a 
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day08-notestui" >*/}}
+{{< github repo="nunocoracao/Vibe30-day08-notestui" showThumbnail=true >}}
 
 Install it with the one-liner:
 
