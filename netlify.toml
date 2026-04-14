@@ -4,5 +4,5 @@
 
 [build.environment]
 HUGO_VERSION = "0.159.1"
-HUGO_THEMESDIR = "../.."
-HUGO_THEME = "repo"
+HUGO_THEMESDIR = "themes"
+HUGO_THEME = "blowfish"
