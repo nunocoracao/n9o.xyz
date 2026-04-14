@@ -8,18 +8,20 @@ series: ["30 Days of Vibe Coding"]
 series_order: 9
 seriesOpened: false
 date: 2026-04-14
-draft: true
+draft: false
 ---
 
 Day 9. I wanted a task board that lives in the terminal and that Claude can also read and write to.
 
 ## The Prompt
 
-> "Build a Go TUI personal kanban board with three columns: Todo, Doing, Done. Vim-style navigation with h/j/k/l. Use Bubble Tea and Lip Gloss for the UI. Store tasks as JSON locally. Add a file watcher so the board auto-refreshes when the file changes. Then add an MCP server mode so Claude Code can list, add, move, and delete tasks through the Model Context Protocol. Also add CLI commands for quick task management from the shell."
+> "Build a terminal kanban board in Go with an MCP server so Claude can manage tasks."
+
+That was the seed. [Watchfire](https://watchfire.io) expanded it into 13 tasks covering the full scope: three-column board with vim navigation, Bubble Tea UI, JSON persistence, a file watcher for auto-refresh, an MCP server mode for AI integration, CLI commands for quick task management, and GoReleaser for distribution.
 
 ## How It Was Built
 
-This one took 13 Watchfire tasks to get from nothing to a fully packaged release. The first nine tasks built up the core kanban board: the board model, card rendering, drag-and-drop between columns, and all the Lip Gloss styling to make it look good in the terminal. Task 9 added the MCP server mode. Task 10 brought in real-time file watching. The last three handled CLI commands, GoReleaser config for cross-platform binaries, and the README.
+The 13 tasks took it from nothing to a fully packaged release. The first nine tasks built up the core kanban board: the board model, card rendering, drag-and-drop between columns, and all the Lip Gloss styling to make it look good in the terminal. Task 9 added the MCP server mode. Task 10 brought in real-time file watching. The last three handled CLI commands, GoReleaser config for cross-platform binaries, and the README.
 
 The architecture splits cleanly into packages: `task` for the domain model, `storage` for JSON persistence, `watcher` for filesystem monitoring, `mcp` for the MCP server, and `cli` for all the Cobra commands. The entry point routes between three modes depending on how you invoke it: TUI mode (default), CLI mode (with subcommands like `add` or `list`), and MCP server mode (with `tasktui mcp`).
 
@@ -62,7 +64,7 @@ The file watcher occasionally double-fires on saves, which causes a brief visual
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day09-tasktui" >*/}}
+{{< github repo="nunocoracao/Vibe30-day09-tasktui" showThumbnail=true >}}
 
 Install it with:
 
