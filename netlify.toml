@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --gc --minify -D -b https://n9o.xyz"
+  command = "hugo --gc --minify https://n9o.xyz"
   publish = "public"
 
 [build.environment]
