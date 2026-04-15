@@ -99,11 +99,13 @@ Funziona meglio su desktop. Usa le scorciatoie da tastiera per l'esperienza comp
 
 ## Verdetto del Giorno 10
 
-Un canvas infinito con spostamento e zoom, più strumenti di forma, disegno a mano libera, connettori intelligenti, un sistema di livelli, annulla/ripristina, export, modalità scura, e una modalità presentazione. Sono tante funzionalità per un solo giorno.
+Questo è il primo progetto della challenge che punta a un servizio web complesso. Miro non è un gioco con regole auto-contenute. È un prodotto vero, con forme, connettori, livelli, export, modalità presentazione, e tutto un modello di interazione che al team originale ha richiesto anni per essere messo a punto. Clonarlo in un giorno significa fare delle scelte su cosa tenere e cosa lasciare perdere.
+
+La scelta più grossa è stata il backend. Non c'è. Tutto vive nel browser, persistito nel local storage. Niente account, niente server, niente database. È un vincolo deliberato che mi tengo nei primi progetti di questa challenge — tenere tutto locale, spedire più veloce, evitare la complessità di tirare su infrastruttura per ogni demo. Qui funziona perché una lavagna non ha bisogno di essere multiplayer per essere utile. Prima o poi sbatterà contro un muro. Collaborazione in tempo reale, sync cloud, condividere una lavagna con qualcun altro via URL — niente di tutto questo è possibile senza un backend. Ci arriveremo in un progetto futuro.
 
 Quello che spicca è l'architettura. Il codice è diviso in moduli puliti per la gestione dell'input, il rendering, la gestione dello stato, gli strumenti e l'UI. Ogni strumento è un suo modulo. La gestione dello stato si occupa della cronologia per annulla/ripristina. Non è un prototipo rabberciato, è un'app strutturata come si deve.
 
-Potrebbe sostituire Miro? No. Niente collaborazione, niente sync in tempo reale, niente storage cloud. Ma come strumento local-first di schizzi e diagrammi? È sorprendentemente usabile. Mi sono ritrovato a buttare giù idee davvero, invece di limitarmi a testarlo.
+Potrebbe sostituire Miro? No. Ma come strumento local-first di schizzi e diagrammi, è sorprendentemente usabile. Mi sono ritrovato a buttare giù idee davvero, invece di limitarmi a testarlo.
 
 Un terzo della challenge è fatta. La portata di quello che entra in una singola giornata continua a crescere.
 

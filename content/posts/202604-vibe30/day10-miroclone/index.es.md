@@ -99,11 +99,13 @@ Funciona mejor en escritorio. Usa los atajos de teclado para la experiencia comp
 
 ## Veredicto del Día 10
 
-Un lienzo infinito con paneo y zoom, múltiples herramientas de formas, dibujo a mano alzada, conectores inteligentes, un sistema de capas, deshacer/rehacer, exportación, modo oscuro y modo de presentación. Eso es mucha funcionalidad para un día.
+Este es el primer proyecto del reto que va a por un servicio web complejo. Miro no es un juego con reglas autocontenidas. Es un producto de verdad con formas, conectores, capas, exportaciones, modo de presentación y todo un modelo de interacción que al equipo original le llevó años figurarse. Clonarlo en un día implica tomar decisiones sobre qué mantener y qué dejar caer.
+
+La decisión más grande fue el backend. No hay. Todo vive en el navegador, persistido en local storage. Sin cuentas, sin servidores, sin base de datos. Es una restricción deliberada que voy a mantener durante los primeros proyectos de este reto — mantener las cosas locales, enviar más rápido, evitar la complejidad de montar infraestructura para cada demo. Aquí funciona porque una pizarra no necesita ser multiusuario para ser útil. Tarde o temprano chocará contra un muro. Colaboración en tiempo real, sync en la nube, compartir una pizarra con alguien por URL — nada de eso es posible sin un backend. Llegaremos a eso en un proyecto futuro.
 
 Lo que destaca es la arquitectura. El codebase está dividido en módulos limpios para manejo de input, renderizado, gestión de estado, herramientas y UI. Cada herramienta es su propio módulo. La gestión de estado maneja el historial para deshacer/rehacer. No es un prototipo chapucero, es una app propiamente estructurada.
 
-¿Podría reemplazar a Miro? No. No hay colaboración, ni sincronización en tiempo real, ni almacenamiento en la nube. ¿Pero como herramienta local-first para bocetar y diagramar? Es sorprendentemente usable. Me encontré organizando ideas en ella de verdad en lugar de solo probarla.
+¿Podría reemplazar a Miro? No. Pero como herramienta local-first para bocetar y diagramar, es sorprendentemente usable. Me encontré organizando ideas en ella de verdad en lugar de solo probarla.
 
 A un tercio del camino del reto. El alcance de lo que cabe en un solo día sigue expandiéndose.
 

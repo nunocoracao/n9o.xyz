@@ -99,11 +99,13 @@ Works best on desktop. Use the keyboard shortcuts for the full experience.
 
 ## Day 10 Verdict
 
-An infinite canvas with pan and zoom, multiple shape tools, freehand drawing, smart connectors, a layers system, undo/redo, export, dark mode, and a presentation mode. That's a lot of features for one day.
+This is the first project in the challenge that goes after a complex web service. Miro isn't a game with self-contained rules. It's a real product with shapes, connectors, layers, exports, presentation mode, and a whole interaction model that took the original team years to figure out. Cloning it in a day means making choices about what to keep and what to drop.
+
+The biggest choice was the backend. There isn't one. Everything lives in the browser, persisted to local storage. No accounts, no servers, no database. That's a deliberate constraint I'm holding across the early projects in this challenge — keep things local, ship faster, avoid the complexity of standing up infrastructure for every demo. It works here because a whiteboard doesn't need to be multiplayer to be useful. It will hit a wall eventually. Real-time collaboration, cloud sync, sharing a board with someone else by URL — none of that is possible without a backend. We'll get there in a future project.
 
 What stands out is the architecture. The codebase is split into clean modules for input handling, rendering, state management, tools, and UI. Each tool is its own module. The state management handles history for undo/redo. It's not a hacky prototype, it's a properly structured app.
 
-Could it replace Miro? No. There's no collaboration, no real-time sync, no cloud storage. But as a local-first sketching and diagramming tool? It's surprisingly usable. I found myself actually laying out ideas on it instead of just testing it.
+Could it replace Miro? No. But as a local-first sketching and diagramming tool, it's surprisingly usable. I found myself actually laying out ideas on it instead of just testing it.
 
 A third of the way through the challenge. The scope of what fits in a single day keeps expanding.
 

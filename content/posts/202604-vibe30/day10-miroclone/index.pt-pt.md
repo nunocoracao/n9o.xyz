@@ -99,11 +99,13 @@ Funciona melhor no desktop. Usa os atalhos de teclado para a experiência comple
 
 ## Veredicto do Dia 10
 
-Uma tela infinita com pan e zoom, várias ferramentas de formas, desenho à mão livre, conectores inteligentes, um sistema de camadas, desfazer/refazer, exportação, modo escuro e um modo de apresentação. É muita funcionalidade para um dia.
+Este é o primeiro projeto do desafio que vai atrás de um serviço web complexo. O Miro não é um jogo com regras auto-contidas. É um produto a sério com formas, conectores, camadas, exportações, modo de apresentação, e todo um modelo de interação que a equipa original demorou anos a descobrir. Cloná-lo num dia implica fazer escolhas sobre o que manter e o que deixar cair.
+
+A maior escolha foi o backend. Não há. Tudo vive no browser, persistido no local storage. Sem contas, sem servidores, sem base de dados. É uma restrição deliberada que vou manter ao longo dos projetos iniciais deste desafio — manter tudo local, enviar mais rápido, evitar a complexidade de montar infraestrutura para cada demo. Aqui funciona porque um quadro branco não precisa de ser multijogador para ser útil. Eventualmente vai bater num muro. Colaboração em tempo real, sincronização na cloud, partilhar um quadro com outra pessoa por URL — nada disso é possível sem um backend. Lá chegaremos num projeto futuro.
 
 O que se destaca é a arquitetura. O codebase está dividido em módulos limpos para tratamento de input, rendering, gestão de estado, ferramentas e UI. Cada ferramenta é o seu próprio módulo. A gestão de estado trata do histórico para desfazer/refazer. Não é um protótipo feito à pressa, é uma aplicação devidamente estruturada.
 
-Podia substituir o Miro? Não. Não há colaboração, não há sincronização em tempo real, não há armazenamento na cloud. Mas como ferramenta local-first para esboçar e fazer diagramas? Está surpreendentemente utilizável. Dei por mim a organizar ideias nele em vez de só o estar a testar.
+Podia substituir o Miro? Não. Mas como ferramenta local-first para esboçar e fazer diagramas, está surpreendentemente utilizável. Dei por mim a organizar ideias nele em vez de só o estar a testar.
 
 A um terço do caminho do desafio. O âmbito do que cabe num único dia continua a expandir-se.
 

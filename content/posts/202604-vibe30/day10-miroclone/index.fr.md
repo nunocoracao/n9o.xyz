@@ -99,11 +99,13 @@ Fonctionne mieux sur desktop. Utilise les raccourcis clavier pour l'expérience 
 
 ## Verdict du Jour 10
 
-Un canevas infini avec déplacement et zoom, plusieurs outils de forme, dessin à main levée, connecteurs intelligents, un système de calques, annuler/rétablir, export, mode sombre, et un mode présentation. Ça fait beaucoup de fonctionnalités pour une seule journée.
+C'est le premier projet du challenge qui s'attaque à un service web complexe. Miro n'est pas un jeu avec des règles autonomes. C'est un vrai produit avec des formes, des connecteurs, des calques, des exports, un mode présentation, et tout un modèle d'interaction que l'équipe d'origine a mis des années à mettre au point. Le cloner en une journée, ça implique de faire des choix sur ce qu'on garde et ce qu'on laisse tomber.
+
+Le plus gros choix, c'est le backend. Il n'y en a pas. Tout vit dans le navigateur, persisté dans le local storage. Pas de comptes, pas de serveurs, pas de base de données. C'est une contrainte délibérée que je tiens sur les premiers projets de ce challenge — garder les choses locales, livrer plus vite, éviter la complexité de monter une infrastructure pour chaque démo. Ici ça marche parce qu'un tableau blanc n'a pas besoin d'être multi-joueurs pour être utile. Ça finira par taper dans un mur. La collaboration en temps réel, la sync cloud, partager un tableau avec quelqu'un via une URL — rien de tout ça n'est possible sans un backend. On y arrivera dans un futur projet.
 
 Ce qui ressort, c'est l'architecture. Le code est découpé en modules propres pour la gestion des entrées, le rendu, la gestion d'état, les outils et l'UI. Chaque outil est son propre module. La gestion d'état s'occupe de l'historique pour annuler/rétablir. Ce n'est pas un prototype bricolé, c'est une app correctement structurée.
 
-Est-ce que ça pourrait remplacer Miro ? Non. Pas de collaboration, pas de synchronisation en temps réel, pas de stockage cloud. Mais en tant qu'outil local-first de croquis et de diagramme ? C'est étonnamment utilisable. Je me suis surpris à poser des idées dessus pour de vrai au lieu de juste le tester.
+Est-ce que ça pourrait remplacer Miro ? Non. Mais en tant qu'outil local-first de croquis et de diagramme, c'est étonnamment utilisable. Je me suis surpris à poser des idées dessus pour de vrai au lieu de juste le tester.
 
 Un tiers du challenge terminé. L'ampleur de ce qui rentre dans une seule journée continue de s'étendre.
 

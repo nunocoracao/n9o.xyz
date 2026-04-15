@@ -99,11 +99,13 @@ Funktioniert am besten auf dem Desktop. Nutze die Tastenkürzel für das volle E
 
 ## Fazit Tag 10
 
-Ein unendlicher Canvas mit Pan und Zoom, mehreren Form-Werkzeugen, Freihandzeichnen, intelligenten Verbindern, einem Ebenensystem, Undo/Redo, Export, Dark Mode und Präsentationsmodus. Das ist eine Menge Features für einen Tag.
+Das ist das erste Projekt in der Challenge, das einen komplexen Web-Service angeht. Miro ist kein Spiel mit in sich geschlossenen Regeln. Es ist ein echtes Produkt mit Formen, Verbindern, Ebenen, Exporten, Präsentationsmodus und einem ganzen Interaktionsmodell, für das das Originalteam Jahre gebraucht hat, um es auszutüfteln. Es an einem Tag zu klonen bedeutet, Entscheidungen zu treffen, was man behält und was man fallen lässt.
+
+Die größte Entscheidung war das Backend. Es gibt keins. Alles lebt im Browser, persistiert im Local Storage. Keine Accounts, keine Server, keine Datenbank. Das ist eine bewusste Einschränkung, die ich in den frühen Projekten dieser Challenge durchziehe — alles lokal halten, schneller ausliefern, die Komplexität vermeiden, für jedes Demo Infrastruktur hochzuziehen. Hier funktioniert es, weil ein Whiteboard nicht multiplayer sein muss, um nützlich zu sein. Irgendwann wird es an eine Wand stoßen. Echtzeit-Kollaboration, Cloud-Sync, ein Board mit jemandem per URL teilen — nichts davon ist ohne Backend möglich. Dorthin kommen wir in einem zukünftigen Projekt.
 
 Was herausragt, ist die Architektur. Die Codebase ist in saubere Module für Input-Handling, Rendering, State Management, Tools und UI aufgeteilt. Jedes Tool ist sein eigenes Modul. Das State Management kümmert sich um den Verlauf für Undo/Redo. Es ist kein zusammengeschusterter Prototyp, sondern eine ordentlich strukturierte App.
 
-Könnte es Miro ersetzen? Nein. Es gibt keine Kollaboration, keine Echtzeit-Synchronisation, keinen Cloud-Speicher. Aber als local-first Skizzen- und Diagramming-Tool? Es ist überraschend nutzbar. Ich habe mich dabei erwischt, wie ich tatsächlich Ideen darauf ausgebreitet habe, statt es nur zu testen.
+Könnte es Miro ersetzen? Nein. Aber als local-first Skizzen- und Diagramming-Tool ist es überraschend nutzbar. Ich habe mich dabei erwischt, wie ich tatsächlich Ideen darauf ausgebreitet habe, statt es nur zu testen.
 
 Ein Drittel der Challenge geschafft. Der Umfang dessen, was in einen einzigen Tag passt, wächst weiter.
 
