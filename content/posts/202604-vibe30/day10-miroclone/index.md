@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 10
 seriesOpened: false
 date: 2026-04-15
-draft: true
+draft: false
 ---
 
 Day 10. I asked for a Miro clone. A full infinite canvas with shapes, connectors, layers, and a presentation mode.
@@ -91,7 +91,7 @@ Nothing major. The core whiteboard experience was solid from early on.
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day10-miroclone" >*/}}
+{{< github repo="nunocoracao/Vibe30-day10-miroclone" showThumbnail=true >}}
 
 **[Open the Whiteboard](https://vibe30-day10-miroclone.vercel.app)**
 
