@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 11
 seriesOpened: false
 date: 2026-04-16
-draft: true
+draft: false
 ---
 
 Day 11. I asked for a Trello clone. Kanban boards, drag and drop, card details, the works.
@@ -88,7 +88,7 @@ Honestly, this one was pretty clean. The main issues were around drag-and-drop e
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day11-trelloclone" >*/}}
+{{< github repo="nunocoracao/Vibe30-day11-trelloclone" showThumbnail=true >}}
 
 **[Try Treelo](https://vibe30-day11-trelloclone.vercel.app)**
 
