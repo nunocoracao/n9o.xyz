@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 12
 seriesOpened: false
 date: 2026-04-17
-draft: true
+draft: false
 ---
 
 Day 12. Everyone's played Wordle. Let's see how close AI can get to the real thing.
@@ -72,7 +72,7 @@ Beyond that, the game played correctly from the start. Valid words were accepted
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day12-wordle" >*/}}
+{{< github repo="nunocoracao/Vibe30-day12-wordle" showThumbnail=true >}}
 
 **[Play Wordle](https://vibe30-day12-wordle.vercel.app)**
 
