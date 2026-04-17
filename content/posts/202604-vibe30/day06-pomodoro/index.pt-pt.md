@@ -9,6 +9,7 @@ series_order: 6
 seriesOpened: false
 date: 2026-04-11
 draft: false
+#type: "hidden"
 ---
 
 Dia 6. Chegou a hora de abandonar o browser — e de sair completamente da minha zona de conforto.

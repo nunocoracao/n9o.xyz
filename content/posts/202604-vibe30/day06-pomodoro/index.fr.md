@@ -9,6 +9,7 @@ series_order: 6
 seriesOpened: false
 date: 2026-04-11
 draft: false
+#type: "hidden"
 ---
 
 Jour 6. Il est temps de quitter le navigateur — et de sortir complètement de ma zone de confort.

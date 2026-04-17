@@ -9,6 +9,7 @@ series_order: 20
 seriesOpened: false
 date: 2026-04-25
 draft: true
+#type: "hidden"
 ---
 
 Day 20. I wanted a shared canvas where a group of people can throw images, links, and notes at a wall and just see what sticks. Literally.

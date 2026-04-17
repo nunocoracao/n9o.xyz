@@ -9,6 +9,7 @@ series_order: 1
 seriesOpened: false
 date: 2026-04-06
 draft: false
+#type: "hidden"
 ---
 
 Tag 1. Mal sehen, was passiert, wenn ich einer KI sage, sie soll mir ein Spiel bauen.

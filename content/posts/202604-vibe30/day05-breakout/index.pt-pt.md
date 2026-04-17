@@ -9,6 +9,7 @@ series_order: 5
 seriesOpened: false
 date: 2026-04-10
 draft: false
+#type: "hidden"
 ---
 
 Dia 5. Mais um clássico dos arcades. Desta vez quis ver o que acontece quando peço o Breakout.

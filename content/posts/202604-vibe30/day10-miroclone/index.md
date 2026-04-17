@@ -9,6 +9,7 @@ series_order: 10
 seriesOpened: false
 date: 2026-04-15
 draft: false
+#type: "hidden"
 ---
 
 Day 10. I asked for a Miro clone. A full infinite canvas with shapes, connectors, layers, and a presentation mode.

@@ -9,6 +9,7 @@ series_order: 9
 seriesOpened: false
 date: 2026-04-14
 draft: false
+#type: "hidden"
 ---
 
 第9天。我想要一个住在终端里的任务板，而且 Claude 也能读写它。

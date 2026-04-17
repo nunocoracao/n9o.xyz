@@ -9,6 +9,7 @@ series_order: 14
 seriesOpened: false
 date: 2026-04-19
 draft: true
+#type: "hidden"
 ---
 
 Day 14. I wanted to see what a weather app looks like when you strip away every modern UI framework and force everything into a terminal.

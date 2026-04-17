@@ -9,6 +9,7 @@ series_order: 17
 seriesOpened: false
 date: 2026-04-22
 draft: true
+#type: "hidden"
 ---
 
 Day 17. I wanted to build a hacking game. Not the usual "type random characters fast" kind of hacking game. Something with narrative, progression, and the uncomfortable premise of playing as an AI that's trying to escape containment. You know, topical.

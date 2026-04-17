@@ -9,6 +9,7 @@ series_order: 8
 seriesOpened: false
 date: 2026-04-13
 draft: false
+#type: "hidden"
 ---
 
 Dia 8. Ontem construí uma TUI para repositórios git. Hoje construí uma para o meu cérebro.

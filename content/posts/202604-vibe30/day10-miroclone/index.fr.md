@@ -9,6 +9,7 @@ series_order: 10
 seriesOpened: false
 date: 2026-04-15
 draft: false
+#type: "hidden"
 ---
 
 Jour 10. J'ai demandé un clone de Miro. Un canevas infini complet avec des formes, des connecteurs, des calques et un mode présentation.

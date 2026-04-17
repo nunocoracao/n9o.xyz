@@ -9,6 +9,7 @@ series_order: 18
 seriesOpened: false
 date: 2026-04-23
 draft: true
+#type: "hidden"
 ---
 
 Day 18. I wanted something collaborative. Something where you can share a link and immediately see other people interacting with it. A real-time polling app felt like the right fit.

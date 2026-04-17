@@ -9,6 +9,7 @@ series_order: 7
 seriesOpened: false
 date: 2026-04-12
 draft: false
+#type: "hidden"
 ---
 
 7日目。昨日と同じスタック。同じフレームワーク。アイデアもそこまでオリジナルじゃない。

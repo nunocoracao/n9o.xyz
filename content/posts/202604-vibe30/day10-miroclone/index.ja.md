@@ -9,6 +9,7 @@ series_order: 10
 seriesOpened: false
 date: 2026-04-15
 draft: false
+#type: "hidden"
 ---
 
 10日目。Miroクローンをお願いした。図形、コネクタ、レイヤー、そしてプレゼンテーションモードまで揃った、フル機能の無限キャンバスだ。

@@ -9,6 +9,7 @@ series_order: 11
 seriesOpened: false
 date: 2026-04-16
 draft: false
+#type: "hidden"
 ---
 
 Jour 11. J'ai demandé un clone de Trello. Tableaux kanban, glisser-déposer, détails des cartes, tout le toutim.

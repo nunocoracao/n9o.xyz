@@ -9,6 +9,7 @@ series_order: 4
 seriesOpened: false
 date: 2026-04-09
 draft: false
+#type: "hidden"
 ---
 
 Day 4. Everyone knows Tetris. That's what makes it a good test. You know exactly what it should feel like, so you notice immediately when something is off.

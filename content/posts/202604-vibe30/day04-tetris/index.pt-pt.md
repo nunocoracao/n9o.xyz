@@ -9,6 +9,7 @@ series_order: 4
 seriesOpened: false
 date: 2026-04-09
 draft: false
+#type: "hidden"
 ---
 
 Dia 4. Toda a gente conhece o Tetris. É precisamente isso que o torna um bom teste. Sabes exactamente como deve ser a sensação, por isso notas imediatamente quando algo está errado.

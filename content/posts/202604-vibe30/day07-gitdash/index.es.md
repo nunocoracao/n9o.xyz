@@ -9,6 +9,7 @@ series_order: 7
 seriesOpened: false
 date: 2026-04-12
 draft: false
+#type: "hidden"
 ---
 
 Dia 7. El mismo stack que ayer. El mismo framework. Tampoco es la idea mas original del mundo.

@@ -9,6 +9,7 @@ series_order: 25
 seriesOpened: false
 date: 2026-04-30
 draft: true
+#type: "hidden"
 ---
 
 Day 25. I built myself the exact app I would actually use while building all the other days.

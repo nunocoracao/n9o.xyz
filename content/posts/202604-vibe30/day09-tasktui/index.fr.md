@@ -9,6 +9,7 @@ series_order: 9
 seriesOpened: false
 date: 2026-04-14
 draft: false
+#type: "hidden"
 ---
 
 Jour 9. Je voulais un tableau de tâches qui vit dans le terminal et que Claude puisse aussi lire et modifier.

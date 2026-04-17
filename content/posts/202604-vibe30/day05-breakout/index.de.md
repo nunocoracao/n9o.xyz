@@ -9,6 +9,7 @@ series_order: 5
 seriesOpened: false
 date: 2026-04-10
 draft: false
+#type: "hidden"
 ---
 
 Tag 5. Noch ein Arcade-Klassiker. Diesmal wollte ich sehen, was passiert, wenn ich nach Breakout frage.

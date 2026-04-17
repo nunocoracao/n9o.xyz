@@ -9,6 +9,7 @@ series_order: 3
 seriesOpened: false
 date: 2026-04-08
 draft: false
+#type: "hidden"
 ---
 
 3日目。フルRPGを1日で作るよう頼みました。ブラウザ上で。

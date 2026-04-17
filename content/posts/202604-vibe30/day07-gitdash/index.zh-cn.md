@@ -9,6 +9,7 @@ series_order: 7
 seriesOpened: false
 date: 2026-04-12
 draft: false
+#type: "hidden"
 ---
 
 第7天。跟昨天一样的技术栈。一样的框架。想法也不算多有创意。

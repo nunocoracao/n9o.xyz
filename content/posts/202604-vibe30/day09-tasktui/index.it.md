@@ -9,6 +9,7 @@ series_order: 9
 seriesOpened: false
 date: 2026-04-14
 draft: false
+#type: "hidden"
 ---
 
 Giorno 9. Volevo una board delle attività che vive nel terminale e che Claude possa anche leggere e modificare.

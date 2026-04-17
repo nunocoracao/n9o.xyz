@@ -9,6 +9,7 @@ series_order: 12
 seriesOpened: false
 date: 2026-04-17
 draft: false
+#type: "hidden"
 ---
 
 Tag 12. Jeder hat schon Wordle gespielt. Mal sehen, wie nah die KI an das Original rankommt.

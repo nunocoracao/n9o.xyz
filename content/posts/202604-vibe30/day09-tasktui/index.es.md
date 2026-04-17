@@ -9,6 +9,7 @@ series_order: 9
 seriesOpened: false
 date: 2026-04-14
 draft: false
+#type: "hidden"
 ---
 
 Día 9. Quería un tablero de tareas que viviera en la terminal y que Claude también pudiera leer y escribir.

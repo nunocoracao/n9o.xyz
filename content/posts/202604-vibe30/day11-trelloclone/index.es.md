@@ -9,6 +9,7 @@ series_order: 11
 seriesOpened: false
 date: 2026-04-16
 draft: false
+#type: "hidden"
 ---
 
 Día 11. Pedí un clon de Trello. Tableros kanban, drag and drop, detalles de tarjetas, todo el paquete.

@@ -9,6 +9,7 @@ series_order: 13
 seriesOpened: false
 date: 2026-04-18
 draft: true
+#type: "hidden"
 ---
 
 Day 13. What if you could turn any GitHub profile into a good-looking portfolio site without writing a single line of code?

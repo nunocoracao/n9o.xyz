@@ -9,6 +9,7 @@ series_order: 5
 seriesOpened: false
 date: 2026-04-10
 draft: false
+#type: "hidden"
 ---
 
 5日目。またもやアーケードの名作。今回はBreakoutを作ってみたらどうなるかを試したかった。

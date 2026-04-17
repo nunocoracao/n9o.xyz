@@ -9,6 +9,7 @@ series_order: 11
 seriesOpened: false
 date: 2026-04-16
 draft: false
+#type: "hidden"
 ---
 
 第11天。我让它做一个Trello克隆。看板、拖拽、卡片详情，全套的。

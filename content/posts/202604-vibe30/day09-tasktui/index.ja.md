@@ -9,6 +9,7 @@ series_order: 9
 seriesOpened: false
 date: 2026-04-14
 draft: false
+#type: "hidden"
 ---
 
 9日目。ターミナルに住むタスクボードで、Claude も読み書きできるやつが欲しかった。

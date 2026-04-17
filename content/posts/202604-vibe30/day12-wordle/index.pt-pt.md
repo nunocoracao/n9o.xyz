@@ -9,6 +9,7 @@ series_order: 12
 seriesOpened: false
 date: 2026-04-17
 draft: false
+#type: "hidden"
 ---
 
 Dia 12. Toda a gente já jogou Wordle. Vamos ver quão perto a IA consegue chegar do original.

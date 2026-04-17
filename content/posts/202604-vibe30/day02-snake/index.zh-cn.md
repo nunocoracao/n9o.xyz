@@ -9,6 +9,7 @@ series_order: 2
 seriesOpened: false
 date: 2026-04-07
 draft: false
+#type: "hidden"
 ---
 
 第2天。我想做一些令人怀念的东西。

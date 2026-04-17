@@ -9,6 +9,7 @@ series_order: 7
 seriesOpened: false
 date: 2026-04-12
 draft: false
+#type: "hidden"
 ---
 
 Jour 7. Même stack qu'hier. Même framework. Pas l'idée la plus originale non plus.

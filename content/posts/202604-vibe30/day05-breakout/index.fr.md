@@ -9,6 +9,7 @@ series_order: 5
 seriesOpened: false
 date: 2026-04-10
 draft: false
+#type: "hidden"
 ---
 
 Jour 5. Encore un grand classique de l'arcade. Cette fois, je voulais voir ce qui se passe quand je demande un Breakout.

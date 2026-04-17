@@ -9,6 +9,7 @@ series_order: 1
 seriesOpened: false
 date: 2026-04-06
 draft: false
+#type: "hidden"
 ---
 
 Día 1. A ver qué pasa cuando le pido a una IA que me construya un juego.

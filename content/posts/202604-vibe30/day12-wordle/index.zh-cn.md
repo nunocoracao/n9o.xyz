@@ -9,6 +9,7 @@ series_order: 12
 seriesOpened: false
 date: 2026-04-17
 draft: false
+#type: "hidden"
 ---
 
 第12天。每个人都玩过Wordle。来看看AI能把它还原到什么程度。

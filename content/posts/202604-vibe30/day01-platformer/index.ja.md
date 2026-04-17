@@ -9,6 +9,7 @@ series_order: 1
 seriesOpened: false
 date: 2026-04-06
 draft: false
+#type: "hidden"
 ---
 
 1日目。AIにゲームを作らせたらどうなるか、試してみよう。

@@ -9,6 +9,7 @@ series_order: 10
 seriesOpened: false
 date: 2026-04-15
 draft: false
+#type: "hidden"
 ---
 
 Tag 10. Ich habe nach einem Miro-Klon gefragt. Ein vollständiges Infinite-Canvas mit Formen, Verbindern, Ebenen und einem Präsentationsmodus.

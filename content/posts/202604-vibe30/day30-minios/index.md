@@ -9,6 +9,7 @@ series_order: 30
 seriesOpened: false
 date: 2026-05-05
 draft: true
+#type: "hidden"
 ---
 
 Day 30. The last one. I built an operating system.

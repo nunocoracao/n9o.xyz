@@ -9,6 +9,7 @@ series_order: 11
 seriesOpened: false
 date: 2026-04-16
 draft: false
+#type: "hidden"
 ---
 
 Dia 11. Pedi um clone do Trello. Quadros kanban, drag and drop, detalhes dos cartões, tudo.

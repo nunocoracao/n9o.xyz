@@ -9,6 +9,7 @@ series_order: 2
 seriesOpened: false
 date: 2026-04-07
 draft: false
+#type: "hidden"
 ---
 
 Giorno 2. Volevo qualcosa di nostalgico.

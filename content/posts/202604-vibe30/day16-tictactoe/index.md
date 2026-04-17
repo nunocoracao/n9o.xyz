@@ -9,6 +9,7 @@ series_order: 16
 seriesOpened: false
 date: 2026-04-21
 draft: true
+#type: "hidden"
 ---
 
 Day 16. What if the AI opponent actually learned from losing to you?

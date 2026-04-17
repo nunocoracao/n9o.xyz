@@ -9,6 +9,7 @@ series_order: 12
 seriesOpened: false
 date: 2026-04-17
 draft: false
+#type: "hidden"
 ---
 
 Day 12. Everyone's played Wordle. Let's see how close AI can get to the real thing.

@@ -9,6 +9,7 @@ series_order: 29
 seriesOpened: false
 date: 2026-05-04
 draft: true
+#type: "hidden"
 ---
 
 Day 29. With one day left after this, I decided to go after something I use every single day: Notion. Not all of it, obviously. But the core experience of a block editor with nested pages, slash commands, and a clean sidebar for navigation. The result is n0ti0n, a surprisingly capable writing tool that came together faster than I expected... once I got past the deployment nightmare.

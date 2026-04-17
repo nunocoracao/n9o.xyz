@@ -9,6 +9,7 @@ series_order: 15
 seriesOpened: false
 date: 2026-04-20
 draft: true
+#type: "hidden"
 ---
 
 Day 15. I wanted to rebuild something I loved as a teenager. MyBrute was this simple browser game where you created a little fighter, challenged other people's fighters, and watched the battles play out automatically. No strategy during the fight itself, just build your character and see what happens. It was addictive in a way that did not make sense for how little you actually did. Perfect candidate for a one-day build.

@@ -9,6 +9,7 @@ series_order: 3
 seriesOpened: false
 date: 2026-04-08
 draft: false
+#type: "hidden"
 ---
 
 第3天。我要求在一天之内，在浏览器里做出一个完整的RPG游戏。

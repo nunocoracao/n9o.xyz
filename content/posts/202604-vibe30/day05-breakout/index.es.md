@@ -9,6 +9,7 @@ series_order: 5
 seriesOpened: false
 date: 2026-04-10
 draft: false
+#type: "hidden"
 ---
 
 Día 5. Otro clásico de los arcades. Esta vez quería ver qué pasaba cuando le pedía un Breakout.

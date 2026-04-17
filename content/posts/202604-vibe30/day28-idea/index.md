@@ -9,6 +9,7 @@ series_order: 28
 seriesOpened: false
 date: 2026-05-03
 draft: true
+#type: "hidden"
 ---
 
 Day 28. I asked an AI to build me a code editor. A native desktop code editor. Not a web app, not something running in a browser tab. An actual application you install on your machine.

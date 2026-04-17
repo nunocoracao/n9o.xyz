@@ -9,6 +9,7 @@ series_order: 5
 seriesOpened: false
 date: 2026-04-10
 draft: false
+#type: "hidden"
 ---
 
 第5天。又是一款经典街机游戏。这次我想看看让AI做Breakout会有什么结果。

@@ -9,6 +9,7 @@ series_order: 12
 seriesOpened: false
 date: 2026-04-17
 draft: false
+#type: "hidden"
 ---
 
 12日目。Wordleはみんなプレイしたことがあるはず。AIがどこまで本物に近づけるか見てみよう。

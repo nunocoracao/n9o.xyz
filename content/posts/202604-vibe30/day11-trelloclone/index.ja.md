@@ -9,6 +9,7 @@ series_order: 11
 seriesOpened: false
 date: 2026-04-16
 draft: false
+#type: "hidden"
 ---
 
 Day 11。Trelloのクローンを作ってくれと頼んだ。カンバンボード、ドラッグ＆ドロップ、カードの詳細、全部入り。

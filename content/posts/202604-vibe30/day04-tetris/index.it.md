@@ -9,6 +9,7 @@ series_order: 4
 seriesOpened: false
 date: 2026-04-09
 draft: false
+#type: "hidden"
 ---
 
 Giorno 4. Tutti conoscono Tetris. Questo lo rende un buon test. Sai esattamente com'è che dovrebbe sentirsi, quindi ti accorgi subito quando qualcosa non va.

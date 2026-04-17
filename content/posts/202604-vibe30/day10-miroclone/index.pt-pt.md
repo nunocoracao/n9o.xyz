@@ -9,6 +9,7 @@ series_order: 10
 seriesOpened: false
 date: 2026-04-15
 draft: false
+#type: "hidden"
 ---
 
 Dia 10. Pedi um clone do Miro. Uma tela infinita completa com formas, conectores, camadas e um modo de apresentação.

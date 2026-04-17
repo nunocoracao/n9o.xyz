@@ -9,6 +9,7 @@ series_order: 23
 seriesOpened: false
 date: 2026-04-28
 draft: true
+#type: "hidden"
 ---
 
 Day 23. I told an AI to build me Windows 95.

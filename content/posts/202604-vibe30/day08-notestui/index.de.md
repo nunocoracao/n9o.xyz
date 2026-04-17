@@ -9,6 +9,7 @@ series_order: 8
 seriesOpened: false
 date: 2026-04-13
 draft: false
+#type: "hidden"
 ---
 
 Tag 8. Gestern habe ich eine TUI für Git-Repos gebaut. Heute habe ich eine für mein Gehirn gebaut.

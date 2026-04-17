@@ -9,6 +9,7 @@ series_order: 6
 seriesOpened: false
 date: 2026-04-11
 draft: false
+#type: "hidden"
 ---
 
 6日目。ブラウザから離れる時が来た――そして完全にコンフォートゾーンを抜け出す時でもある。

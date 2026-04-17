@@ -9,6 +9,7 @@ series_order: 8
 seriesOpened: false
 date: 2026-04-13
 draft: false
+#type: "hidden"
 ---
 
 第8天。昨天我给git仓库做了个TUI。今天我给自己的大脑做了一个。

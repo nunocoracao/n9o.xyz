@@ -9,6 +9,7 @@ series_order: 3
 seriesOpened: false
 date: 2026-04-08
 draft: false
+#type: "hidden"
 ---
 
 Day 3. I asked for a full RPG. In a browser. In one day.

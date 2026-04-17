@@ -9,6 +9,7 @@ series_order: 4
 seriesOpened: false
 date: 2026-04-09
 draft: false
+#type: "hidden"
 ---
 
 第4天。人人都知道俄罗斯方块。这正是它成为一个好测试用例的原因。你清楚地知道它玩起来应该是什么感觉，所以一旦有什么不对劲，你会立刻察觉。

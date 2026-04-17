@@ -9,6 +9,7 @@ series_order: 1
 seriesOpened: false
 date: 2026-04-06
 draft: false
+#type: "hidden"
 ---
 
 第1天。让我们看看当我让AI帮我做一款游戏时会发生什么。

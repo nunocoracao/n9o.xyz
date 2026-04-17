@@ -9,6 +9,7 @@ series_order: 10
 seriesOpened: false
 date: 2026-04-15
 draft: false
+#type: "hidden"
 ---
 
 Día 10. Pedí un clon de Miro. Un lienzo infinito completo con formas, conectores, capas y un modo de presentación.

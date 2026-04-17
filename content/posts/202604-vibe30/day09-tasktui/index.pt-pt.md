@@ -9,6 +9,7 @@ series_order: 9
 seriesOpened: false
 date: 2026-04-14
 draft: false
+#type: "hidden"
 ---
 
 Dia 9. Queria um quadro de tarefas que vivesse no terminal e que o Claude também conseguisse ler e escrever.

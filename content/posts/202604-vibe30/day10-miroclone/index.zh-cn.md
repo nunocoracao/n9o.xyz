@@ -9,6 +9,7 @@ series_order: 10
 seriesOpened: false
 date: 2026-04-15
 draft: false
+#type: "hidden"
 ---
 
 第 10 天。我让它做一个 Miro 克隆版。一个完整的无限画布，带图形、连接线、图层，还有演示模式。

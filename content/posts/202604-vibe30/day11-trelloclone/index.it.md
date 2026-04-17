@@ -9,6 +9,7 @@ series_order: 11
 seriesOpened: false
 date: 2026-04-16
 draft: false
+#type: "hidden"
 ---
 
 Giorno 11. Ho chiesto un clone di Trello. Kanban board, drag and drop, dettagli delle carte, tutto quanto.

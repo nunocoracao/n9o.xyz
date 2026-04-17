@@ -9,6 +9,7 @@ series_order: 11
 seriesOpened: false
 date: 2026-04-16
 draft: false
+#type: "hidden"
 ---
 
 Tag 11. Ich habe nach einem Trello-Klon gefragt. Kanban-Boards, Drag and Drop, Kartendetails, das volle Programm.

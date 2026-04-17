@@ -9,6 +9,7 @@ series_order: 26
 seriesOpened: false
 date: 2026-05-01
 draft: true
+#type: "hidden"
 ---
 
 Day 26. I wanted to build something collaborative, something where people could actually create together in real time. So I went with a pixel art canvas.

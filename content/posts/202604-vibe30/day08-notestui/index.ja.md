@@ -9,6 +9,7 @@ series_order: 8
 seriesOpened: false
 date: 2026-04-13
 draft: false
+#type: "hidden"
 ---
 
 Day 8。昨日はgitリポジトリ用のTUIを作った。今日は自分の頭の中のためのTUIを作った。

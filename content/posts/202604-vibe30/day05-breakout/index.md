@@ -9,6 +9,7 @@ series_order: 5
 seriesOpened: false
 date: 2026-04-10
 draft: false
+#type: "hidden"
 ---
 
 Day 5. Another arcade classic. This time I wanted to see what happens when I ask for Breakout.

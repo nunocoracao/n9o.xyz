@@ -9,6 +9,7 @@ series_order: 24
 seriesOpened: false
 date: 2026-04-29
 draft: true
+#type: "hidden"
 ---
 
 Day 24. I rebuilt my own blog.

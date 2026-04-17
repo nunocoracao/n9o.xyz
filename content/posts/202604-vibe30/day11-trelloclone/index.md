@@ -9,6 +9,7 @@ series_order: 11
 seriesOpened: false
 date: 2026-04-16
 draft: false
+#type: "hidden"
 ---
 
 Day 11. I asked for a Trello clone. Kanban boards, drag and drop, card details, the works.

@@ -9,6 +9,7 @@ series_order: 9
 seriesOpened: false
 date: 2026-04-14
 draft: false
+#type: "hidden"
 ---
 
 Tag 9. Ich wollte ein Task-Board, das im Terminal lebt und das Claude auch lesen und beschreiben kann.

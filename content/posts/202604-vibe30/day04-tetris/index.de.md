@@ -9,6 +9,7 @@ series_order: 4
 seriesOpened: false
 date: 2026-04-09
 draft: false
+#type: "hidden"
 ---
 
 Tag 4. Jeder kennt Tetris. Das macht es zu einem guten Test. Man weiß genau, wie es sich anfühlen soll – und merkt sofort, wenn etwas nicht stimmt.

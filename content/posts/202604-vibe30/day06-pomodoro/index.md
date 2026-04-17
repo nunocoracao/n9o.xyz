@@ -9,6 +9,7 @@ series_order: 6
 seriesOpened: false
 date: 2026-04-11
 draft: false
+#type: "hidden"
 ---
 
 Day 6. Time to leave the browser behind — and leave my comfort zone entirely.
