@@ -9,9 +9,6 @@ series_order: 31
 seriesOpened: false
 date: 2026-05-07
 draft: true
-build:
-  render: false
-  list: false
 ---
 
 ## 30 Days Later
