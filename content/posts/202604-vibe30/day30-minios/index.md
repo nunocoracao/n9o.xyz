@@ -24,6 +24,10 @@ This is the capstone. Every project from the last 30 days lives inside this one.
 
 The biggest prompt of the challenge, for the biggest project.
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day30-minios.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 [Watchfire](https://watchfire.io) broke this one down into 25 tasks. Twenty-five. That's more than any other project in the series, and it makes sense. This wasn't one app. It was a shell that had to contain all the other apps.

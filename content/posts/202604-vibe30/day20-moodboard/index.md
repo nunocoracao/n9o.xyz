@@ -20,6 +20,10 @@ Day 20. I wanted a shared canvas where a group of people can throw images, links
 
 That was the seed. [Watchfire](https://watchfire.io) broke it down into 7 tasks that took it from a basic Firebase backbone to a full collaborative pinboard.
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day20-moodboard.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 Seven tasks, each one layering on a new piece:

@@ -18,6 +18,10 @@ Day 4. Everyone knows Tetris. That's what makes it a good test. You know exactly
 
 > "I want to create a web-based Tetris game with 3D-styled blocks, music, and sound effects"
 
+{{< alert icon="fire">}}
+Try out the game yourself [here](https://vibe30-day04-tetris.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 This one went through [Watchfire](https://watchfire.io) like the others. The package name in the repo tells the story: `watchfire-0001-initialize-nextjs-project-with`. It started from a single prompt and Watchfire broke it into tasks covering project setup, game state management, the board renderer, piece definitions with rotation states, the audio system, and the UI components.

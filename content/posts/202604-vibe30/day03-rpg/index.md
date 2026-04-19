@@ -20,6 +20,10 @@ Day 3. I asked for a full RPG. In a browser. In one day.
 
 That is an absurd amount to ask for in a single prompt. An RPG is not a small game. There are character classes, inventory systems, dialogue trees, quest tracking, combat mechanics, map exploration. Any one of those is a project on its own. I wanted to see what would happen if I asked for all of them at once.
 
+{{< alert icon="fire">}}
+Try out the game yourself [here](https://vibe30-day03-rpg.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 [Watchfire](https://watchfire.io) took the prompt and broke it down into tasks. The package.json still has the fingerprint of the first task in its name: `watchfire-0000-project-setup---initialize-nex`. From the project structure, I can see the work was split across the core systems: project setup with Next.js and Pixi.js, type definitions, game state management, map data for three zones (town, forest, dungeon), combat engine, item and enemy databases, dialogue system, quest database, isometric rendering, and then all the UI components on top of that.

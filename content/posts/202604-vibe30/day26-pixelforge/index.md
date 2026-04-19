@@ -20,6 +20,10 @@ The starting point was simple:
 
 > "Build a collaborative pixel art canvas where multiple users can draw together in real time."
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day26-pixelforge.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 [Watchfire](https://watchfire.io) broke this down into 13 tasks, which is a lot for a single day project. But pixel art editors have a surprising number of moving parts once you start thinking about all the tools people expect.

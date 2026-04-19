@@ -20,6 +20,10 @@ Day 11. I asked for a Trello clone. Kanban boards, drag and drop, card details, 
 
 I named it Treelo because I'm very creative with names.
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day11-trelloclone.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 Watchfire broke this one down into 18 tasks. The core stuff came first: boards, lists, cards, and drag-and-drop. Then it kept going. Labels. Due dates. A card detail modal. Custom board backgrounds. Search and filtering. Card archiving. Multi-select with bulk operations. An activity feed. A calendar view. And then a performance optimization pass at the end to keep everything smooth.

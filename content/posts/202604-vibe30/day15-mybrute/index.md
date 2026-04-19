@@ -18,6 +18,10 @@ Day 15. I wanted to rebuild something I loved as a teenager. MyBrute was this si
 
 > "Build a browser-based fighting game inspired by MyBrute. Character creation with visual customization, turn-based auto-combat with animations, weapons and pets you collect from victories, XP and leveling, tournaments, boss fights, and a prestige system."
 
+{{< alert icon="fire">}}
+Try out the game yourself [here](https://vibe30-day15-mybrute.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 Watchfire split this into 27 tasks. That is the most tasks of any project so far, and it makes sense. This thing has a lot of systems that all need to talk to each other: combat math, XP curves, loot tables, pet behavior, prestige bonuses, tournament brackets, daily challenges, rival tracking, achievements, replays.

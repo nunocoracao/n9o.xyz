@@ -18,6 +18,10 @@ Day 18. I wanted something collaborative. Something where you can share a link a
 
 > "Build a real-time poll creation and voting app. Users should be able to create polls with multiple options, share them via link, and see results update live with animated bar charts."
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day18-pollbox.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 [Watchfire](https://watchfire.ai) broke this down into 31 tasks. That's a lot for a polling app, but the feature list grew fast once you start thinking about all the little things that make a voting experience feel complete.

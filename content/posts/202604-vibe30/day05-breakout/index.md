@@ -20,6 +20,10 @@ Day 5. Another arcade classic. This time I wanted to see what happens when I ask
 
 A bit more specific than some of my earlier prompts. By day 5 I was learning that being slightly more intentional with the features you want upfront saves you from filing bug reports later.
 
+{{< alert icon="fire">}}
+Try out the game yourself [here](https://vibe30-day05-breakout.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 I used [Watchfire](https://watchfire.io) again for this one. You can tell from the package.json, which gets auto-named with a `watchfire-0000` prefix. I gave it the prompt and it handled the rest. The entire game lives in a single React component wrapping an HTML5 Canvas, which is a pattern I've seen a few times now in these daily builds. Not the cleanest architecture, but it works and it ships.

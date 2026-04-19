@@ -20,6 +20,10 @@ The idea was simple: an ambient sound mixer where you layer sounds together to c
 
 The interesting constraint was that I wanted all audio to be procedurally generated using the Web Audio API. No sample files, no audio assets to load. Everything synthesized in the browser.
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day25-soundscape.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 [Watchfire](https://watchfire.io) broke this down into 10 tasks. The initial plan actually used Howler.js with pre-recorded sound files, but I pivoted early to procedural generation with the Web Audio API. That meant every sound you hear, from rain to a crackling fireplace, is being generated mathematically in real time. No MP3s, no downloads, no loading screens.

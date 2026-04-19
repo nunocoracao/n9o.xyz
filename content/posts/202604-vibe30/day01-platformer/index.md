@@ -24,6 +24,10 @@ That's it. That was the entire creative direction.
 
 ## How It Was Built
 
+{{< alert icon="fire">}}
+Try out the game yourself [here](https://vibe30-day01-the-platformer.vercel.app)
+{{< /alert >}}
+
 This was one of the first projects I used [Watchfire](https://watchfire.io) for. I gave it the single prompt and it broke the work down into 21 separate tasks:
 
 1. Project setup and game canvas

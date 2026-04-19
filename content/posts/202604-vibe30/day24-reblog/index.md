@@ -70,6 +70,10 @@ The whole thing also works in light mode with system preference detection. Same 
 
 The light version uses a warm cream background with the same typography. It automatically switches based on your OS settings, or you can toggle it manually.
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day24-reblog.vercel.app)
+{{< /alert >}}
+
 ## Under the Hood
 
 The tech choices here were deliberate:

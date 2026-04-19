@@ -20,6 +20,10 @@ This one was pure nostalgia:
 
 > "Build a Windows 95-inspired desktop environment that runs in the browser. Include a taskbar, start menu, draggable and resizable windows, and classic apps like Notepad, Calculator, Paint, Minesweeper, Terminal, Internet Explorer, and My Computer. Add a boot sequence, pixel art SVG icons, sound effects, wallpaper selection, a CRT effect, and a BSOD easter egg."
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day23-retroos.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 [Watchfire](https://watchfire.io) broke this down into 10 tasks. The scope here was wild. This isn't a single app, it's an entire operating system UI with a window manager, a taskbar, a start menu, and seven separate applications all running inside it. Each one needed its own behavior, its own window chrome, its own interactions.

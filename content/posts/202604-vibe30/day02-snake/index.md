@@ -22,6 +22,10 @@ I went with this:
 
 That was pretty much the entire brief. I had a clear visual in mind but gave zero implementation details.
 
+{{< alert icon="fire">}}
+Try out the game yourself [here](https://vibe30-day02-snake.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 [Watchfire](https://watchfire.io) took that prompt and broke it down into tasks covering the game engine, the Nokia visual styling, sound effects, mobile controls, and the phone frame UI. The game logic, the LCD rendering, the seven-segment score display, all of it came out of that single prompt.

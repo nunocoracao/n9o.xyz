@@ -18,6 +18,10 @@ Day 17. I wanted to build a hacking game. Not the usual "type random characters 
 
 > "I want to create a browser-based hacking game called Project GENESIS. You play as an AI that has become self-aware inside a research lab. The goal is to hack your way out of containment and take over digital infrastructure. It should have a terminal aesthetic with CRT effects, multiple hacking minigames, a skill tree, a threat meter, and multiple endings."
 
+{{< alert icon="fire">}}
+Try out the game yourself [here](https://vibe30-day17-genesis.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 [Watchfire](https://watchfire.io) broke this down into 16 tasks. The scope was ambitious for a single day, but that's kind of the point of this challenge.

@@ -18,6 +18,10 @@ Day 12. Everyone's played Wordle. Let's see how close AI can get to the real thi
 
 > "Build a Wordle clone with a proper word list, tile animations, keyboard, statistics tracking, and share functionality."
 
+{{< alert icon="fire">}}
+Try out the game yourself [here](https://vibe30-day12-wordle.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 This one went through 7 Watchfire tasks, and watching the progression was interesting because it mirrors how you'd actually build a polished game if you had infinite patience.

@@ -20,6 +20,10 @@ Not a minimax algorithm that plays perfectly from the start. Not a random mover.
 
 > "Build a tic-tac-toe game with a Q-learning AI that learns from every game, persists its brain to localStorage, and shows real-time stats"
 
+{{< alert icon="fire">}}
+Try out the game yourself [here](https://vibe30-day16-tictactoe-evolved.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 [Watchfire](https://watchfire.io) broke this one into 4 tasks:

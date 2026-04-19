@@ -48,6 +48,10 @@ Everything syncs in real-time through Firebase Firestore with anonymous auth, so
 
 {{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day29-n0ti0n.vercel.app)
+{{< /alert >}}
+
 ## The Firestore Saga
 
 Here is the thing about this project that is actually worth talking about in detail. The editor itself came together relatively smoothly. Tiptap is well-documented, the extensions are modular, and Claude handled the integration without much hand-holding. The real challenge was getting Firestore to work properly in production.

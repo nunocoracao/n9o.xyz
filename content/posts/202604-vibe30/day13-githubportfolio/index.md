@@ -18,6 +18,10 @@ Day 13. What if you could turn any GitHub profile into a good-looking portfolio 
 
 > "Build a GitHub portfolio generator. Enter a username, get a polished portfolio with stats, repos, languages, and activity. Multiple templates, multiple color themes, export to HTML."
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day13-githubportfolio.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 Watchfire broke this down into 19 tasks. The core work started with GitHub API integration and pulling all the data you would want in a portfolio: profile info, repos, contribution activity, languages, organizations. From there it built out the template system, the theme engine, and all the export and sharing features.

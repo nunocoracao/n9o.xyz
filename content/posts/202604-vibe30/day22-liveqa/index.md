@@ -18,6 +18,10 @@ Day 22. I've been to enough events where the Q&A is a mess. People shouting over
 
 > "Build a live Q&A board where a host creates a session, the audience submits and upvotes questions in real-time, and the host can highlight, answer, dismiss, or close the session. Include a share modal with a QR code."
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day22-liveqa.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 This one went through 7 [Watchfire](https://watchfire.io) tasks, building up from the database layer to the final polish:

@@ -18,6 +18,10 @@ Day 19. I wanted something fun and interactive for live events. The kind of thin
 
 > "Build a live reaction wall for events. Create an event, share a link or QR code, and reactions fly across the screen in real time. Emoji bar at the bottom, text messages too. Full-screen projection mode. Firebase for real-time sync."
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day19-reaction-wall.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 [Watchfire](https://watchfire.io) broke this down into 9 tasks. The first few were foundational: setting up Firebase Realtime Database, event creation flow, and anonymous auth so nobody needs to sign up. Then came the emoji reaction bar, the animated flying reactions using Framer Motion, the full-screen display mode for projectors, sound toggle, and a final polish pass.

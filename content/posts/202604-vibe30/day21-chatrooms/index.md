@@ -18,6 +18,10 @@ Day 21. I wanted to build something that feels alive. Something where you can se
 
 > "Build a real-time chat rooms app. Anonymous auth with custom handles, room creation, live messaging, reactions, file sharing, typing indicators, and online presence."
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day21-chatrooms.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 This one went through 7 [Watchfire](https://watchfire.io) tasks, and the order made a lot of sense for a real-time app like this:

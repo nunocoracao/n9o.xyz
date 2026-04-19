@@ -20,6 +20,10 @@ Day 10. I asked for a Miro clone. A full infinite canvas with shapes, connectors
 
 That was the starting point. Everything else came from the task breakdown.
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day10-miroclone.vercel.app)
+{{< /alert >}}
+
 ## How It Was Built
 
 This one was big. Watchfire split it into 27 tasks, which is the most I've seen so far in this challenge. The breakdown covered:
