@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 15
 seriesOpened: false
 date: 2026-04-20
-draft: true
+draft: false
 #type: "hidden"
 ---
 
@@ -89,7 +89,7 @@ Combat balance is rough in the way you would expect from an auto-generated RPG. 
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day15-mybrute" >*/}}
+{{< github repo="nunocoracao/Vibe30-day15-mybrute" showThumbnail=true >}}
 
 **[Enter the Arena](https://vibe30-day15-mybrute.vercel.app)**
 
