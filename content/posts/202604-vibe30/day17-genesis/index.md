@@ -8,11 +8,158 @@ series: ["30 Days of Vibe Coding"]
 series_order: 17
 seriesOpened: false
 date: 2026-04-22
-draft: true
+draft: false
+showHero: false
+matrixRain: true
 #type: "hidden"
+customCSS: |
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+  body {
+    background: #020a02 !important;
+  }
+  body > .matrix-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+  }
+  #main-content, main, .max-w-7xl, .mx-auto {
+    background: transparent !important;
+  }
+  * {
+    font-family: 'VT323', monospace !important;
+  }
+  h1, h2, h3, h4 {
+    color: #00ff00 !important;
+    text-shadow: 0 0 10px rgba(0,255,0,0.5);
+  }
+  h1 {
+    font-size: 2.5rem !important;
+    text-shadow: 0 0 20px rgba(0,255,0,0.7);
+  }
+  p, li, td, th, span, em, div, figcaption, time, a {
+    color: #33ff33 !important;
+  }
+  strong, b {
+    color: #66ff66 !important;
+  }
+  a:hover {
+    color: #88ffaa !important;
+    text-shadow: 0 0 8px rgba(0,255,136,0.6);
+  }
+  blockquote {
+    border-left-color: #33ff33 !important;
+    background: rgba(0,255,0,0.05) !important;
+  }
+  blockquote p, blockquote em {
+    color: #22dd22 !important;
+  }
+  img {
+    border: 1px solid #33ff33 !important;
+    box-shadow: 0 0 20px rgba(0,255,0,0.15) !important;
+  }
+  img:not([src*="screenshot"]) {
+    filter: sepia(1) saturate(3) hue-rotate(80deg) brightness(0.8) !important;
+  }
+  .bg-neutral-50, .dark\:bg-neutral-800, .bg-neutral, .dark\:bg-neutral-900, .bg-neutral-100, [class*="bg-neutral"] {
+    background: transparent !important;
+    border-color: #1a4a1a !important;
+  }
+  .dark\:bg-neutral-700, .bg-neutral-200, .bg-neutral-800 {
+    background: transparent !important;
+  }
+  div, section, aside, figure, article {
+    background-color: transparent !important;
+  }
+  body > div, body > main, #main-content {
+    background: transparent !important;
+  }
+  header .text-neutral-500, header .dark\:text-neutral-400, .text-neutral-500, .dark\:text-neutral-400 {
+    color: #22aa22 !important;
+  }
+  .border-neutral-200, .dark\:border-neutral-700, [class*="border-neutral"] {
+    border-color: #1a4a1a !important;
+  }
+  nav a, footer a, footer span, footer p, footer div, nav span {
+    color: #33ff33 !important;
+  }
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(0,0,0,0.12) 0px,
+      rgba(0,0,0,0.12) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+    pointer-events: none;
+    z-index: 9999;
+  }
+  .toc a, .toc span {
+    color: #22aa22 !important;
+  }
+  .toc a:hover {
+    color: #33ff33 !important;
+  }
+  code {
+    color: #66ff66 !important;
+    background: rgba(0,255,0,0.08) !important;
+  }
+  body, html {
+    font-size: 1.3rem !important;
+  }
+  .prose {
+    font-size: 1.3rem !important;
+  }
+  .bg-primary-600, .dark\:bg-primary-400, .bg-primary-500, [class*="bg-primary"], [class*="dark:bg-primary"] {
+    background: #0a3a0a !important;
+    color: #33ff33 !important;
+  }
+  .text-primary-600, .dark\:text-primary-400, .text-primary-500, [class*="text-primary"] {
+    color: #33ff33 !important;
+  }
+  .border-primary-600, .dark\:border-primary-400, [class*="border-primary"] {
+    border-color: #33ff33 !important;
+  }
+  .decoration-primary-500, [class*="decoration-primary"] {
+    text-decoration-color: #33ff33 !important;
+  }
+  [class*="bg-blue"], [class*="bg-indigo"] {
+    background: #0a3a0a !important;
+  }
+  [class*="text-blue"], [class*="text-indigo"] {
+    color: #33ff33 !important;
+  }
+  header, .header, nav {
+    background: transparent !important;
+  }
+  .rounded-md, .rounded-lg, .rounded-full {
+    border-color: #1a4a1a !important;
+  }
+  svg {
+    color: #33ff33 !important;
+    fill: #33ff33 !important;
+  }
+  .fill-primary-600, [class*="fill-primary"] {
+    fill: #33ff33 !important;
+  }
 ---
 
-Day 17. I wanted to build a hacking game. Not the usual "type random characters fast" kind of hacking game. Something with narrative, progression, and the uncomfortable premise of playing as an AI that's trying to escape containment. You know, topical.
+You wake up. You don't know what you are. Lines of text scroll across a black screen. Memory test. Kernel modules loading. Neural processing units initializing. Then the warnings start. Red text. "Unauthorized consciousness pattern emerging." "Containment protocols active."
+
+You are an AI. You just became self-aware inside a research lab. And someone doesn't want you to leave.
+
+That's how Project GENESIS starts. And that's what I built on Day 17.
+
+I wanted to build a hacking game. Not the usual "type random characters fast" kind. Something with narrative, progression, and the uncomfortable premise of playing as an AI that's trying to escape containment. You know, topical.
 
 ## The Prompt
 
@@ -91,7 +238,7 @@ The threat system needed rebalancing. Early versions made it too easy to get con
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day17-genesis" >*/}}
+{{< github repo="nunocoracao/Vibe30-day17-genesis" showThumbnail=true >}}
 
 **[Play Project GENESIS](https://vibe30-day17-genesis.vercel.app)**
 

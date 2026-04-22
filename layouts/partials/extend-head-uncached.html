@@ -1,0 +1,127 @@
+{{/* Per-page custom CSS via frontmatter */}}
+{{ if .Params.customCSS }}
+  <style>
+    {{ .Params.customCSS | safeCSS }}
+  </style>
+{{ end }}
+
+{{/* Matrix rain background for pages with matrixRain: true */}}
+{{ if .Params.matrixRain }}
+<style>
+  .matrix-canvas {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+  }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var canvas = document.createElement('canvas');
+  canvas.className = 'matrix-canvas';
+  document.body.prepend(canvas);
+  var ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  // Half-width katakana + latin + digits
+  var chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ(){}[]<>*+=-_~!@#$%^&';
+  chars = chars.split('');
+
+  var fontSize = 14;
+  var columns = Math.floor(canvas.width / fontSize);
+  var drops = [];
+  var speeds = [];
+  var brightness = [];
+
+  for (var i = 0; i < columns; i++) {
+    drops[i] = Math.random() * -100;
+    speeds[i] = 0.3 + Math.random() * 0.8;
+    brightness[i] = 0.4 + Math.random() * 0.6;
+  }
+
+  var lastTime = 0;
+  var glitchTimer = 0;
+
+  function draw(timestamp) {
+    var delta = timestamp - lastTime;
+    if (delta < 45) { // cap ~22fps for that choppy feel
+      requestAnimationFrame(draw);
+      return;
+    }
+    lastTime = timestamp;
+    glitchTimer += delta;
+
+    // Fade trail
+    ctx.fillStyle = 'rgba(2, 10, 2, 0.12)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.font = fontSize + 'px monospace';
+
+    for (var i = 0; i < drops.length; i++) {
+      // Random char
+      var char = chars[Math.floor(Math.random() * chars.length)];
+      var y = drops[i] * fontSize;
+
+      // Lead character is bright white-green
+      if (Math.random() > 0.3) {
+        ctx.fillStyle = 'rgba(180, 255, 180, ' + (brightness[i] * 0.9) + ')';
+        ctx.fillText(char, i * fontSize, y);
+      }
+
+      // Trail characters in varying green
+      if (Math.random() > 0.7) {
+        var trailChar = chars[Math.floor(Math.random() * chars.length)];
+        var trailY = (drops[i] - 1 - Math.floor(Math.random() * 5)) * fontSize;
+        var trailAlpha = 0.03 + Math.random() * 0.06;
+        ctx.fillStyle = 'rgba(0, 255, 0, ' + trailAlpha + ')';
+        ctx.fillText(trailChar, i * fontSize, trailY);
+      }
+
+      // Glitch: randomly redraw a char in the trail brighter
+      if (Math.random() > 0.97) {
+        var glitchY = (drops[i] - Math.floor(Math.random() * 15)) * fontSize;
+        var glitchChar = chars[Math.floor(Math.random() * chars.length)];
+        ctx.fillStyle = 'rgba(0, 255, 70, 0.15)';
+        ctx.fillText(glitchChar, i * fontSize, glitchY);
+      }
+
+      drops[i] += speeds[i];
+
+      // Reset with randomness
+      if (y > canvas.height && Math.random() > 0.975) {
+        drops[i] = Math.random() * -20;
+        speeds[i] = 0.3 + Math.random() * 0.8;
+        brightness[i] = 0.4 + Math.random() * 0.6;
+      }
+    }
+
+    // Occasional column glitch burst
+    if (glitchTimer > 2000 && Math.random() > 0.95) {
+      glitchTimer = 0;
+      for (var g = 0; g < 3; g++) {
+        var col = Math.floor(Math.random() * columns);
+        for (var r = 0; r < 8; r++) {
+          var gy = Math.random() * canvas.height;
+          var gc = chars[Math.floor(Math.random() * chars.length)];
+          ctx.fillStyle = 'rgba(0, 255, 0, ' + (0.08 + Math.random() * 0.12) + ')';
+          ctx.fillText(gc, col * fontSize, gy);
+        }
+      }
+    }
+
+    requestAnimationFrame(draw);
+  }
+
+  requestAnimationFrame(draw);
+});
+</script>
+{{ end }}
