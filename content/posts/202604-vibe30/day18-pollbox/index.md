@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 18
 seriesOpened: false
 date: 2026-04-23
-draft: true
+draft: false
 #type: "hidden"
 ---
 
@@ -24,7 +24,7 @@ Try it out yourself [here](https://vibe30-day18-pollbox.vercel.app)
 
 ## How It Was Built
 
-[Watchfire](https://watchfire.ai) broke this down into 31 tasks. That's a lot for a polling app, but the feature list grew fast once you start thinking about all the little things that make a voting experience feel complete.
+[Watchfire](https://watchfire.io) broke this down into 31 tasks. That's a lot for a polling app, but the feature list grew fast once you start thinking about all the little things that make a voting experience feel complete.
 
 The core came first: Firebase real-time database integration, poll creation flow, voting mechanics, and the animated results view. Then it layered on everything else. Categories and templates for quick poll creation. Accessibility improvements. Loading skeletons so the app doesn't flash empty content. A proper 404 page. And of course, the usual round of deployment fixes at the end.
 
@@ -62,7 +62,7 @@ The deployment round was the main pain point. Firebase config needed adjustments
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day18-pollbox" >*/}}
+{{< github repo="nunocoracao/Vibe30-day18-pollbox" showThumbnail=true >}}
 
 **[Try PollBox](https://vibe30-day18-pollbox.vercel.app)**
 
