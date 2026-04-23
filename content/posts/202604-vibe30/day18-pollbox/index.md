@@ -70,11 +70,15 @@ Create a poll and share the link. No account needed.
 
 ## Day 18 Verdict
 
-The feature list here is dense. A real-time voting app with Firebase, animated results, QR sharing, emoji reactions, comments, CSV export, image export, templates, categories, password protection, and a dashboard. That's a production feature list crammed into a single day.
+This is the first project in the challenge with a real backend. And that matters more than the feature list.
+
+Every project until now ran entirely in the browser. LocalStorage, client-side state, no servers. That was a deliberate constraint to ship faster. But PollBox needed something different. Real-time multi-user interaction. Votes that persist. One-vote-per-user enforcement. You can't fake that with localStorage.
+
+What's worth noting is that Watchfire didn't just generate the frontend code. It set up the entire Firebase integration: Firestore collections and document structure, security rules, anonymous auth configuration, real-time listeners, Firestore transactions for vote enforcement, and the deployment config to make it all work on Vercel. That's not just "write me a React component." That's infrastructure, security, and deployment in one shot.
 
 The real-time piece is what makes it feel alive. You share a link, someone votes, and the bars move on your screen. No refresh needed. Firebase's real-time listeners plus Framer Motion animations make the whole thing feel responsive and polished in a way that static results never could.
 
-31 Watchfire tasks, and the depth shows.
+31 Watchfire tasks. The local-storage era is over.
 
 ---
 
