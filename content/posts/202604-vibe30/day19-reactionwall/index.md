@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 19
 seriesOpened: false
 date: 2026-04-24
-draft: true
+draft: false
 #type: "hidden"
 ---
 
@@ -63,7 +63,7 @@ Framer Motion is doing the heavy lifting on the visual side. Each reaction gets 
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day19-ReactionWall" >*/}}
+{{< github repo="nunocoracao/Vibe30-day19-ReactionWall" showThumbnail=true >}}
 
 **[Try ReactionWall](https://vibe30-day19-reaction-wall.vercel.app)**
 
