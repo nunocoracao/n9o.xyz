@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 20
 seriesOpened: false
 date: 2026-04-25
-draft: true
+draft: false
 #type: "hidden"
 ---
 
@@ -93,7 +93,7 @@ Nothing that broke the experience, but the kind of polish issues you'd want to c
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day20-moodboard" >*/}}
+{{< github repo="nunocoracao/Vibe30-day20-moodboard" showThumbnail=true >}}
 
 **[Open MoodBoard](https://vibe30-day20-moodboard.vercel.app)**
 
