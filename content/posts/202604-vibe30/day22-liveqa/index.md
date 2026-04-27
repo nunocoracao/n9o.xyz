@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 22
 seriesOpened: false
 date: 2026-04-27
-draft: true
+draft: false
 #type: "hidden"
 ---
 
@@ -62,9 +62,15 @@ This one went through 7 [Watchfire](https://watchfire.io) tasks, building up fro
 
 **Host gets moderation tools.** Each question shows highlight, mark answered, and dismiss buttons. Only the host sees these. There is also a close session button in the header that locks the whole thing down. The right column shows highlighted questions, or a placeholder message if none are highlighted yet.
 
-![Highlighted question](images/screenshot-08.png)
+![Full host view](images/screenshot-07.png)
 
 **Highlighting works well.** When the host highlights a question, it gets promoted to the right panel with the question text and the author's name displayed prominently. The question also gets a visual indicator in the main list so everyone can see it has been called out. On mobile, this highlighted section sits at the top of the page instead of in a side column.
+
+![Highlighted question](images/screenshot-08.png)
+
+![Upvoting in action](images/screenshot-09.png)
+
+**The upvoting creates a natural filter.** The best questions rise to the top. The host doesn't have to read through everything. The audience does the curation for you.
 
 ## The Bug Reports
 
@@ -72,25 +78,21 @@ This one was surprisingly clean. The Firestore real-time listeners handled the t
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day22-liveqa" >*/}}
+{{< github repo="nunocoracao/Vibe30-day22-liveqa" showThumbnail=true >}}
 
 **[Try LiveQ&A](https://vibe30-day22-liveqa.vercel.app)**
 
 Create a session and share the link. No account needed.
 
-## Screenshots
-
-![Host view](images/screenshot-07.png)
-
-![Upvoting](images/screenshot-09.png)
-
 ## Day 22 Verdict
 
-This is one of those projects where the real-time aspect makes or breaks it. If votes do not update instantly, if questions take a few seconds to appear, the whole thing feels broken. Firebase Firestore's real-time listeners handle that really well. You submit a question and it just appears for everyone. You upvote and the count ticks up across all screens. No WebSocket setup, no socket.io configuration, no pub/sub infrastructure. Just Firestore listeners doing their thing.
+Fourth Firebase project. At this point the pattern writes itself: anonymous auth, Firestore listeners, real-time sync. I could probably build one of these in my sleep. The tech stack isn't the story anymore.
 
-The host controls are what elevate this beyond a simple question list. Being able to highlight a question and have it show up prominently on everyone's screen turns this into an actual moderation tool. The dismiss button means the host can quietly remove off-topic or duplicate questions without making a scene.
+What is interesting about this one is the moderation layer. Most Q&A tools are just question lists with vote counts. The highlight feature changes that. When the host highlights a question, it broadcasts to every screen in the room. The audience sees what's being addressed. The host controls the flow without shouting "next question please" into a microphone. That's a product insight, not a technical one.
 
-Twenty-two days in and this is the second Firebase project this week. The pattern of anonymous auth plus Firestore listeners is proving to be a solid combo for anything that needs real-time collaboration without sign-up friction. It took 7 Watchfire tasks to go from nothing to a working live Q&A tool with moderation. Not bad for a day's work.
+Would I use this at a real talk? Yes. I've been to enough conferences where the Q&A devolves into whoever grabs the microphone first asking a five-minute "question" that's actually a comment. This fixes that. The audience votes, the best questions float up, the host picks what to address. The loudest voice in the room stops being the deciding factor.
+
+The dismiss button is quietly the most important feature. Off-topic questions, duplicates, someone trying to be funny. The host removes them and nobody even notices. No awkward "let's move on" moment. They just disappear.
 
 ---
 
