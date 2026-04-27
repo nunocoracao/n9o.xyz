@@ -19,7 +19,7 @@ draft: false
 > "做一个实时聊天室应用。匿名认证加自定义昵称、创建房间、实时消息、表情反应、文件分享、输入指示器和在线状态。"
 
 {{< alert icon="fire">}}
-自己试试看 [点这里](https://vibe30-day21-chatrooms.vercel.app)
+自己试试看 [点这里](https://vibe30-day21-chatrooms-nir8.vercel.app)
 {{< /alert >}}
 
 ## 怎么做的
@@ -71,7 +71,7 @@ Firebase 实时应用往往有一类 bug 只在多用户或重新连接时才会
 
 {{< github repo="nunocoracao/Vibe30-day21-chatrooms" showThumbnail=true >}}
 
-**[打开 ChatRooms](https://vibe30-day21-chatrooms.vercel.app)**
+**[打开 ChatRooms](https://vibe30-day21-chatrooms-nir8.vercel.app)**
 
 选个昵称开始聊天吧。创建房间或加入已有的房间。
 

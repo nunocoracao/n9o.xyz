@@ -19,7 +19,7 @@ Jour 21. Je voulais construire quelque chose qui semble vivant. Quelque chose o�
 > "Construis une appli de salons de discussion en temps réel. Authentification anonyme avec pseudos personnalisés, création de salons, messagerie en direct, réactions, partage de fichiers, indicateurs de frappe et présence en ligne."
 
 {{< alert icon="fire">}}
-Essayez par vous-même [ici](https://vibe30-day21-chatrooms.vercel.app)
+Essayez par vous-même [ici](https://vibe30-day21-chatrooms-nir8.vercel.app)
 {{< /alert >}}
 
 ## Comment ça a été construit
@@ -71,7 +71,7 @@ Les applis Firebase en temps réel ont tendance à avoir une catégorie de bugs 
 
 {{< github repo="nunocoracao/Vibe30-day21-chatrooms" showThumbnail=true >}}
 
-**[Ouvrir ChatRooms](https://vibe30-day21-chatrooms.vercel.app)**
+**[Ouvrir ChatRooms](https://vibe30-day21-chatrooms-nir8.vercel.app)**
 
 Choisis un pseudo et commence à chatter. Crée un salon ou rejoins-en un existant.
 

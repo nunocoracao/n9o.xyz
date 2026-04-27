@@ -19,7 +19,7 @@ Día 21. Quería construir algo que se sintiera vivo. Algo donde pudieras ver a 
 > "Construye una app de salas de chat en tiempo real. Autenticación anónima con nombres personalizados, creación de salas, mensajería en vivo, reacciones, compartir archivos, indicadores de escritura y presencia online."
 
 {{< alert icon="fire">}}
-Pruébalo tú mismo [aquí](https://vibe30-day21-chatrooms.vercel.app)
+Pruébalo tú mismo [aquí](https://vibe30-day21-chatrooms-nir8.vercel.app)
 {{< /alert >}}
 
 ## Cómo Se Construyó
@@ -71,7 +71,7 @@ Las apps de tiempo real con Firebase tienden a tener una categoría de bugs que 
 
 {{< github repo="nunocoracao/Vibe30-day21-chatrooms" showThumbnail=true >}}
 
-**[Abrir ChatRooms](https://vibe30-day21-chatrooms.vercel.app)**
+**[Abrir ChatRooms](https://vibe30-day21-chatrooms-nir8.vercel.app)**
 
 Elige un nombre y empieza a chatear. Crea una sala o únete a una existente.
 

@@ -19,7 +19,7 @@ Tag 21. Ich wollte etwas bauen, das sich lebendig anfühlt. Etwas, wo man andere
 > "Baue eine Echtzeit-Chaträume-App. Anonyme Authentifizierung mit eigenen Nutzernamen, Raumerstellung, Live-Messaging, Reaktionen, Dateifreigabe, Tipp-Anzeigen und Online-Präsenz."
 
 {{< alert icon="fire">}}
-Probier es selbst aus [hier](https://vibe30-day21-chatrooms.vercel.app)
+Probier es selbst aus [hier](https://vibe30-day21-chatrooms-nir8.vercel.app)
 {{< /alert >}}
 
 ## Wie Es Gebaut Wurde
@@ -71,7 +71,7 @@ Firebase-Echtzeit-Apps neigen dazu, eine Kategorie von Bugs zu haben, die nur mi
 
 {{< github repo="nunocoracao/Vibe30-day21-chatrooms" showThumbnail=true >}}
 
-**[ChatRooms Öffnen](https://vibe30-day21-chatrooms.vercel.app)**
+**[ChatRooms Öffnen](https://vibe30-day21-chatrooms-nir8.vercel.app)**
 
 Wähl einen Namen und fang an zu chatten. Erstell einen Raum oder tritt einem bestehenden bei.
 

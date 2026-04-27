@@ -19,7 +19,7 @@ draft: false
 > 「リアルタイムチャットルームアプリを作って。匿名認証でカスタムハンドル、ルーム作成、ライブメッセージング、リアクション、ファイル共有、タイピングインジケーター、オンラインプレゼンス付きで。」
 
 {{< alert icon="fire">}}
-自分で試してみてね [こちら](https://vibe30-day21-chatrooms.vercel.app)
+自分で試してみてね [こちら](https://vibe30-day21-chatrooms-nir8.vercel.app)
 {{< /alert >}}
 
 ## どうやって作ったか
@@ -71,7 +71,7 @@ Firebaseのリアルタイムアプリは、複数ユーザーや再接続時に
 
 {{< github repo="nunocoracao/Vibe30-day21-chatrooms" showThumbnail=true >}}
 
-**[ChatRoomsを開く](https://vibe30-day21-chatrooms.vercel.app)**
+**[ChatRoomsを開く](https://vibe30-day21-chatrooms-nir8.vercel.app)**
 
 ハンドルネームを決めてチャット開始。ルームを作るか、既存のルームに参加しよう。
 
