@@ -19,7 +19,7 @@ Giorno 19. Volevo qualcosa di divertente e interattivo per gli eventi dal vivo. 
 > "Costruisci un muro di reazioni dal vivo per eventi. Crea un evento, condividi un link o un QR code, e le reazioni volano sullo schermo in tempo reale. Barra di emoji in basso, anche messaggi di testo. Modalità a schermo intero per la proiezione. Firebase per la sincronizzazione in tempo reale."
 
 {{< alert icon="fire">}}
-Provalo tu stesso [qui](https://vibe30-day19-reaction-wall.vercel.app)
+Provalo tu stesso [qui](https://vibe30-day19-reactionwall.vercel.app)
 {{< /alert >}}
 
 ## Come è stato costruito
@@ -65,7 +65,7 @@ Framer Motion fa il lavoro pesante sul lato visivo. Ogni reazione ha la sua anim
 
 {{< github repo="nunocoracao/Vibe30-day19-ReactionWall" showThumbnail=true >}}
 
-**[Prova ReactionWall](https://vibe30-day19-reaction-wall.vercel.app)**
+**[Prova ReactionWall](https://vibe30-day19-reactionwall.vercel.app)**
 
 Crea un evento, apri il link sul telefono e inizia a mandarti reazioni da solo. È più soddisfacente di quanto dovrebbe essere.
 

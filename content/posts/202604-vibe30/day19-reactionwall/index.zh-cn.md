@@ -19,7 +19,7 @@ draft: false
 > "做一个活动用的实时反应墙。创建一个活动，分享链接或二维码，反应就会实时飞过屏幕。底部有表情栏，也能发文字消息。全屏投影模式。用Firebase做实时同步。"
 
 {{< alert icon="fire">}}
-自己试试看 [点这里](https://vibe30-day19-reaction-wall.vercel.app)
+自己试试看 [点这里](https://vibe30-day19-reactionwall.vercel.app)
 {{< /alert >}}
 
 ## 怎么做的
@@ -65,7 +65,7 @@ Framer Motion在视觉方面承担了大部分重活。每个反应都有自己�
 
 {{< github repo="nunocoracao/Vibe30-day19-ReactionWall" showThumbnail=true >}}
 
-**[试试ReactionWall](https://vibe30-day19-reaction-wall.vercel.app)**
+**[试试ReactionWall](https://vibe30-day19-reactionwall.vercel.app)**
 
 创建一个活动，在手机上打开链接，然后给自己发反应。比你想象的要爽得多。
 

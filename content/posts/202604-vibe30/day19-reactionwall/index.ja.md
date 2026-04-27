@@ -19,7 +19,7 @@ Day 19。ライブイベント向けに、楽しくてインタラクティブ�
 > 「イベント向けのライブリアクションウォールを作って。イベントを作成し、リンクかQRコードを共有すると、リアルタイムでリアクションが画面を飛び交う。下部に絵文字バー、テキストメッセージも送れるように。フルスクリーンのプロジェクションモード付き。リアルタイム同期にはFirebaseを使用。」
 
 {{< alert icon="fire">}}
-実際に試してみてね [こちら](https://vibe30-day19-reaction-wall.vercel.app)
+実際に試してみてね [こちら](https://vibe30-day19-reactionwall.vercel.app)
 {{< /alert >}}
 
 ## どうやって作ったか
@@ -65,7 +65,7 @@ Framer Motionがビジュアル面の重い部分を担当している。各リ�
 
 {{< github repo="nunocoracao/Vibe30-day19-ReactionWall" showThumbnail=true >}}
 
-**[ReactionWallを試す](https://vibe30-day19-reaction-wall.vercel.app)**
+**[ReactionWallを試す](https://vibe30-day19-reactionwall.vercel.app)**
 
 イベントを作って、スマホでリンクを開いて、自分にリアクションを送ってみて。思っている以上に気持ちいいから。
 
