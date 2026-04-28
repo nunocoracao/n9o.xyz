@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 23
 seriesOpened: false
 date: 2026-04-28
-draft: true
+draft: false
 #type: "hidden"
 ---
 
@@ -94,25 +94,13 @@ Minor stuff. The core experience was solid right away.
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day23-retroos" >*/}}
+{{< github repo="nunocoracao/Vibe30-day23-retroos" showThumbnail=true >}}
 
 **[Launch RetroOS](https://vibe30-day23-retroos.vercel.app)**
 
 Click the black screen to boot. Click Start to explore. Open everything. Try the Terminal commands. Draw something in Paint. Play Minesweeper. Find the BSOD.
 
-## Screenshots
-
-![Desktop with all apps](images/screenshot-01.png)
-
-![Boot sequence](images/screenshot-02.png)
-
-![Desktop icons](images/screenshot-05.png)
-
-![Start menu open](images/screenshot-06.png)
-
-![Paint and Calculator](images/screenshot-11.png)
-
-![Internet Explorer](images/screenshot-12.png)
+![Paint and Calculator side by side](images/screenshot-11.png)
 
 ![My Computer file browser](images/screenshot-14.png)
 
