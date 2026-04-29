@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 24
 seriesOpened: false
 date: 2026-04-29
-draft: true
+draft: false
 #type: "hidden"
 ---
 
@@ -17,6 +17,10 @@ Day 24. I rebuilt my own blog.
 This one's personal. My blog at [n9o.xyz](https://n9o.xyz) has been running on Hugo with my own theme, [Blowfish](https://blowfish.page), for years. I built Blowfish, I maintain it, thousands of people use it. But I've been wanting to move to something different for a while. A fresh visual identity, a different stack, something that feels more like me and less like a theme I made for everyone else.
 
 So today's project was Reblog: a ground-up redesign of n9o.xyz, rebuilt from Hugo to Astro 5 with Tailwind CSS.
+
+{{< alert icon="fire">}}
+Try it out yourself [here](https://vibe30-day24-reblog.vercel.app)
+{{< /alert >}}
 
 ## The Prompt
 
@@ -70,10 +74,6 @@ The whole thing also works in light mode with system preference detection. Same 
 
 The light version uses a warm cream background with the same typography. It automatically switches based on your OS settings, or you can toggle it manually.
 
-{{< alert icon="fire">}}
-Try it out yourself [here](https://vibe30-day24-reblog.vercel.app)
-{{< /alert >}}
-
 ## Under the Hood
 
 The tech choices here were deliberate:
@@ -96,7 +96,7 @@ Each iteration came back fast and mostly right. The visual design went through a
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day24-reblog" >*/}}
+{{< github repo="nunocoracao/Vibe30-day24-reblog" showThumbnail=true >}}
 
 **[Live Demo](https://vibe30-day24-reblog.vercel.app)**
 
