@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 25
 seriesOpened: false
 date: 2026-04-30
-draft: true
+draft: false
 #type: "hidden"
 ---
 
@@ -34,8 +34,6 @@ Try it out yourself [here](https://vibe30-day25-soundscape.vercel.app)
 
 ![SoundScape main view](images/screenshot-01.png)
 
-This turned out way more polished than I expected.
-
 **12 sounds across 3 categories.** Nature, Urban, and Cozy. Each one has its own card with a volume slider, and you can mix and match however you want. The Nature category has things like rain, forest, and ocean waves. Urban has coffee shop chatter and keyboard typing. Cozy has fireplace crackling.
 
 ![Master controls](images/screenshot-02.png)
@@ -50,7 +48,7 @@ This turned out way more polished than I expected.
 
 ![Sound grid - Cozy category](images/screenshot-06.png)
 
-**Every sound is procedurally generated.** This is the part that surprised me most. Rain is white noise shaped with filters. Wind is low-frequency oscillators with slow modulation. Birds are short sine wave chirps with randomized timing. The fireplace is filtered noise with crackle bursts. None of it sounds perfect, but it all sounds recognizable and blends together well enough that your brain fills in the gaps.
+**Every sound is procedurally generated.** Rain is white noise shaped with filters. Wind is low-frequency oscillators with slow modulation. Birds are short sine wave chirps with randomized timing. The fireplace is filtered noise with crackle bursts. None of it sounds perfect, but it all sounds recognizable and blends together well enough that your brain fills in the gaps.
 
 ![Lo-fi beat generator](images/screenshot-04.png)
 
@@ -74,7 +72,7 @@ Nothing major. The Web Audio API is powerful but unforgiving if you don't handle
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day25-soundscape" >*/}}
+{{< github repo="nunocoracao/Vibe30-day25-soundscape" showThumbnail=true >}}
 
 **[Open SoundScape](https://vibe30-day25-soundscape.vercel.app)**
 
