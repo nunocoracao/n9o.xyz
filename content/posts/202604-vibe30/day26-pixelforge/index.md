@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 26
 seriesOpened: false
 date: 2026-05-01
-draft: true
+draft: false
 #type: "hidden"
 ---
 
@@ -44,7 +44,7 @@ The landing page already set the tone. It shows starter templates (heart, sword,
 
 ![Canvas editor with toolbar and layer panel](images/screenshot-02.png)
 
-The editor itself is surprisingly complete. Along the top you get the full toolbar: pen, eraser, fill, line, rect, circle, and selection tools. On the left there's the expanded color palette with the custom picker. On the right there's the layer panel with foreground and background layers, each with visibility toggles.
+Along the top you get the full toolbar: pen, eraser, fill, line, rect, circle, and selection tools. On the left there's the expanded color palette with the custom picker. On the right there's the layer panel with foreground and background layers, each with visibility toggles.
 
 ![Pixel art being drawn on the canvas](images/screenshot-03.png)
 
@@ -90,7 +90,7 @@ The main issues I ran into during testing:
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day26-pixelforge" >*/}}
+{{< github repo="nunocoracao/Vibe30-day26-pixelforge" showThumbnail=true >}}
 
 **[Try PixelForge](https://vibe30-day26-pixelforge.vercel.app)**
 
@@ -98,9 +98,9 @@ Create a canvas and share the link. Anyone with the URL can draw with you.
 
 ## Day 26 Verdict
 
-This one surprised me with how much depth it ended up having. A pixel art canvas sounds simple, but once you add layers, symmetry, templates, timelapse, and real-time collaboration, you are looking at a legitimate creative tool.
+A pixel art canvas sounds simple, but once you add layers, symmetry, templates, timelapse, and real-time collaboration, you are looking at a legitimate creative tool.
 
-The Firebase integration is the core of the whole thing. Every pixel change goes through the Realtime Database, which means multiple people can genuinely draw on the same canvas at the same time. No polling, no refresh button, just live updates. The fact that all 13 tasks came together into something this cohesive from a single prompt is still wild to me.
+The Firebase integration is the core of the whole thing. Every pixel change goes through the Realtime Database, which means multiple people can genuinely draw on the same canvas at the same time. No polling, no refresh button, just live updates. All 13 tasks came together into something cohesive from a single prompt.
 
 Is it going to replace Aseprite or Piskel? No. But for quick collaborative pixel art sessions, it does the job. And the timelapse playback alone makes it worth trying. There is something really fun about watching a blank grid turn into art one pixel at a time.
 
