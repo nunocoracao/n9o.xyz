@@ -8,17 +8,23 @@ series: ["30 Days of Vibe Coding"]
 series_order: 27
 seriesOpened: false
 date: 2026-05-02
-draft: true
+draft: false
 #type: "hidden"
 ---
 
-Day 27. I asked an AI to build me a terminal emulator. A real one. Not a web toy that pretends to be a terminal, but an actual native desktop app that runs your shell.
+Day 27. Four days left. Time to stop playing it safe.
+
+The last stretch of this challenge is where I want to push into things that probably shouldn't work in a single day. A terminal emulator is one of those things. Not a web toy that pretends to be a terminal. An actual native desktop app that spawns real shell sessions, renders at 60fps, and handles everything from vim to htop.
 
 ## The Prompt
 
 > "Build a terminal emulator using Tauri 2 and Rust"
 
 That was the core ask. Everything else came from iteration.
+
+{{< alert icon="fire">}}
+Download it from the [latest release](https://github.com/nunocoracao/Vibe30-day27-terminal/releases/latest)
+{{< /alert >}}
 
 ## How It Was Built
 
@@ -51,8 +57,6 @@ Then came the CI/CD fixes. Getting Tauri to build and sign across macOS, Linux, 
 {{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
 
 ## What I Got
-
-This one floored me.
 
 ![Terminal running with multiple features visible](images/screenshot-01.png)
 
@@ -131,7 +135,7 @@ npm run tauri dev
 
 Requires Rust 1.77.2+ and Node.js 20+.
 
-{{/*< github repo="nunocoracao/Vibe30-day27-terminal" >*/}}
+{{< github repo="nunocoracao/Vibe30-day27-terminal" showThumbnail=true >}}
 
 ## The Numbers
 
