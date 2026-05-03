@@ -8,13 +8,19 @@ series: ["30 Days of Vibe Coding"]
 series_order: 28
 seriesOpened: false
 date: 2026-05-03
-draft: true
+draft: false
 #type: "hidden"
 ---
 
-Day 28. I asked an AI to build me a code editor. A native desktop code editor. Not a web app, not something running in a browser tab. An actual application you install on your machine.
+Day 28. Three days left. Yesterday was a terminal emulator. Today? A code editor.
+
+Not a web app. Not something running in a browser tab. A native desktop application you install on your machine. The kind of thing that takes teams years to build.
 
 ## The Prompt
+
+{{< alert icon="fire">}}
+Download it from the [latest release](https://github.com/nunocoracao/Vibe30-day28-idea/releases/latest)
+{{< /alert >}}
 
 > "Build a native desktop code editor using Wails v2 with Go backend and React frontend with Monaco Editor. File tree sidebar, tabs, syntax highlighting. Multi-platform builds for macOS, Linux, and Windows."
 
@@ -97,7 +103,7 @@ wails build
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day28-idea" >*/}}
+{{< github repo="nunocoracao/Vibe30-day28-idea" showThumbnail=true >}}
 
 ## The Numbers
 
@@ -108,11 +114,11 @@ wails build
 
 ## Day 28 Verdict
 
-This was the most complex build of the entire challenge, at least from an infrastructure perspective. The editor itself came together reasonably fast. Monaco Editor does a lot of the heavy lifting, and Wails makes the bridge between Go and React surprisingly clean. The hard part was everything around the code: getting CI to build native apps for three operating systems, handling platform-specific dependencies, packaging correctly for each target.
+The editor itself came together reasonably fast. Monaco Editor does a lot of the heavy lifting, and Wails makes the bridge between Go and React surprisingly clean. The hard part was everything around the code: getting CI to build native apps for three operating systems, handling platform-specific dependencies, packaging correctly for each target.
 
 Is this going to replace VS Code? Obviously not. But it's a working native code editor with a file tree, tabs, syntax highlighting, a command palette, an integrated terminal, and multi-platform releases. Built in a day. The fact that the same Monaco Editor that powers VS Code is available as a React component means you get a real editing experience for free. The rest is just plumbing, and that's exactly the kind of work AI is good at.
 
-43 tasks is a lot. Most days in this challenge were in the 15-25 range. But native desktop apps with CI pipelines are a different animal. Every platform has its quirks, every build system has its opinions, and none of them agree with each other. The fact that it shipped at all, for three platforms, with automated releases, still feels like a win.
+43 tasks is a lot. Most days in this challenge were in the 15-25 range. But native desktop apps with CI pipelines are a different animal. Every platform has its quirks, every build system has its opinions, and none of them agree with each other. Two more to go.
 
 ---
 
