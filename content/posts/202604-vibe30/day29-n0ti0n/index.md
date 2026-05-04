@@ -8,19 +8,25 @@ series: ["30 Days of Vibe Coding"]
 series_order: 29
 seriesOpened: false
 date: 2026-05-04
-draft: true
+draft: false
 #type: "hidden"
 ---
 
-Day 29. With one day left after this, I decided to go after something I use every single day: Notion. Not all of it, obviously. But the core experience of a block editor with nested pages, slash commands, and a clean sidebar for navigation. The result is n0ti0n, a surprisingly capable writing tool that came together faster than I expected... once I got past the deployment nightmare.
+Day 29. One day left after this. So I cloned Notion.
+
+Not all of it. But the core experience: a block editor with nested pages, slash commands, and a clean sidebar for navigation. The result is n0ti0n. It came together fast on the frontend. The deployment was a different story.
 
 ## The Prompt
 
 > "Build a Notion-inspired block editor with nested pages, slash commands, rich text formatting, code blocks with syntax highlighting, tables, task lists, and a sidebar for navigation. Use Tiptap for the editor, Firebase Firestore for real-time persistence, anonymous auth so anyone can try it, and dark mode."
 
+{{< alert icon="fire">}}
+Try it out yourself [here](https://blocknotes-lime.vercel.app)
+{{< /alert >}}
+
 ## What I Got
 
-This one turned out really well. The editor uses Tiptap 3, which is a fantastic block-based editor framework, and it gave me most of what I wanted out of the box with the right extensions. You get slash commands that pop up when you type `/`, letting you insert headings, lists, code blocks, tables, task lists, dividers, and even nested pages. Select any text and a bubble menu appears with inline formatting options like bold, italic, strikethrough, highlight, and links.
+The editor uses Tiptap 3, which is a fantastic block-based editor framework, and it gave me most of what I wanted out of the box with the right extensions. You get slash commands that pop up when you type `/`, letting you insert headings, lists, code blocks, tables, task lists, dividers, and even nested pages. Select any text and a bubble menu appears with inline formatting options like bold, italic, strikethrough, highlight, and links.
 
 ![Welcome page with sidebar navigation and feature overview](images/screenshot-02.png)
 
@@ -48,10 +54,6 @@ Everything syncs in real-time through Firebase Firestore with anonymous auth, so
 
 {{< github repo="watchfire-io/watchfire" showThumbnail=true >}}
 
-{{< alert icon="fire">}}
-Try it out yourself [here](https://vibe30-day29-n0ti0n.vercel.app)
-{{< /alert >}}
-
 ## The Firestore Saga
 
 Here is the thing about this project that is actually worth talking about in detail. The editor itself came together relatively smoothly. Tiptap is well-documented, the extensions are modular, and Claude handled the integration without much hand-holding. The real challenge was getting Firestore to work properly in production.
@@ -62,37 +64,21 @@ Locally everything worked perfectly. But in production, Firestore connections wo
 
 This is honestly one of the more realistic parts of the whole challenge. Building the UI is the fun part. Making it actually work in production with a real backend is where the time goes. And with AI-assisted coding, the debugging loop is interesting because Claude can suggest fixes quickly, but you still need to deploy, test, and iterate. The feedback cycle is slower than local development no matter how fast the AI is.
 
-[Watchfire](https://watchfire.ai) picked up the deployment issues almost immediately, which at least saved me from discovering them days later through user reports.
+[Watchfire](https://watchfire.io) picked up the deployment issues almost immediately, which at least saved me from discovering them days later through user reports.
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day29-n0ti0n" >*/}}
+{{< github repo="nunocoracao/Vibe30-day29-n0ti0n" showThumbnail=true >}}
 
-**[Live Demo](https://vibe30-day29-n0ti0n.vercel.app)**
-
-## Screenshots
+**[Live Demo](https://blocknotes-lime.vercel.app)**
 
 ![Editor with notes, lists, task items, and code blocks](images/screenshot-01.png)
 
-![Welcome page in dark mode](images/screenshot-02.png)
-
 ![Formatting toolbar on text selection](images/screenshot-03.png)
-
-![Sidebar navigation tooltip](images/screenshot-05.png)
-
-![Template picker](images/screenshot-06.png)
-
-![Page sharing options](images/screenshot-08.png)
-
-![Slash command menu](images/screenshot-10.png)
 
 ![Command palette for quick navigation](images/screenshot-13.png)
 
-![Travel itinerary template in dark mode](images/screenshot-14.png)
-
 ![Travel itinerary template in light mode](images/screenshot-15.png)
-
-![Mobile responsive view](images/screenshot-17.png)
 
 ## Day 29 Verdict
 
