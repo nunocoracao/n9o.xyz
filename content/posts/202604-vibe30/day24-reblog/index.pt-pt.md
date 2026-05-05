@@ -90,7 +90,7 @@ As escolhas tecnológicas aqui foram deliberadas:
 
 ## As 18 Tarefas
 
-O Watchfire dividiu isto em 18 tarefas, que é a decomposição mais granular que vi dele até agora. O lote inicial cobriu o essencial: scaffolding do projeto, componentes de layout, homepage, página de posts, página sobre, modo escuro. Depois continuei a adicionar pedidos. "Adiciona uma página de música." "Adiciona suporte de séries." "Os cartões em destaque precisam de mais contraste." "Adiciona estilos de impressão." "Adiciona dados estruturados."
+O Watchfire dividiu isto em 18 tarefas. O lote inicial cobriu o essencial: scaffolding do projeto, componentes de layout, homepage, página de posts, página sobre, modo escuro. Depois continuei a adicionar pedidos. "Adiciona uma página de música." "Adiciona suporte de séries." "Os cartões em destaque precisam de mais contraste." "Adiciona estilos de impressão." "Adiciona dados estruturados."
 
 Cada iteração voltou rápida e maioritariamente correta. O design visual passou por algumas rondas antes de chegar à paleta quente. A primeira versão era demasiado estéril. A segunda era demasiado escura. A terceira versão acertou no equilíbrio entre acolhedor e profissional.
 

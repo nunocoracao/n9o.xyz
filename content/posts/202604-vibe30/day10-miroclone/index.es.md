@@ -22,7 +22,7 @@ Ese fue el punto de partida. Todo lo demás vino del desglose de tareas.
 
 ## Cómo Se Construyó
 
-Este fue grande. Watchfire lo dividió en 27 tareas, que es lo máximo que he visto hasta ahora en este reto. El desglose cubrió:
+Este fue grande. Watchfire lo dividió en 27 tareas. El desglose cubrió:
 
 1. Formas y herramientas de dibujo (rectángulos, elipses, líneas, flechas)
 2. Herramienta de lápiz libre

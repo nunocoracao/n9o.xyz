@@ -90,7 +90,7 @@ Les choix techniques ici étaient délibérés :
 
 ## Les 18 tâches
 
-Watchfire a découpé ça en 18 tâches, ce qui est le découpage le plus granulaire que j'ai vu de sa part jusqu'ici. Le lot initial couvrait le cœur : scaffolding du projet, composants de layout, page d'accueil, page articles, page à propos, mode sombre. Puis j'ai continué à ajouter des demandes. "Ajouter une page musique." "Ajouter le support des séries." "Les cartes mises en avant ont besoin de plus de contraste." "Ajouter des styles d'impression." "Ajouter des données structurées."
+Watchfire a découpé ça en 18 tâches. Le lot initial couvrait le cœur : scaffolding du projet, composants de layout, page d'accueil, page articles, page à propos, mode sombre. Puis j'ai continué à ajouter des demandes. "Ajouter une page musique." "Ajouter le support des séries." "Les cartes mises en avant ont besoin de plus de contraste." "Ajouter des styles d'impression." "Ajouter des données structurées."
 
 Chaque itération revenait vite et était globalement correcte. Le design visuel est passé par quelques tours avant que j'atterrisse sur la palette chaude. La première version était trop stérile. La deuxième était trop sombre. La troisième version a trouvé le bon équilibre entre cosy et professionnel.
 

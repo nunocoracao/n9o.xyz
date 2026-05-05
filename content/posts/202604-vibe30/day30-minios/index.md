@@ -8,7 +8,7 @@ series: ["30 Days of Vibe Coding"]
 series_order: 30
 seriesOpened: false
 date: 2026-05-05
-draft: true
+draft: false
 #type: "hidden"
 ---
 
@@ -30,7 +30,7 @@ Try it out yourself [here](https://vibe30-day30-minios.vercel.app)
 
 ## How It Was Built
 
-[Watchfire](https://watchfire.io) broke this one down into 25 tasks. Twenty-five. That's more than any other project in the series, and it makes sense. This wasn't one app. It was a shell that had to contain all the other apps.
+[Watchfire](https://watchfire.io) broke this one down into 25 tasks. Not the highest count of the challenge (the code editor hit 43), but this one had the widest scope. This wasn't one app. It was a shell that had to contain all the other apps.
 
 The tasks covered everything you'd expect from an OS build (if you can call it that): core window management, the workspace system, taskbar and system tray, start menu, spotlight search, the alt-tab switcher, boot and login flows, the lock screen and screensaver, theming engine, wallpaper system with parallax, desktop widgets, and then each built-in app as its own task. The final tasks handled integrating all 30 Vibe30 projects as launchable apps and building a welcome tour.
 
@@ -60,7 +60,7 @@ It boots. There's a boot sequence animation with a loading bar and system messag
 
 ![Settings and themes](images/screenshot-05.png)
 
-**The built-in apps are surprisingly functional.** The File Manager browses a virtual filesystem. The Text Editor does undo/redo and can save/open files. The Terminal runs commands and has a working neofetch that shows system info for miniOs. The Calculator handles keyboard input. Paint lets you draw. The Calendar works.
+**The built-in apps work.** The File Manager browses a virtual filesystem. The Text Editor does undo/redo and can save/open files. The Terminal runs commands and has a working neofetch that shows system info for miniOs. The Calculator handles keyboard input. Paint lets you draw. The Calendar works.
 
 ![Built-in apps](images/screenshot-06.png)
 
@@ -95,7 +95,7 @@ Window management edge cases were the main theme. Every time I thought snapping 
 
 ## Try It
 
-{{/*< github repo="nunocoracao/Vibe30-day30-minios" >*/}}
+{{< github repo="nunocoracao/Vibe30-day30-minios" showThumbnail=true >}}
 
 **[Open miniOs](https://vibe30-day30-minios.vercel.app)**
 
@@ -105,9 +105,9 @@ Best experienced on desktop. Try the keyboard shortcuts: Cmd+K for spotlight, Ct
 
 I keep coming back to the absurdity of this. I asked an AI to build me an operating system and it did. Not a toy demo with a fake taskbar and nothing behind it. A thing with real window management, real workspace isolation, real keyboard navigation, real theming, and 40 working applications inside it.
 
-Is it a real OS? Obviously not. But it's a real piece of software. The window snapping alone is something I'd struggle to implement correctly on my own. The fact that all 30 projects from this challenge can run inside it, simultaneously, in their own windows, on separate workspaces... that's genuinely cool.
+Is it a real OS? Obviously not. But it's a real piece of software. The window snapping alone is something I'd struggle to implement correctly on my own. All 30 projects from this challenge can run inside it, simultaneously, in their own windows, on separate workspaces.
 
-Day 1, I built a platformer from one sentence. Day 30, I built an operating system that contains the platformer, and everything I made in between. The scope of what's possible in a single day has been the recurring theme of this whole challenge, and this is the most extreme example of it.
+Day 1, I built a platformer from one sentence. Day 30, I built an operating system that contains the platformer, and everything I made in between.
 
 Thirty projects. Thirty days. Done.
 

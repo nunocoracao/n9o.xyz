@@ -22,7 +22,7 @@ Era il punto di partenza. Tutto il resto è venuto dalla suddivisione dei task.
 
 ## Come È Stata Costruita
 
-Questo era grosso. Watchfire l'ha diviso in 27 task, il massimo che ho visto finora in questa challenge. La suddivisione copriva:
+Questo era grosso. Watchfire l'ha diviso in 27 task. La suddivisione copriva:
 
 1. Forme e strumenti di disegno (rettangoli, ellissi, linee, frecce)
 2. Strumento penna a mano libera

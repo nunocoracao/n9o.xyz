@@ -22,7 +22,7 @@ C'était le point de départ. Tout le reste est venu du découpage en tâches.
 
 ## Comment Ça a Été Construit
 
-Celui-là était énorme. Watchfire l'a découpé en 27 tâches, c'est le plus que j'ai vu jusqu'ici dans ce challenge. Le découpage couvrait :
+Celui-là était énorme. Watchfire l'a découpé en 27 tâches. Le découpage couvrait :
 
 1. Les formes et outils de dessin (rectangles, ellipses, lignes, flèches)
 2. L'outil stylo à main levée

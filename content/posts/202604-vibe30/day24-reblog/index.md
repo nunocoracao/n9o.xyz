@@ -90,7 +90,7 @@ The tech choices here were deliberate:
 
 ## The 18 Tasks
 
-Watchfire broke this into 18 tasks, which is the most granular breakdown I've seen from it so far. The initial batch covered the core: project scaffolding, layout components, homepage, posts page, about page, dark mode. Then I kept adding requests. "Add a music page." "Add series support." "The featured cards need more contrast." "Add print styles." "Add structured data."
+Watchfire broke this into 18 tasks. The initial batch covered the core: project scaffolding, layout components, homepage, posts page, about page, dark mode. Then I kept adding requests. "Add a music page." "Add series support." "The featured cards need more contrast." "Add print styles." "Add structured data."
 
 Each iteration came back fast and mostly right. The visual design went through a few rounds before I landed on the warm palette. The first version was too sterile. The second was too dark. The third version hit the right balance between cozy and professional.
 

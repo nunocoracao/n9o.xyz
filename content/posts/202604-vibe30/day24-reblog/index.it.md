@@ -90,7 +90,7 @@ Le scelte tecniche qui erano deliberate:
 
 ## Le 18 task
 
-Watchfire ha suddiviso tutto in 18 task, che è la suddivisione più granulare che abbia visto finora. Il lotto iniziale copriva il nucleo: scaffolding del progetto, componenti di layout, homepage, pagina post, pagina about, dark mode. Poi ho continuato ad aggiungere richieste. "Aggiungi una pagina musica." "Aggiungi il supporto alle serie." "Le card in evidenza hanno bisogno di più contrasto." "Aggiungi stili di stampa." "Aggiungi dati strutturati."
+Watchfire ha suddiviso tutto in 18 task. Il lotto iniziale copriva il nucleo: scaffolding del progetto, componenti di layout, homepage, pagina post, pagina about, dark mode. Poi ho continuato ad aggiungere richieste. "Aggiungi una pagina musica." "Aggiungi il supporto alle serie." "Le card in evidenza hanno bisogno di più contrasto." "Aggiungi stili di stampa." "Aggiungi dati strutturati."
 
 Ogni iterazione tornava veloce e per lo più corretta. Il design visivo è passato attraverso qualche round prima che trovassi la palette calda. La prima versione era troppo sterile. La seconda era troppo scura. La terza versione ha trovato il giusto equilibrio tra accogliente e professionale.
 

@@ -26,7 +26,7 @@ Try it out yourself [here](https://vibe30-day10-miroclone.vercel.app)
 
 ## How It Was Built
 
-This one was big. Watchfire split it into 27 tasks, which is the most I've seen so far in this challenge. The breakdown covered:
+This one was big. Watchfire split it into 27 tasks. The breakdown covered:
 
 1. Shapes and drawing tools (rectangles, ellipses, lines, arrows)
 2. Freehand pen tool

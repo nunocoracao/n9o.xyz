@@ -22,7 +22,7 @@ Das war der Ausgangspunkt. Alles andere kam aus dem Task-Breakdown.
 
 ## Wie Es Gebaut Wurde
 
-Dieses hier war groß. Watchfire hat es in 27 Tasks aufgeteilt, das ist das Maximum, was ich bisher in dieser Challenge gesehen habe. Das Breakdown deckte ab:
+Dieses hier war groß. Watchfire hat es in 27 Tasks aufgeteilt. Das Breakdown deckte ab:
 
 1. Formen und Zeichenwerkzeuge (Rechtecke, Ellipsen, Linien, Pfeile)
 2. Freihand-Stift-Werkzeug

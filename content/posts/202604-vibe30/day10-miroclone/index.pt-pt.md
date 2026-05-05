@@ -22,7 +22,7 @@ Foi esse o ponto de partida. Tudo o resto veio do desdobramento das tarefas.
 
 ## Como Foi Construído
 
-Este foi grande. O Watchfire dividiu tudo em 27 tarefas, o que é o máximo que vi até agora neste desafio. O desdobramento cobriu:
+Este foi grande. O Watchfire dividiu tudo em 27 tarefas. O desdobramento cobriu:
 
 1. Formas e ferramentas de desenho (rectângulos, elipses, linhas, setas)
 2. Ferramenta de caneta livre

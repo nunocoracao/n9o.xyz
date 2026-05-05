@@ -24,7 +24,7 @@ Try out the game yourself [here](https://vibe30-day15-mybrute.vercel.app)
 
 ## How It Was Built
 
-Watchfire split this into 27 tasks. That is the most tasks of any project so far, and it makes sense. This thing has a lot of systems that all need to talk to each other: combat math, XP curves, loot tables, pet behavior, prestige bonuses, tournament brackets, daily challenges, rival tracking, achievements, replays.
+Watchfire split this into 27 tasks. That's a lot, and it makes sense. This thing has a lot of systems that all need to talk to each other: combat math, XP curves, loot tables, pet behavior, prestige bonuses, tournament brackets, daily challenges, rival tracking, achievements, replays.
 
 The build started with the core combat engine and character creation, then layered on systems one at a time. The character design went through multiple iterations. I tried chibi-style characters, then a Hollow Knight-inspired look, then something with flowing cloaks. Eventually landed on these small hooded figures that read well at the scale they are rendered. Getting the character art right burned more Watchfire tasks than I would like to admit, but the final result has a nice dark medieval feel to it.
 

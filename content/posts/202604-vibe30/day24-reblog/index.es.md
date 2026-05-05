@@ -90,7 +90,7 @@ Las elecciones tecnológicas aquí fueron deliberadas:
 
 ## Las 18 Tareas
 
-Watchfire dividió esto en 18 tareas, que es el desglose más granular que he visto de él hasta ahora. El lote inicial cubrió lo esencial: scaffolding del proyecto, componentes de layout, homepage, página de posts, página sobre mí, modo oscuro. Después seguí agregando peticiones. "Agrega una página de música." "Agrega soporte de series." "Las tarjetas destacadas necesitan más contraste." "Agrega estilos de impresión." "Agrega datos estructurados."
+Watchfire dividió esto en 18 tareas. El lote inicial cubrió lo esencial: scaffolding del proyecto, componentes de layout, homepage, página de posts, página sobre mí, modo oscuro. Después seguí agregando peticiones. "Agrega una página de música." "Agrega soporte de series." "Las tarjetas destacadas necesitan más contraste." "Agrega estilos de impresión." "Agrega datos estructurados."
 
 Cada iteración volvió rápida y mayormente correcta. El diseño visual pasó por varias rondas antes de llegar a la paleta cálida. La primera versión era demasiado estéril. La segunda era demasiado oscura. La tercera versión dio con el equilibrio correcto entre acogedor y profesional.
 

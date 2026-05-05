@@ -90,7 +90,7 @@ Die Technologie-Entscheidungen hier waren bewusst:
 
 ## Die 18 Tasks
 
-Watchfire hat das in 18 Tasks aufgeteilt, was die detaillierteste Aufteilung ist, die ich bisher davon gesehen habe. Der erste Schwung deckte das Wesentliche ab: Projekt-Scaffolding, Layout-Komponenten, Homepage, Posts-Seite, Über-mich-Seite, Dark Mode. Dann habe ich weiter Anfragen hinzugefügt. "Füge eine Musik-Seite hinzu." "Füge Serien-Support hinzu." "Die hervorgehobenen Karten brauchen mehr Kontrast." "Füge Druck-Styles hinzu." "Füge strukturierte Daten hinzu."
+Watchfire hat das in 18 Tasks aufgeteilt. Der erste Schwung deckte das Wesentliche ab: Projekt-Scaffolding, Layout-Komponenten, Homepage, Posts-Seite, Über-mich-Seite, Dark Mode. Dann habe ich weiter Anfragen hinzugefügt. "Füge eine Musik-Seite hinzu." "Füge Serien-Support hinzu." "Die hervorgehobenen Karten brauchen mehr Kontrast." "Füge Druck-Styles hinzu." "Füge strukturierte Daten hinzu."
 
 Jede Iteration kam schnell zurück und war größtenteils richtig. Das visuelle Design durchlief ein paar Runden, bevor ich bei der warmen Palette gelandet bin. Die erste Version war zu steril. Die zweite war zu dunkel. Die dritte Version traf die richtige Balance zwischen gemütlich und professionell.
 
