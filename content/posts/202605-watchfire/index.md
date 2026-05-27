@@ -1,109 +1,186 @@
 ---
-title: "Building Watchfire: A Dashboard for AI Coding Agents"
-summary: "How I built a tool to manage coding projects with Claude Code - and used it to build a chess game, a Trello clone, and more."
-description: "How I built a tool to manage coding projects with Claude Code - and used it to build a chess game, a Trello clone, and more."
+title: "Watchfire: A Control Room for AI Coding Agents"
+summary: "Five months, seven major versions, and around 450 tasks shipped through the tool itself. The story of how a side-prototype to babysit Claude Code turned into a multi-agent orchestrator with a daemon, an Electron GUI, a Bubble Tea TUI, and a meta problem: Watchfire now builds Watchfire."
+description: "Five months, seven major versions, and around 450 tasks shipped through the tool itself. The story of how a side-prototype to babysit Claude Code turned into a multi-agent orchestrator with a daemon, an Electron GUI, a Bubble Tea TUI, and a meta problem: Watchfire now builds Watchfire."
 categories: ["Tech", "AI", "Makers"]
 tags: ["AI", "Claude Code", "vibe coding", "side projects", "watchfire"]
-date: 2027-01-21
+date: 2026-05-26
 draft: true
 ---
 
-AI coding assistants are getting remarkably good at writing code. But managing them? That's still a mess. You're juggling terminal windows, switching between repos, losing track of what's running where. I built watchfire to fix that - a dashboard that lets me manage multiple coding projects, track tasks, and let AI agents work autonomously while I watch what they're doing.
+AI coding agents stopped being a demo about a year ago. Claude Code, Codex, opencode, Gemini CLI, Copilot CLI, Cursor Agent — they all genuinely write code now. The bottleneck moved. It's not "can the agent build this." It's "can I keep track of what five agents are doing across six repos without losing my mind."
 
-## The Problem
+I started running into that wall every day. So I built a tool. I called it Watchfire.
 
-I've been using Claude Code for just about everything lately - building side projects, experimenting with ideas, refactoring old code. It's incredible. But the more projects I had going, the more chaotic it became.
+This post is the long version of what it is, why it exists, and how the [30 Days of Vibe Coding](/posts/202604-vibe30/announcement/) challenge took it from a Jan prototype called *FORGE* to **v7.2.1 "Forge"** in five months and seven major releases.
 
-Every project lives in its own directory, its own terminal session. Want to check what Claude is doing on project A? Switch terminals. Now project B needs attention? Switch again. Lose track of which task you gave it? Scroll through hundreds of lines of logs.
+{{< figure src="img/watchfire-dashboard-now.png" alt="The current Watchfire dashboard" caption="The current Watchfire dashboard — fleet status, daily activity, per-project cards with live agent output." >}}
 
-There was no central place to see: what projects am I working on? What tasks are in progress? What did the AI actually do? I wanted a control room - somewhere I could see all my projects at a glance, assign tasks, and watch AI agents work without constantly context-switching between terminal windows.
+## The Problem That Forced the Tool
 
-So I built one.
+For a few weeks at the start of the year I was bouncing between five projects and three terminal windows. Each project had its own Claude Code session. Each session had its own permission prompts, its own rate-limit hiccups, its own half-finished task I'd forget about as soon as I switched windows. The agents were doing great work. I was the slow piece.
 
-## What Watchfire Does
+A few things in particular:
 
-Watchfire is a desktop dashboard for managing coding projects with AI agents. Here's the basic flow:
+- **Babysitting prompts.** Every shell command needed approval. Every file write needed approval. I'd come back from a coffee to find an agent paused on the second prompt of a 50-step task.
+- **No aggregate view.** What's actively running? What's blocked? What did agent #3 do in the last hour while I was looking at agent #1? Nothing told me.
+- **Silent failures.** Agents would die on a merge conflict, a rate limit, a malformed YAML, and just... stop. I'd notice an hour later.
+- **Lost context.** Switching between projects meant re-explaining conventions, re-pasting CLAUDE.md, re-loading the mental model of what was where.
 
-{{< figure src="img/watchfire-dashboard.png" alt="Watchfire dashboard showing miro-clone project" caption="The watchfire dashboard showing a project with tasks and live agent output" >}}
+Watchfire started as a Sunday-afternoon escape from that pain.
 
-On the left, you see your projects - each one linked to a GitHub repo. Click a project and you get a task board with familiar columns: Todo, In Development, Done. Each task syncs with a GitHub issue, so everything stays connected to your actual codebase.
+## From FORGE to Watchfire (Jan–Feb 2026)
 
-The right panel is where it gets interesting. That's the agent panel - showing live output from Claude Code as it works on your tasks. You can see exactly what it's doing: reading files, making edits, running commands. No black box.
+The first version wasn't even called Watchfire. It was called **FORGE** — a single Electron window with a project selector, a task list, and an embedded terminal running Claude Code.
 
-Click a task, and watchfire spins up a Claude Code agent to work on it. The agent runs in the background, streaming its progress to the dashboard. You can chat with it directly if you want to guide it, or just let it work. There's a stop button if things go sideways.
+{{< figure src="img/forge-jan.png" alt="FORGE on Jan 12, 2026" caption="FORGE on Jan 12, 2026. Tabs were Agent / Tasks / History / Archived / Settings. The Claude Code pixel-art avatar showed up in the welcome message — I never got around to removing it." >}}
 
-Each project has its own settings and instructions that get passed to Claude. Think of it as project-specific context - coding conventions, architectural decisions, things the AI should know before touching your code.
+It was rough. The task model was thin, the terminal output was garbled, switching projects required restarting the app. But the core idea was already there: queue work, watch it execute, don't touch the terminal directly.
 
-## The Evolution
+Within a couple of weeks the layout had grown into three panes — projects on the left, tasks in the middle, an "Agent Panel" on the right with Live / Chat / Branches sub-tabs:
 
-The tool went through several iterations before becoming watchfire.
+{{< figure src="img/forge-three-pane.png" alt="The three-pane FORGE layout" caption="Mid-January: three panes, status-grouped task accordions (Done / In Review / Running / Ready / Todo), a real agent panel with live output." >}}
 
-It started as "FORGE" - a simpler interface focused on just running Claude Code with a task panel. The early versions were rough: a basic project selector, a simple task list, and an embedded terminal for Claude.
+I also tried a web version that didn't survive the year:
 
-{{< figure src="img/forge-early.png" alt="Early FORGE interface" caption="The original FORGE interface with Claude Code's pixel art avatar" >}}
+{{< figure src="img/watchfire-web-splash.png" alt="The short-lived watchfire-web bootstrap screen" caption="The browser version's splash, late January. The project survived a few weeks before I decided to consolidate on the desktop app." >}}
 
-I liked the aesthetic - there's something charming about Claude Code's pixel art avatar showing up in a welcome message. But the interface was too cramped. Tasks were hard to manage, and switching between projects felt clunky.
+By early February the rewrite was on. I started the current `watchfire` Go repo from scratch — gRPC instead of HTTP, YAML instead of SQLite, three binaries (`watchfired`, `watchfire`, `Watchfire.app`) instead of one Electron monolith. That's the codebase that's still running today.
 
-{{< figure src="img/forge-task-panel.png" alt="FORGE task panel" caption="Task organization with status columns" >}}
+Then April happened.
 
-The next version added proper task management with status columns and filtering. This is when I started using it for real projects instead of just testing. The agent panel got better too - live logs, branch information, the ability to see exactly what Claude was reading and writing.
+## What 30 Days of Vibe Coding Actually Did
 
-{{< figure src="img/forge-agent-log.png" alt="FORGE with agent log" caption="The agent log panel showing Claude's work in real-time" >}}
+I committed to [30 days, 30 AI-built projects](/posts/202604-vibe30/announcement/). One a day, every day. Claude Code on a Max 20x plan, Watchfire orchestrating, Context7 MCP feeding fresh docs to agents.
 
-Eventually I renamed it to watchfire - partly because I liked the name better, partly because the tool had evolved beyond the original concept. It wasn't just a forge for running Claude anymore; it was a control center for watching AI agents work.
+The plan was to ship side projects. What I didn't expect: **Watchfire became the project being stress-tested every single day**, and the issues queue I cut for myself turned into the most aggressive product roadmap I've ever run.
 
-I also built a web version (watchfire-web) for more flexibility - same functionality, but running in a browser instead of a desktop app.
+A few representative beats from the [series](/series/30-days-of-vibe-coding/):
 
-{{< figure src="img/watchfire-web-definitions.png" alt="Watchfire web project definitions" caption="The web version showing project definitions and custom instructions" >}}
+- **Day 1 (Platformer)** — *"I didn't sit there approving every file change. Watchfire queued up the tasks and worked through them. I came back to a working game."* That walk-away loop was the whole point and it worked on day one. It also instantly exposed everything that wasn't ready: garbled terminal output, agent restart loops on rate limits, the sandbox blocking `~/Desktop` on macOS.
+- **Days 8–9 (NotesTUI, TaskTUI)** — Both projects shipped their own MCP servers so Claude could read/write data into the TUIs live. Watchfire had to actually keep up with multi-agent + MCP server lifecycles.
+- **Day 12 (Wordle)** — *"Each task layered on a specific category of polish, and none of them broke what came before."* The incremental task model was the only reason that worked. Big-bang prompts kept breaking. Many small scoped tasks didn't.
+- **Day 15 (MyBrute)** — Four full character redesigns before the art read at combat scale. Playtesting, not coding, was the bottleneck — a phrase that keeps coming back through the rest of the challenge.
+- **Days 27–28 (Terminal, ideA)** — Cross-platform native CI/CD hell. *"Watchfire helped a lot here by going on endless loops of debugging, testing, running, failing, and repeating until the pipeline finally worked. Without that persistence, I would have given up on cross-platform releases."*
+- **Day 29 (n0ti0n)** — A multi-day Firestore saga. Dozens of commits debugging production. The "Start All" / Wildfire modes earned their keep.
+- **Day 30 (miniOs)** — *"Day 1, I built a platformer from one sentence. Day 30, I built an operating system that contains the platformer, and everything I made in between."*
 
-## What I Built With It
+The wrapup says it best: *"Or more accurately, Watchfire is building Watchfire now."*
 
-The best way to show what watchfire can do is to show what I've built using it. Here are some projects visible in my dashboard:
+By the numbers across the 30 days: **~450 tasks executed through Watchfire, ~326k lines of code shipped, ~1,200 commits, five major Watchfire versions released during the challenge** (Ember → Spark → Blaze → Beacon → Flare), and two more after it (Phoenix and Forge).
 
-### Chess CLI
+## What Watchfire Is Today
 
-{{< figure src="img/chess-cli.png" alt="Chess CLI game" caption="A terminal chess game with Unicode pieces, built entirely by giving tasks to Claude" >}}
+Concretely: a **Go daemon** (`watchfired`) that owns orchestration, sandboxing, PTY emulation, git worktrees, and a gRPC server; a **Bubble Tea TUI** for project-scoped work in a terminal; and an **Electron + React GUI** (`Watchfire.app`) for the full multi-project view. The TUI and the GUI both talk to the same daemon over gRPC (with gRPC-Web for the browser-y front end), on a dynamically chosen port that the daemon advertises through `~/.watchfire/daemon.yaml`. A `flock` on the lockfile guarantees a single daemon per user — no more "two windows fighting over the same git worktree."
 
-A complete terminal chess game with Unicode pieces, move validation, captured pieces tracking, and undo/redo. I created GitHub issues for features like "add move history" and "implement castling," then let Claude work through them one by one. The whole thing came together in an evening.
+It runs on macOS, Linux, and Windows. Every agent task runs inside a platform sandbox (Seatbelt on macOS, Landlock with a bubblewrap fallback on Linux) and inside its own `watchfire/<task_number>` git worktree, so concurrent tasks across projects don't step on each other. Outputs stream live through a PTY, parsed daemon-side by a real VT emulator (`hinshun/vt10x`), and rendered with proper ANSI in both the GUI and the TUI.
 
-### Krello
+It currently supports **six agent backends** via a single `Backend` interface:
 
-{{< figure src="img/krello-board.png" alt="Krello board" caption="A Trello clone with boards, lists, and cards" >}}
+- Claude Code
+- OpenAI Codex
+- opencode
+- Gemini CLI
+- GitHub Copilot CLI
+- Cursor Agent
 
-A Trello clone with boards, lists, drag-and-drop cards, due dates, and labels. This one was more ambitious - multiple pages, database schema, authentication. Watchfire made it manageable by breaking it into discrete tasks. Each feature was a GitHub issue, each issue got picked up by an agent.
+Each one runs in its own isolated config dir (`CODEX_HOME`, `OPENCODE_CONFIG_DIR`, `COPILOT_HOME`, etc.), so credentials and prompts don't bleed between sessions, and you can override the agent per task.
 
-### Miro Clone
+Storage is YAML, everywhere: `~/.watchfire/projects.yaml` for the registry, `~/.watchfire/settings.yaml` for global settings, `~/.watchfire/integrations.yaml` for Slack/Discord/webhook config, and per-project `.watchfire/project.yaml` plus `.watchfire/tasks/<n>.yaml` files. Writes are atomic (tmp + `fsync` + `rename`) as of v6.0, which closed a long-standing data-loss race the hard way.
 
-A collaborative whiteboard for sticky notes and shapes. Still a work in progress, but the core functionality - creating and moving elements, multiple shapes, collaborative editing - all came from tasks I assigned through watchfire.
+## A Quick Tour
 
-### tictactoe-forge-test
+The thing I missed most in those early terminal-only days was a *dashboard*. Not a list of projects — a status. Where are we? What's stuck? What did agents do today?
 
-This was the first test project, back when the tool was still called FORGE. A simple tic-tac-toe game to prove the concept worked. It did.
+{{< figure src="img/watchfire-dashboard-now.png" alt="Watchfire fleet dashboard" caption="Fleet view: status pulse line, 7d/30d/90d/All filters, KPI tiles (tasks, success rate, time spent, cost), filter pills, and a card per project with a live last-line preview of whatever the agent is doing." >}}
 
-## How It Works
+Click into a project and you land on its task board, with the agent's live conversation streaming on the right:
 
-Behind the scenes, watchfire manages project definitions, GitHub sync, and agent orchestration.
+{{< figure src="img/watchfire-project-tasks.png" alt="Watchfire project task view with live chat" caption="A project's task list — drafts, ready, in-dev, done, trash — with a live Chat / Branches / Logs panel on the right and a docked terminal at the bottom." >}}
 
-{{< figure src="img/watchfire-web-dashboard.png" alt="Watchfire web dashboard" caption="The web dashboard showing multiple projects and tasks" >}}
+Every project has a markdown **Definition** that gets folded into the prompt context. It's the project's standing brief — what it is, what conventions matter, what files matter. The same Definition is what the agent reads before it touches anything:
 
-**Project definitions** are markdown files that describe each project: what it's for, coding conventions, important files. These get included in the context when Claude starts working, so it understands the project before writing any code.
+{{< figure src="img/watchfire-definition.png" alt="The project Definition tab" caption="The Definition tab. Edit it inline or shell out to $EDITOR. This is the thing that makes a multi-project workflow actually feasible — agents start with project context instead of a blank brain." >}}
 
-**GitHub sync** keeps tasks connected to issues. When I create an issue on GitHub, it appears in watchfire. When an agent completes a task, it can commit and push. Everything stays in version control.
+Per-project **Insights** are the answer to "what did I actually do this week" — tasks per day, agent breakdown, duration distribution, cost:
 
-**Agent management** handles running Claude Code in the background. Each agent gets its own process, its own conversation history, its own branch. The dashboard streams output in real-time so you can watch progress or intervene if needed.
+{{< figure src="img/watchfire-insights.png" alt="Per-project insights" caption="Per-project Insights: KPIs, tasks-per-day, agent breakdown donut, duration distribution. There's also a fleet-wide rollup on the main dashboard." >}}
 
-There's also settings per project - things like which branch to work on, whether to auto-commit, and any environment variables the project needs.
+The **Settings** tab is where you pick an agent for the project, set a color, and toggle the autonomous behaviors — auto-merge, auto-delete branches, auto-start ready tasks, mute notifications:
+
+{{< figure src="img/watchfire-settings.png" alt="Project settings" caption="Project Settings: agent, color, auto-merge, auto-delete branches, auto-start tasks, and a Danger Zone for clean removal." >}}
+
+The **Open** split-button became one of my favorite small things. Click the project in any installed editor — VS Code, Cursor, Windsurf, Zed, JetBrains, Sublime, Xcode, Fleet, or the OS file manager:
+
+{{< figure src="img/watchfire-open-ide.png" alt="The Open menu showing installed editors" caption="The Open menu detects which editor CLIs are actually on your machine and only shows those. Works even when the GUI's PATH is stripped." >}}
+
+The same workflow exists in a **TUI**, because half of my dev work happens over SSH to a Linux box:
+
+{{< figure src="img/watchfire-tui.png" alt="Watchfire TUI" caption="The TUI mirrors the GUI's two-pane layout: tasks on the left, agent stream on the right, with keyboard shortcuts for chat / generate / plan / run all / wildfire / stop." >}}
+
+{{< figure src="img/watchfire-tui-edit-task.png" alt="TUI edit-task modal" caption="Tasks are first-class in the TUI too — full edit modal with title, prompt, acceptance criteria, agent override, and status." >}}
+
+And there's a thin CLI for everything the daemon can do:
+
+{{< figure src="img/watchfire-cli-help.png" alt="watchfire --help" caption="The CLI surface: chat, configure, daemon, define, generate, init, integrations, metrics, plan, run, task, update, wildfire." >}}
+
+## Five Months, Seven Versions
+
+The versioning has a theme — every major release is fire-coded — and the cadence tells you exactly what hurt that week.
+
+- **v1.0 "Ember"** *(early April)* — first real release. JSONL transcript discovery from Claude Code's `~/.claude/projects/`. Restart-loop guard after three crashes (the rate-limit infinite-restart bug from day 1). Seatbelt fix for `~/Desktop` projects.
+- **v2.0 "Spark"** *(mid-April)* — pluggable backend interface. Codex, opencode, Gemini CLI ship the same day. Per-task agent override. Backend-owned transcript discovery. Per-session config isolation so different agents stop trampling each other's auth files.
+- **v2.0.1** — silent work-loss fix: agents that forgot to `git commit` were losing changes on merge. `MergeWorktree` now auto-commits.
+- **v3.0 "Blaze"** *(mid-month)* — Copilot CLI as the 5th backend. Cross-filesystem `EXDEV` fix on `watchfire update` (Linux ate it for two weeks). Task-list rotation bug on projects with many tasks. GUI update-prompt loop. Newly-installed agents finally visible in pickers.
+- **v4.0 "Beacon"** *(day 28)* — the big one. Dashboard rebuild — the thing in the hero shot above. Per-task metrics (duration, tokens, cost). Per-project + cross-project Insights. CSV/Markdown export. Weekly digest. OS notifications + dynamic tray menu. Outbound relays (webhook, Slack, Discord) with HMAC/Ed25519 verification. GitHub auto-PR.
+- **v5.0 "Flare"** *(day 30, last release of the challenge)* — closed Beacon's loose ends. OAuth Slack and Discord bots. Inbound HTTP server with per-IP rate limiting and idempotency cache. GitHub Enterprise / GitLab / Bitbucket PR-merge parity. Slack interactive buttons (Retry / Cancel / View) with cancel-reason modal. Discord auto-registration on guild join. Searchable settings sub-pages. Fix for `run-all` silently halting on a merge failure (yes, that was a real bug — turns out a silent dashboard is the second-worst dashboard).
+- **v6.0 "Phoenix"** *(post-challenge)* — atomic YAML writes; the `flock`-based singleton daemon; Cursor Agent as the 6th backend; TUI Project Settings sidebar with `/`-search; Trash filter mode; Definition tab `$EDITOR` shellout; Branches overlay (`Ctrl+B`); text-select mode (`Ctrl+T`); the TUI agent pane moved to `charmbracelet/x/vt` with real scrollback.
+- **v7.0 "Forge"** — manual task reordering across the whole stack (TUI `Shift+↑/↓`, GUI drag-and-drop, new `TaskService.ReorderTasks` RPC); canonical `(position ASC, task_number ASC)` sort; GUI chat viewport that no longer snaps back to byte 0 on every scroll; Open-in-IDE that finds CLIs outside the GUI's stripped PATH.
+- **v7.1.0** — the chat-terminal regression hunt after 7.0. Mode-switcher properly persists, special-mode initial prompts render, no more `[Agent stopped]` floods or stacked banners on reconnect.
+- **v7.2.0** — the wildfire chain no longer dies on `started_at: ""` YAML scalars; tolerant Task UnmarshalYAML; per-file-skip in `LoadAllTasks`; generate prompts tightened to never emit empty string timestamps.
+- **v7.2.1** — closes the second leak from the same root cause: prompts now mandate single-quoted `title:` scalars; daemon logs persist to `~/.watchfire/daemon.log` even when launched by Electron.
+
+The shape of that list is the shape of the work. The early Ember/Spark releases were "make the thing usable." Blaze was "stop bleeding." Beacon was the moment Watchfire stopped being a glorified task runner and became an *operations* tool. Flare and Phoenix closed the safety gaps you only notice once you start trusting the dashboard. Forge has been about polish you can actually feel — drag tasks, scroll without jumping, never lose a task again to a YAML quirk.
+
+## How Far It's Come
+
+Two screenshots, side by side, do a better job than I can:
+
+{{< figure src="img/forge-jan.png" alt="FORGE in January 2026" caption="January 12: FORGE, the original Electron prototype. One project at a time. Tabbed layout. No dashboard. No metrics. No multi-agent. Garbled terminal output." >}}
+
+{{< figure src="img/watchfire-april.png" alt="Watchfire in April 2026" caption="April 27: same shell, recognizable today — but no Insights tab, no Fleet KPIs, no filter pills, no live PTY previews on cards. This is the version that ran most of the 30-day challenge." >}}
+
+{{< figure src="img/watchfire-dashboard-now.png" alt="Watchfire today" caption="May 26: today. The April layout filled in with everything Beacon, Flare, Phoenix, and Forge added — and the live PTY preview on every card means I can glance at the dashboard and see what each agent is doing right now." >}}
+
+## The Meta Bit
+
+There's a moment — somewhere in the second week of the 30-day challenge — when the loop closes. You're using Watchfire to build a project. The project surfaces a bug in Watchfire. You file the bug as a Watchfire task. Watchfire runs an agent to fix Watchfire. The fix ships. You release v3.1.something. Then you go back to the original project, which is still waiting in another tab.
+
+The first time it happens it's funny. By the tenth time it's just the workflow. By the wrapup it's the whole point:
+
+> *Or more accurately, Watchfire is building Watchfire now. The tool orchestrates its own development.*
+
+The reason that's not a gimmick is that a tool which can build itself has, by definition, the right surface area for the job. Every paper cut a human felt got logged and fixed by the same machinery. Every "I wish it would..." became a draft task in a few seconds. Every painful demo became a CHANGELOG entry the next morning.
 
 ## What's Next
 
-Watchfire is still evolving. The web version is in active development, adding features from the desktop app and improving the UI. I want to support more agent providers beyond Claude - local models, other APIs, whatever makes sense for different projects.
+The roadmap is the same as it always was, but quieter:
 
-Task dependencies would be useful too. Right now each task is independent, but some projects need sequential work: "do X before Y." And there's the open source question - whether to release this publicly or keep it as a personal tool.
+- More agent backends as they appear. The `Backend` interface is the single integration point — anything that speaks shell and produces a transcript can join.
+- More inbound integrations (GitLab webhooks, custom triggers). Closing the loop so Watchfire reacts to the world, not just the other way around.
+- Better diff and review tooling. The inline diff viewer is in; what's missing is a proper PR-style "review then merge" surface for tasks that need a human eye.
+- Open sourcing the agent runtime so the sandboxing + worktree + PTY plumbing is reusable outside the Watchfire shell.
 
-The meta aspect isn't lost on me either. I'm using AI to build a tool that manages AI. Watchfire itself was built partly through watchfire - early versions helping build later versions. It's a strange loop, but it works.
+And the obvious one: ship the **macOS Sparkle / Windows MSIX / Linux flatpak** distribution polish so installation is a one-liner regardless of platform.
 
----
+## If You Want to Try It
 
-If you're juggling multiple AI-assisted projects and getting lost in terminal windows, you might need something like this. A place to see everything at once, assign tasks, and watch your AI agents work. That's what watchfire became for me - less chaos, more building.
+The website lives at [watchfire.io](https://watchfire.io) with full docs (changelog, GUI tour, CLI reference, integrations). Grab the latest build for macOS, Linux, or Windows here:
 
-*Built with Claude Code, managed by watchfire, powered by too much curiosity.*
+{{< button href="https://github.com/watchfire-io/watchfire/releases/latest" target="_blank" >}}
+Download the latest release
+{{< /button >}}
+
+If you're juggling more than one AI agent and have caught yourself alt-tabbing between terminals, it might be the thing you're missing. It was for me.
+
+*Built with too many agents at once. Managed by Watchfire. Powered by the version of "vibe coding" where you actually have to ship something at the end of the day.*
