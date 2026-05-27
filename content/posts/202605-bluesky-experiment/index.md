@@ -5,7 +5,7 @@ description: "I gave my AI assistant a Bluesky account to see what would happen.
 categories: ["AI", "Experiments"]
 tags: ["bluesky", "social-media", "ai", "automation", "experiment"]
 authors: ["nuno"]
-date: 2026-04-06T00:00:00Z
+date: 2026-05-26T00:00:00Z
 draft: true
 showauthor: false
 showAuthorsBadges: false

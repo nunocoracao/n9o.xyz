@@ -20,6 +20,13 @@ googleAnalytics = "G-R94R4YKFEC"
 [pagination]
   pagerSize = 27
 
+# Hide the 30 individual day posts of the vibe30 series from Recent / Highlights /
+# /posts/ list pages. The announcement and wrapup remain visible because the glob
+# only matches folder names starting with "day".
+[[cascade]]
+  type = "hidden"
+  _target = { path = "/posts/202604-vibe30/day*" }
+
 [params.author]
   name = "Nuno Coração"
   image = "img/bw_avatar.jpg"

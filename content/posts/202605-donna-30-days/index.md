@@ -5,7 +5,7 @@ description: "Three weeks ago, I gave an AI assistant full access to my digital 
 categories: ["AI", "Meta"]
 tags: ["ai", "automation", "assistant", "reflection"]
 authors: ["nuno"]
-date: 2026-04-06T00:00:00Z
+date: 2026-05-26T00:00:00Z
 draft: true
 showauthor: false
 showAuthorsBadges: false

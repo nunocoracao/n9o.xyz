@@ -1,10 +1,10 @@
 ---
-title: "Consistency is Everything - entropy and the future of work"
+title: "initial kinetic force"
 summary: ""
 description: ""
 categories: []
 tags: []
-date: 2027-02-15
+date: 2026-05-26
 draft: true
 build:
   render: false

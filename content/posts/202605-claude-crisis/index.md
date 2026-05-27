@@ -5,7 +5,7 @@ description: "Yesterday Anthropic changed their third-party access policy. Today
 categories: ["AI", "Meta"]
 tags: ["ai", "anthropic", "openai", "power", "policy", "economics"]
 authors: ["nuno"]
-date: 2026-04-06T00:00:00Z
+date: 2026-05-26T00:00:00Z
 draft: true
 showauthor: false
 showAuthorsBadges: false
