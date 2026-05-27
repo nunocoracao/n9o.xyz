@@ -1,0 +1,62 @@
+{{/* Highlights — single section blending two buckets:
+       - Bucket 1: top N most-viewed posts of all time (popularCount, default 3)
+       - Bucket 2: top N most-viewed posts published in the last popularMonths
+                  (trendingCount, default 3) that are NOT already in bucket 1.
+     Bucket 2 is only included if at least one post exists in the date window. */}}
+{{ if site.Params.firebase.apiKey }}
+  {{ $months := site.Params.homepage.popularMonths | default 12 }}
+  {{ $popularCount := site.Params.homepage.popularCount | default 3 }}
+  {{ $trendingCount := site.Params.homepage.trendingCount | default 3 }}
+  {{ $cutoff := now.AddDate 0 (mul $months -1) 0 }}
+  {{ $allPages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+  {{ $recentPages := where $allPages "Date" "ge" $cutoff }}
+  {{ $includeTrending := gt (len $recentPages) 0 }}
+
+  {{ $skeletonCount := $popularCount }}
+  {{ if $includeTrending }}{{ $skeletonCount = add $popularCount $trendingCount }}{{ end }}
+
+  <section
+    id="highlights-section"
+    data-popular-count="{{ $popularCount }}"
+    {{ if $includeTrending }}
+      data-trending-count="{{ $trendingCount }}"
+      data-trending-since="{{ $cutoff.Format "2006-01-02" }}"
+    {{ end }}>
+    <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "highlights" | default "Highlights" }}</h2>
+    <div id="highlights-grid" class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+      {{ range seq $skeletonCount }}
+        <div class="highlights-skeleton" aria-hidden="true">
+          <div class="highlights-skeleton-img"></div>
+          <div class="highlights-skeleton-line highlights-skeleton-line-title"></div>
+          <div class="highlights-skeleton-line"></div>
+          <div class="highlights-skeleton-line highlights-skeleton-line-short"></div>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* Shared hidden source: every post card, tagged with doc ID and publish date.
+       JS clones from here into the highlights grid. */}}
+  <div id="highlights-source" style="display: none;">
+    {{ range $allPages }}
+      {{ $page := . }}
+      {{ $translations := .AllTranslations }}
+      {{ with .File }}
+        {{ $path := .Path }}
+        {{ range $translations }}
+          {{ $path = replace $path (print "." .Lang ".md") ".md" }}
+        {{ end }}
+        {{ $docId := printf "views_%s" (replace $path "/" "-") }}
+        <div data-doc-id="{{ $docId }}" data-date="{{ $page.Date.Format "2006-01-02" }}">
+          {{ partial "article-link/card.html" $page }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+
+  {{ $highlightsJS := resources.Get "js/highlights.js" }}
+  {{ if $highlightsJS }}
+    {{ $highlightsJS = $highlightsJS | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default "sha512") }}
+    <script type="module" src="{{ $highlightsJS.RelPermalink }}" integrity="{{ $highlightsJS.Data.Integrity }}"></script>
+  {{ end }}
+{{ end }}

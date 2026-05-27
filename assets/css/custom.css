@@ -264,3 +264,54 @@ td {
         width: 100%;
     }
 }
+
+/* Highlights section skeleton loader.
+   Visible immediately on page load; JS removes these once Firestore returns
+   and replaces them with real cards. Neutral colors so the shimmer reads in
+   both light and dark themes without depending on a parent .dark class. */
+.highlights-skeleton {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    background: rgba(128, 128, 128, 0.04);
+    border: 1px solid rgba(128, 128, 128, 0.08);
+}
+
+.highlights-skeleton-img,
+.highlights-skeleton-line {
+    background: linear-gradient(
+        90deg,
+        rgba(128, 128, 128, 0.08) 0%,
+        rgba(128, 128, 128, 0.22) 50%,
+        rgba(128, 128, 128, 0.08) 100%
+    );
+    background-size: 200% 100%;
+    animation: highlights-shimmer 1.5s ease-in-out infinite;
+    border-radius: 0.375rem;
+}
+
+.highlights-skeleton-img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    margin-bottom: 0.75rem;
+}
+
+.highlights-skeleton-line {
+    height: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.highlights-skeleton-line-title {
+    height: 1.25rem;
+    width: 75%;
+    margin-bottom: 0.75rem;
+}
+
+.highlights-skeleton-line-short {
+    width: 60%;
+    margin-bottom: 0;
+}
+
+@keyframes highlights-shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
