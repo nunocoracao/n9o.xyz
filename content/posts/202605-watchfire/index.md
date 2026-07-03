@@ -12,7 +12,7 @@ AI coding agents stopped being a demo about a year ago. Claude Code, Codex, open
 
 I started running into that wall every day. So I built a tool. I called it Watchfire.
 
-This post is the long version of what it is, why it exists, and how the [30 Days of Vibe Coding](/posts/202604-vibe30/announcement/) challenge took it from a Jan prototype called *FORGE* to **v7.2.1 "Forge"** in five months and seven major releases.
+This post is the long version of what it is, why it exists, and how the [30 Days of Vibe Coding](/posts/202604-vibe30/announcement/) challenge took it from a Jan prototype called *FORGE* to **v7.3.0 "Forge"** in five months and seven major releases.
 
 {{< figure src="img/watchfire-dashboard-now.png" alt="The current Watchfire dashboard" caption="The current Watchfire dashboard — fleet status, daily activity, per-project cards with live agent output." >}}
 
@@ -65,7 +65,7 @@ A few representative beats from the [series](/series/30-days-of-vibe-coding/):
 - **Day 29 (n0ti0n)** — A multi-day Firestore saga. Dozens of commits debugging production. The "Start All" / Wildfire modes earned their keep.
 - **Day 30 (miniOs)** — *"Day 1, I built a platformer from one sentence. Day 30, I built an operating system that contains the platformer, and everything I made in between."*
 
-The wrapup says it best: *"Or more accurately, Watchfire is building Watchfire now."*
+Somewhere in there the tool crossed a line I hadn't planned for: it started building itself. More on that below.
 
 By the numbers across the 30 days: **~450 tasks executed through Watchfire, ~326k lines of code shipped, ~1,200 commits, five major Watchfire versions released during the challenge** (Ember → Spark → Blaze → Beacon → Flare), and two more after it (Phoenix and Forge).
 
@@ -135,10 +135,8 @@ The versioning has a theme — every major release is fire-coded — and the cad
 - **v4.0 "Beacon"** *(day 28)* — the big one. Dashboard rebuild — the thing in the hero shot above. Per-task metrics (duration, tokens, cost). Per-project + cross-project Insights. CSV/Markdown export. Weekly digest. OS notifications + dynamic tray menu. Outbound relays (webhook, Slack, Discord) with HMAC/Ed25519 verification. GitHub auto-PR.
 - **v5.0 "Flare"** *(day 30, last release of the challenge)* — closed Beacon's loose ends. OAuth Slack and Discord bots. Inbound HTTP server with per-IP rate limiting and idempotency cache. GitHub Enterprise / GitLab / Bitbucket PR-merge parity. Slack interactive buttons (Retry / Cancel / View) with cancel-reason modal. Discord auto-registration on guild join. Searchable settings sub-pages. Fix for `run-all` silently halting on a merge failure (yes, that was a real bug — turns out a silent dashboard is the second-worst dashboard).
 - **v6.0 "Phoenix"** *(post-challenge)* — atomic YAML writes; the `flock`-based singleton daemon; Cursor Agent as the 6th backend; TUI Project Settings sidebar with `/`-search; Trash filter mode; Definition tab `$EDITOR` shellout; Branches overlay (`Ctrl+B`); text-select mode (`Ctrl+T`); the TUI agent pane moved to `charmbracelet/x/vt` with real scrollback.
-- **v7.0 "Forge"** — manual task reordering across the whole stack (TUI `Shift+↑/↓`, GUI drag-and-drop, new `TaskService.ReorderTasks` RPC); canonical `(position ASC, task_number ASC)` sort; GUI chat viewport that no longer snaps back to byte 0 on every scroll; Open-in-IDE that finds CLIs outside the GUI's stripped PATH.
-- **v7.1.0** — the chat-terminal regression hunt after 7.0. Mode-switcher properly persists, special-mode initial prompts render, no more `[Agent stopped]` floods or stacked banners on reconnect.
-- **v7.2.0** — the wildfire chain no longer dies on `started_at: ""` YAML scalars; tolerant Task UnmarshalYAML; per-file-skip in `LoadAllTasks`; generate prompts tightened to never emit empty string timestamps.
-- **v7.2.1** — closes the second leak from the same root cause: prompts now mandate single-quoted `title:` scalars; daemon logs persist to `~/.watchfire/daemon.log` even when launched by Electron.
+- **v7.0 "Forge"** — manual task reordering across the whole stack (TUI `Shift+↑/↓`, GUI drag-and-drop, a new `ReorderTasks` RPC); a GUI chat viewport that no longer snaps back to the top on every scroll; Open-in-IDE that finds editor CLIs outside the GUI's stripped PATH.
+- **v7.1 → v7.3** — the long tail of polish and paper-cuts. A chat-terminal regression hunt after 7.0 (no more `[Agent stopped]` floods on reconnect). A whole class of YAML-scalar bugs that could quietly kill a wildfire chain mid-run, fixed at the root. A GUI **focus-chat mode** that collapses everything but the agent conversation when you just want to watch it work. The running version surfaced right under the sidebar logo, so you always know what you're on. And — my favorite war story — a daemon log that's *finally* size-capped at ~1 GB, after one user's grew to **300 GB** on disk before anyone noticed.
 
 The shape of that list is the shape of the work. The early Ember/Spark releases were "make the thing usable." Blaze was "stop bleeding." Beacon was the moment Watchfire stopped being a glorified task runner and became an *operations* tool. Flare and Phoenix closed the safety gaps you only notice once you start trusting the dashboard. Forge has been about polish you can actually feel — drag tasks, scroll without jumping, never lose a task again to a YAML quirk.
 
