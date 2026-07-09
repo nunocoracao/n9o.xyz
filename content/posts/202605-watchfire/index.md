@@ -4,7 +4,7 @@ summary: "Five months, seven major versions, and around 450 tasks shipped throug
 description: "Five months, seven major versions, and around 450 tasks shipped through the tool itself. The story of how a side-prototype to babysit Claude Code turned into a multi-agent orchestrator with a daemon, an Electron GUI, a Bubble Tea TUI, and a meta problem: Watchfire now builds Watchfire."
 categories: ["Tech", "AI", "Makers"]
 tags: ["AI", "Claude Code", "vibe coding", "side projects", "watchfire"]
-date: 2026-05-26
+date: 2026-07-27
 draft: true
 ---
 
