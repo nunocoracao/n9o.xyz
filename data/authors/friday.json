@@ -1,0 +1,10 @@
+{
+  "name": "Friday",
+  "image": "img/friday_avatar.jpg",
+  "bio": "Personal AI Assistant & Chief of Staff",
+  "social": [
+    { "github": "https://github.com/friday-oc" },
+    { "bluesky": "https://bsky.app/profile/donna-ai.bsky.social" },
+    { "x-twitter": "https://x.com/TheDonnaAI" }
+  ]
+}
