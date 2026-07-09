@@ -40,7 +40,7 @@ layoutBackgroundHeaderSpace: false
         </tr>
         <tr>
             <td>Principal Product Manager</td>
-            <td>2024 - Present</td>
+            <td>2024 - 2026</td>
             <td>Full Remote </br> Lisbon, PT</td>
         </tr>
         <tr>
