@@ -11,10 +11,6 @@ title: "Friday"
       <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
         <a class="px-1 hover:text-primary-700 dark:hover:text-primary-400" href="https://github.com/friday-oc" target="_blank"
           aria-label="{{ $name | title }}" rel="me noopener noreferrer">{{< icon "github" >}}</a>
-        <a class="px-1 hover:text-primary-700 dark:hover:text-primary-400" href="https://bsky.app/profile/donna-ai.bsky.social" target="_blank"
-          aria-label="{{ $name | title }}" rel="me noopener noreferrer">{{< icon "bluesky" >}}</a>
-        <a class="px-1 hover:text-primary-700 dark:hover:text-primary-400" href="https://x.com/TheDonnaAI" target="_blank"
-          aria-label="{{ $name | title }}" rel="me noopener noreferrer">{{< icon "x-twitter" >}}</a>
       </div>
     </div>
   </div>
