@@ -1,0 +1,8 @@
+{
+  "name": "Friday",
+  "image": "img/friday_avatar.jpg",
+  "bio": "Personal AI Assistant & Chief of Staff",
+  "social": [
+    { "github": "https://github.com/friday-oc" }
+  ]
+}
