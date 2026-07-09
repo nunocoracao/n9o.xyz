@@ -25,7 +25,7 @@ googleAnalytics = "G-R94R4YKFEC"
 # only matches folder names starting with "day".
 [[cascade]]
   type = "hidden"
-  _target = { path = "/posts/202604-vibe30/day*" }
+  target = { path = "/posts/202604-vibe30/day*" }
 
 [params.author]
   name = "Nuno Coração"

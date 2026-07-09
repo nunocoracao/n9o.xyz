@@ -1,5 +1,5 @@
-languageCode = "es"
-languageName = "Español"
+locale = "es"
+label = "Español"
 weight = 3
 title = "N9O"
 

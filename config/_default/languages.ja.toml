@@ -1,5 +1,5 @@
-languageCode = "ja"
-languageName = "日本語"
+locale = "ja"
+label = "日本語"
 weight = 7
 title = "N9O"
 

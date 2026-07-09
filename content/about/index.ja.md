@@ -23,8 +23,10 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-プロダクトマネジメントの分野で10年以上の経験を持ち、開発者ツール、AI、通信、メディアなど幅広い領域でチームを率い、製品をローンチしてきました。動画プラットフォームやeSIMシステムから、現在では数百万人の開発者が日常的に使用するツールまで、多岐にわたります。現在はDockerでPrincipal Product Managerとして、AIに注力しています。これには、AIエージェントをオーケストレーションするCLIおよびランタイムである[cagent](https://github.com/docker/cagent)のオープンソース化、[DockerのMCPカタログ](https://github.com/docker/mcp-registry)のローンチ、そして[MCP Gateway](https://github.com/docker/mcp-gateway)のオープンソース化が含まれます。
+私は、他のビルダーが頼りにするものを作ることが好きなプロダクトマネージャーです。この10年間、開発者ツール、AI、通信、メディアといった分野でチームを率い、製品を世に送り出してきました。動画プラットフォームやeSIMシステムから、今では数百万人の開発者が日常的に使うツールまで、多岐にわたります。
 
-並行して、[Blowfish](https://blowfish.page)（人気のオープンソースHugoテーマ）のメンテナンス、アーリーステージのスタートアップへの製品・市場投入戦略のアドバイス、そして志望者や現役のPMへのメンタリングを行っています。執筆、実験、そしてより明確で自信を持ち、思いやりを持って構築するお手伝いをすることを楽しんでいます。
+現在はDockerでPrincipal Product Managerを務め、AIエージェントを開発者が実際に構築・実行できる実用的なものにすることに注力しています。具体的には、DockerのAIエージェントである[Gordon](https://www.docker.com/products/gordon/)をリリースし、その周辺ツールをオープンソース化してきました。エージェントをオーケストレーションする[Docker Agent](https://github.com/docker/cagent)、[MCP Catalog](https://github.com/docker/mcp-registry)、そして[MCP Gateway](https://github.com/docker/mcp-gateway)です。
 
-<a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a>
+私が最も愛しているのは、製品そのものを作り上げるという営みです。同じ衝動が私のサイドワークを突き動かしています。人気のオープンソースHugoテーマである[Blowfish](https://blowfish.page)をメンテナンスし、コーディングエージェントのオーケストレーターである[Watchfire](https://watchfire.io)を開発しています。創業者として、またAWS Startup Loftのスタートアップアドバイザーとしての経験から、アーリーステージのチームがより良い製品を作る手助けをしたり、PMがその役割へと成長していくのを支えたりすることが大好きです。執筆し、実験し、そして他の人がより明確に、自信を持って、丁寧にものづくりをする手助けをすることを楽しんでいます。
+
+これらのいずれかに共感いただけたら、いつでもお気軽にご連絡ください。

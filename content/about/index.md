@@ -23,8 +23,10 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-With over a decade of experience in product management, I’ve led teams and launched products across developer tooling, AI, telecom, and media — from video platforms and eSIM systems to tools now used daily by millions of developers. I’m currently a Principal Product Manager at Docker, where I focus on AI — including open-sourcing [cagent](https://github.com/docker/cagent), a CLI and runtime for orchestrating AI agents, the launch of the [Docker's MCP Catalog](https://github.com/docker/mcp-registry), and open-sourcing of the [MCP Gateway](https://github.com/docker/mcp-gateway).
+I’m a product manager who likes building things that other builders rely on. Over the past decade I’ve led teams and shipped products across developer tooling, AI, telecom, and media, from video platforms and eSIM systems to tools now used daily by millions of developers.
 
-In parallel, I maintain [Blowfish](https://blowfish.page) (a popular open-source Hugo theme), advise early-stage startups on product and go-to-market strategy, and mentor aspiring and working PMs. I enjoy writing, experimenting, and helping others build with more clarity, confidence, and care.
+Today I’m a Principal Product Manager at Docker, focused on making AI agents practical for developers to build and run. That’s meant shipping [Gordon](https://www.docker.com/products/gordon/), Docker’s AI agent, and open-sourcing the tools around it: [Docker Agent](https://github.com/docker/cagent) for orchestrating agents, the [MCP Catalog](https://github.com/docker/mcp-registry), and the [MCP Gateway](https://github.com/docker/mcp-gateway).
 
-<a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a>
+What I love most is the craft of building the product itself. That same itch drives my side work: I maintain [Blowfish](https://blowfish.page), a popular open-source Hugo theme, and build [Watchfire](https://watchfire.io), a coding-agent orchestrator. Having been a founder and a startup advisor at AWS Startup Loft, I love helping early-stage teams build better products, and helping PMs grow into the role. I enjoy writing, experimenting, and helping others build with more clarity, confidence, and care.
+
+If any of that resonates, I’m always happy to connect.

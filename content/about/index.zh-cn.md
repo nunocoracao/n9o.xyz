@@ -23,8 +23,10 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-凭借十多年的产品管理经验，我在开发者工具、人工智能、电信和媒体领域领导团队并推出产品——从视频平台和eSIM系统到如今被数百万开发者每天使用的工具。我目前是Docker的首席产品经理，专注于人工智能——包括开源[cagent](https://github.com/docker/cagent)（一个用于编排AI代理的CLI和运行时）、推出[Docker MCP Catalog](https://github.com/docker/mcp-registry)以及开源[MCP Gateway](https://github.com/docker/mcp-gateway)。
+我是一名产品经理，喜欢构建其他开发者所依赖的东西。在过去的十年里，我在开发者工具、人工智能、电信和媒体等领域带领团队并推出产品，从视频平台和eSIM系统，到如今被数百万开发者每天使用的工具。
 
-与此同时，我维护着[Blowfish](https://blowfish.page)（一个流行的开源Hugo主题），为早期创业公司提供产品和市场推广策略咨询，并指导有志于成为PM和在职PM的人员。我喜欢写作、实验，并帮助他人以更清晰、自信和用心的方式进行构建。
+如今我是Docker的首席产品经理，专注于让AI代理真正实用，便于开发者构建和运行。这意味着推出了Docker的AI代理[Gordon](https://www.docker.com/products/gordon/)，并将其周边工具开源：用于编排代理的[Docker Agent](https://github.com/docker/cagent)、[MCP Catalog](https://github.com/docker/mcp-registry)以及[MCP Gateway](https://github.com/docker/mcp-gateway)。
 
-<a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a>
+我最热爱的是打造产品本身这门手艺。同样的热情也驱动着我的业余项目：我维护着[Blowfish](https://blowfish.page)，一个流行的开源Hugo主题，并开发[Watchfire](https://watchfire.io)，一个编码代理编排器。作为曾经的创业者和AWS Startup Loft的创业顾问，我热衷于帮助早期团队打造更好的产品，并帮助产品经理在这个岗位上成长。我喜欢写作、实验，并帮助他人以更清晰、更自信、更用心的方式进行构建。
+
+如果这些内容能引起你的共鸣，我随时乐意与你交流。

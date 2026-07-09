@@ -23,8 +23,10 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-Com mais de uma década de experiência em gestão de produto, liderei equipas e lancei produtos nas áreas de ferramentas para programadores, IA, telecomunicações e media — desde plataformas de vídeo e sistemas eSIM até ferramentas usadas diariamente por milhões de programadores. Atualmente sou Principal Product Manager na Docker, onde me foco em IA — incluindo o open-sourcing do [cagent](https://github.com/docker/cagent), uma CLI e runtime para orquestração de agentes de IA, o lançamento do [Docker MCP Catalog](https://github.com/docker/mcp-registry) e o open-sourcing do [MCP Gateway](https://github.com/docker/mcp-gateway).
+Sou um product manager que gosta de construir coisas nas quais outros builders confiam. Ao longo da última década, liderei equipas e lancei produtos nas áreas de ferramentas para programadores, IA, telecomunicações e media, desde plataformas de vídeo e sistemas eSIM até ferramentas usadas diariamente por milhões de programadores.
 
-Em paralelo, mantenho o [Blowfish](https://blowfish.page) (um tema Hugo open-source popular), aconselho startups em fase inicial sobre estratégia de produto e go-to-market, e oriento PMs aspirantes e em atividade. Gosto de escrever, experimentar e ajudar outros a construir com mais clareza, confiança e cuidado.
+Atualmente sou Principal Product Manager na Docker, focado em tornar os agentes de IA práticos para os programadores construírem e executarem. Isso significou lançar o [Gordon](https://www.docker.com/products/gordon/), o agente de IA da Docker, e tornar open source as ferramentas à sua volta: o [Docker Agent](https://github.com/docker/cagent) para orquestrar agentes, o [MCP Catalog](https://github.com/docker/mcp-registry) e o [MCP Gateway](https://github.com/docker/mcp-gateway).
 
-<a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a>
+O que mais gosto é do ofício de construir o próprio produto. É esse mesmo impulso que move o meu trabalho paralelo: mantenho o [Blowfish](https://blowfish.page), um tema Hugo open source popular, e desenvolvo o [Watchfire](https://watchfire.io), um orquestrador de agentes de código. Tendo sido fundador e consultor de startups no AWS Startup Loft, adoro ajudar equipas em fase inicial a construir melhores produtos e acompanhar PMs a crescerem na função. Gosto de escrever, experimentar e ajudar outros a construir com mais clareza, confiança e cuidado.
+
+Se algo disto fizer sentido para ti, estou sempre disponível para conversar.
