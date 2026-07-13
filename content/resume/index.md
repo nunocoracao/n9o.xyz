@@ -35,6 +35,13 @@ layoutBackgroundHeaderSpace: false
     </thead>
     <tbody>
         <tr>
+            <td><img class="customEntitityLogo" src="elastic.png"/></td>
+            <td><a href="https://www.elastic.co/" target="_blank">Elastic</a></td>
+            <td>Principal Product Manager</td>
+            <td>2026 - Present</td>
+            <td>Full Remote </br> Lisbon, PT</td>
+        </tr>
+        <tr>
             <td rowspan=3><img class="customEntitityLogo" src="docker.png"/></td>
             <td rowspan=3><a href="https://www.docker.com/" target="_blank">Docker</a></td>
         </tr>

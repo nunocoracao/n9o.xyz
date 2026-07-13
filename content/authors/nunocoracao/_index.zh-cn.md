@@ -6,7 +6,7 @@ title: "Nuno Coração"
   <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
     src="/authors/nunocoracao/avatar.jpg" />
   <div class="place-self-center">
-    <div class="text-sm text-neutral-700 dark:text-neutral-400">Staff Product Manager</div>
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">Principal Product Manager @ Elastic</div>
     <div class="text-2xl sm:text-lg">
       <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
         <a class="px-1 hover:text-primary-700 dark:hover:text-primary-400" href="https://linkedin.com/in/nunocoracao" target="_blank"

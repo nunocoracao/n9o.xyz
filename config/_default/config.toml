@@ -30,9 +30,9 @@ googleAnalytics = "G-R94R4YKFEC"
 [params.author]
   name = "Nuno Coração"
   image = "img/bw_avatar.jpg"
-  headline = "Principal PM @ Docker"
+  headline = "Principal PM @ Elastic"
   subtitle = "🧠 Builder · AI, agents, infra · OSS · Mentor & startup advisor"
-  bio = "Principal Product Manager @ Docker"
+  bio = "Principal Product Manager @ Elastic"
   links = [
     { email = "mailto:nuno@n9o.xyz" },
     { rss = "https://n9o.xyz/index.xml" },

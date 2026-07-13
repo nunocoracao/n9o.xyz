@@ -23,10 +23,8 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-I’m a product manager who likes building things that other builders rely on. Over the past decade I’ve led teams and shipped products across developer tooling, AI, telecom, and media, from video platforms and eSIM systems to tools now used daily by millions of developers.
+I’m a product manager who likes building things that other builders rely on. Over the past decade I’ve led teams and shipped products across developer tooling, AI, telecom, and media, from video platforms and eSIM systems to tools now used daily by millions of developers. Most recently, I’ve focused on making AI agents practical for developers to build and run.
 
-Most recently, I was a Principal Product Manager at Docker, where I focused on making AI agents practical for developers to build and run. There I shipped [Gordon](https://www.docker.com/products/gordon/), Docker’s AI agent, and open-sourced the tools around it: [Docker Agent](https://github.com/docker/cagent) for orchestrating agents, the [MCP Catalog](https://github.com/docker/mcp-registry), and the [MCP Gateway](https://github.com/docker/mcp-gateway).
-
-What I love most is the craft of building the product itself. That same itch drives my side work: I maintain [Blowfish](https://blowfish.page), a popular open-source Hugo theme, and build [Watchfire](https://watchfire.io), a coding-agent orchestrator. Having been a founder and a startup advisor at AWS Startup Loft, I love helping early-stage teams build better products, and helping PMs grow into the role. I enjoy writing, experimenting, and helping others build with more clarity, confidence, and care.
+What I love most is the craft of building the product itself. That same itch drives my side work: I maintain [Blowfish](https://blowfish.page), a popular open-source Hugo theme, and build [Watchfire](https://watchfire.io), a coding-agent orchestrator. Having been a founder and a startup advisor, I love helping early-stage teams build better products, and helping PMs grow into the role. I enjoy writing, experimenting, and helping others build with more clarity, confidence, and care.
 
 If any of that resonates, I’m always happy to connect.

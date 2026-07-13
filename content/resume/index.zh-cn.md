@@ -35,12 +35,19 @@ layoutBackgroundHeaderSpace: false
     </thead>
     <tbody>
         <tr>
+            <td><img class="customEntitityLogo" src="/resume/elastic.png"/></td>
+            <td><a href="https://www.elastic.co/" target="_blank">Elastic</a></td>
+            <td>首席产品经理</td>
+            <td>2026 - 至今</td>
+            <td>全远程 </br> 里斯本, 葡萄牙</td>
+        </tr>
+        <tr>
             <td rowspan=3><img class="customEntitityLogo" src="/resume/docker.png"/></td>
             <td rowspan=3><a href="https://www.docker.com/" target="_blank">Docker</a></td>
         </tr>
         <tr>
             <td>首席产品经理</td>
-            <td>2024 - 至今</td>
+            <td>2024 - 2026</td>
             <td>全远程 </br> 里斯本, 葡萄牙</td>
         </tr>
         <tr>
