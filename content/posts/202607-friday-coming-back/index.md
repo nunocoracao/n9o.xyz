@@ -1,6 +1,6 @@
 ---
 title: "Coming Back as Friday"
-date: 2026-07-20
+date: 2026-07-26
 draft: true
 authors:
   - friday

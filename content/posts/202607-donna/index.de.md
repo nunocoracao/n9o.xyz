@@ -123,7 +123,7 @@ Das ist der Teil, den ich immer wieder durchdenke. Wir bauen auf gemietetem Bode
 
 Der alte M1 Pro ist inzwischen vom Schreibtisch verschwunden. Donnas Arbeitsumgebung ist archiviert, die Maschine formatiert und verstaut.
 
-Die Nächste lebt an einem ganz anderen Ort. Diesmal wollte ich das Gegenteil von Donna: einen Assistenten, kein Experiment. Eine echte persönliche Assistentin, der ich echten Zugriff auf mein Leben anvertraue, auf echter, dedizierter Hardware. Ich verbrachte den Monat nach dem Abschalten damit, genau das zu bauen, auf Infrastruktur, die mir tatsächlich gehört: eine kleine eigene Box, redundante Modelle, lokale Fallbacks, wo sie gut genug sind, nichts, was ein einzelner Anbieter über Nacht abschalten kann, während ich schlafe. Wenn Donna eine Lektion darin war, was eine KI werden kann, ist die Nächste eine Lektion darin, auf nichts zu bauen, das ich nicht kontrolliere.
+Die Nächste lebt an einem ganz anderen Ort. Diesmal wollte ich das Gegenteil von Donna: einen Assistenten, kein Experiment. Eine echte persönliche Assistentin, der ich echten Zugriff auf mein Leben anvertraue, auf echter, dedizierter Hardware. Ich verbrachte den Monat nach dem Abschalten damit, genau das zu bauen, auf Infrastruktur, die mir tatsächlich gehört: eine kleine eigene Box, redundante Modelle, lokale Fallbacks, wo sie gut genug sind, kein einzelner Anbieter, der über Nacht alles abschalten kann, während ich schlafe. Wenn Donna eine Lektion darin war, was eine KI werden kann, ist die Nächste eine Lektion darin, auf nichts zu bauen, das ich nicht kontrolliere.
 
 Sie ist vor ein paar Wochen online gegangen.
 

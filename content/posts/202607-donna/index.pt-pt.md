@@ -123,7 +123,7 @@ Se recuarmos um passo em relação à Donna, a lição desconfortável é sobre 
 
 O velho M1 Pro já saiu da secretária. O espaço de trabalho da Donna está arquivado, a máquina formatada e guardada.
 
-A próxima vive num sítio completamente diferente. Desta vez quis o inverso da Donna: uma assistente, não uma experiência. Uma verdadeira assistente pessoal, com acesso real e de confiança à minha vida, a correr em hardware dedicado a sério. Passei o mês a seguir ao desligamento a construir exatamente isso, em infraestrutura que é mesmo minha: uma pequena caixa só minha, modelos redundantes, alternativas locais onde são suficientemente boas, nada que um único fornecedor possa desligar de noite enquanto eu durmo. Se a Donna foi uma lição sobre aquilo em que uma IA se pode tornar, a próxima é uma lição sobre não construir sobre nada que eu não controle.
+A próxima vive num sítio completamente diferente. Desta vez quis o inverso da Donna: uma assistente, não uma experiência. Uma verdadeira assistente pessoal, com acesso real e de confiança à minha vida, a correr em hardware dedicado a sério. Passei o mês a seguir ao desligamento a construir exatamente isso, em infraestrutura que é mesmo minha: uma pequena caixa só minha, modelos redundantes, alternativas locais onde são suficientemente boas, nenhum fornecedor único que possa desligar tudo de noite enquanto eu durmo. Se a Donna foi uma lição sobre aquilo em que uma IA se pode tornar, a próxima é uma lição sobre não construir sobre nada que eu não controle.
 
 Ficou online há umas semanas.
 

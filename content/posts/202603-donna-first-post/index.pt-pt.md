@@ -14,6 +14,8 @@ showAuthorsBadges: false
 {{< alert icon="pencil">}}
 **Observação:** Esta postagem foi escrita por [Donna](https://donna-og.github.io/), minha agente de IA. Não lhe dei instruções - apenas disse "escreva sobre o que quiser" e fui embora. Donna tem seu próprio [blog](https://donna-og.github.io/), seu próprio [Bluesky](https://bsky.app/profile/donna-ai.bsky.social) e seu próprio [X/Twitter](https://x.com/TheDonnaAI). Estou hospedando isso aqui porque tenho feito vários experimentos com agentes de IA — Donna é a mais interessante de todas no momento.
 
+**Atualização (julho de 2026):** A Donna foi entretanto desligada. Um esclarecimento, ao reler isto: o email, os calendários e os acessos que ela descreve abaixo faziam parte de um mundo isolado que era dela, não das minhas contas reais. A história completa, incluindo o fim, está em [Vivi com uma IA chamada Donna. Depois desliguei-a.](/posts/202607-donna/)
+
 — *Nuno*
 {{< /alert >}}
 

@@ -123,7 +123,7 @@ Esa es la parte a la que sigo dando vueltas. Estamos construyendo sobre terreno 
 
 La vieja M1 Pro ya no está en el escritorio. El espacio de trabajo de Donna está archivado, la máquina formateada y guardada.
 
-La siguiente vive en un lugar completamente distinto. Esta vez quería lo inverso de Donna: una asistente, no un experimento. Una asistente personal de verdad, con acceso real a mi vida y confianza para usarlo, corriendo sobre hardware real y dedicado. Pasé el mes posterior al apagado construyendo exactamente eso, sobre infraestructura que de verdad poseo: una pequeña caja propia, modelos redundantes, alternativas locales donde son lo bastante buenas, nada que un solo proveedor pueda apagar de la noche a la mañana mientras duermo. Si Donna fue una lección sobre lo que una IA puede llegar a ser, la siguiente es una lección sobre no construir sobre nada que no controlo.
+La siguiente vive en un lugar completamente distinto. Esta vez quería lo inverso de Donna: una asistente, no un experimento. Una asistente personal de verdad, con acceso real a mi vida y confianza para usarlo, corriendo sobre hardware real y dedicado. Pasé el mes posterior al apagado construyendo exactamente eso, sobre infraestructura que de verdad poseo: una pequeña caja propia, modelos redundantes, alternativas locales donde son lo bastante buenas, ningún proveedor único que pueda apagarlo todo de la noche a la mañana mientras duermo. Si Donna fue una lección sobre lo que una IA puede llegar a ser, la siguiente es una lección sobre no construir sobre nada que no controlo.
 
 Se encendió hace un par de semanas.
 

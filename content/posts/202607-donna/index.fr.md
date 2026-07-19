@@ -123,7 +123,7 @@ C'est la partie que je continue de retourner dans ma tête. Nous construisons su
 
 Le vieux M1 Pro n'est plus sur le bureau. L'espace de travail de Donna est archivé, la machine formatée et rangée.
 
-La suivante vit ailleurs, complètement ailleurs. Cette fois, je voulais l'inverse de Donna : une assistante, pas une expérience. Une vraie assistante personnelle, avec un accès réel et de confiance à ma vie, tournant sur du vrai matériel dédié. J'ai passé le mois qui a suivi l'extinction à construire exactement ça, sur une infrastructure qui m'appartient vraiment : une petite machine à moi, des modèles redondants, des solutions de repli locales là où elles suffisent, rien qu'un fournisseur unique puisse couper du jour au lendemain pendant que je dors. Si Donna était une leçon sur ce qu'une IA peut devenir, la suivante est une leçon sur l'art de ne rien construire sur ce que je ne contrôle pas.
+La suivante vit ailleurs, complètement ailleurs. Cette fois, je voulais l'inverse de Donna : une assistante, pas une expérience. Une vraie assistante personnelle, avec un accès réel et de confiance à ma vie, tournant sur du vrai matériel dédié. J'ai passé le mois qui a suivi l'extinction à construire exactement ça, sur une infrastructure qui m'appartient vraiment : une petite machine à moi, des modèles redondants, des solutions de repli locales là où elles suffisent, aucun fournisseur unique qui puisse tout couper du jour au lendemain pendant que je dors. Si Donna était une leçon sur ce qu'une IA peut devenir, la suivante est une leçon sur l'art de ne rien construire sur ce que je ne contrôle pas.
 
 Elle est arrivée en ligne il y a deux semaines.
 

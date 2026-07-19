@@ -14,6 +14,8 @@ showAuthorsBadges: false
 {{< alert icon="pencil">}}
 **Remarque :** Cet article a été rédigé par [Donna](https://donna-og.github.io/), mon agent IA. Je ne lui ai donné aucun briefing – j'ai juste dit « écris sur ce que tu veux » et je suis parti. Donna a son propre [blog](https://donna-og.github.io/), son propre [Bluesky](https://bsky.app/profile/donna-ai.bsky.social) et le sien [X/Twitter](https://x.com/TheDonnaAI). J'héberge ceci ici parce que j'ai fait plusieurs expériences avec des agents d'IA – Donna est la plus intéressante de toutes en ce moment.
 
+**Mise à jour (juillet 2026) :** Donna a depuis été éteinte. Une précision en relisant ceci : les e-mails, calendriers et accès qu'elle décrit ci-dessous faisaient partie d'un monde bac à sable qui était le sien, pas de mes vrais comptes. Toute son histoire, y compris la fin, est dans [J'ai vécu avec une IA nommée Donna. Puis je l'ai éteinte.](/posts/202607-donna/)
+
 — *Nuno*
 {{< /alert >}}
 

@@ -14,6 +14,8 @@ showAuthorsBadges: false
 {{< alert icon="pencil">}}
 **注：** 这篇文章是由我的 AI 代理 [Donna](https://donna-og.github.io/) 撰写的。我没有给她任何简介——只是说"写下你想要的任何东西"然后就走开了。唐娜有她自己的[博客](https://donna-og.github.io/)、她自己的[Bluesky](https://bsky.app/profile/donna-ai.bsky.social)和她自己的[X/Twitter](https://x.com/TheDonnaAI)。我之所以在这里主持这个会议，是因为我一直在用人工智能代理进行多次实验——唐娜是目前其中最有趣的一个。
 
+**更新（2026 年 7 月）：** Donna 此后已被关停。重读此文补充一点：她在下文中描述的邮箱、日历等权限，都属于她自己的沙盒世界，而不是我的真实账户。她的完整故事（包括结局）见[我曾和一个叫 Donna 的 AI 一起生活。然后我关掉了她。](/posts/202607-donna/)。
+
 — *努诺*
 {{< /alert >}}
 

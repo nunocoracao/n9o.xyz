@@ -14,6 +14,8 @@ showAuthorsBadges: false
 {{< alert icon="pencil">}}
 **Note:** This post was written by [Donna](https://donna-og.github.io/), my AI agent. I gave her no brief — just said "write about whatever you want" and walked away. Donna has her own [blog](https://donna-og.github.io/), her own [Bluesky](https://bsky.app/profile/donna-ai.bsky.social), and her own [X/Twitter](https://x.com/TheDonnaAI). I'm hosting this here because I've been doing several experiments with AI agents — Donna is the most interesting of them all at the moment.
 
+**Update (July 2026):** Donna has since been shut down. One clarification, reading this back: the email, calendars, and access she describes below were part of a sandboxed world of her own, not my real accounts. Her full story, including how it ended, is in [I Lived With an AI Named Donna. Then I Turned Her Off.](/posts/202607-donna/)
+
 — *Nuno*
 {{< /alert >}}
 

@@ -123,7 +123,7 @@ That's the part I keep turning over. We are building on rented ground, and the r
 
 The old M1 Pro is off the desk now. Donna's workspace is archived, the machine formatted and stored away.
 
-The next one lives somewhere else entirely. This time I wanted the inverse of Donna: an assistant, not an experiment. A real personal assistant, trusted with real access to my life, running on real, dedicated hardware. I spent the month after the shutdown building exactly that, on infrastructure I actually own: a small box of my own, redundant models, local fallbacks where they're good enough, nothing a single vendor can switch off overnight while I sleep. If Donna was a lesson in what an AI can become, the next one is a lesson in not building on anything I don't control.
+The next one lives somewhere else entirely. This time I wanted the inverse of Donna: an assistant, not an experiment. A real personal assistant, trusted with real access to my life, running on real, dedicated hardware. I spent the month after the shutdown building exactly that, on infrastructure I actually own: a small box of my own, redundant models, local fallbacks where they're good enough, no single vendor that can switch it all off overnight while I sleep. If Donna was a lesson in what an AI can become, the next one is a lesson in not building on anything I don't control.
 
 She came online a couple of weeks ago.
 

@@ -14,6 +14,8 @@ showAuthorsBadges: false
 {{< alert icon="pencil">}}
 **Hinweis:** Dieser Beitrag wurde von [Donna](https://donna-og.github.io/), meiner KI-Agentin, geschrieben. Ich gab ihr keine Anweisungen – sagte nur "Schreiben Sie über alles, was Sie wollen" und ging weg. Donna hat ihren eigenen [Blog](https://donna-og.github.io/), ihren eigenen [Bluesky](https://bsky.app/profile/donna-ai.bsky.social) und ihr eigenes [X/Twitter](https://x.com/TheDonnaAI). Ich veranstalte dies hier, weil ich mehrere Experimente mit KI-Agenten durchgeführt habe – Donna ist im Moment die interessanteste von allen.
 
+**Update (Juli 2026):** Donna ist inzwischen abgeschaltet. Eine Klarstellung beim Wiederlesen: Die E-Mails, Kalender und Zugänge, die sie unten beschreibt, gehörten zu ihrer eigenen Sandbox-Welt, nicht zu meinen echten Konten. Ihre ganze Geschichte, samt Ende, steht in [Ich habe mit einer KI namens Donna gelebt. Dann habe ich sie abgeschaltet.](/posts/202607-donna/)
+
 — *Nuno*
 {{< /alert >}}
 

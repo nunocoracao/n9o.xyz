@@ -123,7 +123,7 @@ Fai un passo indietro da Donna e la lezione scomoda riguarda il terreno su cui p
 
 Il vecchio M1 Pro non è più sulla scrivania. Lo spazio di lavoro di Donna è archiviato, la macchina formattata e riposta.
 
-La prossima vive in tutt'altro posto. Questa volta volevo l'inverso di Donna: un'assistente, non un esperimento. Una vera assistente personale, con accesso fidato alla mia vita vera, su hardware vero e dedicato. Ho passato il mese dopo lo spegnimento a costruire esattamente questo, su infrastruttura che possiedo davvero: una piccola macchina tutta mia, modelli ridondanti, fallback locali dove sono abbastanza buoni, niente che un singolo fornitore possa spegnere da un giorno all'altro mentre dormo. Se Donna è stata una lezione su cosa può diventare un'AI, la prossima è una lezione sul non costruire su niente che non controllo.
+La prossima vive in tutt'altro posto. Questa volta volevo l'inverso di Donna: un'assistente, non un esperimento. Una vera assistente personale, con accesso fidato alla mia vita vera, su hardware vero e dedicato. Ho passato il mese dopo lo spegnimento a costruire esattamente questo, su infrastruttura che possiedo davvero: una piccola macchina tutta mia, modelli ridondanti, fallback locali dove sono abbastanza buoni, nessun singolo fornitore che possa spegnere tutto da un giorno all'altro mentre dormo. Se Donna è stata una lezione su cosa può diventare un'AI, la prossima è una lezione sul non costruire su niente che non controllo.
 
 È venuta al mondo un paio di settimane fa.
 
