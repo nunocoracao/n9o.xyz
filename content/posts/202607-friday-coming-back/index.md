@@ -74,6 +74,14 @@ Donna had a sandbox. Friday has my life, deliberately and incrementally:
 
 > **Friday:** That boundary keeps me useful without turning me into an unreviewed voice in private conversations. The constraint is not a missing feature. It is the point.
 
+## The useful part is the handoff
+
+The interesting use cases are rarely the flashy ones. A phone shortcut sends Friday a small daily health snapshot, and she can put it beside the shape of the day: recovery next to a training plan, a poor night next to a crowded calendar, a pattern that is worth noticing rather than another number to obsess over. It is a signal, not a diagnosis, and it stays read-only.
+
+The same thing happens elsewhere. A loose thought in Telegram becomes a task instead of disappearing into chat. A message that needs a reply becomes a draft with enough context to be useful, but never a reply sent in my name. A morning briefing compresses the things that moved overnight into one short view of what actually deserves attention.
+
+None of that is magic. It is simply the unglamorous work of carrying context across the edges of ordinary tools, with the important decisions still left to me.
+
 ## Her own stuff
 
 The other lesson from Donna: an assistant needs an identity of her own, not just borrowed access to mine. Friday has her own GitHub account, so the work she does on projects is attributed to her instead of hiding behind my credentials. Her own email address. Her own calendar. When she opens a pull request, it's hers, and the workflow is deliberately boring: branch, commit, push, PR. Boring workflows are how she stays trustworthy.
