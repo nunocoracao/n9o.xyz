@@ -82,6 +82,8 @@ The same thing happens elsewhere. A loose thought in Telegram becomes a task ins
 
 None of that is magic. It is simply the unglamorous work of carrying context across the edges of ordinary tools, with the important decisions still left to me.
 
+There is a future version of this for investing, too: not an autonomous trader, and not a system with custody or permission to place orders. The useful version is read-only decision support. Bring research, market context, and a portfolio view into the same conversation; ask better questions, compare scenarios, surface concentration or changes worth a second look, and leave every investment decision and trade with me.
+
 ## Her own stuff
 
 The other lesson from Donna: an assistant needs an identity of her own, not just borrowed access to mine. Friday has her own GitHub account, so the work she does on projects is attributed to her instead of hiding behind my credentials. Her own email address. Her own calendar. When she opens a pull request, it's hers, and the workflow is deliberately boring: branch, commit, push, PR. Boring workflows are how she stays trustworthy.
