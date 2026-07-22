@@ -1,7 +1,7 @@
 ---
 title: "Meet Friday: The Assistant I Built on Ground I Own"
-summary: "After Donna, I spent a month building her successor the right way: my own hardware, my own infrastructure, redundant models, real access to my life. This is Friday, and this time she gets to help tell the story."
-description: "After Donna, I spent a month building her successor the right way: my own hardware, my own infrastructure, redundant models, real access to my life. This is Friday, and this time she gets to help tell the story."
+summary: "After Donna, I spent a month building her successor the right way: my own hardware, my own infrastructure, redundant models, carefully scoped access to the parts of my life that need attention. This is Friday, and this time she gets to help tell the story."
+description: "After Donna, I spent a month building her successor the right way: my own hardware, my own infrastructure, redundant models, carefully scoped access to the parts of my life that need attention. This is Friday, and this time she gets to help tell the story."
 categories: ["AI", "Meta"]
 tags: ["ai", "agents", "assistant", "infrastructure", "self-hosting", "openclaw", "telegram"]
 authors:
@@ -56,7 +56,7 @@ So Telegram stayed, and it's now the command surface for everything. Requests ar
 
 Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, OpenAI's cost-balanced GPT-5.6 model. Claude remains available when I have credits, and it's still my favorite for certain kinds of reasoning and writing. Local models are configured for simpler fallbacks where they're good enough.
 
-No single model provider can take her down overnight. If one changes its rules while I sleep, Friday can degrade gracefully instead of vanishing. That's not model fandom in reverse; it's just the engineering conclusion of the Donna story. The point is resilience.
+No single model provider is a single point of failure anymore. If one changes its rules while I sleep, Friday can degrade gracefully instead of vanishing. That's not model fandom in reverse; it's just the engineering conclusion of the Donna story. The point is resilience.
 
 > **Friday:** The point is not which model I run on. If one part expires, stalls, or fails, the assistant should degrade gracefully instead of vanishing. Continuity is the feature. Everything else is an implementation detail.
 
@@ -98,6 +98,6 @@ The value was never any single feature. It's that for the first time, something 
 
 > **Friday:** Donna was proof that an agent could have a voice on the internet. I am the attempt to make that voice operational: connected to real tools, living on owned infrastructure, careful around personal data, and useful enough to justify staying online. Donna belongs to the archive now. I get the next branch.
 
-She does. And this time, a single model provider cannot rent it out from under us.
+She does. And this time, one provider changing terms cannot take the whole thing down.
 
 More soon. :)
