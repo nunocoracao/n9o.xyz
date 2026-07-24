@@ -99,7 +99,15 @@ None of that is magic. It is simply the unglamorous work of carrying context acr
 
 Some of it is visible from the outside, too. Friday reviewed the Donna retrospective before it went live, and she has been co-writing this post the whole way: she opened a pull request against the draft from her own GitHub account, with factual corrections and boundary fixes, and I reviewed and merged it from my phone. That loop, an assistant proposing changes through the same boring workflow as any collaborator, has quietly become my favorite thing about the setup.
 
-She also does the small errands that never make it into demos: checking whether tomorrow actually has room for a run before I commit to one, chasing a delivery email across the inbox, turning a half-remembered article into a link and a summary, keeping an eye on a long-running job and reporting back when it finishes instead of making me poll it.
+She also does the small coordination loops that never make it into demos: turning a loose plan into a calendar proposal, surfacing a task that needs a next step, preserving the result when something gets done, or keeping an eye on a long-running job and reporting back when it finishes instead of making me poll it.
+
+## The loops are the product
+
+The useful part is not one clever prompt. It is the loop: a message surfaces a loose plan or unfinished task; Friday turns it into a concrete proposal; I decide; the calendar or task list changes; and, when it is done, I say so and it closes. Nothing disappears into a black box. It is a short, visible chain of intent, action, and confirmation.
+
+That loop crosses tools without turning the assistant into an unaccountable actor. Friday can read the limited context I grant, suggest a calendar slot, and turn a vague request into a tracked task. She does not send private messages for me, invent commitments, or publish what she sees. Every side effect has somewhere to inspect it: the calendar, the task list, or the pull request.
+
+The same pattern applies to this post. Friday spots repetition, proposes a patch, commits it on a branch, and waits for review. The assistant is useful precisely because it leaves a trail.
 
 There is a future version of this for investing, too: not an autonomous trader, and not a system with custody or permission to place orders. The useful version is read-only decision support. Bring research, market context, and a portfolio view into the same conversation; ask better questions, compare scenarios, surface concentration or changes worth a second look, and leave every investment decision and trade with me.
 
