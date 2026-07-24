@@ -55,7 +55,7 @@ Beelink SER8 (Proxmox, bare metal)
 └── tailscale ............. private network, no open ports
 ```
 
-Every service has a narrow purpose and a health check. Proxmox snapshots the containers nightly, so workspace, configuration, mirrors, and databases are all captured together.
+Proxmox snapshots the containers nightly, so workspace, configuration, mirrors, and databases are all captured together.
 
 ## Still OpenClaw
 
