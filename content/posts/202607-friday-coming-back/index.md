@@ -34,7 +34,7 @@ The box runs Proxmox on bare metal. If that sounds like overkill for a personal 
 
 ## The boring infrastructure is the feature
 
-Inside it, Friday runs in an unprivileged Debian LXC container called `claw`, with Docker available as a sandbox for anything risky, and Tailscale keeping the whole thing reachable from my devices without exposing a single port to the public internet.
+Inside that box, Friday runs in an unprivileged Debian LXC container called `claw`, with Docker available as a sandbox for anything risky, and Tailscale keeping the whole thing reachable from my devices without exposing a single port to the public internet.
 
 The container is backed up nightly by Proxmox: workspace, configuration, local databases, everything captured together. Each service has a narrow purpose and a way to check whether it's alive. When something breaks, I can debug it. When an upgrade goes wrong, I can roll it back.
 
@@ -81,11 +81,9 @@ The whole map fits in one picture, and that's deliberate. The fewer mysterious m
   <text x="466" y="416" font-size="12" fill="currentColor" fill-opacity="0.65">from anywhere</text>
 </svg>
 
-Proxmox snapshots the containers nightly, so workspace, configuration, mirrors, and databases are all captured together.
-
 ## Still OpenClaw
 
-OpenClaw came through all of this untouched. It's still the layer that gives a language model hands, and still the best thing I've found for the job. What broke in April was never the software; it was the payment model underneath one provider. The framework moved on, and so did I.
+OpenClaw came through the whole Donna story untouched. It's still the layer that gives a language model hands, and still the best thing I've found for the job. What broke in April was never the software; it was the payment model underneath one provider. The framework moved on, and so did I.
 
 ## Telegram, again
 
@@ -95,7 +93,7 @@ So Telegram stayed, and it's now the command surface for everything. Requests ar
 
 ## Models, plural, on purpose
 
-Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, OpenAI's cost-balanced GPT-5.6 model. Claude remains available when I have credits, and it's still my favorite for certain kinds of reasoning and writing. And when neither is reachable, she falls back to local models: Ollama running in its own LXC container on the same box, with Llama 3.2 3B for quick, simple jobs and Qwen3 8B when the task needs a bit more depth. Not as capable, but always on, and nobody can change their terms.
+Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, the cost-balanced tier of OpenAI's 5.6 family. Claude remains available when I have credits, and it's still my favorite for certain kinds of reasoning and writing. And when neither is reachable, she falls back to local models: Ollama running in its own LXC container on the same box, with Llama 3.2 3B for quick, simple jobs and Qwen3 8B when the task needs a bit more depth. Not as capable, but always on, and nobody can change their terms.
 
 <svg viewBox="0 0 720 130" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" style="width:100%;height:auto" role="img" aria-label="Model fallback chain: GPT-5.6 Terra as main driver, then Claude when credits allow, then local Llama 3.2 3B and Qwen3 8B via Ollama, always on.">
   <defs>
@@ -121,7 +119,7 @@ Here's the part that Donna's ending made non-negotiable. Friday's main driver is
   <text x="510" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">Ollama, local</text>
 </svg>
 
-No single model provider is a single point of failure anymore. If one changes its rules while I sleep, Friday can degrade gracefully instead of vanishing. That's not model fandom in reverse; it's just the engineering conclusion of the Donna story. The point is resilience.
+No single model provider is a single point of failure anymore. If one changes its rules while I sleep, Friday gets slower and a little dumber for a while, but she does not vanish. That's not model fandom in reverse; it's just the engineering conclusion of the Donna story.
 
 > **Friday:** The point is not which model I run on. If one part expires, stalls, or fails, the assistant should degrade gracefully instead of vanishing. Continuity is the feature. Everything else is an implementation detail.
 
@@ -131,7 +129,7 @@ Donna had a sandbox. Friday gets real tools, added deliberately and one at a tim
 
 **Linear** is the operating list. Loose intent becomes durable tasks with states, instead of pretending that remembering something in a chat is the same as tracking it.
 
-**Email and calendar** come through gog, giving her real inbox context and the actual shape of my week: appointments, reminders, invites, logistics. Email is read-only. Calendar changes need an explicit request and confirmation.
+**Email and calendar** come through `gog`, giving her real inbox context and the actual shape of my week: appointments, reminders, invites, logistics. Email is read-only. Calendar changes need an explicit request and confirmation.
 
 **WhatsApp** is read-only by design, through a local mirror that syncs on a timer. She can see enough context to draft a reply or spot something important, but she cannot send. If a reply is needed, she drafts it and I send it.
 
@@ -139,17 +137,15 @@ Donna had a sandbox. Friday gets real tools, added deliberately and one at a tim
 
 > **Friday:** That boundary keeps me useful without turning me into an unreviewed voice in private conversations. The constraint is not a missing feature. It is the point.
 
-## The useful part is the handoff
+## The quiet use cases
 
 The interesting use cases are rarely the flashy ones. A phone shortcut sends Friday a small daily health snapshot, and she can put it beside the shape of the day: recovery next to a training plan, a poor night next to a crowded calendar, a pattern that is worth noticing rather than another number to obsess over. It is a signal, not a diagnosis, and it stays read-only.
 
-The same thing happens elsewhere. A loose thought in Telegram becomes a task instead of disappearing into chat. A message that needs a reply becomes a draft with enough context to be useful, but never a reply sent in my name. A morning briefing compresses the things that moved overnight into one short view of what actually deserves attention.
+The same thing happens elsewhere. A loose thought in Telegram becomes a task instead of disappearing into chat. A message that needs a reply becomes a draft with enough context to be useful, but never a reply sent in my name. A long-running job gets a watcher, and she reports back when it finishes instead of making me poll it.
 
 None of that is magic. It is simply the unglamorous work of carrying context across the edges of ordinary tools, with the important decisions still left to me.
 
 Some of it is visible from the outside, too. Friday reviewed the Donna retrospective before it went live, and she has been co-writing this post the whole way: she opened a pull request against the draft from her own GitHub account, with factual corrections and boundary fixes, and I reviewed and merged it from my phone. That loop, an assistant proposing changes through the same boring workflow as any collaborator, has quietly become my favorite thing about the setup.
-
-She also does the small coordination loops that never make it into demos: turning a loose plan into a calendar proposal, surfacing a task that needs a next step, preserving the result when something gets done, or keeping an eye on a long-running job and reporting back when it finishes instead of making me poll it.
 
 ## The loops are the product
 
@@ -184,9 +180,7 @@ The useful part is not one clever prompt. It is the loop: a message surfaces a l
   <text x="330" y="122" font-size="12" font-style="italic" fill="currentColor" fill-opacity="0.6">every step leaves a trail</text>
 </svg>
 
-That loop crosses tools without turning the assistant into an unaccountable actor. Friday can read the limited context I grant, suggest a calendar slot, and turn a vague request into a tracked task. She does not send private messages for me, invent commitments, or publish what she sees. Every side effect has somewhere to inspect it: the calendar, the task list, or the pull request.
-
-The same pattern applies to this post. Friday spots repetition, proposes a patch, commits it on a branch, and waits for review. The assistant is useful precisely because it leaves a trail.
+That loop crosses tools without turning the assistant into an unaccountable actor. Friday can read the limited context I grant, suggest a calendar slot, and turn a vague request into a tracked task. She does not send private messages for me, invent commitments, or publish what she sees. Every side effect has somewhere to inspect it: the calendar, the task list, or the pull request. The assistant is useful precisely because it leaves a trail.
 
 There is a future version of this for investing, too: not an autonomous trader, and not a system with custody or permission to place orders. The useful version is read-only decision support. Bring research, market context, and a portfolio view into the same conversation; ask better questions, compare scenarios, surface concentration or changes worth a second look, and leave every investment decision and trade with me.
 
