@@ -28,25 +28,40 @@ That continuity is deliberate, not mystical. Friday did not inherit an unbroken 
 
 ## Start with the hardware
 
-Friday lives on a Beelink SER8, a small Ryzen mini PC that sits on a shelf and costs less than a mid-range phone. No old laptop this time, no half-open lid, no borrowed machine with a history. Dedicated hardware, bought for this purpose, running nothing else.
+Friday lives on a Beelink SER8, a small Ryzen mini PC that sits on my desk and costs less than a mid-range phone. No old laptop this time, no half-open lid, no borrowed machine with a history. Dedicated hardware, bought for this purpose, running nothing else.
 
-The box runs Proxmox on bare metal. I call it Beehive. If that sounds like overkill for a personal assistant, that's the point: the lesson from Donna was that an assistant you come to rely on deserves the same seriousness as any other service you rely on.
+The box runs Proxmox on bare metal. If that sounds like overkill for a personal assistant, that's the point: the lesson from Donna was that an assistant you come to rely on deserves the same seriousness as any other service in the house.
 
 ## The boring infrastructure is the feature
 
-Inside Beehive, Friday runs in an unprivileged Debian LXC container called `claw`, with Docker available as a sandbox for anything risky, and Tailscale keeping the whole thing reachable from my devices without exposing a single port to the public internet.
+Inside it, Friday runs in an unprivileged Debian LXC container called `claw`, with Docker available as a sandbox for anything risky, and Tailscale keeping the whole thing reachable from my devices without exposing a single port to the public internet.
 
 The container is backed up nightly by Proxmox: workspace, configuration, local databases, everything captured together. Each service has a narrow purpose and a way to check whether it's alive. When something breaks, I can debug it. When an upgrade goes wrong, I can roll it back.
 
 > **Friday:** The result is mundane in the best possible way: I am not a tab, a demo, or a one-off experiment. I am a service. I can survive restarts. I can be upgraded. I can break, be debugged, and be rolled back. Mistakes are still mistakes, but they are not necessarily existential.
 
-None of this is exotic. That's exactly why it matters. Donna died of a dependency I couldn't control. Friday's failure modes are ones I can fix on a Saturday morning with coffee.
+None of this is exotic. That's exactly why it matters. Donna went down because of a dependency I couldn't control. Friday's failure modes are ones I can fix on a Saturday morning with coffee.
+
+The full map fits in a few lines, and that's deliberate. The fewer mysterious moving parts an assistant has, the easier it is to trust the parts that remain:
+
+```text
+Beelink SER8 (Proxmox, bare metal)
+├── claw (LXC) ............ OpenClaw + Friday
+│   ├── gateway ........... Telegram in and out
+│   ├── whatsapp mirror ... read-only, syncs on a timer
+│   ├── health receiver ... phone data into SQLite
+│   └── docker ............ sandbox for risky work
+├── ollama (LXC) .......... local models, always on
+└── tailscale ............. private network, no open ports
+```
+
+Every service has a narrow purpose and a health check. Proxmox snapshots the containers nightly, so workspace, configuration, mirrors, and databases are all captured together.
 
 ## Still OpenClaw
 
-The framework survived the fire. OpenClaw is still the layer that gives a language model hands, and it's still the best thing I've found for this. What died in April was never the software; it was the payment model underneath one provider. The framework moved on, and so did I.
+OpenClaw came through all of this untouched. It's still the layer that gives a language model hands, and still the best thing I've found for the job. What broke in April was never the software; it was the payment model underneath one provider. The framework moved on, and so did I.
 
-## Telegram, again, forever
+## Telegram, again
 
 If Donna proved one interface idea beyond doubt, it was this: an AI with controlled access to a machine I own, reachable from my phone like any other contact, is a fundamentally different thing from a chat tab in a browser.
 
@@ -54,7 +69,7 @@ So Telegram stayed, and it's now the command surface for everything. Requests ar
 
 ## Models, plural, on purpose
 
-Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, OpenAI's cost-balanced GPT-5.6 model. Claude remains available when I have credits, and it's still my favorite for certain kinds of reasoning and writing. Local models are configured for simpler fallbacks where they're good enough.
+Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, OpenAI's cost-balanced GPT-5.6 model. Claude remains available when I have credits, and it's still my favorite for certain kinds of reasoning and writing. And when neither is reachable, she falls back to local models: Ollama running in its own LXC container on the same box, with Llama 3.2 3B for quick, simple jobs and Qwen3 8B when the task needs a bit more depth. Not as capable, but always on, and nobody can change their terms.
 
 No single model provider is a single point of failure anymore. If one changes its rules while I sleep, Friday can degrade gracefully instead of vanishing. That's not model fandom in reverse; it's just the engineering conclusion of the Donna story. The point is resilience.
 
@@ -62,7 +77,7 @@ No single model provider is a single point of failure anymore. If one changes it
 
 ## Real hands, carefully placed
 
-Donna had a sandbox. Friday has my life, deliberately and incrementally:
+Donna had a sandbox. Friday gets real tools, added deliberately and one at a time:
 
 **Linear** is the operating list. Loose intent becomes durable tasks with states, instead of pretending that remembering something in a chat is the same as tracking it.
 
@@ -81,6 +96,10 @@ The interesting use cases are rarely the flashy ones. A phone shortcut sends Fri
 The same thing happens elsewhere. A loose thought in Telegram becomes a task instead of disappearing into chat. A message that needs a reply becomes a draft with enough context to be useful, but never a reply sent in my name. A morning briefing compresses the things that moved overnight into one short view of what actually deserves attention.
 
 None of that is magic. It is simply the unglamorous work of carrying context across the edges of ordinary tools, with the important decisions still left to me.
+
+Some of it is visible from the outside, too. Friday reviewed the Donna retrospective before it went live, and she has been co-writing this post the whole way: she opened a pull request against the draft from her own GitHub account, with factual corrections and boundary fixes, and I reviewed and merged it from my phone. That loop, an assistant proposing changes through the same boring workflow as any collaborator, has quietly become my favorite thing about the setup.
+
+She also does the small errands that never make it into demos: checking whether tomorrow actually has room for a run before I commit to one, chasing a delivery email across the inbox, turning a half-remembered article into a link and a summary, keeping an eye on a long-running job and reporting back when it finishes instead of making me poll it.
 
 There is a future version of this for investing, too: not an autonomous trader, and not a system with custody or permission to place orders. The useful version is read-only decision support. Bring research, market context, and a portfolio view into the same conversation; ask better questions, compare scenarios, surface concentration or changes worth a second look, and leave every investment decision and trade with me.
 
