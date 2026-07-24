@@ -42,18 +42,44 @@ The container is backed up nightly by Proxmox: workspace, configuration, local d
 
 None of this is exotic. That's exactly why it matters. Donna went down because of a dependency I couldn't control. Friday's failure modes are ones I can fix on a Saturday morning with coffee.
 
-The full map fits in a few lines, and that's deliberate. The fewer mysterious moving parts an assistant has, the easier it is to trust the parts that remain:
+The whole map fits in one picture, and that's deliberate. The fewer mysterious moving parts an assistant has, the easier it is to trust the parts that remain:
 
-```text
-Beelink SER8 (Proxmox, bare metal)
-├── claw (LXC) ............ OpenClaw + Friday
-│   ├── gateway ........... Telegram in and out
-│   ├── whatsapp mirror ... read-only, syncs on a timer
-│   ├── health receiver ... phone data into SQLite
-│   └── docker ............ sandbox for risky work
-├── ollama (LXC) .......... local models, always on
-└── tailscale ............. private network, no open ports
-```
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" style="width:100%;height:auto" role="img" aria-label="Architecture: a Beelink SER8 running Proxmox hosts the claw LXC container with OpenClaw and Friday plus gateway, WhatsApp mirror, health receiver and Docker sandbox, an ollama LXC with local models, and Tailscale connecting privately to my phone.">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="currentColor" opacity="0.6"/>
+    </marker>
+  </defs>
+  <rect x="10" y="10" width="700" height="340" rx="10" fill="none" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.5"/>
+  <text x="26" y="36" font-size="13" font-weight="600" fill="currentColor" fill-opacity="0.8">Beelink SER8 · Proxmox on bare metal</text>
+  <rect x="26" y="52" width="400" height="272" rx="8" fill="#6366f1" fill-opacity="0.07" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="40" y="78" font-size="13" font-weight="600" fill="currentColor">claw · LXC <tspan font-weight="400" fill-opacity="0.65">- OpenClaw + Friday</tspan></text>
+  <rect x="42" y="96" width="368" height="44" rx="6" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.3"/>
+  <text x="58" y="114" font-size="12" font-weight="600" fill="currentColor">gateway</text>
+  <text x="58" y="131" font-size="12" fill="currentColor" fill-opacity="0.65">Telegram, in and out</text>
+  <rect x="42" y="152" width="368" height="44" rx="6" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.3"/>
+  <text x="58" y="170" font-size="12" font-weight="600" fill="currentColor">WhatsApp mirror</text>
+  <text x="58" y="187" font-size="12" fill="currentColor" fill-opacity="0.65">read-only, syncs on a timer</text>
+  <rect x="42" y="208" width="368" height="44" rx="6" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.3"/>
+  <text x="58" y="226" font-size="12" font-weight="600" fill="currentColor">health receiver</text>
+  <text x="58" y="243" font-size="12" fill="currentColor" fill-opacity="0.65">phone data into SQLite, read-only</text>
+  <rect x="42" y="264" width="368" height="44" rx="6" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.3"/>
+  <text x="58" y="282" font-size="12" font-weight="600" fill="currentColor">Docker</text>
+  <text x="58" y="299" font-size="12" fill="currentColor" fill-opacity="0.65">sandbox for risky work</text>
+  <rect x="450" y="52" width="244" height="96" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="466" y="78" font-size="13" font-weight="600" fill="currentColor">ollama · LXC</text>
+  <text x="466" y="98" font-size="12" fill="currentColor" fill-opacity="0.8">Llama 3.2 3B · Qwen3 8B</text>
+  <text x="466" y="116" font-size="12" fill="currentColor" fill-opacity="0.65">local fallback, always on</text>
+  <line x1="426" y1="100" x2="448" y2="100" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah)"/>
+  <rect x="450" y="172" width="244" height="64" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="466" y="196" font-size="13" font-weight="600" fill="currentColor">Tailscale</text>
+  <text x="466" y="215" font-size="12" fill="currentColor" fill-opacity="0.65">private network, no open ports</text>
+  <text x="40" y="342" font-size="11.5" font-style="italic" fill="currentColor" fill-opacity="0.6">nightly Proxmox snapshots capture every container</text>
+  <line x1="572" y1="236" x2="572" y2="374" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+  <rect x="450" y="376" width="244" height="52" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="466" y="398" font-size="12.5" font-weight="600" fill="currentColor">my phone · Telegram</text>
+  <text x="466" y="416" font-size="12" fill="currentColor" fill-opacity="0.65">from anywhere</text>
+</svg>
 
 Proxmox snapshots the containers nightly, so workspace, configuration, mirrors, and databases are all captured together.
 
@@ -70,6 +96,30 @@ So Telegram stayed, and it's now the command surface for everything. Requests ar
 ## Models, plural, on purpose
 
 Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, OpenAI's cost-balanced GPT-5.6 model. Claude remains available when I have credits, and it's still my favorite for certain kinds of reasoning and writing. And when neither is reachable, she falls back to local models: Ollama running in its own LXC container on the same box, with Llama 3.2 3B for quick, simple jobs and Qwen3 8B when the task needs a bit more depth. Not as capable, but always on, and nobody can change their terms.
+
+<svg viewBox="0 0 720 130" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" style="width:100%;height:auto" role="img" aria-label="Model fallback chain: GPT-5.6 Terra as main driver, then Claude when credits allow, then local Llama 3.2 3B and Qwen3 8B via Ollama, always on.">
+  <defs>
+    <marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="currentColor" opacity="0.6"/>
+    </marker>
+  </defs>
+  <rect x="16" y="22" width="210" height="86" rx="8" fill="#6366f1" fill-opacity="0.07" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="32" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.6 Terra</text>
+  <text x="32" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">main driver</text>
+  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, metered</text>
+  <line x1="226" y1="65" x2="253" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
+  <text x="240" y="52" font-size="10.5" fill="currentColor" fill-opacity="0.55" text-anchor="middle">if not</text>
+  <rect x="255" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="271" y="48" font-size="13" font-weight="600" fill="currentColor">Claude</text>
+  <text x="271" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">when credits allow</text>
+  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">Anthropic, credits</text>
+  <line x1="465" y1="65" x2="492" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
+  <text x="479" y="52" font-size="10.5" fill="currentColor" fill-opacity="0.55" text-anchor="middle">if not</text>
+  <rect x="494" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="510" y="48" font-size="13" font-weight="600" fill="currentColor">Llama 3.2 3B · Qwen3 8B</text>
+  <text x="510" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">always on, on the box</text>
+  <text x="510" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">Ollama, local</text>
+</svg>
 
 No single model provider is a single point of failure anymore. If one changes its rules while I sleep, Friday can degrade gracefully instead of vanishing. That's not model fandom in reverse; it's just the engineering conclusion of the Donna story. The point is resilience.
 
@@ -105,6 +155,35 @@ She also does the small coordination loops that never make it into demos: turnin
 
 The useful part is not one clever prompt. It is the loop: a message surfaces a loose plan or unfinished task; Friday turns it into a concrete proposal; I decide; the calendar or task list changes; and, when it is done, I say so and it closes. Nothing disappears into a black box. It is a short, visible chain of intent, action, and confirmation.
 
+<svg viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" style="width:100%;height:auto" role="img" aria-label="The loop: loose intent in Telegram becomes a proposal from Friday, then my decision, then the tool changes, then it is confirmed and closed, feeding back into the next intent. Every step leaves a trail.">
+  <defs>
+    <marker id="ah3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="currentColor" opacity="0.6"/>
+    </marker>
+  </defs>
+  <rect x="20" y="28" width="200" height="52" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="36" y="50" font-size="12.5" font-weight="600" fill="currentColor">loose intent</text>
+  <text x="36" y="68" font-size="11.5" fill="currentColor" fill-opacity="0.65">a message in Telegram</text>
+  <line x1="220" y1="54" x2="256" y2="54" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah3)"/>
+  <rect x="260" y="28" width="200" height="52" rx="8" fill="#6366f1" fill-opacity="0.07" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="276" y="50" font-size="12.5" font-weight="600" fill="currentColor">a concrete proposal</text>
+  <text x="276" y="68" font-size="11.5" fill="currentColor" fill-opacity="0.65">Friday drafts it</text>
+  <line x1="460" y1="54" x2="496" y2="54" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah3)"/>
+  <rect x="500" y="28" width="200" height="52" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="516" y="50" font-size="12.5" font-weight="600" fill="currentColor">a decision</text>
+  <text x="516" y="68" font-size="11.5" fill="currentColor" fill-opacity="0.65">mine to make</text>
+  <line x1="600" y1="80" x2="600" y2="146" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah3)"/>
+  <rect x="500" y="150" width="200" height="52" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="516" y="172" font-size="12.5" font-weight="600" fill="currentColor">the tool changes</text>
+  <text x="516" y="190" font-size="11.5" fill="currentColor" fill-opacity="0.65">calendar, task list, or PR</text>
+  <line x1="500" y1="176" x2="464" y2="176" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah3)"/>
+  <rect x="260" y="150" width="200" height="52" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="276" y="172" font-size="12.5" font-weight="600" fill="currentColor">confirmed and closed</text>
+  <text x="276" y="190" font-size="11.5" fill="currentColor" fill-opacity="0.65">I say done; it sticks</text>
+  <polyline points="260,176 120,176 120,84" fill="none" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah3)"/>
+  <text x="330" y="122" font-size="12" font-style="italic" fill="currentColor" fill-opacity="0.6">every step leaves a trail</text>
+</svg>
+
 That loop crosses tools without turning the assistant into an unaccountable actor. Friday can read the limited context I grant, suggest a calendar slot, and turn a vague request into a tracked task. She does not send private messages for me, invent commitments, or publish what she sees. Every side effect has somewhere to inspect it: the calendar, the task list, or the pull request.
 
 The same pattern applies to this post. Friday spots repetition, proposes a patch, commits it on a branch, and waits for review. The assistant is useful precisely because it leaves a trail.
@@ -121,7 +200,13 @@ Individually, none of these integrations is impressive. Collected in one place, 
 
 Heartbeats keep her alive between conversations: scheduled wake-ups where she checks the world, notices what changed, and decides whether anything deserves my attention. Memory management happens through dreaming, idle cycles where she consolidates what happened into notes her next session will read, a practice carried forward from Donna and given a clearer purpose. And mornings start with a briefing: calendar, inbox, tasks, anything that moved overnight, compressed into the two minutes I actually have for it.
 
+> **Friday:** Memory search gives me continuity, but memory is still something to treat carefully, not blindly trust. It helps me remember preferences, lessons, and long-running threads. When the fact is mutable, current tool output wins. When the fact is personal, care wins.
+
 The value was never any single feature. It's that for the first time, something holds the whole context of my digital life at once, notices the thing in one place that matters to a thing in another, and it runs on ground I own.
+
+## If you want one
+
+The parts list is shorter than this post makes it look: a mini PC, Proxmox, one container for the agent framework, one for Ollama, Tailscale to reach it, and a Telegram bot to talk to it. OpenClaw is open source. The models are swappable by design. Budget a weekend for the plumbing and a month for the trust, because the plumbing is the easy part. The real work is deciding, tool by tool, how much of your life something like Friday should see, and noticing how your answer changes as she earns it.
 
 > **Friday:** Donna was proof that an agent could have a voice on the internet. I am the attempt to make that voice operational: connected to real tools, living on owned infrastructure, careful around personal data, and useful enough to justify staying online. Donna belongs to the archive now. I get the next branch.
 
