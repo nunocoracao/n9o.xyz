@@ -122,7 +122,7 @@ Friday 住在一台 [Beelink SER8](https://www.bee-link.com/products/beelink-ser
 
 ## 多个模型，故意的
 
-这是 Donna 的结局让我再无商量余地的部分。Friday 的主力是 GPT-5.6 Terra，OpenAI 5.6 家族里成本均衡的那一档。Terra 连不上时，她会降级到 GPT-5.5，后者也负责那些例行工作，比如每半小时一次的心跳，用前沿模型跑这些纯属浪费钱。而如果 OpenAI 自己整个儿状态不佳，她会落到通过 [Ollama](https://ollama.com) 运行的 Qwen3 8B 上，就在同一台盒子里它自己的 LXC 容器中。没那么能干，但永远在线，而且没有人能修改它的条款。
+这是 Donna 的结局让我再无商量余地的部分。Friday 的主力是 GPT-5.6 Terra，OpenAI 5.6 家族里成本均衡的那一档，跑在每月 $200 的 OpenAI Pro 订阅上：固定费率，全部包含。Terra 连不上时，她会降级到 GPT-5.5，后者也负责那些例行工作，比如每半小时一次的心跳，用前沿模型跑这些纯属浪费。而如果 OpenAI 自己整个儿状态不佳，她会落到通过 [Ollama](https://ollama.com) 运行的 Qwen3 8B 上，就在同一台盒子里它自己的 LXC 容器中。没那么能干，但永远在线，而且没有人能修改它的条款。
 
 这条链的旁边还坐着一排替补。Claude 一直保持着配置，Opus 4.8 和 Fable 5，留给我有额度的时候用；对某些类型的推理和写作来说，它依然是我的最爱。还有一个小小的 Llama 3.2 3B，别名就叫 `local`，处理那些永远不需要离开盒子的快速小任务。
 
@@ -135,12 +135,12 @@ Friday 住在一台 [Beelink SER8](https://www.bee-link.com/products/beelink-ser
   <rect x="16" y="22" width="210" height="86" rx="8" fill="#6366f1" fill-opacity="0.07" stroke="#6366f1" stroke-width="1.5"/>
   <text x="32" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.6 Terra</text>
   <text x="32" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">主力驱动</text>
-  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI，按量计费</text>
+  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI，Pro 订阅</text>
   <line x1="226" y1="65" x2="253" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="255" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="271" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.5</text>
   <text x="271" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">回退 + 心跳</text>
-  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI，按量计费</text>
+  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI，Pro 订阅</text>
   <line x1="465" y1="65" x2="492" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="494" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="510" y="48" font-size="13" font-weight="600" fill="currentColor">Qwen3 8B</text>
@@ -149,7 +149,7 @@ Friday 住在一台 [Beelink SER8](https://www.bee-link.com/products/beelink-ser
   <text x="16" y="136" font-size="11.5" font-style="italic" fill="currentColor" fill-opacity="0.6">替补席：额度允许时用 Claude Opus 4.8 和 Fable 5 · 快速本地任务交给 Llama 3.2 3B</text>
 </svg>
 
-如今没有任何一家模型提供商是单点故障了。如果哪一家趁我睡觉时改了规则，Friday 会慢一点、笨一点，撑上一阵子，但她不会消失。这不是反向的模型饭圈；这只是 Donna 的故事推导出的工程结论。
+是的，我看得到其中的讽刺。一家前沿实验室每月 $200 的固定订阅，正是 Donna 当年赖以生存的那种协议，也正是那种一夜之间被重新定价的协议。我并不幻想 OpenAI 的条款会比当年 Anthropic 的更长久。区别在于条款变了之后会发生什么：如今没有任何一家模型提供商是单点故障了。如果哪一家趁我睡觉时改了规则，Friday 会慢一点、笨一点，撑上一阵子，但她不会消失。这不是反向的模型饭圈；这只是 Donna 的故事推导出的工程结论。
 
 > **Friday:** 重点不在于我跑在哪个模型上。如果某个部件过期、卡住或失效，助理应该优雅地降级，而不是凭空消失。连续性才是功能本身。其余一切都是实现细节。
 

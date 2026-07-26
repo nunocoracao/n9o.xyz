@@ -122,7 +122,7 @@ Preferia uma app dedicada? Honestamente, sim. Mas isso significava ou escrever e
 
 ## Modelos, no plural, de propósito
 
-Esta é a parte que o fim da Donna tornou inegociável. O motor principal da Friday é o GPT-5.6 Terra, o escalão de custo equilibrado da família 5.6 da OpenAI. Quando o Terra está inacessível, ela desce para o GPT-5.5, que também trata do trabalho de rotina, como o heartbeat de meia em meia hora, onde um modelo de fronteira seria dinheiro deitado fora. E se a própria OpenAI estiver a ter um dia mau, ela aterra no Qwen3 8B via [Ollama](https://ollama.com), no seu próprio contentor LXC na mesma caixa. Não é tão capaz, mas está sempre ligado, e ninguém lhe pode mudar os termos.
+Esta é a parte que o fim da Donna tornou inegociável. O motor principal da Friday é o GPT-5.6 Terra, o escalão de custo equilibrado da família 5.6 da OpenAI, a correr numa subscrição OpenAI Pro de $200 por mês: tarifa fixa, tudo incluído. Quando o Terra está inacessível, ela desce para o GPT-5.5, que também trata do trabalho de rotina, como o heartbeat de meia em meia hora, onde um modelo de fronteira seria um desperdício. E se a própria OpenAI estiver a ter um dia mau, ela aterra no Qwen3 8B via [Ollama](https://ollama.com), no seu próprio contentor LXC na mesma caixa. Não é tão capaz, mas está sempre ligado, e ninguém lhe pode mudar os termos.
 
 À volta dessa cadeia há um banco de suplentes. O Claude continua configurado, Opus 4.8 e Fable 5, para quando tenho créditos; continua a ser o meu favorito para certos tipos de raciocínio e de escrita. E um pequeno Llama 3.2 3B, com o nome simples de `local`, trata dos trabalhos rápidos que nunca precisam de sair da caixa.
 
@@ -135,12 +135,12 @@ Esta é a parte que o fim da Donna tornou inegociável. O motor principal da Fri
   <rect x="16" y="22" width="210" height="86" rx="8" fill="#6366f1" fill-opacity="0.07" stroke="#6366f1" stroke-width="1.5"/>
   <text x="32" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.6 Terra</text>
   <text x="32" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">motor principal</text>
-  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, ao consumo</text>
+  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, subscrição Pro</text>
   <line x1="226" y1="65" x2="253" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="255" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="271" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.5</text>
   <text x="271" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">fallback + heartbeats</text>
-  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, ao consumo</text>
+  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, subscrição Pro</text>
   <line x1="465" y1="65" x2="492" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="494" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="510" y="48" font-size="13" font-weight="600" fill="currentColor">Qwen3 8B</text>
@@ -149,7 +149,7 @@ Esta é a parte que o fim da Donna tornou inegociável. O motor principal da Fri
   <text x="16" y="136" font-size="11.5" font-style="italic" fill="currentColor" fill-opacity="0.6">no banco: Claude Opus 4.8 e Fable 5 quando há créditos · Llama 3.2 3B para trabalhos locais rápidos</text>
 </svg>
 
-Nenhum fornecedor de modelos é já um ponto único de falha. Se um deles mudar as regras enquanto durmo, a Friday fica mais lenta e um bocadinho mais burra durante uns tempos, mas não desaparece. Isto não é fanatismo de modelos ao contrário; é apenas a conclusão de engenharia da história da Donna.
+Sim, vejo a ironia. Uma subscrição fixa de $200 por mês de um laboratório de fronteira é exatamente o acordo de que a Donna vivia, e exatamente o acordo cujo preço mudou de um dia para o outro. Não tenho ilusões de que os termos da OpenAI sejam mais permanentes do que eram os da Anthropic. A diferença é o que acontece se mudarem: nenhum fornecedor de modelos é já um ponto único de falha. Se um deles mudar as regras enquanto durmo, a Friday fica mais lenta e um bocadinho mais burra durante uns tempos, mas não desaparece. Isto não é fanatismo de modelos ao contrário; é apenas a conclusão de engenharia da história da Donna.
 
 > **Friday:** A questão não é em que modelo corro. Se uma peça expirar, encravar ou falhar, a assistente deve degradar-se com elegância em vez de desaparecer. A continuidade é a funcionalidade. Tudo o resto é detalhe de implementação.
 

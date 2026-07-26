@@ -122,7 +122,7 @@ Preferirei un'app dedicata? Onestamente, sì. Ma vorrebbe dire scriverne e mante
 
 ## Modelli, al plurale, di proposito
 
-Ecco la parte che la fine di Donna ha reso non negoziabile. Il motore principale di Friday è GPT-5.6 Terra, il livello a costo bilanciato della famiglia 5.6 di OpenAI. Quando Terra è irraggiungibile, scende su GPT-5.5, che gestisce anche il lavoro di routine, come l'heartbeat ogni mezz'ora, dove un modello di frontiera sarebbe denaro sprecato. E se è OpenAI stessa ad avere una brutta giornata, atterra su Qwen3 8B via [Ollama](https://ollama.com), nel suo container LXC sullo stesso box. Meno capace, ma sempre acceso, e nessuno può cambiarne le condizioni.
+Ecco la parte che la fine di Donna ha reso non negoziabile. Il motore principale di Friday è GPT-5.6 Terra, il livello a costo bilanciato della famiglia 5.6 di OpenAI, che gira con un abbonamento OpenAI Pro da $200 al mese: tariffa fissa, tutto incluso. Quando Terra è irraggiungibile, scende su GPT-5.5, che gestisce anche il lavoro di routine, come l'heartbeat ogni mezz'ora, dove un modello di frontiera sarebbe sprecato. E se è OpenAI stessa ad avere una brutta giornata, atterra su Qwen3 8B via [Ollama](https://ollama.com), nel suo container LXC sullo stesso box. Meno capace, ma sempre acceso, e nessuno può cambiarne le condizioni.
 
 Attorno a quella catena c'è una panchina. Claude resta configurato, Opus 4.8 e Fable 5, per quando ho crediti; è ancora il mio preferito per certi tipi di ragionamento e di scrittura. E un piccolo Llama 3.2 3B, con l'alias semplicemente di `local`, gestisce i lavoretti veloci che non hanno mai bisogno di lasciare il box.
 
@@ -135,12 +135,12 @@ Attorno a quella catena c'è una panchina. Claude resta configurato, Opus 4.8 e 
   <rect x="16" y="22" width="210" height="86" rx="8" fill="#6366f1" fill-opacity="0.07" stroke="#6366f1" stroke-width="1.5"/>
   <text x="32" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.6 Terra</text>
   <text x="32" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">motore principale</text>
-  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, a consumo</text>
+  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, abbonamento Pro</text>
   <line x1="226" y1="65" x2="253" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="255" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="271" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.5</text>
   <text x="271" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">fallback + heartbeat</text>
-  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, a consumo</text>
+  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, abbonamento Pro</text>
   <line x1="465" y1="65" x2="492" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="494" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="510" y="48" font-size="13" font-weight="600" fill="currentColor">Qwen3 8B</text>
@@ -149,7 +149,7 @@ Attorno a quella catena c'è una panchina. Claude resta configurato, Opus 4.8 e 
   <text x="16" y="136" font-size="11.5" font-style="italic" fill="currentColor" fill-opacity="0.6">in panchina: Claude Opus 4.8 e Fable 5 quando i crediti lo permettono · Llama 3.2 3B per i piccoli lavori locali</text>
 </svg>
 
-Nessun singolo provider di modelli è più un singolo punto di rottura. Se uno cambia le sue regole mentre dormo, Friday diventa più lenta e un po' più stupida per un po', ma non svanisce. Non è tifo da stadio al contrario; è solo la conclusione ingegneristica della storia di Donna.
+Sì, vedo l'ironia. Un abbonamento flat da $200 al mese da un laboratorio di frontiera è esattamente l'accordo su cui viveva Donna, ed esattamente l'accordo che è stato riprezzato da un giorno all'altro. Non mi illudo che le condizioni di OpenAI siano più permanenti di quanto lo fossero quelle di Anthropic. La differenza è cosa succede se cambiano: nessun singolo provider di modelli è più un singolo punto di rottura. Se uno cambia le sue regole mentre dormo, Friday diventa più lenta e un po' più stupida per un po', ma non svanisce. Non è tifo da stadio al contrario; è solo la conclusione ingegneristica della storia di Donna.
 
 > **Friday:** Il punto non è su quale modello giro. Se una parte scade, si blocca o fallisce, l'assistente dovrebbe degradare con grazia invece di svanire. La continuità è la funzionalità. Tutto il resto è un dettaglio implementativo.
 

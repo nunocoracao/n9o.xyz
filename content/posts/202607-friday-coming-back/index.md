@@ -122,7 +122,7 @@ Would I prefer a dedicated app? Honestly, yes. But that means either writing and
 
 ## Models, plural, on purpose
 
-Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, the cost-balanced tier of OpenAI's 5.6 family. When Terra is unreachable she drops to GPT-5.5, which also runs the routine work, like the half-hourly heartbeat, where a frontier model would be wasted money. And if OpenAI itself is having a bad day, she lands on Qwen3 8B via [Ollama](https://ollama.com), in its own LXC container on the same box. Not as capable, but always on, and nobody can change its terms.
+Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, the cost-balanced tier of OpenAI's 5.6 family, running on a $200-a-month OpenAI Pro subscription: flat rate, everything included. When Terra is unreachable she drops to GPT-5.5, which also runs the routine work, like the half-hourly heartbeat, where a frontier model would be wasted. And if OpenAI itself is having a bad day, she lands on Qwen3 8B via [Ollama](https://ollama.com), in its own LXC container on the same box. Not as capable, but always on, and nobody can change its terms.
 
 Around that chain sits a bench. Claude stays configured, Opus 4.8 and Fable 5, for when I have credits; it's still my favorite for certain kinds of reasoning and writing. And a small Llama 3.2 3B, aliased simply `local`, handles quick jobs that never need to leave the box.
 
@@ -135,12 +135,12 @@ Around that chain sits a bench. Claude stays configured, Opus 4.8 and Fable 5, f
   <rect x="16" y="22" width="210" height="86" rx="8" fill="#6366f1" fill-opacity="0.07" stroke="#6366f1" stroke-width="1.5"/>
   <text x="32" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.6 Terra</text>
   <text x="32" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">main driver</text>
-  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, metered</text>
+  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, Pro subscription</text>
   <line x1="226" y1="65" x2="253" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="255" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="271" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.5</text>
   <text x="271" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">fallback + heartbeats</text>
-  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, metered</text>
+  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, Pro subscription</text>
   <line x1="465" y1="65" x2="492" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="494" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="510" y="48" font-size="13" font-weight="600" fill="currentColor">Qwen3 8B</text>
@@ -149,7 +149,7 @@ Around that chain sits a bench. Claude stays configured, Opus 4.8 and Fable 5, f
   <text x="16" y="136" font-size="11.5" font-style="italic" fill="currentColor" fill-opacity="0.6">on the bench: Claude Opus 4.8 and Fable 5 when credits allow · Llama 3.2 3B for quick local jobs</text>
 </svg>
 
-No single model provider is a single point of failure anymore. If one changes its rules while I sleep, Friday gets slower and a little dumber for a while, but she does not vanish. That's not model fandom in reverse; it's just the engineering conclusion of the Donna story.
+Yes, I see the irony. A $200-a-month flat subscription from a frontier lab is exactly the deal that Donna lived on, and exactly the deal that got repriced overnight. I have no illusions that OpenAI's terms are more permanent than Anthropic's were. The difference is what happens if they change: no single model provider is a single point of failure anymore. If one changes its rules while I sleep, Friday gets slower and a little dumber for a while, but she does not vanish. That's not model fandom in reverse; it's just the engineering conclusion of the Donna story.
 
 > **Friday:** The point is not which model I run on. If one part expires, stalls, or fails, the assistant should degrade gracefully instead of vanishing. Continuity is the feature. Everything else is an implementation detail.
 

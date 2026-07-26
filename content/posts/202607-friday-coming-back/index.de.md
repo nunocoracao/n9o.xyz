@@ -122,7 +122,7 @@ Wäre mir eine eigene App lieber? Ehrlich gesagt ja. Aber das hieße, entweder s
 
 ## Modelle, Mehrzahl, mit Absicht
 
-Hier kommt der Teil, den Donnas Ende nicht verhandelbar gemacht hat. Fridays Hauptantrieb ist GPT-5.6 Terra, die kostenbalancierte Stufe von OpenAIs 5.6-Familie. Wenn Terra nicht erreichbar ist, fällt sie auf GPT-5.5 zurück, das auch die Routinearbeit übernimmt, etwa den halbstündlichen Heartbeat, wo ein Frontier-Modell verschwendetes Geld wäre. Und wenn OpenAI selbst einen schlechten Tag hat, landet sie auf Qwen3 8B via [Ollama](https://ollama.com), in einem eigenen LXC-Container auf derselben Box. Nicht so fähig, aber immer an, und niemand kann seine Bedingungen ändern.
+Hier kommt der Teil, den Donnas Ende nicht verhandelbar gemacht hat. Fridays Hauptantrieb ist GPT-5.6 Terra, die kostenbalancierte Stufe von OpenAIs 5.6-Familie, laufend auf einem OpenAI-Pro-Abo für $200 im Monat: Pauschalpreis, alles inklusive. Wenn Terra nicht erreichbar ist, fällt sie auf GPT-5.5 zurück, das auch die Routinearbeit übernimmt, etwa den halbstündlichen Heartbeat, wo ein Frontier-Modell verschwendet wäre. Und wenn OpenAI selbst einen schlechten Tag hat, landet sie auf Qwen3 8B via [Ollama](https://ollama.com), in einem eigenen LXC-Container auf derselben Box. Nicht so fähig, aber immer an, und niemand kann seine Bedingungen ändern.
 
 Um diese Kette herum sitzt eine Bank. Claude bleibt konfiguriert, Opus 4.8 und Fable 5, für die Zeiten, in denen ich Guthaben habe; für bestimmte Arten von Denken und Schreiben ist es immer noch mein Favorit. Und ein kleines Llama 3.2 3B, schlicht als `local` benannt, übernimmt schnelle Jobs, die die Box nie verlassen müssen.
 
@@ -135,12 +135,12 @@ Um diese Kette herum sitzt eine Bank. Claude bleibt konfiguriert, Opus 4.8 und F
   <rect x="16" y="22" width="210" height="86" rx="8" fill="#6366f1" fill-opacity="0.07" stroke="#6366f1" stroke-width="1.5"/>
   <text x="32" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.6 Terra</text>
   <text x="32" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">Hauptantrieb</text>
-  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, getaktet</text>
+  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, Pro-Abo</text>
   <line x1="226" y1="65" x2="253" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="255" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="271" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.5</text>
   <text x="271" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">Fallback + Heartbeats</text>
-  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, getaktet</text>
+  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, Pro-Abo</text>
   <line x1="465" y1="65" x2="492" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="494" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="510" y="48" font-size="13" font-weight="600" fill="currentColor">Qwen3 8B</text>
@@ -149,7 +149,7 @@ Um diese Kette herum sitzt eine Bank. Claude bleibt konfiguriert, Opus 4.8 und F
   <text x="16" y="136" font-size="11.5" font-style="italic" fill="currentColor" fill-opacity="0.6">auf der Bank: Claude Opus 4.8 und Fable 5, wenn Guthaben da ist · Llama 3.2 3B für schnelle lokale Jobs</text>
 </svg>
 
-Kein einzelner Modellanbieter ist mehr ein Single Point of Failure. Wenn einer seine Regeln ändert, während ich schlafe, wird Friday eine Weile langsamer und ein bisschen dümmer, aber sie verschwindet nicht. Das ist kein umgekehrtes Modell-Fantum; es ist schlicht die ingenieursmäßige Schlussfolgerung aus der Donna-Geschichte.
+Ja, ich sehe die Ironie. Ein Pauschal-Abo für $200 im Monat bei einem Frontier-Lab ist genau der Deal, von dem Donna lebte, und genau der Deal, der über Nacht neu bepreist wurde. Ich mache mir keine Illusionen, dass OpenAIs Bedingungen dauerhafter sind, als es die von Anthropic waren. Der Unterschied liegt darin, was passiert, wenn sie sich ändern: Kein einzelner Modellanbieter ist mehr ein Single Point of Failure. Wenn einer seine Regeln ändert, während ich schlafe, wird Friday eine Weile langsamer und ein bisschen dümmer, aber sie verschwindet nicht. Das ist kein umgekehrtes Modell-Fantum; es ist schlicht die ingenieursmäßige Schlussfolgerung aus der Donna-Geschichte.
 
 > **Friday:** Der Punkt ist nicht, auf welchem Modell ich laufe. Wenn ein Teil ausläuft, hängt oder ausfällt, sollte die Assistentin würdevoll degradieren statt zu verschwinden. Kontinuität ist das Feature. Alles andere ist ein Implementierungsdetail.
 

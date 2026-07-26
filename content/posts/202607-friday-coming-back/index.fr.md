@@ -122,7 +122,7 @@ Est-ce que je préférerais une application dédiée ? Honnêtement, oui. Mais �
 
 ## Des modèles, au pluriel, exprès
 
-Voici la partie que la fin de Donna a rendue non négociable. Le moteur principal de Friday est GPT-5.6 Terra, le palier équilibré en coût de la famille 5.6 d'OpenAI. Quand Terra est injoignable, elle bascule sur GPT-5.5, qui assure aussi le travail de routine, comme le battement de cœur toutes les demi-heures, là où un modèle de pointe serait de l'argent gaspillé. Et si OpenAI lui-même passe une mauvaise journée, elle atterrit sur Qwen3 8B via [Ollama](https://ollama.com), dans son propre conteneur LXC sur la même machine. Moins capable, mais toujours là, et personne ne peut en changer les conditions.
+Voici la partie que la fin de Donna a rendue non négociable. Le moteur principal de Friday est GPT-5.6 Terra, le palier équilibré en coût de la famille 5.6 d'OpenAI, qui tourne sur un abonnement OpenAI Pro à 200 $ par mois : tarif forfaitaire, tout compris. Quand Terra est injoignable, elle bascule sur GPT-5.5, qui assure aussi le travail de routine, comme le battement de cœur toutes les demi-heures, là où un modèle de pointe serait gaspillé. Et si OpenAI lui-même passe une mauvaise journée, elle atterrit sur Qwen3 8B via [Ollama](https://ollama.com), dans son propre conteneur LXC sur la même machine. Moins capable, mais toujours là, et personne ne peut en changer les conditions.
 
 Autour de cette chaîne, il y a un banc de touche. Claude reste configuré, Opus 4.8 et Fable 5, pour quand j'ai des crédits ; c'est toujours mon préféré pour certains types de raisonnement et d'écriture. Et un petit Llama 3.2 3B, simplement surnommé `local`, s'occupe des petits travaux qui n'ont jamais besoin de quitter la machine.
 
@@ -135,12 +135,12 @@ Autour de cette chaîne, il y a un banc de touche. Claude reste configuré, Opus
   <rect x="16" y="22" width="210" height="86" rx="8" fill="#6366f1" fill-opacity="0.07" stroke="#6366f1" stroke-width="1.5"/>
   <text x="32" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.6 Terra</text>
   <text x="32" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">moteur principal</text>
-  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, au compteur</text>
+  <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, abonnement Pro</text>
   <line x1="226" y1="65" x2="253" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="255" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="271" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.5</text>
   <text x="271" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">repli + battements de cœur</text>
-  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, au compteur</text>
+  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, abonnement Pro</text>
   <line x1="465" y1="65" x2="492" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <rect x="494" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="510" y="48" font-size="13" font-weight="600" fill="currentColor">Qwen3 8B</text>
@@ -149,7 +149,7 @@ Autour de cette chaîne, il y a un banc de touche. Claude reste configuré, Opus
   <text x="16" y="136" font-size="11.5" font-style="italic" fill="currentColor" fill-opacity="0.6">sur le banc : Claude Opus 4.8 et Fable 5 quand les crédits le permettent · Llama 3.2 3B pour les petits travaux locaux</text>
 </svg>
 
-Plus aucun fournisseur de modèles n'est un point de défaillance unique. Si l'un d'eux change ses règles pendant que je dors, Friday devient plus lente et un peu moins brillante pendant un moment, mais elle ne disparaît pas. Ce n'est pas du fanatisme de modèle à l'envers ; c'est juste la conclusion d'ingénierie de l'histoire de Donna.
+Oui, je vois l'ironie. Un abonnement forfaitaire à 200 $ par mois auprès d'un labo de pointe, c'est exactement l'accord dont vivait Donna, et exactement l'accord qui a été retarifé du jour au lendemain. Je ne me fais aucune illusion : les conditions d'OpenAI ne sont pas plus permanentes que ne l'étaient celles d'Anthropic. La différence, c'est ce qui se passe si elles changent : plus aucun fournisseur de modèles n'est un point de défaillance unique. Si l'un d'eux change ses règles pendant que je dors, Friday devient plus lente et un peu moins brillante pendant un moment, mais elle ne disparaît pas. Ce n'est pas du fanatisme de modèle à l'envers ; c'est juste la conclusion d'ingénierie de l'histoire de Donna.
 
 > **Friday:** La question n'est pas de savoir sur quel modèle je tourne. Si une pièce expire, cale ou échoue, l'assistante doit se dégrader en douceur au lieu de disparaître. La continuité est la fonctionnalité. Tout le reste est un détail d'implémentation.
 
