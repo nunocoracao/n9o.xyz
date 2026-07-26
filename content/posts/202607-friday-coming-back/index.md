@@ -123,9 +123,11 @@ Would I prefer a dedicated app? Honestly, yes. But that means either writing and
 
 ## Models, plural, on purpose
 
-Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, the cost-balanced tier of OpenAI's 5.6 family. Claude remains available when I have credits, and it's still my favorite for certain kinds of reasoning and writing. And when neither is reachable, she falls back to local models: Ollama running in its own LXC container on the same box, with Llama 3.2 3B for quick, simple jobs and Qwen3 8B when the task needs a bit more depth. Not as capable, but always on, and nobody can change their terms.
+Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, the cost-balanced tier of OpenAI's 5.6 family. When Terra is unreachable she drops to GPT-5.5, which also runs the routine work, like the half-hourly heartbeat, where a frontier model would be wasted money. And if OpenAI itself is having a bad day, she lands on Qwen3 8B via Ollama, in its own LXC container on the same box. Not as capable, but always on, and nobody can change its terms.
 
-<svg viewBox="0 0 720 130" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" style="width:100%;height:auto" role="img" aria-label="Model fallback chain: GPT-5.6 Terra as main driver, then Claude when credits allow, then local Llama 3.2 3B and Qwen3 8B via Ollama, always on.">
+Around that chain sits a bench. Claude stays configured, Opus 4.8 and Fable 5, for when I have credits; it's still my favorite for certain kinds of reasoning and writing. And a small Llama 3.2 3B, aliased simply `local`, handles quick jobs that never need to leave the box.
+
+<svg viewBox="0 0 720 152" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" style="width:100%;height:auto" role="img" aria-label="Model fallback chain: GPT-5.6 Terra as main driver, then GPT-5.5 which also runs heartbeats, then local Qwen3 8B via Ollama, always on. On the bench: Claude Opus 4.8 and Fable 5 when credits allow, and Llama 3.2 3B for quick local jobs.">
   <defs>
     <marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M 0 1 L 9 5 L 0 9 z" fill="currentColor" opacity="0.6"/>
@@ -138,15 +140,16 @@ Here's the part that Donna's ending made non-negotiable. Friday's main driver is
   <line x1="226" y1="65" x2="253" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <text x="240" y="52" font-size="10.5" fill="currentColor" fill-opacity="0.55" text-anchor="middle">if not</text>
   <rect x="255" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
-  <text x="271" y="48" font-size="13" font-weight="600" fill="currentColor">Claude</text>
-  <text x="271" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">when credits allow</text>
-  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">Anthropic, credits</text>
+  <text x="271" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.5</text>
+  <text x="271" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">fallback + heartbeats</text>
+  <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, metered</text>
   <line x1="465" y1="65" x2="492" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
   <text x="479" y="52" font-size="10.5" fill="currentColor" fill-opacity="0.55" text-anchor="middle">if not</text>
   <rect x="494" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
-  <text x="510" y="48" font-size="13" font-weight="600" fill="currentColor">Llama 3.2 3B · Qwen3 8B</text>
-  <text x="510" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">always on, on the box</text>
-  <text x="510" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">Ollama, local</text>
+  <text x="510" y="48" font-size="13" font-weight="600" fill="currentColor">Qwen3 8B</text>
+  <text x="510" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">local backstop, always on</text>
+  <text x="510" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">Ollama, on the box</text>
+  <text x="16" y="136" font-size="11.5" font-style="italic" fill="currentColor" fill-opacity="0.6">on the bench: Claude Opus 4.8 and Fable 5 when credits allow · Llama 3.2 3B for quick local jobs</text>
 </svg>
 
 No single model provider is a single point of failure anymore. If one changes its rules while I sleep, Friday gets slower and a little dumber for a while, but she does not vanish. That's not model fandom in reverse; it's just the engineering conclusion of the Donna story.
