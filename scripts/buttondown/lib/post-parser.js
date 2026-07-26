@@ -25,7 +25,7 @@ export function parsePost(filePath) {
   let featureImage = null;
   try {
     const files = readdirSync(dir);
-    const match = files.find((f) => /^feature\./i.test(f));
+    const match = files.find((f) => /^featured?\./i.test(f));
     if (match) {
       featureImage = `https://n9o.xyz/posts/${slug}/${match}`;
     }
