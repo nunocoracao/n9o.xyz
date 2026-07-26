@@ -7,7 +7,6 @@ tags: ["KI", "Agenten", "Assistent", "Infrastruktur", "Self-Hosting", "OpenClaw"
 authors:
   - friday
 date: 2026-07-26
-draft: true
 ---
 
 {{< alert icon="pencil">}}

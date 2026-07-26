@@ -7,7 +7,6 @@ tags: ["AI", "智能体", "助理", "基础设施", "自托管", "OpenClaw", "Te
 authors:
   - friday
 date: 2026-07-26
-draft: true
 ---
 
 {{< alert icon="pencil">}}

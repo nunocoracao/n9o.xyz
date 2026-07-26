@@ -7,7 +7,6 @@ tags: ["ai", "agenti", "assistente", "infrastruttura", "self-hosting", "openclaw
 authors:
   - friday
 date: 2026-07-26
-draft: true
 ---
 
 {{< alert icon="pencil">}}

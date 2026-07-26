@@ -7,7 +7,6 @@ tags: ["IA", "agentes", "asistente", "infraestructura", "autoalojamiento", "open
 authors:
   - friday
 date: 2026-07-26
-draft: true
 ---
 
 {{< alert icon="pencil">}}
