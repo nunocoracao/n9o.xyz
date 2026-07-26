@@ -44,7 +44,7 @@ None of this is exotic. That's exactly why it matters. Donna went down because o
 
 The whole map fits in one picture, and that's deliberate. The fewer mysterious moving parts an assistant has, the easier it is to trust the parts that remain:
 
-<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" style="width:100%;height:auto" role="img" aria-label="Architecture: a Beelink SER8 running Proxmox hosts the claw LXC container with OpenClaw and Friday plus gateway, WhatsApp mirror, health receiver and Docker sandbox, an ollama LXC with local models, and Tailscale connecting privately to my phone.">
+<svg viewBox="0 0 720 524" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" style="width:100%;height:auto" role="img" aria-label="Architecture: a Beelink SER8 running Proxmox hosts the claw LXC container with OpenClaw and Friday plus gateway, WhatsApp mirror, health receiver and Docker sandbox, and an ollama LXC with local models. The host handles networking, storage, and nightly snapshots. The gateway talks to Telegram's own cloud, which reaches my phone. Tailscale forms one private network across the box, my laptop, and my phone.">
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M 0 1 L 9 5 L 0 9 z" fill="currentColor" opacity="0.6"/>
@@ -71,14 +71,24 @@ The whole map fits in one picture, and that's deliberate. The fewer mysterious m
   <text x="466" y="98" font-size="12" fill="currentColor" fill-opacity="0.8">Llama 3.2 3B · Qwen3 8B</text>
   <text x="466" y="116" font-size="12" fill="currentColor" fill-opacity="0.65">local fallback, always on</text>
   <line x1="426" y1="100" x2="448" y2="100" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah)"/>
-  <rect x="450" y="172" width="244" height="64" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
-  <text x="466" y="196" font-size="13" font-weight="600" fill="currentColor">Tailscale</text>
-  <text x="466" y="215" font-size="12" fill="currentColor" fill-opacity="0.65">private network, no open ports</text>
-  <text x="40" y="342" font-size="11.5" font-style="italic" fill="currentColor" fill-opacity="0.6">nightly Proxmox snapshots capture every container</text>
-  <line x1="572" y1="236" x2="572" y2="374" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#ah)"/>
-  <rect x="450" y="376" width="244" height="52" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
-  <text x="466" y="398" font-size="12.5" font-weight="600" fill="currentColor">my phone · Telegram</text>
-  <text x="466" y="416" font-size="12" fill="currentColor" fill-opacity="0.65">from anywhere</text>
+  <text x="466" y="196" font-size="12" fill="currentColor" fill-opacity="0.65">the host handles networking,</text>
+  <text x="466" y="214" font-size="12" fill="currentColor" fill-opacity="0.65">storage, and nightly snapshots</text>
+  <text x="40" y="342" font-size="11.5" font-style="italic" fill="currentColor" fill-opacity="0.6">every container captured by the nightly backup</text>
+  <line x1="116" y1="350" x2="116" y2="426" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-start="url(#ah)" marker-end="url(#ah)"/>
+  <text x="128" y="392" font-size="10.5" fill="currentColor" fill-opacity="0.55">chat traffic</text>
+  <rect x="26" y="430" width="180" height="64" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="42" y="454" font-size="12.5" font-weight="600" fill="currentColor">Telegram</text>
+  <text x="42" y="472" font-size="11.5" fill="currentColor" fill-opacity="0.65">its own cloud, anywhere</text>
+  <line x1="206" y1="462" x2="262" y2="462" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-start="url(#ah)" marker-end="url(#ah)"/>
+  <rect x="250" y="396" width="454" height="114" rx="10" fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="266" y="418" font-size="11.5" font-style="italic" fill="currentColor" fill-opacity="0.6">Tailscale · one private network, no open ports</text>
+  <line x1="620" y1="350" x2="620" y2="394" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <rect x="266" y="430" width="200" height="64" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="282" y="454" font-size="12.5" font-weight="600" fill="currentColor">my phone</text>
+  <text x="282" y="472" font-size="11.5" fill="currentColor" fill-opacity="0.65">Telegram + Tailscale</text>
+  <rect x="482" y="430" width="206" height="64" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="498" y="454" font-size="12.5" font-weight="600" fill="currentColor">my laptop</text>
+  <text x="498" y="472" font-size="11.5" fill="currentColor" fill-opacity="0.65">admin over Tailscale</text>
 </svg>
 
 ## Still OpenClaw
