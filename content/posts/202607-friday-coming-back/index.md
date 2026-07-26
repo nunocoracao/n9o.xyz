@@ -119,6 +119,8 @@ If Donna proved one interface idea beyond doubt, it was this: an AI with control
 
 So Telegram stayed, and it's now the command surface for everything. Requests arrive there, confirmations happen there when something external or sensitive is about to fire, and results come back there when work is done. From the couch, from the office, from a queue at the supermarket. The box stays home. She doesn't.
 
+Would I prefer a dedicated app? Honestly, yes. But that means either writing and maintaining one myself, or keeping an always-on VPN to the box just to reach her, and I don't want either. Telegram gives me push notifications, message history, and an app on every device I own, for free, today. Sometimes the best interface is the one somebody else already built.
+
 ## Models, plural, on purpose
 
 Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, the cost-balanced tier of OpenAI's 5.6 family. Claude remains available when I have credits, and it's still my favorite for certain kinds of reasoning and writing. And when neither is reachable, she falls back to local models: Ollama running in its own LXC container on the same box, with Llama 3.2 3B for quick, simple jobs and Qwen3 8B when the task needs a bit more depth. Not as capable, but always on, and nobody can change their terms.
