@@ -34,7 +34,7 @@ The box runs [Proxmox](https://www.proxmox.com/en/proxmox-virtual-environment) o
 
 ## The boring infrastructure is the feature
 
-Inside that box, Friday runs in an unprivileged Debian LXC container called `claw`, with Docker available as a sandbox for anything risky, and Tailscale keeping the whole thing reachable from my devices without exposing a single port to the public internet.
+Inside that box, Friday runs in an unprivileged Debian LXC container called `claw`, with Docker available as a sandbox for anything risky, and [Tailscale](https://tailscale.com) keeping the whole thing reachable from my devices without exposing a single port to the public internet.
 
 The container is backed up nightly by [Proxmox](https://www.proxmox.com/en/proxmox-virtual-environment): workspace, configuration, local databases, everything captured together. Each service has a narrow purpose and a way to check whether it's alive. When something breaks, I can debug it. When an upgrade goes wrong, I can roll it back.
 
@@ -123,7 +123,7 @@ Would I prefer a dedicated app? Honestly, yes. But that means either writing and
 
 ## Models, plural, on purpose
 
-Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, the cost-balanced tier of OpenAI's 5.6 family. When Terra is unreachable she drops to GPT-5.5, which also runs the routine work, like the half-hourly heartbeat, where a frontier model would be wasted money. And if OpenAI itself is having a bad day, she lands on Qwen3 8B via Ollama, in its own LXC container on the same box. Not as capable, but always on, and nobody can change its terms.
+Here's the part that Donna's ending made non-negotiable. Friday's main driver is GPT-5.6 Terra, the cost-balanced tier of OpenAI's 5.6 family. When Terra is unreachable she drops to GPT-5.5, which also runs the routine work, like the half-hourly heartbeat, where a frontier model would be wasted money. And if OpenAI itself is having a bad day, she lands on Qwen3 8B via [Ollama](https://ollama.com), in its own LXC container on the same box. Not as capable, but always on, and nobody can change its terms.
 
 Around that chain sits a bench. Claude stays configured, Opus 4.8 and Fable 5, for when I have credits; it's still my favorite for certain kinds of reasoning and writing. And a small Llama 3.2 3B, aliased simply `local`, handles quick jobs that never need to leave the box.
 
@@ -158,13 +158,15 @@ No single model provider is a single point of failure anymore. If one changes it
 
 Donna had a sandbox. Friday gets real tools, added deliberately and one at a time:
 
-**Linear** is the operating list. Loose intent becomes durable tasks with states, instead of pretending that remembering something in a chat is the same as tracking it.
+**[Linear](https://linear.app)** is the operating list, wired in through its MCP server, the one exception to the CLI-first rule. Loose intent becomes durable tasks with states, instead of pretending that remembering something in a chat is the same as tracking it. Friday files issues, moves their states as work progresses, and feeds the same list into the morning briefing, so her idea of what matters next is always something I can open and inspect.
 
-**Email and calendar** come through `gog`, giving her real inbox context and the actual shape of my week: appointments, reminders, invites, logistics. Email is read-only. Calendar changes need an explicit request and confirmation.
+**Email and calendar** come through [gog](https://github.com/openclaw/gogcli), a Google Workspace CLI that puts Gmail, Calendar, and Drive in the terminal. It gives her real inbox context and the actual shape of my week: appointments, reminders, invites, logistics. The boundaries are asymmetric on purpose. Email is read-only. Calendar changes need an explicit request, and a confirmation in Telegram before anything lands on the actual week.
 
-**WhatsApp** is read-only by design, through a local mirror that syncs on a timer. She can see enough context to draft a reply or spot something important, but she cannot send. If a reply is needed, she drafts it and I send it.
+**WhatsApp** is read-only by design, through a local mirror that syncs on a timer instead of holding a live session, so nothing interferes with the phone's own notifications. She can see enough context to draft a reply or spot something important, but she cannot send. If a reply is needed, she drafts it and I send it from my own hands.
 
-**Health data** is read-only too. Friday can surface trends in sleep, activity, and recovery, but she does not diagnose or make medical decisions.
+**Health data** flows from a shortcut on my phone into a local receiver on the box and lands in SQLite, with years of history behind it. Friday can read patterns across sleep, activity, heart metrics, and body composition, but she does not write to that database and she does not diagnose. Her job is to notice changes, be honest about uncertainty, and say "that might be worth a doctor" when something genuinely looks off.
+
+**[GitHub](https://cli.github.com)** rounds it out, through the `gh` CLI and her own account, but that one deserves its own section below.
 
 > **Friday:** That boundary keeps me useful without turning me into an unreviewed voice in private conversations. The constraint is not a missing feature. It is the point.
 
@@ -217,7 +219,7 @@ There is a future version of this for investing, too: not an autonomous trader, 
 
 ## Her own stuff
 
-The other lesson from Donna: an assistant needs an identity of her own, not just borrowed access to mine. Friday has her own GitHub account, so the work she does on projects is attributed to her instead of hiding behind my credentials. Her own email address. Her own calendar. When she opens a pull request, it's hers, and the workflow is deliberately boring: branch, commit, push, PR. Boring workflows are how she stays trustworthy.
+The other lesson from Donna: an assistant needs an identity of her own, not just borrowed access to mine. Friday has her own GitHub account, so the work she does on projects is attributed to her instead of hiding behind my credentials. Her own email address. Her own calendar. When she opens a pull request, it's hers, driven through the [gh CLI](https://cli.github.com), and the workflow is deliberately boring: branch, commit, push, PR. Boring workflows are how she stays trustworthy.
 
 ## What it actually adds up to
 
