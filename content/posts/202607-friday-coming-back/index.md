@@ -138,13 +138,11 @@ Around that chain sits a bench. Claude stays configured, Opus 4.8 and Fable 5, f
   <text x="32" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">main driver</text>
   <text x="32" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, metered</text>
   <line x1="226" y1="65" x2="253" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
-  <text x="240" y="52" font-size="10.5" fill="currentColor" fill-opacity="0.55" text-anchor="middle">if not</text>
   <rect x="255" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="271" y="48" font-size="13" font-weight="600" fill="currentColor">GPT-5.5</text>
   <text x="271" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">fallback + heartbeats</text>
   <text x="271" y="86" font-size="11" fill="currentColor" fill-opacity="0.55">OpenAI, metered</text>
   <line x1="465" y1="65" x2="492" y2="65" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" marker-end="url(#ah2)"/>
-  <text x="479" y="52" font-size="10.5" fill="currentColor" fill-opacity="0.55" text-anchor="middle">if not</text>
   <rect x="494" y="22" width="210" height="86" rx="8" fill="currentColor" fill-opacity="0.045" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.5"/>
   <text x="510" y="48" font-size="13" font-weight="600" fill="currentColor">Qwen3 8B</text>
   <text x="510" y="68" font-size="12" fill="currentColor" fill-opacity="0.8">local backstop, always on</text>
