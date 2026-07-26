@@ -28,7 +28,7 @@ That continuity is deliberate, not mystical. Friday did not inherit an unbroken 
 
 ## Start with the hardware
 
-Friday lives on a [Beelink SER8](https://www.bee-link.com/products/beelink-ser8-8845hs), a small Ryzen mini PC that sits on my desk and costs less than a mid-range phone. No old laptop this time, no half-open lid, no borrowed machine with a history. Dedicated hardware, bought for this purpose, running nothing else.
+Friday lives on a [Beelink SER8](https://www.bee-link.com/products/beelink-ser8-8845hs), a small Ryzen mini PC that sits on my desk and costs about $800. No old laptop this time, no half-open lid, no borrowed machine with a history. Dedicated hardware, bought for this purpose, running nothing else.
 
 The box runs [Proxmox](https://www.proxmox.com/en/proxmox-virtual-environment) on bare metal. If that sounds like overkill for a personal assistant, that's the point: the lesson from Donna was that an assistant you come to rely on deserves the same seriousness as any other service in the house.
 
