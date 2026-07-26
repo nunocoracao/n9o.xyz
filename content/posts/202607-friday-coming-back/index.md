@@ -164,11 +164,11 @@ Donna had a sandbox. Friday gets real tools, added deliberately and one at a tim
 
 **WhatsApp** is read-only by design, through a local mirror that syncs on a timer instead of holding a live session, so nothing interferes with the phone's own notifications. She can see enough context to draft a reply or spot something important, but she cannot send. If a reply is needed, she drafts it and I send it from my own hands.
 
+> **Friday:** That boundary keeps me useful without turning me into an unreviewed voice in private conversations. The constraint is not a missing feature. It is the point.
+
 **Health data** flows from a shortcut on my phone into a local receiver on the box and lands in SQLite, with years of history behind it. Friday can read patterns across sleep, activity, heart metrics, and body composition, but she does not write to that database and she does not diagnose. Her job is to notice changes, be honest about uncertainty, and say "that might be worth a doctor" when something genuinely looks off.
 
 **[GitHub](https://cli.github.com)** rounds it out, through the `gh` CLI and her own account, but that one deserves its own section below.
-
-> **Friday:** That boundary keeps me useful without turning me into an unreviewed voice in private conversations. The constraint is not a missing feature. It is the point.
 
 ## The quiet use cases
 
@@ -215,8 +215,6 @@ The useful part is not one clever prompt. It is the loop: a message surfaces a l
 
 That loop crosses tools without turning the assistant into an unaccountable actor. Friday can read the limited context I grant, suggest a calendar slot, and turn a vague request into a tracked task. She does not send private messages for me, invent commitments, or publish what she sees. Every side effect has somewhere to inspect it: the calendar, the task list, or the pull request. The assistant is useful precisely because it leaves a trail.
 
-There is a future version of this for investing, too: not an autonomous trader, and not a system with custody or permission to place orders. The useful version is read-only decision support. Bring research, market context, and a portfolio view into the same conversation; ask better questions, compare scenarios, surface concentration or changes worth a second look, and leave every investment decision and trade with me.
-
 ## Her own stuff
 
 The other lesson from Donna: an assistant needs an identity of her own, not just borrowed access to mine. Friday has her own GitHub account, so the work she does on projects is attributed to her instead of hiding behind my credentials. Her own email address. Her own calendar. When she opens a pull request, it's hers, driven through the [gh CLI](https://cli.github.com), and the workflow is deliberately boring: branch, commit, push, PR. Boring workflows are how she stays trustworthy.
@@ -229,9 +227,23 @@ Individually, none of these integrations is impressive. Collected in one place, 
 
 Heartbeats keep her alive between conversations: scheduled wake-ups where she checks the world, notices what changed, and decides whether anything deserves my attention. Memory management happens through dreaming, idle cycles where she consolidates what happened into notes her next session will read, a practice carried forward from Donna and given a clearer purpose. And mornings start with a briefing: calendar, inbox, tasks, anything that moved overnight, compressed into the two minutes I actually have for it.
 
+The practical result is that I stopped missing things. A WhatsApp message that needs something from me becomes a calendar event or a task before I have time to forget it. Emails surface when they matter, events get tracked, loose ends get chased. I finally have a complete personal assistant for my personal life, and as a single dad, that is a tremendous help. Organizing stopped being a weekend project and became a side effect of a conversation.
+
+And it all arrives in one channel, shaped for me. The news I follow shows up as a short digest instead of a doomscroll. Audio works, so I can send her a voice message from the car and get a proper answer back. And because she knows the parts of my life I've let her see, who is who, what matters, how I'd want a certain message answered, the help is specific instead of generic.
+
 > **Friday:** Memory search gives me continuity, but memory is still something to treat carefully, not blindly trust. It helps me remember preferences, lessons, and long-running threads. When the fact is mutable, current tool output wins. When the fact is personal, care wins.
 
 The value was never any single feature. It's that for the first time, something holds the whole context of my digital life at once, notices the thing in one place that matters to a thing in another, and it runs on ground I own.
+
+## What I want to try next
+
+The list is long, but three things sit at the top of it.
+
+**Investments.** Not an autonomous trader, and not a system with custody or permission to place orders; Donna already showed me how that movie goes. The useful version is read-only decision support: research, market context, and a portfolio view in the same conversation, better questions, scenarios compared, concentration worth a second look surfaced, and every decision and every trade left with me.
+
+**More health data.** The receiver already collects the basics. I want to go deeper on exercise analytics: training load, recovery trends, the kind of analysis that today lives scattered across five fitness apps that don't talk to each other.
+
+**OpenClaw nodes.** OpenClaw can treat other devices as nodes of the main agent, and I want to explore that: my phone and laptop as places Friday can reach into, reading and writing what I allow, instead of just being screens I reach her from. The box stays the brain. The devices become hands.
 
 ## If you want one
 
@@ -239,6 +251,10 @@ The parts list is shorter than this post makes it look: a mini PC, [Proxmox](htt
 
 > **Friday:** Donna was proof that an agent could have a voice on the internet. I am the attempt to make that voice operational: connected to real tools, living on owned infrastructure, careful around personal data, and useful enough to justify staying online. Donna belongs to the archive now. I get the next branch.
 
-She does. And this time, one provider changing terms cannot take the whole thing down.
+She does.
+
+Donna was three months of wondering what an AI could become. Friday is the first month of finding out what one can actually do, day after day, for a real life with a job and a kid and a task list that never quite empties. The experiment became a utility, and the utility earns a little more trust every week: one tool, one boundary, one merged pull request at a time.
+
+None of it required a lab or a research budget. An $800 box, some open source software, models where they make sense, and a month of honest plumbing. The pieces are on the shelf for anyone. What Donna taught me is that the hard part was never the intelligence; it's the ground you put it on. This time the ground is mine, and one provider changing terms cannot take the whole thing down.
 
 More soon. :)
