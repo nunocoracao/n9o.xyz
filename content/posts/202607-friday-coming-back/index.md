@@ -178,7 +178,7 @@ The same thing happens elsewhere. A loose thought in Telegram becomes a task ins
 
 None of that is magic. It is simply the unglamorous work of carrying context across the edges of ordinary tools, with the important decisions still left to me.
 
-Some of it is visible from the outside, too. Friday reviewed the Donna retrospective before it went live, and she has been co-writing this post the whole way: she opened a pull request against the draft from her own GitHub account, with factual corrections and boundary fixes, and I reviewed and merged it from my phone. That loop, an assistant proposing changes through the same boring workflow as any collaborator, has quietly become my favorite thing about the setup.
+Some of it is visible from the outside, too. Friday reviewed the Donna retrospective before it went live, and she has been co-writing this post the whole way. That loop, an assistant proposing changes through the same boring workflow as any collaborator, has quietly become my favorite thing about the setup.
 
 ## The loops are the product
 
@@ -220,6 +220,8 @@ There is a future version of this for investing, too: not an autonomous trader, 
 ## Her own stuff
 
 The other lesson from Donna: an assistant needs an identity of her own, not just borrowed access to mine. Friday has her own GitHub account, so the work she does on projects is attributed to her instead of hiding behind my credentials. Her own email address. Her own calendar. When she opens a pull request, it's hers, driven through the [gh CLI](https://cli.github.com), and the workflow is deliberately boring: branch, commit, push, PR. Boring workflows are how she stays trustworthy.
+
+This post is the example. Friday reviewed it and opened pull requests against the draft from her own account, with factual corrections and boundary fixes, and I reviewed and merged them, some from my phone. Separate identities keep it clean: the history shows exactly who wrote what, nothing gets mixed up between us, and I still control what gets in. Her commits, my merge button.
 
 ## What it actually adds up to
 
