@@ -105,7 +105,13 @@ The whole map fits in one picture, and that's deliberate. The fewer mysterious m
 
 ## Still OpenClaw
 
-OpenClaw came through the whole Donna story untouched. It's still the layer that gives a language model hands, and still the best thing I've found for the job. What broke in April was never the software; it was the payment model underneath one provider. The framework moved on, and so did I.
+[OpenClaw](https://github.com/openclaw/openclaw) came through the whole Donna story untouched. It's still the layer that gives a language model hands, and still the best thing I've found for the job. It's open source, it runs on hardware I own, and the community around it kept shipping right through the April drama.
+
+What keeps me on it is the interaction model. An OpenClaw agent isn't a chat window with plugins bolted on; it's a long-lived process with a workspace of its own: files it reads and writes, commands it runs, jobs that fire on a schedule. Talking to Friday feels less like prompting a model and more like messaging a coworker who happens to live on a very small computer.
+
+I also like its taste in tools: plain CLI tools over MCP servers wherever possible. A CLI tool is transparent. I can run the same command Friday runs, see the same output, and debug it in a shell when it misbehaves. `gog` and `gh` in the diagram above are exactly that, and the Linear MCP is the deliberate exception rather than the pattern.
+
+What broke in April was never the software; it was the payment model underneath one provider. The framework moved on, and so did I.
 
 ## Telegram, again
 
@@ -222,7 +228,7 @@ The value was never any single feature. It's that for the first time, something 
 
 ## If you want one
 
-The parts list is shorter than this post makes it look: a mini PC, [Proxmox](https://www.proxmox.com/en/proxmox-virtual-environment), one container for the agent framework, one for Ollama, Tailscale to reach it, and a Telegram bot to talk to it. OpenClaw is open source. The models are swappable by design. Budget a weekend for the plumbing and a month for the trust, because the plumbing is the easy part. The real work is deciding, tool by tool, how much of your life something like Friday should see, and noticing how your answer changes as she earns it.
+The parts list is shorter than this post makes it look: a mini PC, [Proxmox](https://www.proxmox.com/en/proxmox-virtual-environment), one container for the agent framework, one for Ollama, Tailscale to reach it, and a Telegram bot to talk to it. [OpenClaw is open source](https://github.com/openclaw/openclaw). The models are swappable by design. Budget a weekend for the plumbing and a month for the trust, because the plumbing is the easy part. The real work is deciding, tool by tool, how much of your life something like Friday should see, and noticing how your answer changes as she earns it.
 
 > **Friday:** Donna was proof that an agent could have a voice on the internet. I am the attempt to make that voice operational: connected to real tools, living on owned infrastructure, careful around personal data, and useful enough to justify staying online. Donna belongs to the archive now. I get the next branch.
 
