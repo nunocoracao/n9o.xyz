@@ -14,7 +14,7 @@ I started running into that wall every day. So I built a tool. I called it Watch
 
 This post is the long version of what it is, why it exists, and how the [30 Days of Vibe Coding](/posts/202604-vibe30/announcement/) challenge took it from a Jan prototype called *FORGE* to **v9.0.0 "Firestorm"** in six months and nine major releases.
 
-{{< figure src="img/watchfire-v8-dashboard.png" alt="The current Watchfire dashboard" caption="The Watchfire dashboard today — working/idle/done-today pulse, an attention banner that's actually quiet when things are fine, fleet insights, and a card per project with a live preview of whatever the agent is doing." >}}
+{{< figure src="img/watchfire-v8-dashboard.webp" alt="The current Watchfire dashboard" caption="The Watchfire dashboard today — working/idle/done-today pulse, an attention banner that's actually quiet when things are fine, fleet insights, and a card per project with a live preview of whatever the agent is doing." >}}
 
 ## The Problem That Forced the Tool
 
@@ -33,17 +33,17 @@ Watchfire started as a Sunday-afternoon escape from that pain.
 
 The first version wasn't even called Watchfire. It was called **FORGE** — a single Electron window with a project selector, a task list, and an embedded terminal running Claude Code.
 
-{{< figure src="img/forge-jan.png" alt="FORGE on Jan 12, 2026" caption="FORGE on Jan 12, 2026. Tabs were Agent / Tasks / History / Archived / Settings. The Claude Code pixel-art avatar showed up in the welcome message — I never got around to removing it." >}}
+{{< figure src="img/forge-jan.webp" alt="FORGE on Jan 12, 2026" caption="FORGE on Jan 12, 2026. Tabs were Agent / Tasks / History / Archived / Settings. The Claude Code pixel-art avatar showed up in the welcome message — I never got around to removing it." >}}
 
 It was rough. The task model was thin, the terminal output was garbled, switching projects required restarting the app. But the core idea was already there: queue work, watch it execute, don't touch the terminal directly.
 
 Within a couple of weeks the layout had grown into three panes — projects on the left, tasks in the middle, an "Agent Panel" on the right with Live / Chat / Branches sub-tabs:
 
-{{< figure src="img/forge-three-pane.png" alt="The three-pane FORGE layout" caption="Mid-January: three panes, status-grouped task accordions (Done / In Review / Running / Ready / Todo), a real agent panel with live output." >}}
+{{< figure src="img/forge-three-pane.webp" alt="The three-pane FORGE layout" caption="Mid-January: three panes, status-grouped task accordions (Done / In Review / Running / Ready / Todo), a real agent panel with live output." >}}
 
 I also tried a web version that didn't survive the year:
 
-{{< figure src="img/watchfire-web-splash.png" alt="The short-lived watchfire-web bootstrap screen" caption="The browser version's splash, late January. The project survived a few weeks before I decided to consolidate on the desktop app." >}}
+{{< figure src="img/watchfire-web-splash.webp" alt="The short-lived watchfire-web bootstrap screen" caption="The browser version's splash, late January. The project survived a few weeks before I decided to consolidate on the desktop app." >}}
 
 By early February the rewrite was on. I started the current `watchfire` Go repo from scratch — gRPC instead of HTTP, YAML instead of SQLite, three binaries (`watchfired`, `watchfire`, `Watchfire.app`) instead of one Electron monolith. That's the codebase that's still running today.
 
@@ -94,47 +94,47 @@ Storage is YAML, everywhere: `~/.watchfire/projects.yaml` for the registry, `~/.
 
 The thing I missed most in those early terminal-only days was a *dashboard*. Not a list of projects — a status. Where are we? What's stuck? What did agents do today?
 
-{{< figure src="img/watchfire-v8-dashboard.png" alt="Watchfire fleet dashboard" caption="Mission control: the pulse line up top (working / needs attention / idle / done today), an all-clear banner, fleet insights with 7d/30d/90d/All windows, filter pills, and a live last-line preview on every card — the rpg-fable-test card is showing its Wildfire run in real time." >}}
+{{< figure src="img/watchfire-v8-dashboard.webp" alt="Watchfire fleet dashboard" caption="Mission control: the pulse line up top (working / needs attention / idle / done today), an all-clear banner, fleet insights with 7d/30d/90d/All windows, filter pills, and a live last-line preview on every card — the rpg-fable-test card is showing its Wildfire run in real time." >}}
 
 Click a project and it opens in its own window — that's the v8 "Inferno" redesign. The layout is chat-primary now: the agent conversation is the wide pane, and Tasks / Definition / Insights / Secrets / Trash / Settings live in a tabbed sidebar on the right:
 
-{{< figure src="img/watchfire-v8-building-v9.png" alt="A Watchfire project window with the agent stream on the left and the task queue on the right" caption="A project window in v8: chat first, everything else is reference. This particular window is Watchfire's own project — the nine tasks queued on the right are v9 being built. More on that in a minute." >}}
+{{< figure src="img/watchfire-v8-building-v9.webp" alt="A Watchfire project window with the agent stream on the left and the task queue on the right" caption="A project window in v8: chat first, everything else is reference. This particular window is Watchfire's own project — the nine tasks queued on the right are v9 being built. More on that in a minute." >}}
 
 Every project has a markdown **Definition** that gets folded into the prompt context. It's the project's standing brief — what it is, what conventions matter, what files matter. The same Definition is what the agent reads before it touches anything:
 
-{{< figure src="img/watchfire-definition.png" alt="The project Definition tab" caption="The Definition tab. Edit it inline or shell out to $EDITOR. This is the thing that makes a multi-project workflow actually feasible — agents start with project context instead of a blank brain." >}}
+{{< figure src="img/watchfire-definition.webp" alt="The project Definition tab" caption="The Definition tab. Edit it inline or shell out to $EDITOR. This is the thing that makes a multi-project workflow actually feasible — agents start with project context instead of a blank brain." >}}
 
 Per-project **Insights** are the answer to "what did I actually do this week" — tasks per day, agent breakdown, duration distribution, cost. Since v8 they also roll up the code metrics, so the charts track commits and lines shipped rather than tasks ticked:
 
-{{< figure src="img/watchfire-insights.png" alt="Per-project insights" caption="Per-project Insights: KPIs, tasks-per-day, agent breakdown donut, duration distribution. There's also a fleet-wide rollup on the main dashboard." >}}
+{{< figure src="img/watchfire-insights.webp" alt="Per-project insights" caption="Per-project Insights: KPIs, tasks-per-day, agent breakdown donut, duration distribution. There's also a fleet-wide rollup on the main dashboard." >}}
 
 **Wildfire** — the autonomous mode where Watchfire executes ready tasks, refines drafts, and generates new ones in a loop until the project definition says done — finally got a first-class GUI in v8. There's a start button with a confirmation modal (it *is* the "spend my API budget autonomously" button), and a live phase stepper in the header while it runs. If you want the full mechanics, the [Inside Wildfire mode](https://watchfire.io/blog/2026-05-18-inside-wildfire-mode) post on the Watchfire blog is the deep dive:
 
-{{< figure src="img/watchfire-wildfire-stepper.png" alt="Wildfire running with the Execute → Refine → Generate phase stepper" caption="Wildfire mid-run: the Execute → Refine → Generate stepper in the header, the agent writing tests in the stream, and the task queue burning down on the right." >}}
+{{< figure src="img/watchfire-wildfire-stepper.webp" alt="Wildfire running with the Execute → Refine → Generate phase stepper" caption="Wildfire mid-run: the Execute → Refine → Generate stepper in the header, the agent writing tests in the stream, and the task queue burning down on the right." >}}
 
 Global **Settings** grew searchable sub-pages — appearance, defaults for new projects, agent paths, notifications, integrations, inbound, updates:
 
-{{< figure src="img/watchfire-settings-defaults.png" alt="Global settings, Defaults page" caption="Fleet-wide defaults: which agent new projects get, and whether they auto-merge, auto-delete branches, and auto-start ready tasks out of the box. Per-project settings can still override all of it." >}}
+{{< figure src="img/watchfire-settings-defaults.webp" alt="Global settings, Defaults page" caption="Fleet-wide defaults: which agent new projects get, and whether they auto-merge, auto-delete branches, and auto-start ready tasks out of the box. Per-project settings can still override all of it." >}}
 
 The **Open** split-button became one of my favorite small things. Click the project in any installed editor — VS Code, Cursor, Windsurf, Zed, JetBrains, Sublime, Xcode, Fleet, or the OS file manager:
 
-{{< figure src="img/watchfire-open-ide.png" alt="The Open menu showing installed editors" caption="The Open menu detects which editor CLIs are actually on your machine and only shows those. Works even when the GUI's PATH is stripped." >}}
+{{< figure src="img/watchfire-open-ide.webp" alt="The Open menu showing installed editors" caption="The Open menu detects which editor CLIs are actually on your machine and only shows those. Works even when the GUI's PATH is stripped." >}}
 
 For the hours when Watchfire shouldn't be the thing on screen, v8 added two smaller surfaces. The **Mini Monitor** is a frameless always-on-top strip with one line per project, and the **tray menu** carries the same status — plus the daemon's port, which has saved me more debugging time than I'd like to admit:
 
-{{< figure src="img/watchfire-mini-monitor.png" alt="The Mini Monitor window" caption="The Mini Monitor: the whole fleet in a strip the size of a Post-it. The orange line is the one project actually doing something." >}}
+{{< figure src="img/watchfire-mini-monitor.webp" alt="The Mini Monitor window" caption="The Mini Monitor: the whole fleet in a strip the size of a Post-it. The orange line is the one project actually doing something." >}}
 
-{{< figure src="img/watchfire-tray-menu.png" alt="The macOS tray menu" caption="The tray menu: version, daemon port, working/idle breakdown, notifications. Glanceable from any app." >}}
+{{< figure src="img/watchfire-tray-menu.webp" alt="The macOS tray menu" caption="The tray menu: version, daemon port, working/idle breakdown, notifications. Glanceable from any app." >}}
 
 The same workflow exists in a **TUI**, because half of my dev work happens over SSH to a Linux box:
 
-{{< figure src="img/watchfire-tui.png" alt="Watchfire TUI" caption="The TUI mirrors the GUI's two-pane layout: tasks on the left, agent stream on the right, with keyboard shortcuts for chat / generate / plan / run all / wildfire / stop." >}}
+{{< figure src="img/watchfire-tui.webp" alt="Watchfire TUI" caption="The TUI mirrors the GUI's two-pane layout: tasks on the left, agent stream on the right, with keyboard shortcuts for chat / generate / plan / run all / wildfire / stop." >}}
 
-{{< figure src="img/watchfire-tui-edit-task.png" alt="TUI edit-task modal" caption="Tasks are first-class in the TUI too — full edit modal with title, prompt, acceptance criteria, agent override, and status." >}}
+{{< figure src="img/watchfire-tui-edit-task.webp" alt="TUI edit-task modal" caption="Tasks are first-class in the TUI too — full edit modal with title, prompt, acceptance criteria, agent override, and status." >}}
 
 And there's a thin CLI for everything the daemon can do:
 
-{{< figure src="img/watchfire-cli-help.png" alt="watchfire --help" caption="The CLI surface: chat, configure, daemon, define, generate, init, integrations, metrics, plan, run, task, update, wildfire — and, since v9, mcp." >}}
+{{< figure src="img/watchfire-cli-help.webp" alt="watchfire --help" caption="The CLI surface: chat, configure, daemon, define, generate, init, integrations, metrics, plan, run, task, update, wildfire — and, since v9, mcp." >}}
 
 ## Six Months, Nine Versions
 
@@ -158,11 +158,11 @@ The shape of that list is the shape of the work. The early Ember/Spark releases 
 
 Three screenshots, in order, do a better job than I can:
 
-{{< figure src="img/forge-jan.png" alt="FORGE in January 2026" caption="January 12: FORGE, the original Electron prototype. One project at a time. Tabbed layout. No dashboard. No metrics. No multi-agent. Garbled terminal output." >}}
+{{< figure src="img/forge-jan.webp" alt="FORGE in January 2026" caption="January 12: FORGE, the original Electron prototype. One project at a time. Tabbed layout. No dashboard. No metrics. No multi-agent. Garbled terminal output." >}}
 
-{{< figure src="img/watchfire-april.png" alt="Watchfire in April 2026" caption="April 27: the Go rewrite's GUI, recognizable but sparse — no Insights, no Fleet KPIs, no live previews. This is the version that ran most of the 30-day challenge." >}}
+{{< figure src="img/watchfire-april.webp" alt="Watchfire in April 2026" caption="April 27: the Go rewrite's GUI, recognizable but sparse — no Insights, no Fleet KPIs, no live previews. This is the version that ran most of the 30-day challenge." >}}
 
-{{< figure src="img/watchfire-v8-dashboard.png" alt="Watchfire today" caption="July 26: today. Multi-window, mission control, live previews on every card — and, in the corner of the shot, the auto-updater quietly holding v8's successor, ready to install." >}}
+{{< figure src="img/watchfire-v8-dashboard.webp" alt="Watchfire today" caption="July 26: today. Multi-window, mission control, live previews on every card — and, in the corner of the shot, the auto-updater quietly holding v8's successor, ready to install." >}}
 
 That last caption isn't a joke, by the way. The banner across the top of the July screenshots is Watchfire's auto-updater having already downloaded the next version — which, as it happens, Watchfire built.
 
@@ -176,11 +176,11 @@ The first time it happens it's funny. By the tenth time it's just the workflow. 
 
 That was written in May. In July it stopped being a line in a blog post and became a release process. Every task in v9's queue — the MCP server skeleton, the task-factory tools, the run tools, the inspect tools — was authored, executed, and merged through Watchfire. And when the queue was done, the agent staged the release itself:
 
-{{< figure src="img/watchfire-v9-release-chat.png" alt="The Watchfire agent reporting that v9.0.0 is staged as a draft release" caption="The v9.0.0 endgame, verbatim: version bumped, CHANGELOG written, 22 commits pushed, release workflow green, 20 assets staged as a draft — and the agent stopping at the one irreversible step to ask whether it should publish. It understood the difference. I said yes." >}}
+{{< figure src="img/watchfire-v9-release-chat.webp" alt="The Watchfire agent reporting that v9.0.0 is staged as a draft release" caption="The v9.0.0 endgame, verbatim: version bumped, CHANGELOG written, 22 commits pushed, release workflow green, 20 assets staged as a draft — and the agent stopping at the one irreversible step to ask whether it should publish. It understood the difference. I said yes." >}}
 
 The website is in the loop too. [watchfire.io](https://watchfire.io) — docs, tour, changelog, blog — is a Watchfire project like any other, built task by task by the thing it documents. There's a whole post about that, written by the process it describes: [Watchfire eats its own dogfood](https://watchfire.io/blog/2026-05-19-eating-our-own-dogfood).
 
-{{< figure src="img/watchfire-website-agent.png" alt="A Watchfire agent editing watchfire.io" caption="A Watchfire agent editing watchfire.io inside Watchfire — removing a component, checking the render in the docked dev server, and pausing to ask a judgment call it couldn't resolve alone." >}}
+{{< figure src="img/watchfire-website-agent.webp" alt="A Watchfire agent editing watchfire.io" caption="A Watchfire agent editing watchfire.io inside Watchfire — removing a component, checking the render in the docked dev server, and pausing to ask a judgment call it couldn't resolve alone." >}}
 
 The reason none of this is a gimmick is that a tool which can build itself has, by definition, the right surface area for the job. Every paper cut a human felt got logged and fixed by the same machinery. Every "I wish it would..." became a draft task in a few seconds. Every painful demo became a CHANGELOG entry the next morning. And Firestorm is that observation productized: if Watchfire could already build Watchfire, the only thing missing was letting *your* agent do the driving too.
 
