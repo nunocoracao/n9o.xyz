@@ -1,26 +1,38 @@
-{{/* Highlights — single section blending two buckets:
-       - Bucket 1: top N most-viewed posts of all time (popularCount, default 3)
+{{/* Highlights — single section blending three buckets, no duplicates
+     (a post placed in an earlier bucket is skipped by later ones):
+       - Bucket 1: top N most-viewed posts of all time (popularCount, default 2)
        - Bucket 2: top N most-viewed posts published in the last popularMonths
-                  (trendingCount, default 3) that are NOT already in bucket 1.
-     Bucket 2 is only included if at least one post exists in the date window. */}}
+                  (trendingCount, default 2, window default 12 months)
+       - Bucket 3: top N most-viewed posts published in the last risingMonths
+                  (risingCount, default 2, window default 6 months)
+     Buckets 2 and 3 are only included if at least one post exists in their
+     date window. */}}
 {{ if site.Params.firebase.apiKey }}
-  {{ $months := site.Params.homepage.popularMonths | default 12 }}
-  {{ $popularCount := site.Params.homepage.popularCount | default 3 }}
-  {{ $trendingCount := site.Params.homepage.trendingCount | default 3 }}
-  {{ $cutoff := now.AddDate 0 (mul $months -1) 0 }}
+  {{ $trendingMonths := site.Params.homepage.popularMonths | default 12 }}
+  {{ $risingMonths := site.Params.homepage.risingMonths | default 6 }}
+  {{ $popularCount := site.Params.homepage.popularCount | default 2 }}
+  {{ $trendingCount := site.Params.homepage.trendingCount | default 2 }}
+  {{ $risingCount := site.Params.homepage.risingCount | default 2 }}
+  {{ $trendingCutoff := now.AddDate 0 (mul $trendingMonths -1) 0 }}
+  {{ $risingCutoff := now.AddDate 0 (mul $risingMonths -1) 0 }}
   {{ $allPages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-  {{ $recentPages := where $allPages "Date" "ge" $cutoff }}
-  {{ $includeTrending := gt (len $recentPages) 0 }}
+  {{ $includeTrending := gt (len (where $allPages "Date" "ge" $trendingCutoff)) 0 }}
+  {{ $includeRising := gt (len (where $allPages "Date" "ge" $risingCutoff)) 0 }}
 
   {{ $skeletonCount := $popularCount }}
-  {{ if $includeTrending }}{{ $skeletonCount = add $popularCount $trendingCount }}{{ end }}
+  {{ if $includeTrending }}{{ $skeletonCount = add $skeletonCount $trendingCount }}{{ end }}
+  {{ if $includeRising }}{{ $skeletonCount = add $skeletonCount $risingCount }}{{ end }}
 
   <section
     id="highlights-section"
     data-popular-count="{{ $popularCount }}"
     {{ if $includeTrending }}
       data-trending-count="{{ $trendingCount }}"
-      data-trending-since="{{ $cutoff.Format "2006-01-02" }}"
+      data-trending-since="{{ $trendingCutoff.Format "2006-01-02" }}"
+    {{ end }}
+    {{ if $includeRising }}
+      data-rising-count="{{ $risingCount }}"
+      data-rising-since="{{ $risingCutoff.Format "2006-01-02" }}"
     {{ end }}>
     <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "highlights" | default "Highlights" }}</h2>
     <div id="highlights-grid" class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">

@@ -39,6 +39,8 @@ function toggleLoaders(node) {
   const popularCount = parseInt(section.dataset.popularCount || "0", 10);
   const trendingCount = parseInt(section.dataset.trendingCount || "0", 10);
   const trendingSince = section.dataset.trendingSince || null;
+  const risingCount = parseInt(section.dataset.risingCount || "0", 10);
+  const risingSince = section.dataset.risingSince || null;
 
   const removeSkeletons = () => {
     grid.querySelectorAll(".highlights-skeleton").forEach((el) => el.remove());
@@ -138,6 +140,11 @@ function toggleLoaders(node) {
   // Bucket 2: most viewed within the trending window, excluding bucket 1
   if (trendingCount > 0 && trendingSince) {
     placeFromRanked(trendingCount, trendingSince);
+  }
+
+  // Bucket 3: most viewed within the rising window, excluding buckets 1 & 2
+  if (risingCount > 0 && risingSince) {
+    placeFromRanked(risingCount, risingSince);
   }
 
   if (placedIds.size > 0) {
