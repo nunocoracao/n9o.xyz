@@ -43,7 +43,7 @@ Four things it actually does for you:
 
 - **You stop approving things.** Work is filed as tasks with a prompt and acceptance criteria, then executed unattended. You come back to a merged branch, not a paused prompt.
 - **You see the whole fleet at once.** One dashboard across every project: what's running, what's blocked, what finished today, what it cost. The attention banner stays quiet unless something genuinely needs you.
-- **Nothing collides.** Every task runs in its own git worktree behind an OS sandbox, so parallel agents across projects can't corrupt each other's work - or reach your credentials.
+- **Nothing collides.** Every task runs in its own git worktree behind an OS sandbox, so parallel agents across projects can't corrupt each other's work and have a sharply reduced ability to reach your credentials.
 - **The work leaves a paper trail.** Per-task metrics - duration, cost, commits, files, lines, how the merge landed - roll up into per-project and fleet-wide Insights, plus CSV/Markdown exports and a weekly digest.
 
 It currently supports **six agent backends** through a single `Backend` interface - Claude Code, OpenAI Codex, opencode, Gemini CLI, GitHub Copilot CLI, and Cursor Agent - each in its own isolated config dir (`CODEX_HOME`, `OPENCODE_CONFIG_DIR`, `COPILOT_HOME`) so credentials and prompts don't bleed between sessions. You can override the agent per task.
@@ -54,7 +54,7 @@ This is the part I'd want to know about if someone else had built it, because "w
 
 Every task runs behind **two independent layers of isolation**. The first is a git worktree: each task gets its own `watchfire/<task_number>` checkout, so two agents in the same repo can't see each other's half-finished edits, and nothing lands on your branch until the run succeeds and merges. The second is an OS-level sandbox around the agent process - **Seatbelt** on macOS, **Landlock** on Linux 5.13+, with a **bubblewrap** mount-namespace fallback on older kernels.
 
-The sandbox is a filesystem allowlist with opinions. Writable: the project directory, temp, and the caches real builds need (`~/.npm`, `~/.cargo`, `~/go`, `~/.rustup`). Readable: compilers, system libraries, tool config. Blocked outright: `~/.ssh`, `~/.aws`, `~/.gnupg`, `.netrc`, `.npmrc`, `.env` files, `.git/hooks`, and on macOS your personal folders. An agent that goes looking for your deploy keys finds nothing there.
+The sandbox is a filesystem allowlist with opinions. Writable: the project directory, temp, and the caches real builds need (`~/.npm`, `~/.cargo`, `~/go`, `~/.rustup`). Readable: compilers, system libraries, tool config. Blocked outright: `~/.ssh`, `~/.aws`, `~/.gnupg`, `.netrc`, `.npmrc`, `.env` files, `.git/hooks`, and on macOS your personal folders. An agent looking for deploy keys in those protected locations finds nothing there.
 
 Two honest caveats, both of which the [sandboxing post](https://watchfire.io/blog/2026-05-19-how-watchfire-sandboxes-every-agent) states plainly rather than burying: the sandbox is filesystem-focused and does **not** block outbound HTTPS today, and **Windows currently runs unsandboxed** - worktree isolation applies, the OS layer doesn't. Both are on the list.
 
