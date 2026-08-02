@@ -38,9 +38,11 @@ smartTOCHideUnfocusedChildren = false
   #homepageImage = "img/background.jpg"
   showRecent = true
   showRecentItems = 18
-  popularCount = 3
-  trendingCount = 3
-  popularMonths = 12
+  # Highlights: top N posts by age-adjusted score = views / age_days^exponent.
+  # Exponent 0 = plain all-time views, 1 = views per day. Around 0.8 keeps the
+  # evergreen hits on top while letting a strong new post earn a slot.
+  highlightsCount = 6
+  highlightsAgeExponent = 0.8
   showMoreLink = true
   showMoreLinkDest = '/posts'
   cardView = true

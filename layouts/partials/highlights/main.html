@@ -1,27 +1,33 @@
-{{/* Highlights — single section blending two buckets:
-       - Bucket 1: top N most-viewed posts of all time (popularCount, default 3)
-       - Bucket 2: top N most-viewed posts published in the last popularMonths
-                  (trendingCount, default 3) that are NOT already in bucket 1.
-     Bucket 2 is only included if at least one post exists in the date window. */}}
+{{/* Highlights — the top highlightsCount posts ranked by an age-adjusted score:
+
+       score = views / age_days ^ highlightsAgeExponent
+
+     Raw view counts always favour whatever has been online longest. Fitting
+     views against age across the whole archive gives views ~ age^0.51
+     (R² = 0.19), so dividing by a power of age normalises each post against
+     what its age predicts. The exponent is the only knob — 0 is plain
+     all-time views, 1 is views-per-day; 0.75 keeps the evergreen hits while
+     still letting a strong new post earn a slot.
+
+     Ranking happens in highlights.js, which has the view counts; this partial
+     just emits the candidate cards and the two parameters. */}}
 {{ if site.Params.firebase.apiKey }}
-  {{ $months := site.Params.homepage.popularMonths | default 12 }}
-  {{ $popularCount := site.Params.homepage.popularCount | default 3 }}
-  {{ $trendingCount := site.Params.homepage.trendingCount | default 3 }}
-  {{ $cutoff := now.AddDate 0 (mul $months -1) 0 }}
+  {{ $count := site.Params.homepage.highlightsCount | default 6 }}
+  {{ $ageExponent := site.Params.homepage.highlightsAgeExponent | default 0.75 }}
+  {{/* Drafts are absent from a production build, but `hugo server` and the
+       Netlify deploy-preview context both pass --buildDrafts, so exclude them
+       explicitly — an unpublished post must never reach Highlights. */}}
   {{ $allPages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-  {{ $recentPages := where $allPages "Date" "ge" $cutoff }}
-  {{ $includeTrending := gt (len $recentPages) 0 }}
+  {{ $allPages = where $allPages "Draft" "!=" true }}
 
-  {{ $skeletonCount := $popularCount }}
-  {{ if $includeTrending }}{{ $skeletonCount = add $popularCount $trendingCount }}{{ end }}
+  {{ $skeletonCount := $count }}
+  {{ if lt (len $allPages) $skeletonCount }}{{ $skeletonCount = len $allPages }}{{ end }}
 
+  {{ if gt $skeletonCount 0 }}
   <section
     id="highlights-section"
-    data-popular-count="{{ $popularCount }}"
-    {{ if $includeTrending }}
-      data-trending-count="{{ $trendingCount }}"
-      data-trending-since="{{ $cutoff.Format "2006-01-02" }}"
-    {{ end }}>
+    data-count="{{ $count }}"
+    data-age-exponent="{{ $ageExponent }}">
     <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "highlights" | default "Highlights" }}</h2>
     <div id="highlights-grid" class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
       {{ range seq $skeletonCount }}
@@ -35,8 +41,8 @@
     </div>
   </section>
 
-  {{/* Shared hidden source: every post card, tagged with doc ID and publish date.
-       JS clones from here into the highlights grid. */}}
+  {{/* Shared hidden source: every post card, tagged with doc ID and publish
+       date. JS scores from these and clones the winners into the grid. */}}
   <div id="highlights-source" style="display: none;">
     {{ range $allPages }}
       {{ $page := . }}
@@ -58,5 +64,6 @@
   {{ if $highlightsJS }}
     {{ $highlightsJS = $highlightsJS | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default "sha512") }}
     <script type="module" src="{{ $highlightsJS.RelPermalink }}" integrity="{{ $highlightsJS.Data.Integrity }}"></script>
+  {{ end }}
   {{ end }}
 {{ end }}
