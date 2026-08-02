@@ -36,11 +36,8 @@ function toggleLoaders(node) {
   // detached DOM tree we can querySelector against.
   source.remove();
 
-  const popularCount = parseInt(section.dataset.popularCount || "0", 10);
-  const trendingCount = parseInt(section.dataset.trendingCount || "0", 10);
-  const trendingSince = section.dataset.trendingSince || null;
-  const risingCount = parseInt(section.dataset.risingCount || "0", 10);
-  const risingSince = section.dataset.risingSince || null;
+  const count = parseInt(section.dataset.count || "6", 10);
+  const ageExponent = parseFloat(section.dataset.ageExponent || "0.75");
 
   const removeSkeletons = () => {
     grid.querySelectorAll(".highlights-skeleton").forEach((el) => el.remove());
@@ -97,57 +94,52 @@ function toggleLoaders(node) {
     return;
   }
 
-  const placedIds = new Set();
+  // Age-adjusted score: views / age^ageExponent.
+  //
+  // Raw view counts always favour whatever has been online longest. Fitting
+  // views against age across the whole archive gives views ~ age^0.51
+  // (R² = 0.19 — age is a weak predictor, so this is a gentle correction, not
+  // a decay). Dividing by age^exponent normalises a post against what its age
+  // predicts. The exponent is the one knob: 0 is raw views, 1 is views/day.
+  const MS_PER_DAY = 86400000;
+  const nowMs = Date.now();
 
-  const placeFromRanked = (count, sinceDate) => {
-    if (count <= 0) return 0;
-    let placed = 0;
-    for (const docId of ranked) {
-      if (placed >= count) break;
-      if (placedIds.has(docId)) continue;
-      const card = source.querySelector('[data-doc-id="' + CSS.escape(docId) + '"]');
-      if (!card) continue;
-      if (sinceDate && card.dataset.date && card.dataset.date < sinceDate) continue;
+  const scored = [];
+  for (const docId of ranked) {
+    const card = source.querySelector('[data-doc-id="' + CSS.escape(docId) + '"]');
+    if (!card) continue;
+    const published = Date.parse((card.dataset.date || "") + "T00:00:00Z");
+    if (Number.isNaN(published)) continue;
+    // Floor at one day so same-day and future-dated posts can't divide by ~0.
+    const ageDays = Math.max(1, (nowMs - published) / MS_PER_DAY);
+    const views = viewsByDocId.get(docId) || 0;
+    scored.push({ docId, card, score: views / Math.pow(ageDays, ageExponent) });
+  }
+  scored.sort((a, b) => b.score - a.score);
 
-      const clone = card.cloneNode(true);
+  for (const { docId, card } of scored.slice(0, count)) {
+    const clone = card.cloneNode(true);
 
-      // Populate view counts on the clone directly from our pre-fetched data.
-      // The span IDs in the theme's meta/views.html contain slashes (Hugo's
-      // .File.Path is used verbatim), which Firestore would interpret as
-      // path separators — but here we don't need to look them up at all.
-      const viewCount = viewsByDocId.get(docId);
-      clone.querySelectorAll('[id^="views_"]').forEach((span) => {
-        span.removeAttribute("id");
-        span.innerText = formatNumber(viewCount != null ? viewCount : 0);
-        toggleLoaders(span);
-      });
-      // Strip likes IDs too; the site doesn't display likes on cards, but
-      // duplicate IDs in the DOM still hurt accessibility.
-      clone.querySelectorAll('[id^="likes_"]').forEach((span) => {
-        span.removeAttribute("id");
-      });
+    // Populate view counts on the clone directly from our pre-fetched data.
+    // The span IDs in the theme's meta/views.html contain slashes (Hugo's
+    // .File.Path is used verbatim), which Firestore would interpret as
+    // path separators — but here we don't need to look them up at all.
+    const viewCount = viewsByDocId.get(docId);
+    clone.querySelectorAll('[id^="views_"]').forEach((span) => {
+      span.removeAttribute("id");
+      span.innerText = formatNumber(viewCount != null ? viewCount : 0);
+      toggleLoaders(span);
+    });
+    // Strip likes IDs too; the site doesn't display likes on cards, but
+    // duplicate IDs in the DOM still hurt accessibility.
+    clone.querySelectorAll('[id^="likes_"]').forEach((span) => {
+      span.removeAttribute("id");
+    });
 
-      grid.appendChild(clone);
-      placedIds.add(docId);
-      placed += 1;
-    }
-    return placed;
-  };
-
-  // Bucket 1: most viewed all-time
-  placeFromRanked(popularCount, null);
-
-  // Bucket 2: most viewed within the trending window, excluding bucket 1
-  if (trendingCount > 0 && trendingSince) {
-    placeFromRanked(trendingCount, trendingSince);
+    grid.appendChild(clone);
   }
 
-  // Bucket 3: most viewed within the rising window, excluding buckets 1 & 2
-  if (risingCount > 0 && risingSince) {
-    placeFromRanked(risingCount, risingSince);
-  }
-
-  if (placedIds.size > 0) {
+  if (scored.length > 0) {
     removeSkeletons();
   } else {
     section.remove();
