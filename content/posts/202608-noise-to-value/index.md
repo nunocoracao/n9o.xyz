@@ -4,7 +4,7 @@ summary: "AI made producing content nearly free, and the cost of that shows up o
 description: "AI made producing content nearly free, and the cost of that shows up on the other side of the pipe: everything arrives faster and in greater volume than any human can process. The scarce resource isn't generation anymore. It's attention, and the only defence is deciding what gets through."
 categories: ["AI", "Meta"]
 tags: ["ai", "attention", "productivity", "agents", "information"]
-date: 2029-08-16
+date: 2026-08-16
 draft: true
 ---
 
