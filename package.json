@@ -23,5 +23,10 @@
   "homepage": "https://github.com/nunocoracao/homepage#readme",
   "dependencies": {
     "@iamtraction/google-translate": "^2.0.1"
+  },
+  "overrides": {
+    "@iamtraction/google-translate": {
+      "undici": "6.28.0"
+    }
   }
 }

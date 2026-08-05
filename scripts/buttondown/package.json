@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "dotenv": "^16.4.0",
-    "gray-matter": "^4.0.3"
+    "gray-matter": "^4.0.3",
+    "js-yaml": "4.3.1"
   }
 }
