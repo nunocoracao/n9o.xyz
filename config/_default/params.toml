@@ -50,6 +50,7 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundBlur = true
 
 [article]
+  showReadingProgress = true
   showDate = true
   showViews = true
   showLikes = false
