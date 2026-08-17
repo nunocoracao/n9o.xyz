@@ -4,7 +4,7 @@
 #
 # Refer to the theme docs for more details about each of these parameters.
 
-colorScheme = "blowfish"
+colorScheme = "burufugu"
 defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = false
 
@@ -18,7 +18,8 @@ disableImageOptimization = false
 disableTextInHeader = true
 
 defaultFeaturedImage = "/img/background.jpg"
-defaultBackgroundImage = "/img/background.jpg"
+defaultBackgroundImage = "images/v3/site-background.svg"
+backgroundCanvas = true
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -60,6 +61,7 @@ smartTOCHideUnfocusedChildren = false
   showHero = true
   heroStyle = "background"
   layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = true
