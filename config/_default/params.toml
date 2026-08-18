@@ -26,7 +26,8 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = false
 
 [header]
-  layout = "fixed"
+  layout = "floating" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur, floating
+  mobileMenuStyle = "dropdown" # valid options: fullscreen, dropdown
 
 [footer]
   showCopyright = true
