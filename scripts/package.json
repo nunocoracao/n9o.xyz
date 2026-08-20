@@ -9,5 +9,8 @@
   "dependencies": {
     "csv-parse": "^5.5.0",
     "firebase-admin": "^13.6.0"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
   }
 }
