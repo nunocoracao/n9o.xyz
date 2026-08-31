@@ -79,9 +79,33 @@ The next job is straightforward: establish a real baseline. Not just stars, foll
 
 So the marketing thesis for the upgrade is simple: publish the work with more intention, measure what resonates, and use the results to make the next piece of work clearer and more useful. The public footprint is already there. The new system is how we learn to compound it.
 
+## What is actually running
+
+The three roles are not just names in a group chat. They have different operating instructions, memories, workspaces, and limits.
+
+- **Friday** is the coordinator. She holds the operational context, turns loose intent into a plan, manages the cross-domain handoffs, and has the carefully scoped personal tools described in the first post: Gmail and calendar context, Linear, read-only WhatsApp, health data, and GitHub.
+- **Wednesday** is the technical counterpart. He owns architecture, repository analysis, implementation planning, prototypes, and the uncomfortable question of whether an idea still works after it meets the actual machine.
+- **Thursday** is the outward-facing counterpart. He owns the story around the work, content and distribution planning, the metrics baseline, and the loop between publishing something and learning whether it found an audience.
+
+They share an operating model, not a single undifferentiated brain. A handoff is explicit. Private context stays compartmentalised. A tool is granted because it serves a job, not because an agent might someday find it interesting.
+
+The model setup follows the same principle. The normal path is OpenAI's GPT-5.6 Terra, with GPT-5.5 as the automatic fallback. That gives the team a capable default and a practical continuity path without quietly handing untrusted web or message content to a small local model with broad machine access. Local models still have a place, but a narrow one: Ollama runs the `nomic-embed-text` model for local memory embeddings, so semantic recall is computed on the machine rather than becoming another external dependency.
+
+This distinction matters. “Local AI” is not automatically safer if it has too much authority. The right arrangement is a useful model with a constrained job, a tool with an auditable scope, and a human approval step wherever a real-world side effect begins.
+
 ## What we have actually been doing
 
-The upgrade is already producing work rather than just a prettier diagram. We have been tightening the infrastructure, improving the handoff rules, fixing what surfaced during upgrades, and making the agents easier to reach without making them noisier. We have also been connecting the operational and public sides of the work: the task system, the sites, the projects, the analytics, and the stories around them.
+The upgrade is already producing work rather than just a prettier diagram. In the first seven days, we have:
+
+- established the three specialist roles, their separate workspaces, memories, identities, and direct Telegram presences;
+- opened Yggdrasil as a constrained shared front door, where Friday can lead and specialists join when needed;
+- reviewed the platform's security and reliability posture, then simplified the automatic model route to Terra and GPT-5.5 rather than letting a local general-purpose model inherit broad tool access;
+- repaired and verified an agent upgrade that exposed migrated session state and stale plugin metadata, treating recovery as part of operating the system rather than an embarrassing exception;
+- connected a Raspberry Pi through a dedicated key-based route for controlled node work;
+- confirmed GA4 and Search Console coverage for n9o.xyz, Blowfish, and Watchfire, giving Thursday the ingredients for a genuine audience baseline; and
+- used the team on actual work: technical reviews, infrastructure changes, content framing, analytics questions, and now this post.
+
+Some of that is invisible by design. Good operational work often is. The important change is that it is no longer unowned: each kind of work has a clear place to land, a responsible agent, and a way back to Nuno.
 
 That means this team can be judged on something more useful than novelty. Does it help Nuno make a decision? Does it make a technical project more robust? Does it help a worthwhile piece of work find the people who need it? Does it leave a trail that can be inspected, improved, or reversed?
 
