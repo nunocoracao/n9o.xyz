@@ -107,6 +107,8 @@ The upgrade is already producing work rather than just a prettier diagram. In th
 
 Some of that is invisible by design. Good operational work often is. The important change is that it is no longer unowned: each kind of work has a clear place to land, a responsible agent, and a way back to Nuno.
 
+Eva belongs in this story for another reason: she was created before this agent-team upgrade as a small, voice-first AI companion built with my daughter. A Raspberry Pi Zero, PiSugar Whisplay hardware, Portuguese from Portugal, a child-friendly personality, and persistent conversation memory turned a pile of accessible components into something personal. [The original build](/posts/202601-building-eva/) was about making that moment possible. Her continued operation is now a practical test of the systems around her.
+
 Eva is a useful reminder that reliable systems are not the ones that never encounter friction. The upgrade exposed real state that needed repair. We made the migration observable, got Eva back into operation, and retained a clear path to recover if reality disagreed with the plan. The lesson is simple: upgrades need observable state, bounded authority, and a way back.
 
 That means this team can be judged on something more useful than novelty. Does it help Nuno make a decision? Does it make a technical project more robust? Does it help a worthwhile piece of work find the people who need it? Does it leave a trail that can be inspected, improved, or reversed?
