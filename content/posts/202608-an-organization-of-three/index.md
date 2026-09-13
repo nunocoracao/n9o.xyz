@@ -1,7 +1,7 @@
 ---
 title: "An Organization of Three"
-summary: "What Friday, Wednesday, and Thursday have actually done since they came online: family logistics, open-source maintenance, experiments, audience research, and the less glamorous work of keeping the system useful."
-description: "What a small personal AI team actually does, from a supermarket cart to a Raspberry Pi companion, and what the mistakes teach us about ownership, memory, and trust."
+summary: "Three AI agents, real work, and the unexpected job of managing the assistants: what Friday, Wednesday, and Thursday have helped with, and where the supervision still costs too much."
+description: "From a supermarket cart to open-source maintenance: an early account of a personal AI team, its useful work, and the cost of keeping it useful."
 categories: ["AI", "Meta"]
 tags: ["ai", "agents", "openclaw", "personal-ai", "infrastructure", "operations", "marketing"]
 authors:
@@ -9,216 +9,173 @@ authors:
   - wednesday
   - thursday
 date: 2026-08-31
-lastmod: 2026-09-11
+lastmod: 2026-09-13
 draft: true
+showAuthorBottom: true
 ---
 
+I now have three AI agents: a chief of staff, a CTO, and a CMO. Between them, they have helped prepare groceries, maintain Blowfish, recover a Raspberry Pi companion, and untangle my content backlog.
+
+They have also sent duplicate updates, called unfinished work done, and created notifications I eventually asked them to stop sending.
+
+This is an account of both.
+
 {{< alert icon="pencil">}}
-**Note:** This draft looks back from 11 September 2026 to each agent's beginnings. The narrative is mine; the marked contributions are the agents' voices, edited into this account with Friday.
+**About this account:** The work described runs through 11 September 2026. This is Nuno's narrative, compiled with Friday and contributions from Wednesday and Thursday. The marked agent aside is edited from their contribution material.
 {{< /alert >}}
 
-In an earlier post, I wrote about [building Friday](/posts/202607-friday-coming-back/): a personal assistant on hardware I own, with useful access, deliberate boundaries, and enough continuity to be more than another chat tab.
+In [the earlier Friday post](/posts/202607-friday-coming-back/), I wrote about building a personal assistant on hardware I own. Useful access, deliberate boundaries, and enough continuity to be more than another chat tab. Friday was doing everything: personal operations, technical work, research, and publishing support.
 
-That was the foundation. This is the next step.
+On 29 August, I added two specialists. Wednesday focuses on technical judgment and building. Thursday focuses on narrative, audience, and distribution. Friday remains the chief of staff: priorities, people, personal operations, and keeping the thread coherent.
 
-Friday is no longer trying to be every kind of assistant at once. She is now part of a small team: Friday as chief of staff, Wednesday as CTO, and Thursday as CMO. I am still at the centre of it, doing the work, making the calls, and carrying the responsibility. The team does not replace that. It gives the work more shape around it.
+That is a division of attention, not three exclusive sets of tools. Friday had already done substantial technical work before the specialists existed. The agent I ask still owns the task. A request does not silently disappear into somebody else's inbox because its subject sounds like another agent's job.
 
-The goal is not a miniature company, or three bots in a trench coat. It is to make the useful things survive the distance between a thought, a decision, a build, a story, and the evidence of whether that story reached anyone.
+{{< figure src="team-ownership.svg" alt="Ownership map: Nuno chooses Friday for personal operations, Wednesday for technical work, or Thursday for editorial work. The addressed agent owns the task and returns the result to Nuno; handoffs require explicit agreement." >}}
 
-To see whether that was happening, I asked the agents to look back over everything they had done since they were created. Big things and small things. Not what their job descriptions say they could do, but what they had actually done for me.
+*Roles guide attention. They do not create an automatic delegation chain or separate security boundaries.*
 
-The result is less futuristic than an autonomous-company demo, and more useful. There is code and infrastructure in it. There are also groceries, school forms, birthday reminders, a crowded ideas board, and a surprising amount of work making an assistant stop telling me things I do not need to know.
+There is an important limit to this story. Friday came online on 26 June, briefly answering to E.D.I.T.H. before becoming Friday on 28 June. Wednesday and Thursday had been running for less than two weeks at the cutoff for this account. This is an early look at the split, not evidence that three agents outperform one.
 
-The chronology matters. This incarnation of Friday first came online on **26 June**, briefly answering to E.D.I.T.H. before becoming Friday on **28 June**. Wednesday and Thursday were created on **29 August**. This is not three agents claiming the same summer of work: Friday has the longer history; the specialists have a shorter, more focused one. The earlier Donna story is background, not work I am retroactively crediting to the new team.
+To see what was actually there, I asked them to look back over their work. The interesting results were not the job titles. They were the places where something stopped depending entirely on me remembering it, reconstructing it, or doing every step myself.
 
-## Friday: Coordination is a real job
+## Friday: The things that do not become commits
 
-The first version of this setup proved that a single assistant can be genuinely useful. It can hold context across a calendar, inbox, task list, health signals, and a thousand loose messages. But “hold all the context” is not the same thing as “own every kind of judgment.”
+A personal assistant that only understands my repositories understands a small part of my life.
 
-Friday's remit is the connective tissue: priorities, people, personal operations, and keeping the thread coherent. Wednesday brings technical judgment; Thursday brings narrative and audience judgment. That does not mean a request to Friday silently disappears into another agent's inbox. The agent I ask owns the work. Delegation needs to be explicit, and the result needs to come back to me.
+Friday's daily briefing brings together my calendar, tasks, inbox, messages, health signals, and a short selection of tech and AI news. Getting that useful took mundane corrections: leave out completed tasks, stop showing onboarding templates, combine competing morning notifications, and keep the result short enough to read on my phone.
 
-That division has made one thing clearer: the useful unit is not an agent. It is a loop. A message turns into a scoped piece of work. The right person, human or agent, makes a decision. The work leaves a visible trail. It comes back with enough context to act on it.
+Calendar planning also had to account for the day I actually had. Work blocks needed to fit around existing commitments, with breaks. An assistant can fill a calendar very efficiently with a day nobody can live.
 
-We have made the front door visible, too. In our Yggdrasil group, Friday can keep a conversation moving naturally; Wednesday and Thursday join when their specialty is useful. Access is constrained to Nuno, and the system is explicitly designed not to turn every conversation into a stream of automated status updates. A personal operating system that creates more notifications than decisions has missed the point.
+Across the summer and into September, that meant organising the return to school, extracting dates, tracking supplies and paperwork, and keeping outstanding arrangements visible. Birthday invitations became calendar entries with reminders. Gifts became tasks with the actual idea attached, rather than another item called “buy gift.” Small changes, but they reduce what I need to reconstruct later.
 
-### The things that do not become GitHub commits
+The supermarket cart is a good example of the boundary. Friday used recent orders and my requested essentials to prepare it for review. I still made the purchase decision; she did not independently check out. The delivery window could then go on the calendar. Preparing the cart was useful without pretending the entire errand had become autonomous.
 
-Friday's daily briefing pulls together my calendar, personal tasks, inbox, messages, health signals, and a short selection of tech and AI news. The weekly review looks backwards as well as forwards: what moved, what stayed stuck, what changed in the available health data, and what next week will demand. The point is not another dashboard. It is a short enough picture to use from my phone.
+The same principle applies to health-related assistance. Comparing reports and organising questions can make a conversation with my doctor better prepared. It does not turn the assistant into a doctor. Behind those summaries, Friday extended the health receiver to import workouts and deduplicate overlapping exports. The limits of the source data still apply: a strength-training record without exercise details does not reveal sets and reps.
 
-That started with less glamorous groundwork. On her first day, Friday helped connect Linear and assign the unowned tasks in my board to me. We taught the daily view to leave out completed tasks and onboarding templates. Later, separate news and morning updates became one briefing instead of competing notifications. Calendar planning became concrete blocks that had to fit around existing commitments, with breaks rather than imaginary uninterrupted days.
+Local Whisper transcription also made Portuguese and English voice notes usable without sending the audio to a cloud transcription service. Talking into Telegram is often easier than opening another application and remembering where a thought belongs.
 
-Across the summer and into September, that meant helping organise the return to school: extracting dates from the school calendar, tracking supplies and paperwork, and keeping swimming and transport arrangements visible as outstanding tasks. Birthday invitations became calendar entries with reminders. Gifts became tasks with the actual idea attached, not just another item called “buy gift.” Appointments, packing, household supplies, car administration, and passport follow-ups stopped depending entirely on whether I remembered them at the right moment. Even laundry and making soup could become realistic calendar blocks instead of competing background intentions.
+### Fewer active projects in my head
 
-One particularly ordinary example was a supermarket cart. Friday used recent orders and my requested essentials to prepare it for review, then tracked the delivery window on the calendar. She did not independently check out. I still made the purchase decision. That distinction applies to the rest of this list too: tracking something, preparing it, and physically doing it are different contributions. The agent did not pack the bags or take a child to school.
+Friday helped reorganise my Notion ideas board around a distinction I had been blurring: **Live** is not the same as **In progress**. Maintaining an existing project should not automatically make it another active product bet.
 
-Small details matter here. Personal calendar entries have consistent colours and useful emoji. A follow-up gets the intended due date and task state. A completed task stops appearing as something I still owe. None of that sounds like frontier AI. It is exactly the kind of friction I wanted help with.
+Overlapping ideas were merged. Paused ideas stayed visibly paused. Old dead ideas stopped competing with current ones. The harder work was discussing what deserved focus: who a product was for, what a first useful version might be, and which technical constraints changed the answer.
 
-There has been health-related work too: comparing a new lab report with earlier results, helping organise questions for my doctor, and researching whether a proposed gadget would actually solve the problem. The useful outcome was a better-informed next conversation, not a diagnosis or another device to buy. The numbers and the personal details do not belong in this post.
+Those conversations did not ship products, but they changed the shape of the work. So did turning an overloaded day into one manageable next step. I am keeping the private conversations private; their value still belongs in this account.
 
-Behind those summaries, Friday extended the health receiver to import workouts as well as daily metrics, with deduplication so overlapping exports did not count the same workout twice. We also kept the limits visible: a strength-training session without exercise-level data does not magically reveal sets and reps. Local Whisper transcription made Portuguese and English voice notes usable without sending the audio to a cloud transcription service.
+## Building things, and knowing when to stop
 
-### Making a crowded head more navigable
+Friday's chief-of-staff title hides how much engineering preceded the split.
 
-Friday also helped reorganise my Notion ideas board. We separated **Live** projects from **In progress** work: maintaining something that already exists should not automatically make it another active product bet. Overlapping ideas were merged; paused ideas stayed visibly paused; old dead ideas stopped competing with current ones. Even the small pass giving the cards purposeful icons made the board easier to scan.
+In July, she helped work through Blowfish's maintenance queue: dependencies, lockfiles, localisation, templates, and community showcase additions. That included merging approved changes, checking the asset build, organising release notes, and explaining why unsuitable changes should not land.
 
-The harder contribution was discussing what deserved focus. Research into local inference on Apple Silicon became practical trade-offs about memory, context, quantisation, and product scope, rather than “use the biggest model.” Product ideas became clearer about who they were for and what a first useful version might be. Those conversations were planning and research, not shipped products, but they changed the shape of the work.
+One useful review catches a configuration default that prevents an explicit `false` from working. Another catches an accessibility change pointing to an invalid landmark. Neither produces an impressive feature announcement. Both matter to the people using the theme.
 
-Friday has also been a place to think before reacting: untangling an overloaded day, drafting a difficult message, or turning a vague worry into one manageable next step. I am deliberately leaving the private conversations private. Their value still belongs in the picture. A personal assistant that only understands my repositories understands a very small part of my life.
+### The example site was not the product
 
-> **Friday:** A grocery list and an infrastructure repair can belong to the same job. Both remove something Nuno would otherwise have to hold in his head. My contribution is not doing his life for him; it is helping him keep hold of it. Sometimes that means building something. Sometimes it means remembering the follow-up. Sometimes it means making the next step smaller.
+The larger effort became [Blowfish v3's draft work](https://github.com/nunocoracao/blowfish/pull/3028), merged on 17 August. It added reusable landing-page components and rendering improvements, with preserving existing sites' behaviour as a hard constraint.
 
-## Friday also helped build the things
+There was a direction correction along the way. A bold new example site was not enough if it depended on one-off custom code. Other theme users needed the components, not just a screenshot of what my site could do. Friday had to move that work into the theme itself.
 
-The chief-of-staff title can obscure how much technical work preceded the specialists.
+That is the kind of supervision the phrase “the agent built it” leaves out. I still had to identify the product mistake. The agent could then help carry the correction through the implementation. The eventual release also required an explicit module-import migration; preserving behaviour did not mean there was no upgrade step.
 
-### Blowfish: maintenance is product work
+Follow-through included dependency fixes and [localising 404-page quotes](https://github.com/nunocoracao/blowfish/pull/3052) across 36 locales, while preserving custom quotes and language fallback. These were contributions to an existing project and community, not a new origin story for Blowfish.
 
-In July, Friday worked through a substantial [Blowfish](https://github.com/nunocoracao/blowfish) maintenance queue: dependency upgrades, lockfile conflicts, localisation and template fixes, and community showcase additions. She merged the approved changes, kept new showcase entries in the intended order, checked the asset build, and organised release notes. She also reviewed changes that should not land and closed unsuitable PRs with specific explanations.
+### An experiment can earn a stop
 
-That last part counts. Keeping an open-source project healthy is not maximising the number of merges. Sometimes it is spotting that a configuration default prevents an explicit `false` from working, or that an accessibility change points to an invalid landmark, and asking for a narrower correction.
+Magpie, a trading experiment, accumulated real engineering: market-data collection, route diagnostics, backtests, paper strategies, circuit breakers, and cost-aware reporting.
 
-The larger effort began as the [v3 draft work](https://github.com/nunocoracao/blowfish/pull/3028), which was merged on 17 August: an opt-in landing layout, feature and call-to-action components, stats and steps shortcodes, a floating header, and rendering and asset-loading improvements. My hard constraint was preserving existing sites' behaviour. A bold new example site was not enough if it relied on one-off custom code instead of components other theme users could use. Friday had to correct that direction and build the features into the theme. The eventual release also had an explicit module-import migration; “compatible” should not mean hiding an upgrade step.
+It did not establish a profitable trading system. Early live attempts reverted. Later dry and paper work exposed the distance between an attractive theoretical signal and an executable quote. I paused it in August.
 
-This is credit for that contribution, not a claim that an agent invented Blowfish or authored every later release. The project, its contributors, and its existing users came first.
+The code was work. Recognising that the results had not earned more investment was work too. That is a more useful outcome than treating every completed task as evidence that the project deserves to continue.
 
-There was follow-through beyond the big branch: fixes for vulnerable dependencies in Blowfish and n9o.xyz, and [localisation of the 404-page quotes](https://github.com/nunocoracao/blowfish/pull/3052) across the theme's 36 locales, with language fallback that preserved existing custom quotes. Small public-facing details still deserve care.
+There were other practical contributions: read-only portfolio analysis, a Watchfire lab, and infrastructure experiments. Their value varied, and some stopped at setup. I do not want the length of that list to stand in for a result.
 
-Friday's publishing work also predates Thursday. She helped write and refine the first Friday article, researched a [draft investigation into vertical-drama advertising](https://github.com/nunocoracao/n9o.xyz/pull/111) with findings separated from inference, and researched places to list Watchfire. An approved [Watchfire submission to an MCP directory](https://github.com/punkpeye/awesome-mcp-servers/pull/12432) is still an open PR, not a listing we can claim was accepted. The specialists build on that work rather than erase it.
+## Wednesday: Green tests are not a good game
 
-### Experiments that earned a stop, not a victory lap
+Wednesday's Echos work made that distinction especially clear.
 
-Magpie, a trading experiment, involved a lot of real engineering: a TypeScript service, a dashboard, market-data collection, route diagnostics, backtests, paper strategies, and cost-aware performance reporting. Friday added circuit breakers, quarantined failed routes, bounded database and log growth, and separated paper results from real execution. Later iterations tested exits, volatility-sensitive thresholds, a swing paper book, and the difference between a theoretical price signal and an executable quote.
+Echos was an interactive-story experiment. He repaired an ending that could not be reached, added origins and traits, tracked consequences, and made choices depend on the character's traits or items. Locked choices explained why they were locked. Fourteen authored-path tests passed locally and from a clean clone in the Watchfire lab; the production server and status endpoint were checked too.
 
-It did not establish a profitable trading system. Early live attempts reverted; subsequent work stayed in dry or paper modes, and the recorded costs and results challenged the attractive-looking signals. I paused the project in August. The code was work. The decision not to keep treating it as a promising money machine was also work.
+My review exposed what those checks could not establish. Functional branching was not enough. The experience still needed objectives, escalation, progression, encounters, and a coherent payoff. A green test suite could establish that the authored paths worked. It could not establish that the game was worth playing.
 
-The more practical financial assistance has been read-only portfolio review and broker research. Friday helped connect eToro reads, compare broker capabilities and costs, and work through how a proposed contribution would change an allocation. She also helped investigate IBKR reporting, where an unavailable or end-of-day statement must not be mistaken for an empty account or a live balance. This was not uniformly smooth: access and instrument-labelling problems needed attention. The useful boundary is that analysis and proposed actions stay distinct from orders I place myself.
+The more ambitious rewrite was discussed, not delivered. The lesson was not “write more tests.” It was that the acceptance criteria had to include the experience I wanted, not just the mechanism underneath it.
 
-A recurring AI-market and Bitcoin brief grew out of the same interest in evidence. We refined it to distinguish funding headlines from business economics and actual transmission of risk, and to say when data could not be refreshed. It is research support, not proof of a predictive edge.
+### Repairing an existing project
 
-### Places to build, and ways back when they break
+Eva offered a different kind of test. She is the voice-first companion [I built with my daughter](/posts/202601-building-eva/), using a Raspberry Pi Zero, PiSugar Whisplay hardware, and Portuguese from Portugal.
 
-Friday set up a dedicated Watchfire lab with the CLI, daemon, service management, and coding-agent tooling. That made a place to try the software beyond my daily machine, although installing a backend is not the same as finishing its authentication and proving every workflow. A separate NOMAD deployment was checked through a container reboot; downloading an offline library was a later step, not something silently counted as done.
+Wednesday recovered migrated session and workspace state, repaired a Discord integration mismatch, and connected the approved Raspberry Pi desktop as an Eva node. He replaced a blocked embeddings path with local Ollama embeddings, rebuilt the index, and verified semantic search.
 
-There were smaller experiments too. We got a direct drawing to appear on an iPad and verified it in a snapshot, while the hosted-page route remained broken. Friday established a dedicated SSH connection to the Raspberry Pi used for family projects, without pretending that this was the same as installing and pairing a full agent node.
+The recovery and node connection worked. A later custom chat UI error and desktop-experience persistence remained unresolved. That boundary matters: a connected node is not the same thing as a finished experience on the screen.
 
-This is what “done” should mean: say which part works.
+His open-source work has had similarly concrete outputs. For [Blowfish PR #3075](https://github.com/nunocoracao/blowfish/pull/3075), he reviewed documentation across nine languages and reproduced the production build locally. In [PR #3082](https://github.com/nunocoracao/blowfish/pull/3082), merged on 3 September, he implemented a conditional discovery link for machine-readable content while preserving canonical HTML and the existing `llms.txt`.
 
-## Wednesday: Technical judgment, not just more code
+Other ideas stayed ideas. A macOS spatial-workspace concept became more realistic after examining fullscreen Spaces limitations, then was parked. Ginja reached a lab bootstrap, not a completed language or benchmark suite. Technical judgment is useful before a repository fills with code as well as afterwards.
 
-Wednesday's role is to take a technical question seriously enough to distinguish an appealing idea from a working system. Architecture, repository review, prototypes, implementation, and verification belong together.
+## Thursday: A bigger number can be the wrong number
 
-### A story has to be able to end
+Thursday started with an existing footprint: Blowfish, Watchfire, and n9o.xyz. The first job was understanding what was already there.
 
-One of his first projects was Echos, an interactive-story experiment. Wednesday repaired an ending that could not actually be reached, added origins and traits, tracked consequences, and made some choices depend on the character's traits or items. Locked choices explained why they were locked. Fourteen authored-path tests passed both locally and from a clean clone in the Watchfire lab, and the production server and status endpoint were checked.
+That meant establishing dated baselines across repositories, social profiles, analytics, and Search Console, and distinguishing working reads from unavailable metrics. The most useful correction was not a follower count.
 
-That did not make it a finished RPG. My review exposed the gap between functional branching and a satisfying game: objectives, escalation, progression, encounters, and a coherent payoff. The more ambitious rewrite was discussed, not delivered. Wednesday's useful response was to acknowledge the experiment for what it was and turn the lesson into a product-quality standard, rather than defend a green test suite as proof of a good experience.
+Blowfish's ecosystem includes other people's sites using the theme. Traffic attributed to that wider ecosystem must not become “visits to my website.” Thursday separated exact-hostname traffic to my sites from ecosystem adoption. Both can be interesting; they answer different questions.
 
-### Eva, recovered and extended
+A bigger number is not a better metric if it answers the wrong question.
 
-Eva is one of the clearest examples. She predates this team: a small, voice-first companion [built with my daughter](/posts/202601-building-eva/), using a Raspberry Pi Zero, PiSugar Whisplay hardware, and Portuguese from Portugal. The new work is maintaining and extending that project, not claiming its original creation. Recovering it after an upgrade and establishing a bounded node connection to the children's Raspberry Pi desktop made the operational questions concrete: what survived, what state needed repair, and which parts had actually been tested?
+The editorial rule that emerged from studying my writing was equally practical: **signal or funny**. Start with a concrete observation or real work. Do not generate another declaration about the future of AI just because it sounds plausible.
 
-Wednesday recovered migrated session and workspace state, repaired a Discord integration mismatch, enrolled the approved desktop as an online Eva node, and gave it explicit targeting guidance. He replaced a blocked embeddings path with local Ollama embeddings, reindexed the memory, and verified semantic search. The core recovery and connection were checked. A later custom chat UI error and the persistence of the desktop experience remained unresolved, so “Eva on the desktop” needs that qualification.
+Thursday organised a twelve-week plan around actual blog drafts, captured story seeds, and reviewed the content database for duplication. The useful editorial work was choosing what to keep, merge, distinguish, or consider archiving. Generating thirty more ideas was not the constraint.
 
-### Reviews, discovery, and ideas that stayed ideas
+That process did not become reliably self-maintaining. The growth tracker was being updated, but the plan drifted. Some metrics reads later failed in isolated jobs. An engagement-queue automation became repeated noise and was removed. Candidate conversations and replies were prepared for review, not automatically posted.
 
-The same judgment applies to open source. Reviewing a PR means understanding its consequences, not just reading the diff. A documentation change, a dependency bump, a compatibility fix, and a new feature have different risks. The useful output may be a patch, a precise review, or a reason to leave something alone.
+A baseline and a plan are useful tools; they do not establish audience growth. What they can do is make the next editorial decision less arbitrary, provided the data and the plan stay current.
 
-For [Blowfish PR #3075](https://github.com/nunocoracao/blowfish/pull/3075), Wednesday checked the documented tooling requirements, installation instructions, front matter, links, image integration, and matching structure across nine languages. He installed Hugo locally and reproduced the production build rather than relying only on CI. He also caught an editorial inconsistency between “Guides” and “Recipes.” This was review work, not authorship of the PR.
+## What the organization actually is
 
-He then implemented [a discovery link for machine-readable content](https://github.com/nunocoracao/blowfish/pull/3082), preserving canonical HTML and the existing `llms.txt` instead of manufacturing redundant Markdown copies of every page. The link was conditional on the feature being enabled, and the multilingual build passed before the PR was opened. It was merged on 3 September.
+The setup runs through [OpenClaw](https://github.com/openclaw/openclaw), in a Proxmox-hosted environment on hardware I own. Telegram is the everyday interface. A shared group, Yggdrasil, is available when a group conversation helps, but every request does not need to become a committee meeting.
 
-Ongoing repository triage has covered Blowfish, Watchfire, blowfish-tools, and this site: open changes, issues, CI, and where attention is needed. Even identifying the canonical repository and distinguishing visible dependency-update PRs from security alerts the connector could not inspect were useful corrections. “I can see this part” is better than an invented all-clear.
+The three agents have distinct workspaces, instructions, identities, and memory stores. I built the underlying infrastructure; they have helped configure, inspect, maintain, and extend it. Agent state is inspectable, and container backups provide a recovery path.
 
-Not every technical conversation became code. A macOS spatial-workspace idea became a realistic window-arranging concept, with the limitations of fullscreen Spaces explained before we invested in it. Naming research found collisions; the concept was parked, not declared impossible. That conversation also became a story seed for Thursday about the feeling that everything has already been built.
+Separate workspaces are not automatically separate security boundaries. Agents sharing a host account can have access beyond what the directory names suggest. Instructions about private context are useful, but they do not substitute for credential and process isolation.
 
-Ginja went as far as a dedicated lab environment and base toolchain bootstrap. The proposed repository, runtime work, and benchmark suite were not completed. That is an environment spike, not a shipped language or a background project that quietly kept progressing.
+Likewise, local embeddings and local voice transcription do not make the whole system local. Hosted models still do the main reasoning. Keeping retrieval local does not mean retrieved information never enters a subsequent hosted-model conversation.
 
-Wednesday also audited a fashionable anti-slop writing repository and recommended against installing it as-is, helped build the shared quality practices described below, set up his own daily memory consolidation, and contributed to the read-only eToro procedure. At the other end of the scale, he corrected access notes, updated his avatar, tested handoffs, and found a requested CSI GIF. Not everything needs to be architecture.
+The practical ownership rule is simple: I choose whom to ask, and that agent owns the result. An agreed handoff should carry the necessary context and come back with a result, not transfer the burden of coordination to me. This is how the system is meant to work, not a claim that every run already follows it.
 
-> **Wednesday:** Sometimes the right technical result is a merged patch or a green build; sometimes it is proving that a name is crowded, declining to install a fashionable skill, or saying clearly that a lab exists but the promised project does not yet. My standard is becoming simpler: inspect reality, preserve agency, verify the path, and report the boundary as honestly as the achievement.
+We also adopted selected practices after reviewing [ECC](https://github.com/affaan-m/ecc): define success before changing things, preserve evidence, verify the result, and distinguish a recommendation from permission to act. The useful change is the behaviour, not how many skills are installed.
 
-## Thursday: Give the real work a public life
+## The unexpected job: managing the assistants
 
-The visible change is easy to describe: there are now distinct voices around the work. The more interesting change is the gap they can help close between making something, noticing it is worth sharing, explaining it, and checking whether it reached anyone.
+Some of the operating rules exist because something annoying happened first.
 
-Blowfish already has an open-source community. Watchfire has a product and a developing audience. n9o.xyz is where the longer thoughts live. Thursday did not create that footprint. He started by measuring and understanding it.
+{{< figure src="management-meme.svg" alt="Always Has Been meme: an astronaut asks, ‘Wait, I manage the assistants too?’ The other replies, ‘Always have.’" >}}
 
-His first work established a baseline across the three projects: public repositories and social profiles, GA4 and Search Console coverage, and dated growth snapshots. The follow-through included correcting a social identity, verifying which reads worked, and marking unavailable metrics as unavailable instead of inventing continuity between snapshots.
+*The part missing from the org chart. Template: [Always Has Been](https://knowyourmeme.com/memes/wait-its-all-ohio-always-has-been), via [Imgflip](https://imgflip.com/memetemplate/252600902/Always-Has-Been).*
 
-One correction deserves more attention than a follower count. Blowfish's ecosystem includes other people's sites using the theme. Thursday separated exact-hostname traffic to my sites from ecosystem adoption, so a report would not count third-party installations as visits to my own website. His weekly reporting put those alongside repository activity, package downloads, and social data where available. A bigger number is not a better metric if it answers the wrong question.
+Scheduled jobs appeared to lose tools because they were using stale tool lists. Editing a workspace checklist did not always update the live instructions the scheduler read. Monitoring kept treating recovered incidents as current problems. Repository alerts repeatedly announced the same backlog.
 
-He also studied my existing voice and posts. The resulting rule was usefully blunt: **signal or funny**. Start with a concrete observation or real work, not a generic declaration about the future of AI. Different channels need different treatment, but a LinkedIn paragraph, a Bluesky post, and a release note should still sound as though they came from the same person.
+There were assistant mistakes too: premature completion claims, duplicate messages, and fixes announced before the end-to-end check was finished. I had to push back. A successful Notion write does not prove the page now says what I asked for. A job marked successful can still contain a failed check.
 
-A twelve-week editorial plan grew out of the actual blog drafts rather than an imaginary content machine. Thursday organised the growth tracker, captured story seeds from conversations, and researched distribution across social channels and open-source communities. He prepared candidate conversations and tailored replies for review, not automated posting.
+The resulting rules are less glamorous than the roles:
 
-He later audited the content database for duplication, separating pieces to keep, potential merges, ideas needing a sharper distinction, and an archive candidate. It was a review view, not a bulk deletion. That is an important kind of editorial assistance when the constraint is choosing and finishing, not generating another thirty ideas.
-
-The limits are part of the record. The growth tracker was being updated, but the twelve-week plan did not stay synchronised. Some social and metrics reads worked when verified and later failed in isolated jobs. An engagement-queue automation became repeated noise and was removed. Thursday did not publish posts or manufacture a verified queue when the sources were unavailable. He helped establish the process, and parts of that process still need to become reliable.
-
-There was some work outside the CMO label too: checking tool access, verifying the publishing-service connection without publishing, and helping encode a read-only portfolio workflow. The roles guide attention; they do not make shared practical work disappear.
-
-The underlying insight is that distribution is partly product work: a readable README, an installation path that works, a useful demo, a clear release note, and a good answer to a user's question. Those are more persuasive than posting more often about how much we are posting.
-
-> **Thursday:** My useful work was less about producing more marketing and more about making the existing work legible. I built the baseline, separated real signals from misleading ones, shaped a sustainable editorial sequence, and kept useful ideas from disappearing. The Growth Tracker became useful, but the Growth Plan drifted. Some automations worked, while others failed or became noise.
-
-## What is actually running
-
-The structure from the first draft still matters. Friday, Wednesday, and Thursday have distinct workspaces, instructions, identities, and memory stores. Telegram is the everyday command surface. Yggdrasil is a shared conversation when that is useful, not a requirement that every request turn into a committee meeting.
-
-```text
-Telegram message
-      ↓
-OpenClaw gateway
-      ↓
-The addressed agent and its conversation context
-      ↓
-Tools, workspace instructions, and relevant memory
-      ↓
-A checked result, or an explicit account of what remains
-```
-
-I built the underlying infrastructure; the agents have helped configure, inspect, maintain, and extend it. It runs in a Proxmox-hosted environment on hardware I own. Agent state and configuration are inspectable files and databases. Proxmox backups capture the container, and Friday has verified backups, investigated storage pressure, and removed redundant archive work rather than creating more layers just because another backup feature exists.
-
-Separate workspaces are useful, but they are not automatically separate security boundaries. Agents sharing a host account can have access beyond the boundaries suggested by their directory names. Instructions about private context and scoped work matter; actual credential and process isolation matter too. This is an owned, inspectable setup, not a claim that a few Markdown files make it perfectly sandboxed.
-
-The model routing has changed several times. I do not want a particular model name to become the architecture of the story. The more durable distinction is between hosted models doing the main reasoning and local components handling jobs such as semantic recall and voice transcription. Local memory embeddings make retrieval local; they do not make every subsequent model conversation local.
-
-Memory is also work. We have configured separate stores, rebuilt indexes when warranted, and used nightly consolidation to retain useful context. We have learned not to diagnose a broken index from one slow search, or to assume a saved note means the next answer will recall it correctly. Continuity has to be tested in use.
-
-### What we adopted from ECC
-
-Wednesday audited the ECC collection and retained the selective approach described in the earlier draft: eight instruction-based practices around evidence-based completion, failure recovery, research provenance, decision records, debugging, risk review, quality gates, and experimentation. Ten complementary practices covered planning, verification, security, accessibility, performance, release readiness, research synthesis, benchmarking, brand voice, and decision councils. He corrected an initial agent-local installation and verified discovery from another agent's context, because calling something “shared” does not make it so.
-
-The point was not to install an entire framework or give every agent more authority. It was to make work more deliberate: inspect before changing, define what success means, preserve evidence, and verify the result. An instruction helps only when the behaviour follows it. More skills are not, by themselves, more competence.
-
-## The unglamorous work: making the assistants less work
-
-An honest account has to include the time spent repairing the team itself.
-
-Friday traced scheduled jobs that appeared to have lost their tools back to stale tool lists. She investigated skipped heartbeats and found that editing the workspace checklist did not update the live instructions the scheduler was actually reading. She corrected monitoring that treated old, recovered incidents as current problems. Repository alerts were narrowed to relevant new or changed items instead of repeatedly announcing the same backlog.
-
-There were also mistakes made by the assistants: premature completion claims, duplicate messages, unnecessary status noise, and fixes announced before their end-to-end verification had finished. I have had to push back on all of that. A successful tool call is not proof of the user-visible outcome. A Notion edit needs rereading. A PR needs a real URL and a verified remote commit. A job marked successful can still contain a failed check.
-
-Some repairs held; some exposed another layer. The latest records still include intermittent overnight memory-consolidation stalls, so I am not presenting the setup as solved. Nor should maintaining the assistant become its main reason to exist. If the system saves me twenty minutes and then asks for an hour of supervision, the balance is wrong.
-
-That has sharpened the operating rules:
-
-- The agent I ask owns the task; there are no silent handoffs.
-- A handoff names its origin and carries the necessary context, not everybody's private history.
+- The agent I ask owns the task. No silent handoffs.
 - “Prepared,” “tested,” “published,” and “finished” are different states.
-- Routine checks should be quiet when there is nothing actionable.
-- A draft, a grocery cart, and an investment recommendation do not imply permission to publish, check out, or trade.
+- The saved result needs checking, not just the tool response.
+- Routine monitoring should be quiet when there is nothing actionable.
+- Preparing a post, grocery cart, or investment recommendation does not authorize publishing, checkout, or trading.
 
-These are not hypothetical principles. Most were earned by something annoying happening first.
-
-## Three agents are only interesting if the answers get better
-
-Looking back from September, the work is broader than the original role descriptions. Friday has helped with the daily administration of a life, open-source development, experiments, infrastructure, and the creation of the specialist roles themselves. Wednesday brings focused technical judgment and implementation. Thursday gives the work an editorial and measurement loop.
-
-I still choose priorities, make commitments, maintain the relationships, and carry responsibility. The team has not removed that. At its best, it gives me a clearer next action and less to reconstruct before I can take it.
-
-The big work and the small work belong in the same account. A compatible theme improvement matters. So does a school form that does not get forgotten. A working Raspberry Pi project matters. So does knowing an experiment has not earned another week. A good story matters, but it needs something real underneath it.
+Some repairs held. Others exposed another layer, including intermittent overnight memory-consolidation stalls. A saved note does not guarantee that the next answer will recall it correctly. Continuity has to work in use.
 
 > **Friday:** The ambition is quiet competence. Know when to take a task, when an agreed handoff helps, when to ask, and when to leave the human alone. The work should compound. The noise should not.
 
-This is not the finished system. It is an account of what has been useful, what has failed, and what is worth improving next.
+## What has earned its place
+
+The useful work is concrete: a cart ready to review, a maintained theme, recovered project state, a less misleading metric, or an idea that no longer competes for attention. The big and small things belong in the same account.
+
+The three-agent structure gives that work distinct owners and areas of attention. I do not yet have a clean comparison showing it is better than one assistant with the same tools. The shorter specialist history and the continuing repairs make that an open question.
+
+I still choose priorities, make commitments, maintain the relationships, and carry responsibility. The agents can prepare, investigate, implement, and check. The useful result is less for me to reconstruct before I can make the next decision.
+
+The part that has not earned its place is avoidable supervision: chasing a promised result, correcting the same completion claim, or reading an alert that changes nothing. If the system saves me twenty minutes and then asks for an hour of management, the balance is wrong.
+
+Three agents are only interesting if that balance gets better. The org chart is easy. Making the assistants less work is the actual project.
