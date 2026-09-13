@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 840" role="img" aria-labelledby="title desc">
+<title id="title">Three roles, one accountable owner per task</title>
+<desc id="desc">Nuno chooses which agent to ask. Friday handles personal operations, Wednesday technical work, and Thursday editorial work. The addressed agent owns the task and returns a result or a clear blocker. Handoffs need explicit agreement. This is the intended workflow, not a security boundary.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#475569"/></marker></defs>
+<rect width="640" height="840" rx="18" fill="#f8fafc"/>
+<g font-family="system-ui, sans-serif" fill="#172033">
+<text x="32" y="48" font-size="25" font-weight="700">Three roles. One owner per task.</text>
+<text x="32" y="82" font-size="19" fill="#475569">Intended workflow, with Nuno in control</text>
+<g fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arrow)">
+<path d="M180 202H56V311H112"/>
+<path d="M56 311V441H112"/>
+<path d="M56 441V571H112"/>
+<path d="M528 311H584V721H528"/>
+<path d="M528 441H584"/>
+<path d="M528 571H584"/>
+</g>
+<rect x="112" y="118" width="416" height="110" rx="12" fill="#dbeafe" stroke="#64748b"/>
+<text x="140" y="157" font-size="25" font-weight="700">Nuno</text>
+<text x="140" y="193" font-size="21">Chooses whom to ask</text>
+<rect x="112" y="256" width="416" height="110" rx="12" fill="#e2e8f0" stroke="#64748b"/>
+<text x="140" y="295" font-size="25" font-weight="700">Friday · Chief of staff</text>
+<text x="140" y="331" font-size="21">Priorities and personal operations</text>
+<rect x="112" y="386" width="416" height="110" rx="12" fill="#e2e8f0" stroke="#64748b"/>
+<text x="140" y="425" font-size="25" font-weight="700">Wednesday · CTO</text>
+<text x="140" y="461" font-size="21">Technical judgment and building</text>
+<rect x="112" y="516" width="416" height="110" rx="12" fill="#e2e8f0" stroke="#64748b"/>
+<text x="140" y="555" font-size="25" font-weight="700">Thursday · CMO</text>
+<text x="140" y="591" font-size="21">Narrative, audience, distribution</text>
+<rect x="112" y="666" width="416" height="110" rx="12" fill="#dbeafe" stroke="#64748b"/>
+<text x="140" y="705" font-size="25" font-weight="700">Back to Nuno</text>
+<text x="140" y="741" font-size="21">Result, evidence, or clear blocker</text>
+<text x="32" y="814" font-size="19" fill="#475569">The addressed agent owns it. No silent handoffs.</text>
+</g></svg>
