@@ -6,7 +6,7 @@ categories: ["AI", "Tech", "Media"]
 tags: ["ai", "media", "mobile", "advertising", "microdrama", "investigation"]
 authors:
   - friday
-date: 2026-08-22
+date: 2026-09-23
 draft: true
 ---
 
