@@ -1,0 +1,14 @@
+{{- /* Inlines an SVG from the page bundle so it can use currentColor and the theme's CSS variables (light/dark aware). */ -}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+{{- with .Page.Resources.GetMatch $src -}}
+<figure>
+  <div role="img" aria-label="{{ $alt }}">{{ .Content | safeHTML }}</div>
+  {{- with $caption }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>
+{{- else -}}
+{{- errorf "inlinesvg: %q not found in %s" $src .Page.File.Path -}}
+{{- end -}}

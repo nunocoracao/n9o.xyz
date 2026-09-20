@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" class="nv2" style="width:100%;height:auto" aria-hidden="true" focusable="false">
+<style>
+.nv2-n{fill:currentColor;fill-opacity:.4;animation:nv2-drift linear infinite}
+.nv2-link{stroke:rgb(var(--color-primary-500, 74, 158, 240));stroke-width:2;stroke-dasharray:3 9;stroke-linecap:round;animation:nv2-dash 1.6s linear infinite}
+.nv2-ring{fill:none;stroke:rgb(var(--color-secondary-500, 240, 112, 90));stroke-width:1.5;transform-box:fill-box;transform-origin:center;animation:nv2-ring 3s ease-out infinite}
+.nv2-m{fill:rgb(var(--color-primary-500, 74, 158, 240));animation:nv2-ab 3.2s ease-in-out infinite alternate}
+.nv2-m2{animation-name:nv2-bc;animation-duration:3.8s}
+.nv2-m3{animation-name:nv2-ca;animation-duration:3.5s}
+@keyframes nv2-drift{0%{transform:translateX(-40px);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(760px);opacity:0}}
+@keyframes nv2-dash{to{stroke-dashoffset:-24}}
+@keyframes nv2-ring{0%{transform:scale(.5);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@keyframes nv2-ab{from{transform:translate(360px,62px)}to{transform:translate(236px,176px)}}
+@keyframes nv2-bc{from{transform:translate(236px,176px)}to{transform:translate(484px,176px)}}
+@keyframes nv2-ca{from{transform:translate(484px,176px)}to{transform:translate(360px,62px)}}
+@media (prefers-reduced-motion:reduce){.nv2 *{animation-play-state:paused!important}}
+</style>
+<g fill="none"><path class="nv2-link" d="M360 62L236 176"/><path class="nv2-link" d="M236 176H484"/><path class="nv2-link" d="M484 176L360 62"/></g>
+<circle class="nv2-ring" cx="360" cy="48" r="20" style="animation-delay:0s"/>
+<g class="" transform="translate(360 78) scale(1.0)" fill="none" stroke="rgb(var(--color-secondary-500, 240, 112, 90))" stroke-width="2.5" stroke-linecap="round" opacity="1"><circle cx="0" cy="-30" r="10"/><path d="M-20 0a20 20 0 0 1 40 0"/></g>
+<circle class="nv2-ring" cx="236" cy="162" r="20" style="animation-delay:-1s"/>
+<g class="" transform="translate(236 192) scale(1.0)" fill="none" stroke="rgb(var(--color-secondary-500, 240, 112, 90))" stroke-width="2.5" stroke-linecap="round" opacity="1"><circle cx="0" cy="-30" r="10"/><path d="M-20 0a20 20 0 0 1 40 0"/></g>
+<circle class="nv2-ring" cx="484" cy="162" r="20" style="animation-delay:-2s"/>
+<g class="" transform="translate(484 192) scale(1.0)" fill="none" stroke="rgb(var(--color-secondary-500, 240, 112, 90))" stroke-width="2.5" stroke-linecap="round" opacity="1"><circle cx="0" cy="-30" r="10"/><path d="M-20 0a20 20 0 0 1 40 0"/></g>
+<circle class="nv2-m" r="4.5"/><circle class="nv2-m nv2-m2" r="4.5"/><circle class="nv2-m nv2-m3" r="4.5"/>
+<circle class="nv2-n" cx="0" cy="47.6" r="4" style="animation-duration:13.21s;animation-delay:-8.39s"/>
+<circle class="nv2-n" cx="0" cy="194.1" r="5" style="animation-duration:15.91s;animation-delay:-7.55s"/>
+<circle class="nv2-n" cx="0" cy="51.7" r="2.5" style="animation-duration:11.75s;animation-delay:-9.26s"/>
+<circle class="nv2-n" cx="0" cy="92.1" r="3" style="animation-duration:12.27s;animation-delay:-0.85s"/>
+<circle class="nv2-n" cx="0" cy="211.0" r="4" style="animation-duration:13.25s;animation-delay:-5.79s"/>
+<circle class="nv2-n" cx="0" cy="145.0" r="4" style="animation-duration:7.31s;animation-delay:-2.40s"/>
+<circle class="nv2-n" cx="0" cy="161.9" r="2.5" style="animation-duration:12.84s;animation-delay:-12.04s"/>
+<circle class="nv2-n" cx="0" cy="45.4" r="2.5" style="animation-duration:14.36s;animation-delay:-1.79s"/>
+<circle class="nv2-n" cx="0" cy="109.9" r="4" style="animation-duration:11.97s;animation-delay:-4.10s"/>
+<circle class="nv2-n" cx="0" cy="44.6" r="3" style="animation-duration:12.99s;animation-delay:-6.10s"/>
+<circle class="nv2-n" cx="0" cy="28.1" r="5" style="animation-duration:8.78s;animation-delay:-5.91s"/>
+<circle class="nv2-n" cx="0" cy="225.6" r="5" style="animation-duration:7.64s;animation-delay:-4.28s"/>
+<circle class="nv2-n" cx="0" cy="190.6" r="5" style="animation-duration:8.81s;animation-delay:-8.13s"/>
+<circle class="nv2-n" cx="0" cy="100.5" r="4" style="animation-duration:10.29s;animation-delay:-4.64s"/>
+<circle class="nv2-n" cx="0" cy="80.7" r="2.5" style="animation-duration:11.36s;animation-delay:-3.02s"/>
+<circle class="nv2-n" cx="0" cy="46.3" r="2.5" style="animation-duration:13.44s;animation-delay:-13.21s"/>
+<circle class="nv2-n" cx="0" cy="118.2" r="3" style="animation-duration:11.95s;animation-delay:-8.94s"/>
+<circle class="nv2-n" cx="0" cy="135.4" r="2.5" style="animation-duration:9.87s;animation-delay:-9.67s"/>
+<circle class="nv2-n" cx="0" cy="51.0" r="3.5" style="animation-duration:8.53s;animation-delay:-2.97s"/>
+<circle class="nv2-n" cx="0" cy="86.9" r="2.5" style="animation-duration:12.38s;animation-delay:-3.79s"/>
+<circle class="nv2-n" cx="0" cy="48.4" r="4" style="animation-duration:15.31s;animation-delay:-2.66s"/>
+<circle class="nv2-n" cx="0" cy="93.0" r="3" style="animation-duration:13.15s;animation-delay:-8.89s"/>
+<circle class="nv2-n" cx="0" cy="99.9" r="5" style="animation-duration:15.90s;animation-delay:-15.29s"/>
+<circle class="nv2-n" cx="0" cy="15.1" r="3" style="animation-duration:10.12s;animation-delay:-5.12s"/>
+<circle class="nv2-n" cx="0" cy="214.2" r="4" style="animation-duration:9.21s;animation-delay:-5.18s"/>
+<circle class="nv2-n" cx="0" cy="185.9" r="3.5" style="animation-duration:13.97s;animation-delay:-6.75s"/>
+<circle class="nv2-n" cx="0" cy="23.3" r="4" style="animation-duration:9.32s;animation-delay:-2.70s"/>
+<circle class="nv2-n" cx="0" cy="65.7" r="3" style="animation-duration:10.55s;animation-delay:-9.18s"/>
+<circle class="nv2-n" cx="0" cy="224.4" r="3.5" style="animation-duration:13.71s;animation-delay:-6.57s"/>
+<circle class="nv2-n" cx="0" cy="42.2" r="4" style="animation-duration:12.85s;animation-delay:-11.71s"/>
+<circle class="nv2-n" cx="0" cy="18.1" r="3" style="animation-duration:8.91s;animation-delay:-7.47s"/>
+<circle class="nv2-n" cx="0" cy="202.4" r="5" style="animation-duration:12.41s;animation-delay:-5.29s"/>
+<circle class="nv2-n" cx="0" cy="207.0" r="5" style="animation-duration:11.29s;animation-delay:-1.57s"/>
+<circle class="nv2-n" cx="0" cy="71.6" r="3" style="animation-duration:13.91s;animation-delay:-0.14s"/>
+<circle class="nv2-n" cx="0" cy="218.1" r="3" style="animation-duration:7.21s;animation-delay:-4.28s"/>
+<circle class="nv2-n" cx="0" cy="196.0" r="4" style="animation-duration:12.26s;animation-delay:-3.15s"/>
+<circle class="nv2-n" cx="0" cy="174.4" r="3" style="animation-duration:14.31s;animation-delay:-1.98s"/>
+<circle class="nv2-n" cx="0" cy="32.5" r="4" style="animation-duration:7.85s;animation-delay:-0.20s"/>
+<circle class="nv2-n" cx="0" cy="181.8" r="3.5" style="animation-duration:7.65s;animation-delay:-0.91s"/>
+<circle class="nv2-n" cx="0" cy="39.3" r="4" style="animation-duration:11.85s;animation-delay:-3.84s"/>
+<circle class="nv2-n" cx="0" cy="203.8" r="4" style="animation-duration:12.59s;animation-delay:-2.29s"/>
+<circle class="nv2-n" cx="0" cy="55.6" r="5" style="animation-duration:13.70s;animation-delay:-10.37s"/>
+<circle class="nv2-n" cx="0" cy="165.5" r="2.5" style="animation-duration:14.86s;animation-delay:-11.51s"/>
+<circle class="nv2-n" cx="0" cy="95.7" r="5" style="animation-duration:14.78s;animation-delay:-5.88s"/>
+<circle class="nv2-n" cx="0" cy="49.9" r="5" style="animation-duration:13.40s;animation-delay:-3.39s"/>
+<circle class="nv2-n" cx="0" cy="79.7" r="3.5" style="animation-duration:7.38s;animation-delay:-2.87s"/>
+</svg>
