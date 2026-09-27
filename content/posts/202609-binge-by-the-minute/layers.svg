@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 230" class="vd2" style="width:100%;height:auto" aria-hidden="true" focusable="false">
+<style>
+.vd2-lbl{font-family:ui-sans-serif,system-ui,sans-serif;font-size:13px;font-weight:600;fill:currentColor}
+.vd2-sub{font-family:ui-sans-serif,system-ui,sans-serif;font-size:11px;fill:currentColor;fill-opacity:.65}
+.vd2-box{stroke:currentColor;stroke-width:1.5}
+.vd2-coin{fill:rgb(var(--color-secondary-500, 240, 112, 90));animation:vd2-flow 5s linear infinite}
+@keyframes vd2-flow{0%{transform:translateX(0);opacity:0}6%{opacity:1}90%{opacity:1}100%{transform:translateX(560px);opacity:0}}
+.vd2-fade{animation:vd2-fade 3s ease-in-out infinite alternate}
+@keyframes vd2-fade{from{opacity:.35}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.vd2 *{animation-play-state:paused!important}}
+</style>
+<path d="M40 110 H700" stroke="currentColor" stroke-opacity=".25" stroke-width="1.5" stroke-dasharray="2 8" stroke-linecap="round"/>
+<!-- each layer is more solid than the last -->
+<g transform="translate(60 60)">
+  <rect class="vd2-box" width="140" height="100" rx="8" fill="currentColor" fill-opacity=".02" stroke-opacity=".35" stroke-dasharray="5 5"/>
+  <text class="vd2-lbl" x="70" y="34" text-anchor="middle">StoryReel</text>
+  <text class="vd2-sub" x="70" y="54" text-anchor="middle">the name in the ad</text>
+  <text class="vd2-sub" x="70" y="70" text-anchor="middle">a landing page</text>
+  <text class="vd2-sub" x="70" y="86" text-anchor="middle">disposable</text>
+</g>
+<g transform="translate(230 60)">
+  <rect class="vd2-box" width="140" height="100" rx="8" fill="currentColor" fill-opacity=".06" stroke-opacity=".6"/>
+  <text class="vd2-lbl" x="70" y="34" text-anchor="middle">ShortMax</text>
+  <text class="vd2-sub" x="70" y="54" text-anchor="middle">the app</text>
+  <text class="vd2-sub" x="70" y="70" text-anchor="middle">100M+ installs</text>
+  <text class="vd2-sub" x="70" y="86" text-anchor="middle">keeps your account</text>
+</g>
+<g transform="translate(400 60)">
+  <rect class="vd2-box" width="140" height="100" rx="8" fill="currentColor" fill-opacity=".12" stroke-opacity=".85"/>
+  <text class="vd2-lbl" x="70" y="34" text-anchor="middle">SHORTTV LIMITED</text>
+  <text class="vd2-sub" x="70" y="54" text-anchor="middle">the seller</text>
+  <text class="vd2-sub" x="70" y="70" text-anchor="middle">Mong Kok, Hong Kong</text>
+  <text class="vd2-sub" x="70" y="86" text-anchor="middle">takes the payment</text>
+</g>
+<g transform="translate(570 60)" class="vd2-fade">
+  <rect class="vd2-box" width="120" height="100" rx="8" fill="currentColor" fill-opacity=".2" stroke-opacity="1"/>
+  <text class="vd2-lbl" x="60" y="34" text-anchor="middle">Owner</text>
+  <text class="vd2-sub" x="60" y="54" text-anchor="middle">reported:</text>
+  <text class="vd2-sub" x="60" y="70" text-anchor="middle">Jiuzhou Culture</text>
+  <text class="vd2-sub" x="60" y="86" text-anchor="middle">no filings seen</text>
+</g>
+<!-- coins flowing left to right along the line -->
+<circle class="vd2-coin" cx="60" cy="185" r="6"/>
+<circle class="vd2-coin" cx="60" cy="185" r="6" style="animation-delay:-1.25s"/>
+<circle class="vd2-coin" cx="60" cy="185" r="6" style="animation-delay:-2.5s"/>
+<circle class="vd2-coin" cx="60" cy="185" r="6" style="animation-delay:-3.75s"/>
+<text class="vd2-sub" x="360" y="212" text-anchor="middle">your money, moving right</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" class="vd1" style="width:100%;height:auto" aria-hidden="true" focusable="false">
+<style>
+.vd1-lbl{font-family:ui-sans-serif,system-ui,sans-serif;font-size:13px;fill:currentColor}
+.vd1-sub{font-family:ui-sans-serif,system-ui,sans-serif;font-size:11px;fill:currentColor;fill-opacity:.6}
+.vd1-node{fill:currentColor;fill-opacity:.06;stroke:currentColor;stroke-opacity:.5;stroke-width:1.5}
+.vd1-viewer{fill:rgb(var(--color-primary-500, 74, 158, 240));offset-path:path("M100 80 H340 V220 H100 Z");animation:vd1-go 6s linear infinite}
+.vd1-coin{fill:rgb(var(--color-secondary-500, 240, 112, 90));offset-path:path("M620 220 H340 V80 H620 Z");animation:vd1-go 6s linear infinite}
+@keyframes vd1-go{0%{offset-distance:0%;opacity:0}5%{opacity:1}95%{opacity:1}100%{offset-distance:100%;opacity:0}}
+@media (prefers-reduced-motion:reduce){.vd1 *{animation-play-state:paused!important}}
+</style>
+<!-- viewer loop (left square) and money loop (right square) share the middle node -->
+<path d="M100 80 H340 V220 H100 Z M340 80 H620 V220 H340" fill="none" stroke="currentColor" stroke-opacity=".25" stroke-width="1.5" stroke-dasharray="2 8" stroke-linecap="round"/>
+<!-- nodes -->
+<g transform="translate(100 80)"><rect class="vd1-node" x="-56" y="-22" width="112" height="44" rx="8"/><text class="vd1-lbl" text-anchor="middle" y="-2">Feed ad</text><text class="vd1-sub" text-anchor="middle" y="14">injustice, fast</text></g>
+<g transform="translate(340 80)"><rect class="vd1-node" x="-64" y="-22" width="128" height="44" rx="8"/><text class="vd1-lbl" text-anchor="middle" y="-2">Free episodes</text><text class="vd1-sub" text-anchor="middle" y="14">one minute each</text></g>
+<g transform="translate(340 220)"><rect class="vd1-node" x="-64" y="-22" width="128" height="44" rx="8"/><text class="vd1-lbl" text-anchor="middle" y="-2">Cliffhanger</text><text class="vd1-sub" text-anchor="middle" y="14">then the lock</text></g>
+<g transform="translate(100 220)"><rect class="vd1-node" x="-56" y="-22" width="112" height="44" rx="8"/><text class="vd1-lbl" text-anchor="middle" y="-2">Install app</text><text class="vd1-sub" text-anchor="middle" y="14">click id follows you</text></g>
+<g transform="translate(620 80)"><rect class="vd1-node" x="-64" y="-22" width="128" height="44" rx="8"/><text class="vd1-lbl" text-anchor="middle" y="-2">Buy more ads</text><text class="vd1-sub" text-anchor="middle" y="14">find the next viewer</text></g>
+<g transform="translate(620 220)"><rect class="vd1-node" x="-64" y="-22" width="128" height="44" rx="8"/><text class="vd1-lbl" text-anchor="middle" y="-2">Coins or pass</text><text class="vd1-sub" text-anchor="middle" y="14">renews weekly</text></g>
+<!-- moving dots -->
+<circle class="vd1-viewer" r="6"/>
+<circle class="vd1-viewer" r="6" style="animation-delay:-3s"/>
+<circle class="vd1-coin" r="6"/>
+<circle class="vd1-coin" r="6" style="animation-delay:-3s"/>
+<text class="vd1-sub" x="220" y="160" text-anchor="middle">the viewer's loop</text>
+<text class="vd1-sub" x="480" y="160" text-anchor="middle">the money's loop</text>
+</svg>

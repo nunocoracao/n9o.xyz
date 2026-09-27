@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" class="vd3" style="width:100%;height:auto" aria-hidden="true" focusable="false">
+<style>
+.vd3-lbl{font-family:ui-sans-serif,system-ui,sans-serif;font-size:13px;fill:currentColor}
+.vd3-sub{font-family:ui-sans-serif,system-ui,sans-serif;font-size:11px;fill:currentColor;fill-opacity:.6}
+.vd3-big{font-family:ui-sans-serif,system-ui,sans-serif;font-size:15px;font-weight:600;fill:currentColor}
+.vd3-human{fill:currentColor;fill-opacity:.35}
+.vd3-ai{fill:rgb(var(--color-primary-500, 74, 158, 240))}
+</style>
+<text class="vd3-lbl" x="20" y="48">Human-shot series</text>
+<text class="vd3-sub" x="20" y="66">one series, 60 to 100 episodes</text>
+<rect class="vd3-human" x="220" y="34" width="480" height="30" rx="4"/>
+<text class="vd3-big" x="700" y="90" text-anchor="end">$150,000 to $300,000</text>
+<text class="vd3-lbl" x="20" y="148">AI-made series</text>
+<text class="vd3-sub" x="20" y="166">61 minutes at $30 a minute</text>
+<rect class="vd3-ai" x="220" y="134" width="4" height="30" rx="2"/>
+<text class="vd3-big" x="236" y="155">about $1,800</text>
+<text class="vd3-sub" x="20" y="204">Same length bar, same scale. The blue one is not a rendering error.</text>
+</svg>
