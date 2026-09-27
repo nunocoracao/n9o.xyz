@@ -1,6 +1,6 @@
 ---
 title: "Follow the Money Behind the Vertical Drama Ads"
-summary: "An Instagram ad about a secretly omnipotent nobody sent me through disposable brands, app-store sellers, coin packs and a global industry doing $750 million a quarter. I followed the trail to see who gets paid."
+summary: "An Instagram ad about a secretly omnipotent nobody sent me through disposable brands, app-store sellers, coin packs and a global industry estimated at $750 million a quarter. I followed the trail to see who gets paid."
 description: "A forensic, mildly unhinged tour of the companies, ad funnel and coin economy behind vertical-drama apps such as ShortMax, ReelShort and DramaBox."
 categories: ["Tech", "Media", "Business"]
 tags: ["media", "mobile", "advertising", "microdrama", "investigation"]
@@ -84,7 +84,7 @@ That combination matters more than any individual show. Crazy Maple had source m
 
 **DramaBox** is sold by StoryMatrix Pte. Ltd. and has taken a more public route into established entertainment. It joined the 2025 Disney Accelerator and used the programme's Demo Day to preview discussions about adapting young-adult fantasy novels and even albums into vertical dramas for Disney platforms.
 
-That does not mean Disney owns or funded DramaBox. An accelerator relationship is not an acquisition. It does mean that a format once dismissed as disposable feed-sludge is now interesting enough for Disney teams to explore as a distribution and adaptation model.
+Disney's announcement does not say that it owns DramaBox or funded it. An accelerator relationship is not an acquisition. It does mean that a format once dismissed as disposable feed-sludge is now interesting enough for Disney teams to explore as a distribution and adaptation model.
 
 The thunder god has entered the building. He is wearing a visitor badge.
 
@@ -169,6 +169,7 @@ This investigation began with one public Instagram ad URL. I inspected only publ
 - [Sensor Tower, State of Short Drama Apps 2026](https://sensortower.com/blog/state-of-short-drama-apps-2026-report).
 - [Crazy Maple Studio](https://www.crazymaplestudios.com/).
 - [TechCrunch on ReelShort's 2023 breakout](https://techcrunch.com/2023/11/16/a-quibi-like-app-called-reelshort-hit-record-downloads-and-revenue-this-month/).
+- [DramaBox on the Apple App Store](https://apps.apple.com/us/app/dramabox-stream-drama-shorts/id6445905219).
 - [The Walt Disney Company, 2025 Accelerator Demo Day](https://thewaltdisneycompany.com/news/disney-accelerator-2025/).
 
 *Research checked on 26 September 2026. App-store counts, prices, ratings and marketing pages change frequently.*
