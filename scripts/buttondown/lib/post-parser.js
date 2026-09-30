@@ -98,6 +98,8 @@ function cleanContent(content) {
       .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
       // Remove markdown headings (## Title → Title)
       .replace(/^#{1,6}\s+/gm, "")
+      // Remove blockquote markers
+      .replace(/^>\s?/gm, "")
       // Remove bold/italic markers
       .replace(/\*{1,3}([^*]+)\*{1,3}/g, "$1")
       .replace(/_{1,3}([^_]+)_{1,3}/g, "$1")
@@ -108,11 +110,22 @@ function cleanContent(content) {
 }
 
 /**
- * Extract body content as proper paragraphs, deduplicating against the summary.
- * Returns an array of paragraph strings.
+ * Extract the email excerpt as an array of paragraph strings.
+ *
+ * The excerpt is the post's intro: everything before the first "##" heading.
+ * That is the part written to hook the reader, and it ends where the author
+ * chose to end it. A word cap only applies as a safety net for very long
+ * intros, or for posts with no headings at all.
+ *
+ * The excerpt never ends on a paragraph that introduces something (one that
+ * ends with a colon), and never on a list, since the thing being introduced
+ * would be missing.
  */
-function extractParagraphs(content, summary, maxWords = 400) {
-  const cleaned = cleanContent(content);
+function extractParagraphs(content, summary, maxWords = 500) {
+  const headingIndex = content.search(/^##\s/m);
+  const intro = headingIndex > 0 ? content.slice(0, headingIndex) : content;
+
+  const cleaned = cleanContent(intro);
 
   // Split into paragraphs and filter empties
   const paragraphs = cleaned
@@ -140,6 +153,12 @@ function extractParagraphs(content, summary, maxWords = 400) {
     wordCount += pWords;
   }
 
+  // Never end on a paragraph that points at something we cut off
+  const danglingEnd = (p) => /[:;]$/.test(p) || /(^|<br>)[-*]\s/.test(p);
+  while (result.length > 1 && danglingEnd(result[result.length - 1])) {
+    result.pop();
+  }
+
   return result;
 }
 
@@ -156,9 +175,13 @@ export function buildEmailBody(post) {
 
   const summaryBlock = post.summary ? `*${post.summary}*\n\n` : "";
 
+  // A link near the top, for readers who decide early. The image is linked too,
+  // but not everyone notices that.
+  const topLink = `[Read the full article →](${articleUrl})\n\n`;
+
   const bodyParagraphs = paragraphs.join("<br><br>");
 
-  return `${imageBlock}${summaryBlock}${bodyParagraphs}<br><br>...<br><br>---<br><br>[Read the full article →](${articleUrl})
+  return `${imageBlock}${summaryBlock}${topLink}${bodyParagraphs}<br><br>...<br><br>---<br><br>[Read the full article →](${articleUrl})
 `;
 }
 
