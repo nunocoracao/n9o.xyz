@@ -7,10 +7,11 @@
     "import-views": "node import-ga-views.js"
   },
   "dependencies": {
-    "csv-parse": "^5.5.0",
+    "csv-parse": "^7.0.2",
     "firebase-admin": "^13.6.0"
   },
   "overrides": {
-    "uuid": "^11.1.1"
+    "uuid": "^11.1.1",
+    "@grpc/grpc-js": "^1.14.5"
   }
 }
