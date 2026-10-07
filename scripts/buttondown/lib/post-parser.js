@@ -1,6 +1,17 @@
 import { readFileSync, readdirSync, statSync } from "fs";
 import { join, basename, resolve, dirname } from "path";
-import matter from "gray-matter";
+import yaml from "js-yaml";
+
+const FRONT_MATTER = /^\uFEFF?---\r?\n(?:([\s\S]*?)\r?\n)?---[ \t]*(?:\r?\n|$)/;
+
+/**
+ * Split a markdown file into its YAML front matter and body.
+ */
+function parseFrontMatter(raw) {
+  const match = raw.match(FRONT_MATTER);
+  if (!match) return { data: {}, content: raw };
+  return { data: yaml.load(match[1] || "") || {}, content: raw.slice(match[0].length) };
+}
 
 /**
  * Parse a single Hugo post index.md file.
@@ -9,7 +20,7 @@ import matter from "gray-matter";
  */
 export function parsePost(filePath) {
   const raw = readFileSync(filePath, "utf-8");
-  const { data, content } = matter(raw);
+  const { data, content } = parseFrontMatter(raw);
 
   const dir = dirname(filePath);
 
