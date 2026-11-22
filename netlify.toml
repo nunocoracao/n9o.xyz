@@ -9,3 +9,75 @@ HUGO_THEME = "blowfish"
 
 [context.deploy-preview]
   command = "hugo --gc --minify --buildDrafts --buildFuture -b $DEPLOY_PRIME_URL"
+
+[[redirects]]
+  from = "http://n9o.me/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://n9o.me/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.n9o.me/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.n9o.me/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://n9o.io/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://n9o.io/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.n9o.io/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.n9o.io/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://nunocoracao.com/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://nunocoracao.com/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.nunocoracao.com/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.nunocoracao.com/*"
+  to = "https://n9o.xyz/:splat"
+  status = 301
+  force = true
